@@ -1,0 +1,184 @@
+{
+  "I619": {
+    "first_name": "Simon",
+    "middle_name": "Daniel Michel Jean-Paul Clément",
+    "mother_s_maiden_name": "Laguë",
+    "last_name": "Charest",
+    "gender": "M",
+    "job": [
+      "Analyste programmeur (consultant)",
+      "Président - SLCIT inc."
+    ],
+    "birth": {
+      "date": "1980-06-23",
+      "apartment": null,
+      "civic_number": "7",
+      "street": "avenue Grant",
+      "municipality": "Roxboro",
+      "city": "Montréal",
+      "postal_code": "H8Y2V7",
+      "state": "Québec",
+      "country": "Canada",
+      "phone": "5146849637"
+    },
+    "relationship": {
+      "I603": { "type": "mother" },
+      "I610": { "type": "father" },
+      "JE": { "type": "union", "start": "2012-02-19" }
+    },
+    "source" : "https://www.retronicdesign.com/genealogie/individual.php?ged=gradel&pid="
+  },
+  "JE": {
+    "first_name": "Julie",
+    "mother_s_maiden_name": "Cauchon",
+    "last_name": "Emond",
+    "gender": "F",
+    "job": "Sergente-détective",
+    "birth": {
+      "date": "1978-07-27"
+    },
+    "relationship": {
+      "I619": { "type": "union", "start": "2012-02-19" }
+    }
+  },
+  "I620": {
+    "first_name": "Catherine",
+    "middle_name": "Ghislaine",
+    "last_name": "Charest",
+    "gender": "F",
+    "job": "Coiffeuse",
+    "birth": {
+      "date": "1983-09-22",
+      "apartment": null,
+      "civic_number": "7",
+      "street": "avenue Grant",
+      "municipality": "Roxboro",
+      "city": "Montréal",
+      "postal_code": "H8Y2V7",
+      "state": "Québec",
+      "country": "Canada",
+      "phone": "5146849637"
+    },
+    "relationship": {
+      "I603": { "type": "mother" },
+      "I610": { "type": "father" }
+    },
+    "source" : "https://www.retronicdesign.com/genealogie/individual.php?ged=gradel&pid="
+  },
+  "I603": {
+    "first_name": "Suzanne",
+    "last_name": "Laguë",
+    "gender": "F",
+    "relationship": {
+      "I110": { "type": "mother" },
+      "I109": { "type": "father" },
+      "I610": { "type": "union", "start": null, "end": null }
+    },
+    "source" : "https://www.retronicdesign.com/genealogie/individual.php?ged=gradel&pid="
+  },
+  "I610": {
+    "first_name": "Michel",
+    "middle_name": "Hubert",
+    "last_name": "Charest",
+    "gender": "M",
+    "job": [
+      "Dessinateur industriel",
+      "Agent négociateur"
+    ],
+    "birth": {
+      "date": "1951-06-13",
+      "city": "Montréal",
+      "state": "Québec",
+      "country": "Canada"
+    },
+    "relationship": {
+      "511415": { "type": "mother" },
+      "511416": { "type": "father" },
+      "I603": { "type": "union", "start": null, "end": null }
+    },
+    "source" : "https://www.retronicdesign.com/genealogie/individual.php?ged=gradel&pid="
+  },
+  "I110": {
+    "first_name": "Anne-Marie",
+    "last_name": "Dubreuil",
+    "gender": "F",
+    "death": null,
+    "relationship": {
+      "I118": { "type": "mother" },
+      "I117": { "type": "father" },
+      "I109": { "type": "union", "start": null, "end": null }
+    },
+    "source" : "https://www.retronicdesign.com/genealogie/individual.php?ged=gradel&pid="
+  },
+  "I109": {
+    "first_name": "Jean-Paul",
+    "last_name": "Laguë",
+    "gender": "M",
+    "death": null,
+    "relationship": {
+      "I110": { "type": "union", "start": null, "end": null }
+    },
+    "source" : "https://www.retronicdesign.com/genealogie/individual.php?ged=gradel&pid="
+  },
+  "I118": {
+    "first_name": "Marie-Anne",
+    "last_name": "Lucas dit Francoeur",
+    "gender": "F",
+    "relationship": {
+      "I117": { "type": "union" }
+    },
+    "source" : "https://www.retronicdesign.com/genealogie/individual.php?ged=gradel&pid="
+  },
+  "I117": {
+    "first_name": "Joseph",
+    "last_name": "Dubreuil",
+    "gender": "M",
+    "death": null,
+    "relationship": {
+      "I118": { "type": "union" }
+    },
+    "source" : "https://www.retronicdesign.com/genealogie/individual.php?ged=gradel&pid="
+  },
+  "511415": {
+    "first_name": "Rita",
+    "last_name": "Tremblay",
+    "gender": "F",
+    "death": null,
+    "relationship": {
+      "511416": { "type": "union", "date": "1946-08-31" }
+    },
+    "source": "http://www.genealogie.org/bcentrale/arbre.asp?code_owner=214&code_individu="
+  },
+  "511416": {
+    "first_name": "Clément",
+    "last_name": "Charest",
+    "gender": "M",
+    "death": null,
+    "relationship": {
+      "511418" : { "type":  "mother" },
+      "511417" : { "type":  "father" },
+      "511415": { "type": "union", "date": "1946-08-31" }
+    },
+    "source": "http://www.genealogie.org/bcentrale/arbre.asp?code_owner=214&code_individu="
+  },
+  "511418": {
+    "first_name": "Hélène",
+    "last_name": "Sigouin",
+    "gender": "F",
+    "death": null,
+    "relationship": {
+      "511417": { "type": "union" }
+    },
+    "source": "http://www.genealogie.org/bcentrale/arbre.asp?code_owner=214&code_individu="
+  },
+  "511417": {
+    "first_name": "Delphis",
+    "last_name": "Charest",
+    "gender": "M",
+    "death": null,
+    "relationship": {
+      "511418": { "type": "union" }
+    },
+    "source": "http://www.genealogie.org/bcentrale/arbre.asp?code_owner=214&code_individu="
+  }
+}
