@@ -1,0 +1,24 @@
+{
+  "511415": {
+    "first_name": "Rita",
+    "last_name": "Tremblay",
+    "gender": "F",
+    "death": null,
+    "relationship": {
+      "511416": { "type": "union", "date": "1946-08-31" }
+    },
+    "source": "http://www.genealogie.org/bcentrale/arbre.asp?code_owner=214&code_individu="
+  },
+  "511416": {
+    "first_name": "Clément",
+    "last_name": "Charest",
+    "gender": "M",
+    "death": null,
+    "relationship": {
+      "511418" : { "type":  "mother" },
+      "511417" : { "type":  "father" },
+      "511415": { "type": "union", "date": "1946-08-31" }
+    },
+    "source": "http://www.genealogie.org/bcentrale/arbre.asp?code_owner=214&code_individu="
+  }
+}

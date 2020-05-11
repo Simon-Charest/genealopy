@@ -1,0 +1,22 @@
+{
+  "511418": {
+    "first_name": "Hélène",
+    "last_name": "Sigouin",
+    "gender": "F",
+    "death": null,
+    "relationship": {
+      "511417": { "type": "union" }
+    },
+    "source": "http://www.genealogie.org/bcentrale/arbre.asp?code_owner=214&code_individu="
+  },
+  "511417": {
+    "first_name": "Delphis",
+    "last_name": "Charest",
+    "gender": "M",
+    "death": null,
+    "relationship": {
+      "511418": { "type": "union" }
+    },
+    "source": "http://www.genealogie.org/bcentrale/arbre.asp?code_owner=214&code_individu="
+  }
+}

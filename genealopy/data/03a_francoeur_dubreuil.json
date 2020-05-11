@@ -1,0 +1,24 @@
+{
+  "I110": {
+    "first_name": "Anne-Marie",
+    "last_name": "Dubreuil",
+    "gender": "F",
+    "death": null,
+    "relationship": {
+      "I118": { "type": "mother" },
+      "I117": { "type": "father" },
+      "I109": { "type": "union", "start": null, "end": null }
+    },
+    "source" : "https://www.retronicdesign.com/genealogie/individual.php?ged=gradel&pid="
+  },
+  "I109": {
+    "first_name": "Jean-Paul",
+    "last_name": "Laguë",
+    "gender": "M",
+    "death": null,
+    "relationship": {
+      "I110": { "type": "union", "start": null, "end": null }
+    },
+    "source" : "https://www.retronicdesign.com/genealogie/individual.php?ged=gradel&pid="
+  }
+}

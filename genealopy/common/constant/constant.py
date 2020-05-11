@@ -42,7 +42,7 @@ ABOUT = f'{__project__}\n' \
         f'This software is open-source and provided free of charge.\n' \
         f'\n' \
         f'This product is license under the {__license__} License Terms.'
-DATA = 'data/data.json'
+DATA = 'data/*.json'
 DEBUG = True
 SOURCES = {
     "Famille Gradel": {

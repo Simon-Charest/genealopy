@@ -1,0 +1,210 @@
+{
+  "I612": {
+    "first_name": "Jean-Sébastien",
+    "mother_s_maiden_name": "Imbeault",
+    "last_name": "Laguë",
+    "gender": "M",
+    "relationship": {
+      "I606": { "type": "mother" },
+      "I600": { "type": "father" }
+    },
+    "source" : "https://www.retronicdesign.com/genealogie/individual.php?ged=gradel&pid="
+  },
+  "I613": {
+    "first_name": "Frédéric",
+    "mother_s_maiden_name": "Imbeault",
+    "last_name": "Laguë",
+    "gender": "M",
+    "relationship": {
+      "I606": { "type": "mother" },
+      "I600": { "type": "father" }
+    },
+    "source" : "https://www.retronicdesign.com/genealogie/individual.php?ged=gradel&pid="
+  },
+  "I614": {
+    "first_name": "Jean-François",
+    "mother_s_maiden_name": "Imbeault",
+    "last_name": "Laguë",
+    "gender": "M",
+    "relationship": {
+      "I606": { "type": "mother" },
+      "I600": { "type": "father" }
+    },
+    "source" : "https://www.retronicdesign.com/genealogie/individual.php?ged=gradel&pid="
+  },
+  "I20": {
+    "first_name": "Francis-Olivier",
+    "middle_name": "André",
+    "mother_s_maiden_name": "Laguë",
+    "last_name": "Gradel",
+    "gender": "M",
+    "relationship": {
+      "I19": { "type": "mother" },
+      "I17": { "type": "father" }
+    },
+    "source" : "https://www.retronicdesign.com/genealogie/individual.php?ged=gradel&pid="
+  },
+  "I21": {
+    "first_name": "Chantal",
+    "middle_name": "Valérie Agnès",
+    "mother_s_maiden_name": "Laguë",
+    "last_name": "Gradel",
+    "gender": "F",
+    "relationship": {
+      "I19": { "type": "mother" },
+      "I17": { "type": "father" }
+    },
+    "source" : "https://www.retronicdesign.com/genealogie/individual.php?ged=gradel&pid="
+  },
+  "I22": {
+    "first_name": "Alexandre",
+    "middle_name": "Casimir",
+    "mother_s_maiden_name": "Laguë",
+    "last_name": "Gradel",
+    "gender": "M",
+    "relationship": {
+      "I19": { "type": "mother" },
+      "I17": { "type": "father" }
+    },
+    "source" : "https://www.retronicdesign.com/genealogie/individual.php?ged=gradel&pid="
+  },
+  "I618": {
+    "first_name": "Jacinthe",
+    "mother_s_maiden_name": "Laguë",
+    "last_name": "Giasson",
+    "gender": "F",
+    "relationship": {
+      "I604": { "type": "mother" },
+      "I611": { "type": "father" }
+    },
+    "source" : "https://www.retronicdesign.com/genealogie/individual.php?ged=gradel&pid="
+  },
+  "I617": {
+    "first_name": "Antoine",
+    "mother_s_maiden_name": "Laguë",
+    "last_name": "Giasson",
+    "gender": "M",
+    "relationship": {
+      "I604": { "type": "mother" },
+      "I611": { "type": "father" }
+    },
+    "source" : "https://www.retronicdesign.com/genealogie/individual.php?ged=gradel&pid="
+  },
+  "I608": {
+    "first_name": "Julien",
+    "mother_s_maiden_name": "Jodoin",
+    "last_name": "Laguë",
+    "gender": "M",
+    "birth": {
+      "date": "1980-06-10"
+    },
+    "relationship": {
+      "I607": { "type": "mother" },
+      "I602": { "type": "father" }
+    },
+    "source" : "https://www.retronicdesign.com/genealogie/individual.php?ged=gradel&pid="
+  },
+  "I609": {
+    "first_name": "Laurence",
+    "mother_s_maiden_name": "Jodoin",
+    "last_name": "Laguë",
+    "gender": "F",
+    "birth": {
+      "date": "1980-06-10"
+    },
+    "relationship": {
+      "I607": { "type": "mother" },
+      "I602": { "type": "father" }
+    },
+    "source" : "https://www.retronicdesign.com/genealogie/individual.php?ged=gradel&pid="
+  },
+  "I616": {
+    "first_name": "Isabelle",
+    "mother_s_maiden_name": "Doyle",
+    "last_name": "Laguë",
+    "gender": "F",
+    "birth": {
+      "date": "1980-06-10"
+    },
+    "relationship": {
+      "I615": { "type": "mother" },
+      "I601": { "type": "father" }
+    },
+    "source" : "https://www.retronicdesign.com/genealogie/individual.php?ged=gradel&pid="
+  },
+  "I619": {
+    "first_name": "Simon",
+    "middle_name": "Daniel Michel Jean-Paul Clément",
+    "mother_s_maiden_name": "Laguë",
+    "last_name": "Charest",
+    "gender": "M",
+    "job": [
+      "Analyste programmeur (consultant)",
+      "Président - SLCIT inc."
+    ],
+    "birth": {
+      "date": "1980-06-23",
+      "apartment": null,
+      "civic_number": "7",
+      "street": "avenue Grant",
+      "municipality": "Roxboro",
+      "city": "Montréal",
+      "postal_code": "H8Y2V7",
+      "state": "Québec",
+      "country": "Canada",
+      "phone": "5146849637"
+    },
+    "relationship": {
+      "I603": { "type": "mother" },
+      "I610": { "type": "father" },
+      "JE": { "type": "union", "start": "2012-02-19" }
+    },
+    "source" : "https://www.retronicdesign.com/genealogie/individual.php?ged=gradel&pid="
+  },
+  "JE": {
+    "first_name": "Julie",
+    "mother_s_maiden_name": "Cauchon",
+    "last_name": "Emond",
+    "gender": "F",
+    "job": "Sergente-détective",
+    "birth": {
+      "date": "1978-07-27"
+    },
+    "relationship": {
+      "I619": { "type": "union", "start": "2012-02-19" }
+    }
+  },
+  "I620": {
+    "first_name": "Catherine",
+    "middle_name": "Ghislaine",
+    "last_name": "Charest",
+    "gender": "F",
+    "job": "Coiffeuse",
+    "birth": {
+      "date": "1983-09-22",
+      "apartment": null,
+      "civic_number": "7",
+      "street": "avenue Grant",
+      "municipality": "Roxboro",
+      "city": "Montréal",
+      "postal_code": "H8Y2V7",
+      "state": "Québec",
+      "country": "Canada",
+      "phone": "5146849637"
+    },
+    "relationship": {
+      "I603": { "type": "mother" },
+      "I610": { "type": "father" },
+      "ML": { "type": "union" }
+    },
+    "source" : "https://www.retronicdesign.com/genealogie/individual.php?ged=gradel&pid="
+  },
+  "ML": {
+    "first_name": "Marc",
+    "last_name": "Lecompte",
+    "gender": "M",
+    "relationship": {
+      "I620": { "type": "union" }
+    }
+  }
+}

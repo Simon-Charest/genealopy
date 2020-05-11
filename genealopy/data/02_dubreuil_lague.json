@@ -1,0 +1,159 @@
+{
+  "I600": {
+    "first_name": "André",
+    "last_name": "Laguë",
+    "gender": "M",
+    "relationship": {
+      "I110": { "type": "mother" },
+      "I109": { "type": "father" },
+      "I606": { "type": "union", "start": null, "end": null }
+    },
+    "source" : "https://www.retronicdesign.com/genealogie/individual.php?ged=gradel&pid="
+  },
+  "I606": {
+    "first_name": "Nicole",
+    "last_name": "Imbeault",
+    "gender": "F",
+    "relationship": {
+      "I600": { "type": "union", "start": null, "end": null }
+    },
+    "source" : "https://www.retronicdesign.com/genealogie/individual.php?ged=gradel&pid="
+  },
+  "I19": {
+    "first_name": "Monique",
+    "middle_name": "Ginette",
+    "last_name": "Laguë",
+    "gender": "F",
+    "relationship": {
+      "I110": { "type": "mother" },
+      "I109": { "type": "father" },
+      "I17": { "type": "union", "start": null, "end": null }
+    },
+    "source" : "https://www.retronicdesign.com/genealogie/individual.php?ged=gradel&pid="
+  },
+  "I17": {
+    "first_name": "Daniel",
+    "middle_name": "Claude",
+    "last_name": "Gradel",
+    "gender": "M",
+    "relationship": {
+      "I19": { "type": "union", "start": null, "end": null }
+    },
+    "source" : "https://www.retronicdesign.com/genealogie/individual.php?ged=gradel&pid="
+  },
+  "I601": {
+    "first_name": "Richard",
+    "last_name": "Laguë",
+    "gender": "M",
+    "relationship": {
+      "I110": { "type": "mother" },
+      "I109": { "type": "father" },
+      "I615": { "type": "union", "start": null, "end": null }
+    },
+    "source" : "https://www.retronicdesign.com/genealogie/individual.php?ged=gradel&pid="
+  },
+  "I615": {
+    "first_name": "Collette",
+    "last_name": "Doyle",
+    "gender": "F",
+    "relationship": {
+      "I601": { "type": "union", "start": null, "end": null }
+    },
+    "source" : "https://www.retronicdesign.com/genealogie/individual.php?ged=gradel&pid="
+  },
+  "I603": {
+    "first_name": "Suzanne",
+    "last_name": "Laguë",
+    "gender": "F",
+    "birth": {
+      "date": "1950-05-16"
+    },
+    "relationship": {
+      "I110": { "type": "mother" },
+      "I109": { "type": "father" },
+      "I610": { "type": "union", "start": null, "end": null }
+    },
+    "source" : "https://www.retronicdesign.com/genealogie/individual.php?ged=gradel&pid="
+  },
+  "I610": {
+    "first_name": "Michel",
+    "middle_name": "Hubert",
+    "last_name": "Charest",
+    "gender": "M",
+    "job": [
+      "Dessinateur industriel",
+      "Agent négociateur"
+    ],
+    "birth": {
+      "date": "1951-06-13",
+      "city": "Montréal",
+      "state": "Québec",
+      "country": "Canada"
+    },
+    "relationship": {
+      "511415": { "type": "mother" },
+      "511416": { "type": "father" },
+      "I603": { "type": "union", "start": null, "end": null }
+    },
+    "source" : "https://www.retronicdesign.com/genealogie/individual.php?ged=gradel&pid="
+  },
+  "I602": {
+    "first_name": "Raymond",
+    "last_name": "Laguë",
+    "gender": "M",
+    "relationship": {
+      "I110": { "type": "mother" },
+      "I109": { "type": "father" },
+      "I607": { "type": "union" }
+    },
+    "source" : "https://www.retronicdesign.com/genealogie/individual.php?ged=gradel&pid="
+  },
+  "I607": {
+    "first_name": "Jacqueline",
+    "last_name": "Jodoin",
+    "gender": "F",
+    "relationship": {
+      "I602": { "type": "union" }
+    },
+    "source" : "https://www.retronicdesign.com/genealogie/individual.php?ged=gradel&pid="
+  },
+  "I604": {
+    "first_name": "Marjolaine",
+    "last_name": "Laguë",
+    "gender": "F",
+    "relationship": {
+      "I110": { "type": "mother" },
+      "I109": { "type": "father" },
+      "I611": { "type": "union", "start": null, "end": null }
+    },
+    "source" : "https://www.retronicdesign.com/genealogie/individual.php?ged=gradel&pid="
+  },
+  "I611": {
+    "first_name": "Normand",
+    "last_name": "Giasson",
+    "gender": "M",
+    "birth": {
+      "date": "1960-07-05"
+    },
+    "relationship": {
+      "I604": { "type": "union", "start": null, "end": null }
+    },
+    "source" : "https://www.retronicdesign.com/genealogie/individual.php?ged=gradel&pid="
+  },
+  "I605": {
+    "first_name": "Denis",
+    "last_name": "Laguë",
+    "gender": "M",
+    "birth": {
+      "date": "1956-12-06"
+    },
+    "death": {
+      "date": "2013-12-28"
+    },
+    "relationship": {
+      "I110": { "type": "mother" },
+      "I109": { "type": "father" }
+    },
+    "source" : "https://www.retronicdesign.com/genealogie/individual.php?ged=gradel&pid="
+  }
+}
