@@ -166,9 +166,8 @@
     "mother_s_maiden_name": "Cauchon",
     "last_name": "Emond",
     "gender": "F",
-    "job": "Sergente-détective",
     "birth": {
-      "date": "1978-07-27"
+      "date": "1978"
     },
     "relationship": {
       "I619": { "type": "union", "start": "2012-02-19" }
@@ -179,9 +178,9 @@
     "middle_name": "Ghislaine",
     "last_name": "Charest",
     "gender": "F",
-    "job": "Coiffeuse",
+    "job": "Maître coloriste, styliste & coiffeur",
     "birth": {
-      "date": "1983-09-22",
+      "date": "1983",
       "apartment": null,
       "civic_number": "7",
       "street": "avenue Grant",

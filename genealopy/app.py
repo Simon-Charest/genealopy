@@ -1,9 +1,16 @@
 from common.constant import constant
+
+"""
+Prerequisites:
+    - Microsoft C++ Build Tools - https://visualstudio.microsoft.com/visual-cpp-build-tools/
+    - Graphviz - https://graphviz.gitlab.io/_pages/Download/Download_windows.html
+"""
+from networkx.drawing.nx_agraph import graphviz_layout
+
 import glob
 import json
 import matplotlib.pyplot as pyplot
 import networkx
-# import pygraphviz  # Microsoft Visual C++ 14.0 is required to build pygraphviz._graphviz extension.
 
 
 def run():
@@ -76,13 +83,8 @@ def run():
         print(nodes)
         print(edges)
 
-    # Write dot file to use with graphviz
-    # networkx.nx_agraph.write_dot(graph, 'data/genealopy.dot')
-
     # Set title
     pyplot.title('Genealopy')
-
-    # layout = graphviz_layout(graph, prog='dot')
 
     # Draw graph
     networkx.draw(graph, edge_color=edge_colors, node_color=node_colors, node_size=1000, style=edge_styles,
