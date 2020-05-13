@@ -31,9 +31,6 @@ def run():
         for key, value in json_document.items():
             node = f"{value['first_name']}\n{value['last_name']}"
 
-            # Add person to graph
-            graph.add_node(node)
-
             # Loop on every link
             for edge in value['relationship']:
                 # Set node color by gender
@@ -41,19 +38,19 @@ def run():
 
                 # Set color by edge type
                 if type_ == 'mother':
-                    color = 'red'
+                    edge_color = 'red'
                     style = 'solid'
 
                 elif type_ == 'father':
-                    color = 'blue'
+                    edge_color = 'blue'
                     style = 'solid'
 
                 else:
-                    color = 'gray'
+                    edge_color = 'gray'
                     style = 'dotted'
 
                 # Add link to graph
-                graph.add_edge(node, get_name(list_, edge), color=color, style=style)
+                graph.add_edge(node, get_name(list_, edge), edge_color=edge_color, style=style)
 
     # Add colors to nodes
     node_colors = []
@@ -76,26 +73,27 @@ def run():
 
     # Add colors and styles to edges
     edges = graph.edges()
-    edge_colors = [graph[node1][node2]['color'] for node1, node2 in edges]
-    edge_styles = [graph[node1][node2]['style'] for node1, node2 in edges]
+    edge_colors = [graph[node1][node2]['edge_color'] for node1, node2 in edges]
+    styles = [graph[node1][node2]['style'] for node1, node2 in edges]
 
     if constant.DEBUG:
-        print(nodes)
-        print(edges)
+        print(f'Nodes: {nodes}')
+        print(f'Edges: {edges}')
 
     # Set title
     pyplot.title('Genealopy')
 
     # Draw graph
-    networkx.draw(graph, edge_color=edge_colors, node_color=node_colors, node_size=1000, style=edge_styles,
-                  with_labels=True)
-
-    # Save to image file format
-    pyplot.savefig('data/genealopy.png')
+    # TODO: Fix styles
+    # TODO: Use get_hierarchy_positions
+    networkx.draw(graph, edge_color=edge_colors, node_color=node_colors, node_size=1000, style=styles, with_labels=True)
 
     # Maximize window
     manager = pyplot.get_current_fig_manager()
     manager.full_screen_toggle()
+
+    # Save to image file format
+    pyplot.savefig('data/genealopy.png')
 
     # Show graph
     pyplot.show()
