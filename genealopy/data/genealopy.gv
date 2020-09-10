@@ -1,425 +1,285 @@
 digraph Genealopy {
 	rankdir=LR
-	"Jean-Sébastien
-Laguë" [color=lightblue2 shape=box style=filled]
-	"Nicole
-Imbeault" [color=pink shape=box style=filled]
-	"Nicole
-Imbeault" -> "Jean-Sébastien
-Laguë" [color=pink style=solid]
-	"André
-Laguë" [color=lightblue2 shape=box style=filled]
-	"André
-Laguë" -> "Jean-Sébastien
-Laguë" [color=lightblue2 style=solid]
-	"Frédéric
-Laguë" [color=lightblue2 shape=box style=filled]
-	"Nicole
-Imbeault" [color=pink shape=box style=filled]
-	"Nicole
-Imbeault" -> "Frédéric
-Laguë" [color=pink style=solid]
-	"André
-Laguë" [color=lightblue2 shape=box style=filled]
-	"André
-Laguë" -> "Frédéric
-Laguë" [color=lightblue2 style=solid]
-	"Jean-François
-Laguë" [color=lightblue2 shape=box style=filled]
-	"Nicole
-Imbeault" [color=pink shape=box style=filled]
-	"Nicole
-Imbeault" -> "Jean-François
-Laguë" [color=pink style=solid]
-	"André
-Laguë" [color=lightblue2 shape=box style=filled]
-	"André
-Laguë" -> "Jean-François
-Laguë" [color=lightblue2 style=solid]
-	"Francis-Olivier
-Gradel" [color=lightblue2 shape=box style=filled]
-	"Monique
-Laguë" [color=pink shape=box style=filled]
-	"Monique
-Laguë" -> "Francis-Olivier
-Gradel" [color=pink style=solid]
-	"Daniel
-Gradel" [color=lightblue2 shape=box style=filled]
-	"Daniel
-Gradel" -> "Francis-Olivier
-Gradel" [color=lightblue2 style=solid]
-	"Chantal
-Gradel" [color=pink shape=box style=filled]
-	"Monique
-Laguë" [color=pink shape=box style=filled]
-	"Monique
-Laguë" -> "Chantal
-Gradel" [color=pink style=solid]
-	"Daniel
-Gradel" [color=lightblue2 shape=box style=filled]
-	"Daniel
-Gradel" -> "Chantal
-Gradel" [color=lightblue2 style=solid]
-	"Alexandre
-Gradel" [color=lightblue2 shape=box style=filled]
-	"Monique
-Laguë" [color=pink shape=box style=filled]
-	"Monique
-Laguë" -> "Alexandre
-Gradel" [color=pink style=solid]
-	"Daniel
-Gradel" [color=lightblue2 shape=box style=filled]
-	"Daniel
-Gradel" -> "Alexandre
-Gradel" [color=lightblue2 style=solid]
-	"Jacinthe
-Giasson" [color=pink shape=box style=filled]
-	"Marjolaine
-Laguë" [color=pink shape=box style=filled]
-	"Marjolaine
-Laguë" -> "Jacinthe
-Giasson" [color=pink style=solid]
-	"Normand
-Giasson" [color=lightblue2 shape=box style=filled]
-	"Normand
-Giasson" -> "Jacinthe
-Giasson" [color=lightblue2 style=solid]
-	"Antoine
-Giasson" [color=lightblue2 shape=box style=filled]
-	"Marjolaine
-Laguë" [color=pink shape=box style=filled]
-	"Marjolaine
-Laguë" -> "Antoine
-Giasson" [color=pink style=solid]
-	"Normand
-Giasson" [color=lightblue2 shape=box style=filled]
-	"Normand
-Giasson" -> "Antoine
-Giasson" [color=lightblue2 style=solid]
-	"Julien
-Laguë" [color=lightblue2 shape=box style=filled]
-	"Jacqueline
-Jodoin" [color=pink shape=box style=filled]
-	"Jacqueline
-Jodoin" -> "Julien
-Laguë" [color=pink style=solid]
-	"Raymond
-Laguë" [color=lightblue2 shape=box style=filled]
-	"Raymond
-Laguë" -> "Julien
-Laguë" [color=lightblue2 style=solid]
-	"Laurence
-Laguë" [color=pink shape=box style=filled]
-	"Jacqueline
-Jodoin" [color=pink shape=box style=filled]
-	"Jacqueline
-Jodoin" -> "Laurence
-Laguë" [color=pink style=solid]
-	"Raymond
-Laguë" [color=lightblue2 shape=box style=filled]
-	"Raymond
-Laguë" -> "Laurence
-Laguë" [color=lightblue2 style=solid]
-	"Isabelle
-Laguë" [color=pink shape=box style=filled]
-	"Collette
-Doyle" [color=pink shape=box style=filled]
-	"Collette
-Doyle" -> "Isabelle
-Laguë" [color=pink style=solid]
-	"Richard
-Laguë" [color=lightblue2 shape=box style=filled]
-	"Richard
-Laguë" -> "Isabelle
-Laguë" [color=lightblue2 style=solid]
-	"Simon
-Charest" [color=lightblue2 shape=box style=filled]
-	"Suzanne
-Laguë" [color=pink shape=box style=filled]
-	"Suzanne
-Laguë" -> "Simon
-Charest" [color=pink style=solid]
-	"Michel
-Charest" [color=lightblue2 shape=box style=filled]
-	"Michel
-Charest" -> "Simon
-Charest" [color=lightblue2 style=solid]
-	"Julie
-Emond" [color=pink shape=box style=filled]
-	"Julie
-Emond" -> "Simon
-Charest" [color=grey style=dashed]
-	"Julie
-Emond" [color=pink shape=box style=filled]
-	"Simon
-Charest" [color=lightblue2 shape=box style=filled]
-	"Simon
-Charest" -> "Julie
-Emond" [color=grey style=dashed]
-	"Catherine
-Charest" [color=pink shape=box style=filled]
-	"Suzanne
-Laguë" [color=pink shape=box style=filled]
-	"Suzanne
-Laguë" -> "Catherine
-Charest" [color=pink style=solid]
-	"Michel
-Charest" [color=lightblue2 shape=box style=filled]
-	"Michel
-Charest" -> "Catherine
-Charest" [color=lightblue2 style=solid]
-	"Marc
-Lecompte" [color=lightblue2 shape=box style=filled]
-	"Marc
-Lecompte" -> "Catherine
-Charest" [color=grey style=dashed]
-	"Marc
-Lecompte" [color=lightblue2 shape=box style=filled]
-	"Catherine
-Charest" [color=pink shape=box style=filled]
-	"Catherine
-Charest" -> "Marc
-Lecompte" [color=grey style=dashed]
-	"André
-Laguë" [color=lightblue2 shape=box style=filled]
-	"Anne-Marie
-Dubreuil" [color=pink shape=box style=filled]
-	"Anne-Marie
-Dubreuil" -> "André
-Laguë" [color=pink style=solid]
-	"Jean-Paul
-Laguë" [color=lightblue2 shape=box style=filled]
-	"Jean-Paul
-Laguë" -> "André
-Laguë" [color=lightblue2 style=solid]
-	"Nicole
-Imbeault" [color=pink shape=box style=filled]
-	"Nicole
-Imbeault" -> "André
-Laguë" [color=grey style=dashed]
-	"Nicole
-Imbeault" [color=pink shape=box style=filled]
-	"André
-Laguë" [color=lightblue2 shape=box style=filled]
-	"André
-Laguë" -> "Nicole
-Imbeault" [color=grey style=dashed]
-	"Monique
-Laguë" [color=pink shape=box style=filled]
-	"Anne-Marie
-Dubreuil" [color=pink shape=box style=filled]
-	"Anne-Marie
-Dubreuil" -> "Monique
-Laguë" [color=pink style=solid]
-	"Jean-Paul
-Laguë" [color=lightblue2 shape=box style=filled]
-	"Jean-Paul
-Laguë" -> "Monique
-Laguë" [color=lightblue2 style=solid]
-	"Daniel
-Gradel" [color=lightblue2 shape=box style=filled]
-	"Daniel
-Gradel" -> "Monique
-Laguë" [color=grey style=dashed]
-	"Daniel
-Gradel" [color=lightblue2 shape=box style=filled]
-	"Monique
-Laguë" [color=pink shape=box style=filled]
-	"Monique
-Laguë" -> "Daniel
-Gradel" [color=grey style=dashed]
-	"Richard
-Laguë" [color=lightblue2 shape=box style=filled]
-	"Anne-Marie
-Dubreuil" [color=pink shape=box style=filled]
-	"Anne-Marie
-Dubreuil" -> "Richard
-Laguë" [color=pink style=solid]
-	"Jean-Paul
-Laguë" [color=lightblue2 shape=box style=filled]
-	"Jean-Paul
-Laguë" -> "Richard
-Laguë" [color=lightblue2 style=solid]
-	"Collette
-Doyle" [color=pink shape=box style=filled]
-	"Collette
-Doyle" -> "Richard
-Laguë" [color=grey style=dashed]
-	"Collette
-Doyle" [color=pink shape=box style=filled]
-	"Richard
-Laguë" [color=lightblue2 shape=box style=filled]
-	"Richard
-Laguë" -> "Collette
-Doyle" [color=grey style=dashed]
-	"Suzanne
-Laguë" [color=pink shape=box style=filled]
-	"Anne-Marie
-Dubreuil" [color=pink shape=box style=filled]
-	"Anne-Marie
-Dubreuil" -> "Suzanne
-Laguë" [color=pink style=solid]
-	"Jean-Paul
-Laguë" [color=lightblue2 shape=box style=filled]
-	"Jean-Paul
-Laguë" -> "Suzanne
-Laguë" [color=lightblue2 style=solid]
-	"Michel
-Charest" [color=lightblue2 shape=box style=filled]
-	"Michel
-Charest" -> "Suzanne
-Laguë" [color=grey style=dashed]
-	"Michel
-Charest" [color=lightblue2 shape=box style=filled]
-	"Rita
-Tremblay" [color=pink shape=box style=filled]
-	"Rita
-Tremblay" -> "Michel
-Charest" [color=pink style=solid]
-	"Clément
-Charest" [color=lightblue2 shape=box style=filled]
-	"Clément
-Charest" -> "Michel
-Charest" [color=lightblue2 style=solid]
-	"Suzanne
-Laguë" [color=pink shape=box style=filled]
-	"Suzanne
-Laguë" -> "Michel
-Charest" [color=grey style=dashed]
-	"Raymond
-Laguë" [color=lightblue2 shape=box style=filled]
-	"Anne-Marie
-Dubreuil" [color=pink shape=box style=filled]
-	"Anne-Marie
-Dubreuil" -> "Raymond
-Laguë" [color=pink style=solid]
-	"Jean-Paul
-Laguë" [color=lightblue2 shape=box style=filled]
-	"Jean-Paul
-Laguë" -> "Raymond
-Laguë" [color=lightblue2 style=solid]
-	"Jacqueline
-Jodoin" [color=pink shape=box style=filled]
-	"Jacqueline
-Jodoin" -> "Raymond
-Laguë" [color=grey style=dashed]
-	"Jacqueline
-Jodoin" [color=pink shape=box style=filled]
-	"Raymond
-Laguë" [color=lightblue2 shape=box style=filled]
-	"Raymond
-Laguë" -> "Jacqueline
-Jodoin" [color=grey style=dashed]
-	"Marjolaine
-Laguë" [color=pink shape=box style=filled]
-	"Anne-Marie
-Dubreuil" [color=pink shape=box style=filled]
-	"Anne-Marie
-Dubreuil" -> "Marjolaine
-Laguë" [color=pink style=solid]
-	"Jean-Paul
-Laguë" [color=lightblue2 shape=box style=filled]
-	"Jean-Paul
-Laguë" -> "Marjolaine
-Laguë" [color=lightblue2 style=solid]
-	"Normand
-Giasson" [color=lightblue2 shape=box style=filled]
-	"Normand
-Giasson" -> "Marjolaine
-Laguë" [color=grey style=dashed]
-	"Normand
-Giasson" [color=lightblue2 shape=box style=filled]
-	"Marjolaine
-Laguë" [color=pink shape=box style=filled]
-	"Marjolaine
-Laguë" -> "Normand
-Giasson" [color=grey style=dashed]
-	"Denis
-Laguë" [color=lightblue2 shape=box style=filled]
-	"Anne-Marie
-Dubreuil" [color=pink shape=box style=filled]
-	"Anne-Marie
-Dubreuil" -> "Denis
-Laguë" [color=pink style=solid]
-	"Jean-Paul
-Laguë" [color=lightblue2 shape=box style=filled]
-	"Jean-Paul
-Laguë" -> "Denis
-Laguë" [color=lightblue2 style=solid]
-	"Anne-Marie
-Dubreuil" [color=pink shape=box style=filled]
-	"Marie-Anne
-Lucas dit Francoeur" [color=pink shape=box style=filled]
-	"Marie-Anne
-Lucas dit Francoeur" -> "Anne-Marie
-Dubreuil" [color=pink style=solid]
-	"Joseph
-Dubreuil" [color=lightblue2 shape=box style=filled]
-	"Joseph
-Dubreuil" -> "Anne-Marie
-Dubreuil" [color=lightblue2 style=solid]
-	"Jean-Paul
-Laguë" [color=lightblue2 shape=box style=filled]
-	"Jean-Paul
-Laguë" -> "Anne-Marie
-Dubreuil" [color=grey style=dashed]
-	"Jean-Paul
-Laguë" [color=lightblue2 shape=box style=filled]
-	"Anne-Marie
-Dubreuil" [color=pink shape=box style=filled]
-	"Anne-Marie
-Dubreuil" -> "Jean-Paul
-Laguë" [color=grey style=dashed]
-	"Rita
-Tremblay" [color=pink shape=box style=filled]
-	"Clément
-Charest" [color=lightblue2 shape=box style=filled]
-	"Clément
-Charest" -> "Rita
-Tremblay" [color=grey style=dashed]
-	"Clément
-Charest" [color=lightblue2 shape=box style=filled]
-	"Hélène
-Sigouin" [color=pink shape=box style=filled]
-	"Hélène
-Sigouin" -> "Clément
-Charest" [color=pink style=solid]
-	"Delphis
-Charest" [color=lightblue2 shape=box style=filled]
-	"Delphis
-Charest" -> "Clément
-Charest" [color=lightblue2 style=solid]
-	"Rita
-Tremblay" [color=pink shape=box style=filled]
-	"Rita
-Tremblay" -> "Clément
-Charest" [color=grey style=dashed]
-	"Marie-Anne
-Lucas dit Francoeur" [color=pink shape=box style=filled]
-	"Joseph
-Dubreuil" [color=lightblue2 shape=box style=filled]
-	"Joseph
-Dubreuil" -> "Marie-Anne
-Lucas dit Francoeur" [color=grey style=dashed]
-	"Joseph
-Dubreuil" [color=lightblue2 shape=box style=filled]
-	"Marie-Anne
-Lucas dit Francoeur" [color=pink shape=box style=filled]
-	"Marie-Anne
-Lucas dit Francoeur" -> "Joseph
-Dubreuil" [color=grey style=dashed]
-	"Hélène
-Sigouin" [color=pink shape=box style=filled]
-	"Delphis
-Charest" [color=lightblue2 shape=box style=filled]
-	"Delphis
-Charest" -> "Hélène
-Sigouin" [color=grey style=dashed]
-	"Delphis
-Charest" [color=lightblue2 shape=box style=filled]
-	"Hélène
-Sigouin" [color=pink shape=box style=filled]
-	"Hélène
-Sigouin" -> "Delphis
-Charest" [color=grey style=dashed]
+	I612 [label="Jean-Sébastien
+Laguë" color=lightblue2 shape=box style=filled]
+	I606 [label="Nicole
+Imbeault" color=pink shape=box style=filled]
+	I606 -> I612 [color=pink style=solid]
+	I600 [label="André
+Laguë" color=lightblue2 shape=box style=filled]
+	I600 -> I612 [color=lightblue2 style=solid]
+	I613 [label="Frédéric
+Laguë" color=lightblue2 shape=box style=filled]
+	I606 [label="Nicole
+Imbeault" color=pink shape=box style=filled]
+	I606 -> I613 [color=pink style=solid]
+	I600 [label="André
+Laguë" color=lightblue2 shape=box style=filled]
+	I600 -> I613 [color=lightblue2 style=solid]
+	I614 [label="Jean-François
+Laguë" color=lightblue2 shape=box style=filled]
+	I606 [label="Nicole
+Imbeault" color=pink shape=box style=filled]
+	I606 -> I614 [color=pink style=solid]
+	I600 [label="André
+Laguë" color=lightblue2 shape=box style=filled]
+	I600 -> I614 [color=lightblue2 style=solid]
+	I20 [label="Francis-Olivier
+Gradel" color=lightblue2 shape=box style=filled]
+	I19 [label="Monique
+Laguë" color=pink shape=box style=filled]
+	I19 -> I20 [color=pink style=solid]
+	I17 [label="Daniel
+Gradel" color=lightblue2 shape=box style=filled]
+	I17 -> I20 [color=lightblue2 style=solid]
+	I21 [label="Chantal
+Gradel" color=pink shape=box style=filled]
+	I19 [label="Monique
+Laguë" color=pink shape=box style=filled]
+	I19 -> I21 [color=pink style=solid]
+	I17 [label="Daniel
+Gradel" color=lightblue2 shape=box style=filled]
+	I17 -> I21 [color=lightblue2 style=solid]
+	I22 [label="Alexandre
+Gradel" color=lightblue2 shape=box style=filled]
+	I19 [label="Monique
+Laguë" color=pink shape=box style=filled]
+	I19 -> I22 [color=pink style=solid]
+	I17 [label="Daniel
+Gradel" color=lightblue2 shape=box style=filled]
+	I17 -> I22 [color=lightblue2 style=solid]
+	I618 [label="Jacinthe
+Giasson" color=pink shape=box style=filled]
+	I604 [label="Marjolaine
+Laguë" color=pink shape=box style=filled]
+	I604 -> I618 [color=pink style=solid]
+	I611 [label="Normand
+Giasson" color=lightblue2 shape=box style=filled]
+	I611 -> I618 [color=lightblue2 style=solid]
+	I617 [label="Antoine
+Giasson" color=lightblue2 shape=box style=filled]
+	I604 [label="Marjolaine
+Laguë" color=pink shape=box style=filled]
+	I604 -> I617 [color=pink style=solid]
+	I611 [label="Normand
+Giasson" color=lightblue2 shape=box style=filled]
+	I611 -> I617 [color=lightblue2 style=solid]
+	I608 [label="Julien
+Laguë" color=lightblue2 shape=box style=filled]
+	I607 [label="Jacqueline
+Jodoin" color=pink shape=box style=filled]
+	I607 -> I608 [color=pink style=solid]
+	I602 [label="Raymond
+Laguë" color=lightblue2 shape=box style=filled]
+	I602 -> I608 [color=lightblue2 style=solid]
+	I609 [label="Laurence
+Laguë" color=pink shape=box style=filled]
+	I607 [label="Jacqueline
+Jodoin" color=pink shape=box style=filled]
+	I607 -> I609 [color=pink style=solid]
+	I602 [label="Raymond
+Laguë" color=lightblue2 shape=box style=filled]
+	I602 -> I609 [color=lightblue2 style=solid]
+	I616 [label="Isabelle
+Laguë" color=pink shape=box style=filled]
+	I615 [label="Collette
+Doyle" color=pink shape=box style=filled]
+	I615 -> I616 [color=pink style=solid]
+	I601 [label="Richard
+Laguë" color=lightblue2 shape=box style=filled]
+	I601 -> I616 [color=lightblue2 style=solid]
+	I619 [label="Simon
+Charest" color=lightblue2 shape=box style=filled]
+	I603 [label="Suzanne
+Laguë" color=pink shape=box style=filled]
+	I603 -> I619 [color=pink style=solid]
+	I610 [label="Michel
+Charest" color=lightblue2 shape=box style=filled]
+	I610 -> I619 [color=lightblue2 style=solid]
+	JE [label="Julie
+Emond" color=pink shape=box style=filled]
+	JE -> I619 [color=grey style=dashed]
+	JE [label="Julie
+Emond" color=pink shape=box style=filled]
+	I619 [label="Simon
+Charest" color=lightblue2 shape=box style=filled]
+	I619 -> JE [color=grey style=dashed]
+	I620 [label="Catherine
+Charest" color=pink shape=box style=filled]
+	I603 [label="Suzanne
+Laguë" color=pink shape=box style=filled]
+	I603 -> I620 [color=pink style=solid]
+	I610 [label="Michel
+Charest" color=lightblue2 shape=box style=filled]
+	I610 -> I620 [color=lightblue2 style=solid]
+	ML [label="Marc
+Lecompte" color=lightblue2 shape=box style=filled]
+	ML -> I620 [color=grey style=dashed]
+	ML [label="Marc
+Lecompte" color=lightblue2 shape=box style=filled]
+	I620 [label="Catherine
+Charest" color=pink shape=box style=filled]
+	I620 -> ML [color=grey style=dashed]
+	I600 [label="André
+Laguë" color=lightblue2 shape=box style=filled]
+	I110 [label="Anne-Marie
+Dubreuil" color=pink shape=box style=filled]
+	I110 -> I600 [color=pink style=solid]
+	I109 [label="Jean-Paul
+Laguë" color=lightblue2 shape=box style=filled]
+	I109 -> I600 [color=lightblue2 style=solid]
+	I606 [label="Nicole
+Imbeault" color=pink shape=box style=filled]
+	I606 -> I600 [color=grey style=dashed]
+	I606 [label="Nicole
+Imbeault" color=pink shape=box style=filled]
+	I600 [label="André
+Laguë" color=lightblue2 shape=box style=filled]
+	I600 -> I606 [color=grey style=dashed]
+	I19 [label="Monique
+Laguë" color=pink shape=box style=filled]
+	I110 [label="Anne-Marie
+Dubreuil" color=pink shape=box style=filled]
+	I110 -> I19 [color=pink style=solid]
+	I109 [label="Jean-Paul
+Laguë" color=lightblue2 shape=box style=filled]
+	I109 -> I19 [color=lightblue2 style=solid]
+	I17 [label="Daniel
+Gradel" color=lightblue2 shape=box style=filled]
+	I17 -> I19 [color=grey style=dashed]
+	I17 [label="Daniel
+Gradel" color=lightblue2 shape=box style=filled]
+	I19 [label="Monique
+Laguë" color=pink shape=box style=filled]
+	I19 -> I17 [color=grey style=dashed]
+	I601 [label="Richard
+Laguë" color=lightblue2 shape=box style=filled]
+	I110 [label="Anne-Marie
+Dubreuil" color=pink shape=box style=filled]
+	I110 -> I601 [color=pink style=solid]
+	I109 [label="Jean-Paul
+Laguë" color=lightblue2 shape=box style=filled]
+	I109 -> I601 [color=lightblue2 style=solid]
+	I615 [label="Collette
+Doyle" color=pink shape=box style=filled]
+	I615 -> I601 [color=grey style=dashed]
+	I615 [label="Collette
+Doyle" color=pink shape=box style=filled]
+	I601 [label="Richard
+Laguë" color=lightblue2 shape=box style=filled]
+	I601 -> I615 [color=grey style=dashed]
+	I603 [label="Suzanne
+Laguë" color=pink shape=box style=filled]
+	I110 [label="Anne-Marie
+Dubreuil" color=pink shape=box style=filled]
+	I110 -> I603 [color=pink style=solid]
+	I109 [label="Jean-Paul
+Laguë" color=lightblue2 shape=box style=filled]
+	I109 -> I603 [color=lightblue2 style=solid]
+	I610 [label="Michel
+Charest" color=lightblue2 shape=box style=filled]
+	I610 -> I603 [color=grey style=dashed]
+	I610 [label="Michel
+Charest" color=lightblue2 shape=box style=filled]
+	511415 [label="Rita
+Tremblay" color=pink shape=box style=filled]
+	511415 -> I610 [color=pink style=solid]
+	511416 [label="Clément
+Charest" color=lightblue2 shape=box style=filled]
+	511416 -> I610 [color=lightblue2 style=solid]
+	I603 [label="Suzanne
+Laguë" color=pink shape=box style=filled]
+	I603 -> I610 [color=grey style=dashed]
+	I602 [label="Raymond
+Laguë" color=lightblue2 shape=box style=filled]
+	I110 [label="Anne-Marie
+Dubreuil" color=pink shape=box style=filled]
+	I110 -> I602 [color=pink style=solid]
+	I109 [label="Jean-Paul
+Laguë" color=lightblue2 shape=box style=filled]
+	I109 -> I602 [color=lightblue2 style=solid]
+	I607 [label="Jacqueline
+Jodoin" color=pink shape=box style=filled]
+	I607 -> I602 [color=grey style=dashed]
+	I607 [label="Jacqueline
+Jodoin" color=pink shape=box style=filled]
+	I602 [label="Raymond
+Laguë" color=lightblue2 shape=box style=filled]
+	I602 -> I607 [color=grey style=dashed]
+	I604 [label="Marjolaine
+Laguë" color=pink shape=box style=filled]
+	I110 [label="Anne-Marie
+Dubreuil" color=pink shape=box style=filled]
+	I110 -> I604 [color=pink style=solid]
+	I109 [label="Jean-Paul
+Laguë" color=lightblue2 shape=box style=filled]
+	I109 -> I604 [color=lightblue2 style=solid]
+	I611 [label="Normand
+Giasson" color=lightblue2 shape=box style=filled]
+	I611 -> I604 [color=grey style=dashed]
+	I611 [label="Normand
+Giasson" color=lightblue2 shape=box style=filled]
+	I604 [label="Marjolaine
+Laguë" color=pink shape=box style=filled]
+	I604 -> I611 [color=grey style=dashed]
+	I605 [label="Denis
+Laguë" color=lightblue2 shape=box style=filled]
+	I110 [label="Anne-Marie
+Dubreuil" color=pink shape=box style=filled]
+	I110 -> I605 [color=pink style=solid]
+	I109 [label="Jean-Paul
+Laguë" color=lightblue2 shape=box style=filled]
+	I109 -> I605 [color=lightblue2 style=solid]
+	I110 [label="Anne-Marie
+Dubreuil" color=pink shape=box style=filled]
+	I118 [label="Marie-Anne
+Lucas dit Francoeur" color=pink shape=box style=filled]
+	I118 -> I110 [color=pink style=solid]
+	I117 [label="Joseph
+Dubreuil" color=lightblue2 shape=box style=filled]
+	I117 -> I110 [color=lightblue2 style=solid]
+	I109 [label="Jean-Paul
+Laguë" color=lightblue2 shape=box style=filled]
+	I109 -> I110 [color=grey style=dashed]
+	I109 [label="Jean-Paul
+Laguë" color=lightblue2 shape=box style=filled]
+	I110 [label="Anne-Marie
+Dubreuil" color=pink shape=box style=filled]
+	I110 -> I109 [color=grey style=dashed]
+	511415 [label="Rita
+Tremblay" color=pink shape=box style=filled]
+	511416 [label="Clément
+Charest" color=lightblue2 shape=box style=filled]
+	511416 -> 511415 [color=grey style=dashed]
+	511416 [label="Clément
+Charest" color=lightblue2 shape=box style=filled]
+	511418 [label="Hélène
+Sigouin" color=pink shape=box style=filled]
+	511418 -> 511416 [color=pink style=solid]
+	511417 [label="Delphis
+Charest" color=lightblue2 shape=box style=filled]
+	511417 -> 511416 [color=lightblue2 style=solid]
+	511415 [label="Rita
+Tremblay" color=pink shape=box style=filled]
+	511415 -> 511416 [color=grey style=dashed]
+	I118 [label="Marie-Anne
+Lucas dit Francoeur" color=pink shape=box style=filled]
+	I117 [label="Joseph
+Dubreuil" color=lightblue2 shape=box style=filled]
+	I117 -> I118 [color=grey style=dashed]
+	I117 [label="Joseph
+Dubreuil" color=lightblue2 shape=box style=filled]
+	I118 [label="Marie-Anne
+Lucas dit Francoeur" color=pink shape=box style=filled]
+	I118 -> I117 [color=grey style=dashed]
+	511418 [label="Hélène
+Sigouin" color=pink shape=box style=filled]
+	511417 [label="Delphis
+Charest" color=lightblue2 shape=box style=filled]
+	511417 -> 511418 [color=grey style=dashed]
+	511417 [label="Delphis
+Charest" color=lightblue2 shape=box style=filled]
+	511418 [label="Hélène
+Sigouin" color=pink shape=box style=filled]
+	511418 -> 511417 [color=grey style=dashed]
 }

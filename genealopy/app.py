@@ -25,32 +25,32 @@ def run():
     # Loop on every JSON document
     for json_document in file_list:
         # Loop on every person
-        for key, value in json_document.items():
+        for key1, value1 in json_document.items():
             # Get first person properties
-            person = get_name(value)
-            gender = value['gender']
-            color = get_color(gender)
+            name1 = get_name(value1)
+            gender1 = value1['gender']
+            color1 = get_color(gender1)
 
             # Draw first person
-            graph.node(person, color=color, shape=SHAPE, style=STYLE)
+            graph.node(key1, label=name1, color=color1, shape=SHAPE, style=STYLE)
 
             # Loop on every relationship
-            for id_ in value['relationship']:
+            for key2 in value1['relationship']:
                 # Get second person properties
-                person2 = get_relationship_name(file_list, id_)
-                gender2 = get_relationship_gender(file_list, id_)
+                name2 = get_relationship_name(file_list, key2)
+                gender2 = get_relationship_gender(file_list, key2)
                 color2 = get_color(gender2)
 
                 # Get relationship properties
-                type_ = get_type(value, id_)
+                type_ = get_type(value1, key2)
                 edge_color = get_color(type_)
                 edge_style = get_style(type_)
 
                 # Draw second person
-                graph.node(person2, color=color2, shape=SHAPE, style=STYLE)
+                graph.node(key2, label=name2, color=color2, shape=SHAPE, style=STYLE)
 
                 # Draw relationship
-                graph.edge(person2, person, color=edge_color, style=edge_style)
+                graph.edge(key2, key1, color=edge_color, style=edge_style)
 
     graph.view()
 
