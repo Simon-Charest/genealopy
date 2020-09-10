@@ -1,0 +1,425 @@
+digraph Genealopy {
+	rankdir=LR
+	"Jean-Sébastien
+Laguë" [color=lightblue2 shape=box style=filled]
+	"Nicole
+Imbeault" [color=pink shape=box style=filled]
+	"Nicole
+Imbeault" -> "Jean-Sébastien
+Laguë" [color=pink style=solid]
+	"André
+Laguë" [color=lightblue2 shape=box style=filled]
+	"André
+Laguë" -> "Jean-Sébastien
+Laguë" [color=lightblue2 style=solid]
+	"Frédéric
+Laguë" [color=lightblue2 shape=box style=filled]
+	"Nicole
+Imbeault" [color=pink shape=box style=filled]
+	"Nicole
+Imbeault" -> "Frédéric
+Laguë" [color=pink style=solid]
+	"André
+Laguë" [color=lightblue2 shape=box style=filled]
+	"André
+Laguë" -> "Frédéric
+Laguë" [color=lightblue2 style=solid]
+	"Jean-François
+Laguë" [color=lightblue2 shape=box style=filled]
+	"Nicole
+Imbeault" [color=pink shape=box style=filled]
+	"Nicole
+Imbeault" -> "Jean-François
+Laguë" [color=pink style=solid]
+	"André
+Laguë" [color=lightblue2 shape=box style=filled]
+	"André
+Laguë" -> "Jean-François
+Laguë" [color=lightblue2 style=solid]
+	"Francis-Olivier
+Gradel" [color=lightblue2 shape=box style=filled]
+	"Monique
+Laguë" [color=pink shape=box style=filled]
+	"Monique
+Laguë" -> "Francis-Olivier
+Gradel" [color=pink style=solid]
+	"Daniel
+Gradel" [color=lightblue2 shape=box style=filled]
+	"Daniel
+Gradel" -> "Francis-Olivier
+Gradel" [color=lightblue2 style=solid]
+	"Chantal
+Gradel" [color=pink shape=box style=filled]
+	"Monique
+Laguë" [color=pink shape=box style=filled]
+	"Monique
+Laguë" -> "Chantal
+Gradel" [color=pink style=solid]
+	"Daniel
+Gradel" [color=lightblue2 shape=box style=filled]
+	"Daniel
+Gradel" -> "Chantal
+Gradel" [color=lightblue2 style=solid]
+	"Alexandre
+Gradel" [color=lightblue2 shape=box style=filled]
+	"Monique
+Laguë" [color=pink shape=box style=filled]
+	"Monique
+Laguë" -> "Alexandre
+Gradel" [color=pink style=solid]
+	"Daniel
+Gradel" [color=lightblue2 shape=box style=filled]
+	"Daniel
+Gradel" -> "Alexandre
+Gradel" [color=lightblue2 style=solid]
+	"Jacinthe
+Giasson" [color=pink shape=box style=filled]
+	"Marjolaine
+Laguë" [color=pink shape=box style=filled]
+	"Marjolaine
+Laguë" -> "Jacinthe
+Giasson" [color=pink style=solid]
+	"Normand
+Giasson" [color=lightblue2 shape=box style=filled]
+	"Normand
+Giasson" -> "Jacinthe
+Giasson" [color=lightblue2 style=solid]
+	"Antoine
+Giasson" [color=lightblue2 shape=box style=filled]
+	"Marjolaine
+Laguë" [color=pink shape=box style=filled]
+	"Marjolaine
+Laguë" -> "Antoine
+Giasson" [color=pink style=solid]
+	"Normand
+Giasson" [color=lightblue2 shape=box style=filled]
+	"Normand
+Giasson" -> "Antoine
+Giasson" [color=lightblue2 style=solid]
+	"Julien
+Laguë" [color=lightblue2 shape=box style=filled]
+	"Jacqueline
+Jodoin" [color=pink shape=box style=filled]
+	"Jacqueline
+Jodoin" -> "Julien
+Laguë" [color=pink style=solid]
+	"Raymond
+Laguë" [color=lightblue2 shape=box style=filled]
+	"Raymond
+Laguë" -> "Julien
+Laguë" [color=lightblue2 style=solid]
+	"Laurence
+Laguë" [color=pink shape=box style=filled]
+	"Jacqueline
+Jodoin" [color=pink shape=box style=filled]
+	"Jacqueline
+Jodoin" -> "Laurence
+Laguë" [color=pink style=solid]
+	"Raymond
+Laguë" [color=lightblue2 shape=box style=filled]
+	"Raymond
+Laguë" -> "Laurence
+Laguë" [color=lightblue2 style=solid]
+	"Isabelle
+Laguë" [color=pink shape=box style=filled]
+	"Collette
+Doyle" [color=pink shape=box style=filled]
+	"Collette
+Doyle" -> "Isabelle
+Laguë" [color=pink style=solid]
+	"Richard
+Laguë" [color=lightblue2 shape=box style=filled]
+	"Richard
+Laguë" -> "Isabelle
+Laguë" [color=lightblue2 style=solid]
+	"Simon
+Charest" [color=lightblue2 shape=box style=filled]
+	"Suzanne
+Laguë" [color=pink shape=box style=filled]
+	"Suzanne
+Laguë" -> "Simon
+Charest" [color=pink style=solid]
+	"Michel
+Charest" [color=lightblue2 shape=box style=filled]
+	"Michel
+Charest" -> "Simon
+Charest" [color=lightblue2 style=solid]
+	"Julie
+Emond" [color=pink shape=box style=filled]
+	"Julie
+Emond" -> "Simon
+Charest" [color=grey style=dashed]
+	"Julie
+Emond" [color=pink shape=box style=filled]
+	"Simon
+Charest" [color=lightblue2 shape=box style=filled]
+	"Simon
+Charest" -> "Julie
+Emond" [color=grey style=dashed]
+	"Catherine
+Charest" [color=pink shape=box style=filled]
+	"Suzanne
+Laguë" [color=pink shape=box style=filled]
+	"Suzanne
+Laguë" -> "Catherine
+Charest" [color=pink style=solid]
+	"Michel
+Charest" [color=lightblue2 shape=box style=filled]
+	"Michel
+Charest" -> "Catherine
+Charest" [color=lightblue2 style=solid]
+	"Marc
+Lecompte" [color=lightblue2 shape=box style=filled]
+	"Marc
+Lecompte" -> "Catherine
+Charest" [color=grey style=dashed]
+	"Marc
+Lecompte" [color=lightblue2 shape=box style=filled]
+	"Catherine
+Charest" [color=pink shape=box style=filled]
+	"Catherine
+Charest" -> "Marc
+Lecompte" [color=grey style=dashed]
+	"André
+Laguë" [color=lightblue2 shape=box style=filled]
+	"Anne-Marie
+Dubreuil" [color=pink shape=box style=filled]
+	"Anne-Marie
+Dubreuil" -> "André
+Laguë" [color=pink style=solid]
+	"Jean-Paul
+Laguë" [color=lightblue2 shape=box style=filled]
+	"Jean-Paul
+Laguë" -> "André
+Laguë" [color=lightblue2 style=solid]
+	"Nicole
+Imbeault" [color=pink shape=box style=filled]
+	"Nicole
+Imbeault" -> "André
+Laguë" [color=grey style=dashed]
+	"Nicole
+Imbeault" [color=pink shape=box style=filled]
+	"André
+Laguë" [color=lightblue2 shape=box style=filled]
+	"André
+Laguë" -> "Nicole
+Imbeault" [color=grey style=dashed]
+	"Monique
+Laguë" [color=pink shape=box style=filled]
+	"Anne-Marie
+Dubreuil" [color=pink shape=box style=filled]
+	"Anne-Marie
+Dubreuil" -> "Monique
+Laguë" [color=pink style=solid]
+	"Jean-Paul
+Laguë" [color=lightblue2 shape=box style=filled]
+	"Jean-Paul
+Laguë" -> "Monique
+Laguë" [color=lightblue2 style=solid]
+	"Daniel
+Gradel" [color=lightblue2 shape=box style=filled]
+	"Daniel
+Gradel" -> "Monique
+Laguë" [color=grey style=dashed]
+	"Daniel
+Gradel" [color=lightblue2 shape=box style=filled]
+	"Monique
+Laguë" [color=pink shape=box style=filled]
+	"Monique
+Laguë" -> "Daniel
+Gradel" [color=grey style=dashed]
+	"Richard
+Laguë" [color=lightblue2 shape=box style=filled]
+	"Anne-Marie
+Dubreuil" [color=pink shape=box style=filled]
+	"Anne-Marie
+Dubreuil" -> "Richard
+Laguë" [color=pink style=solid]
+	"Jean-Paul
+Laguë" [color=lightblue2 shape=box style=filled]
+	"Jean-Paul
+Laguë" -> "Richard
+Laguë" [color=lightblue2 style=solid]
+	"Collette
+Doyle" [color=pink shape=box style=filled]
+	"Collette
+Doyle" -> "Richard
+Laguë" [color=grey style=dashed]
+	"Collette
+Doyle" [color=pink shape=box style=filled]
+	"Richard
+Laguë" [color=lightblue2 shape=box style=filled]
+	"Richard
+Laguë" -> "Collette
+Doyle" [color=grey style=dashed]
+	"Suzanne
+Laguë" [color=pink shape=box style=filled]
+	"Anne-Marie
+Dubreuil" [color=pink shape=box style=filled]
+	"Anne-Marie
+Dubreuil" -> "Suzanne
+Laguë" [color=pink style=solid]
+	"Jean-Paul
+Laguë" [color=lightblue2 shape=box style=filled]
+	"Jean-Paul
+Laguë" -> "Suzanne
+Laguë" [color=lightblue2 style=solid]
+	"Michel
+Charest" [color=lightblue2 shape=box style=filled]
+	"Michel
+Charest" -> "Suzanne
+Laguë" [color=grey style=dashed]
+	"Michel
+Charest" [color=lightblue2 shape=box style=filled]
+	"Rita
+Tremblay" [color=pink shape=box style=filled]
+	"Rita
+Tremblay" -> "Michel
+Charest" [color=pink style=solid]
+	"Clément
+Charest" [color=lightblue2 shape=box style=filled]
+	"Clément
+Charest" -> "Michel
+Charest" [color=lightblue2 style=solid]
+	"Suzanne
+Laguë" [color=pink shape=box style=filled]
+	"Suzanne
+Laguë" -> "Michel
+Charest" [color=grey style=dashed]
+	"Raymond
+Laguë" [color=lightblue2 shape=box style=filled]
+	"Anne-Marie
+Dubreuil" [color=pink shape=box style=filled]
+	"Anne-Marie
+Dubreuil" -> "Raymond
+Laguë" [color=pink style=solid]
+	"Jean-Paul
+Laguë" [color=lightblue2 shape=box style=filled]
+	"Jean-Paul
+Laguë" -> "Raymond
+Laguë" [color=lightblue2 style=solid]
+	"Jacqueline
+Jodoin" [color=pink shape=box style=filled]
+	"Jacqueline
+Jodoin" -> "Raymond
+Laguë" [color=grey style=dashed]
+	"Jacqueline
+Jodoin" [color=pink shape=box style=filled]
+	"Raymond
+Laguë" [color=lightblue2 shape=box style=filled]
+	"Raymond
+Laguë" -> "Jacqueline
+Jodoin" [color=grey style=dashed]
+	"Marjolaine
+Laguë" [color=pink shape=box style=filled]
+	"Anne-Marie
+Dubreuil" [color=pink shape=box style=filled]
+	"Anne-Marie
+Dubreuil" -> "Marjolaine
+Laguë" [color=pink style=solid]
+	"Jean-Paul
+Laguë" [color=lightblue2 shape=box style=filled]
+	"Jean-Paul
+Laguë" -> "Marjolaine
+Laguë" [color=lightblue2 style=solid]
+	"Normand
+Giasson" [color=lightblue2 shape=box style=filled]
+	"Normand
+Giasson" -> "Marjolaine
+Laguë" [color=grey style=dashed]
+	"Normand
+Giasson" [color=lightblue2 shape=box style=filled]
+	"Marjolaine
+Laguë" [color=pink shape=box style=filled]
+	"Marjolaine
+Laguë" -> "Normand
+Giasson" [color=grey style=dashed]
+	"Denis
+Laguë" [color=lightblue2 shape=box style=filled]
+	"Anne-Marie
+Dubreuil" [color=pink shape=box style=filled]
+	"Anne-Marie
+Dubreuil" -> "Denis
+Laguë" [color=pink style=solid]
+	"Jean-Paul
+Laguë" [color=lightblue2 shape=box style=filled]
+	"Jean-Paul
+Laguë" -> "Denis
+Laguë" [color=lightblue2 style=solid]
+	"Anne-Marie
+Dubreuil" [color=pink shape=box style=filled]
+	"Marie-Anne
+Lucas dit Francoeur" [color=pink shape=box style=filled]
+	"Marie-Anne
+Lucas dit Francoeur" -> "Anne-Marie
+Dubreuil" [color=pink style=solid]
+	"Joseph
+Dubreuil" [color=lightblue2 shape=box style=filled]
+	"Joseph
+Dubreuil" -> "Anne-Marie
+Dubreuil" [color=lightblue2 style=solid]
+	"Jean-Paul
+Laguë" [color=lightblue2 shape=box style=filled]
+	"Jean-Paul
+Laguë" -> "Anne-Marie
+Dubreuil" [color=grey style=dashed]
+	"Jean-Paul
+Laguë" [color=lightblue2 shape=box style=filled]
+	"Anne-Marie
+Dubreuil" [color=pink shape=box style=filled]
+	"Anne-Marie
+Dubreuil" -> "Jean-Paul
+Laguë" [color=grey style=dashed]
+	"Rita
+Tremblay" [color=pink shape=box style=filled]
+	"Clément
+Charest" [color=lightblue2 shape=box style=filled]
+	"Clément
+Charest" -> "Rita
+Tremblay" [color=grey style=dashed]
+	"Clément
+Charest" [color=lightblue2 shape=box style=filled]
+	"Hélène
+Sigouin" [color=pink shape=box style=filled]
+	"Hélène
+Sigouin" -> "Clément
+Charest" [color=pink style=solid]
+	"Delphis
+Charest" [color=lightblue2 shape=box style=filled]
+	"Delphis
+Charest" -> "Clément
+Charest" [color=lightblue2 style=solid]
+	"Rita
+Tremblay" [color=pink shape=box style=filled]
+	"Rita
+Tremblay" -> "Clément
+Charest" [color=grey style=dashed]
+	"Marie-Anne
+Lucas dit Francoeur" [color=pink shape=box style=filled]
+	"Joseph
+Dubreuil" [color=lightblue2 shape=box style=filled]
+	"Joseph
+Dubreuil" -> "Marie-Anne
+Lucas dit Francoeur" [color=grey style=dashed]
+	"Joseph
+Dubreuil" [color=lightblue2 shape=box style=filled]
+	"Marie-Anne
+Lucas dit Francoeur" [color=pink shape=box style=filled]
+	"Marie-Anne
+Lucas dit Francoeur" -> "Joseph
+Dubreuil" [color=grey style=dashed]
+	"Hélène
+Sigouin" [color=pink shape=box style=filled]
+	"Delphis
+Charest" [color=lightblue2 shape=box style=filled]
+	"Delphis
+Charest" -> "Hélène
+Sigouin" [color=grey style=dashed]
+	"Delphis
+Charest" [color=lightblue2 shape=box style=filled]
+	"Hélène
+Sigouin" [color=pink shape=box style=filled]
+	"Hélène
+Sigouin" -> "Delphis
+Charest" [color=grey style=dashed]
+}

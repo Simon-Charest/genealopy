@@ -5,98 +5,78 @@ Prerequisites:
     - Microsoft C++ Build Tools - https://visualstudio.microsoft.com/visual-cpp-build-tools/
     - Graphviz - https://graphviz.gitlab.io/_pages/Download/Download_windows.html
 """
-from networkx.drawing.nx_agraph import graphviz_layout
+from graphviz import Digraph
 
 import glob
 import json
-import matplotlib.pyplot as pyplot
-import networkx
+
+DATA = 'data/*.json'
+SHAPE = 'box'
+STYLE = 'filled'
 
 
 def run():
-    files = get_files(constant.DATA)
-    list_ = list()
+    graph = Digraph(constant.__project__, filename=f'data/{constant.__project__.lower()}.gv', format='png')
+    graph.attr(rankdir='LR')
+
+    files = get_files(DATA)
+    file_list = get_file_list(files)
+
+    # Loop on every JSON document
+    for json_document in file_list:
+        # Loop on every person
+        for key, value in json_document.items():
+            # Get first person properties
+            person = get_name(value)
+            gender = value['gender']
+            color = get_color(gender)
+
+            # Draw first person
+            graph.node(person, color=color, shape=SHAPE, style=STYLE)
+
+            # Loop on every relationship
+            for id_ in value['relationship']:
+                # Get second person properties
+                person2 = get_relationship_name(file_list, id_)
+                gender2 = get_relationship_gender(file_list, id_)
+                color2 = get_color(gender2)
+
+                # Get relationship properties
+                type_ = get_type(value, id_)
+                edge_color = get_color(type_)
+                edge_style = get_style(type_)
+
+                # Draw second person
+                graph.node(person2, color=color2, shape=SHAPE, style=STYLE)
+
+                # Draw relationship
+                graph.edge(person2, person, color=edge_color, style=edge_style)
+
+    graph.view()
+
+
+def get_color(gender):
+    if gender in ['F', 'mother']:
+        color = 'pink'
+
+    elif gender in ['M', 'father']:
+        color = 'lightblue2'
+
+    else:
+        color = 'grey'
+
+    return color
+
+
+def get_file_list(files, encoding='utf-8'):
+    file_list = list()
 
     for file in files:
         # Read JSON data
-        with open(file, encoding='utf-8') as stream:
-            list_.append(json.load(stream))
+        with open(file, encoding=encoding) as stream:
+            file_list.append(json.load(stream))
 
-    # Create directional graph
-    graph = networkx.OrderedDiGraph()
-
-    # Loop on every JSON document
-    for json_document in list_:
-        # Loop on every person
-        for key, value in json_document.items():
-            node = f"{value['first_name']}\n{value['last_name']}"
-
-            # Loop on every link
-            for edge in value['relationship']:
-                # Set node color by gender
-                type_ = value['relationship'][edge]['type']
-
-                # Set color by edge type
-                if type_ == 'mother':
-                    edge_color = 'red'
-                    style = 'solid'
-
-                elif type_ == 'father':
-                    edge_color = 'blue'
-                    style = 'solid'
-
-                else:
-                    edge_color = 'gray'
-                    style = 'dotted'
-
-                # Add link to graph
-                graph.add_edge(node, get_name(list_, edge), edge_color=edge_color, style=style)
-
-    # Add colors to nodes
-    node_colors = []
-
-    for key in graph:
-        # Get gender
-        gender = get_gender(list_, key)
-
-        # Set node color by gender
-        if gender == 'F':
-            node_colors.append('pink')
-
-        elif gender == 'M':
-            node_colors.append('cyan')
-
-        else:
-            node_colors.append('gray')
-
-    nodes = graph.nodes()
-
-    # Add colors and styles to edges
-    edges = graph.edges()
-    edge_colors = [graph[node1][node2]['edge_color'] for node1, node2 in edges]
-    styles = [graph[node1][node2]['style'] for node1, node2 in edges]
-
-    if constant.DEBUG:
-        print(f'Nodes: {nodes}')
-        print(f'Edges: {edges}')
-
-    # Set title
-    pyplot.title('Genealopy')
-
-    # Draw graph
-    # TODO: Fix styles
-    # TODO: Use get_hierarchy_positions
-    networkx.draw(graph, edge_color=edge_colors, node_color=node_colors, node_size=1000, style=styles, with_labels=True)
-
-    # Maximize window
-    manager = pyplot.get_current_fig_manager()
-    manager.full_screen_toggle()
-
-    # Save to image file format
-    pyplot.savefig('data/genealopy.png')
-
-    # Show graph
-    pyplot.show()
+    return file_list
 
 
 def get_files(path):
@@ -114,10 +94,37 @@ def get_gender(list_, id_):
     return None
 
 
-def get_name(list_, id_):
+def get_name(value):
+    return f"{value['first_name']}\n{value['last_name']}"
+
+
+def get_relationship_gender(list_, id_):
+    for json_document in list_:
+        for key, value in json_document.items():
+            if key == id_:
+                return f"{value['gender']}"
+
+    return None
+
+
+def get_relationship_name(list_, id_):
     for json_document in list_:
         for key, value in json_document.items():
             if key == id_:
                 return f"{value['first_name']}\n{value['last_name']}"
 
     return None
+
+
+def get_style(type_):
+    if type_ in ['F', 'mother', 'M', 'father']:
+        style = 'solid'
+
+    else:
+        style = 'dashed'
+
+    return style
+
+
+def get_type(value, id_):
+    return value['relationship'][id_]['type']

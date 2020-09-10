@@ -6,8 +6,8 @@ __copyright__ = f'Copyright © {datetime.get_years(2020)} {__author__} <{__email
 __project__ = 'Genealopy'
 __credits__ = {
     'Simon Charest': {
-        'organization': [f'{__author__}', 'Retronic Design'],
-        'email': [f'{__email__}', 'simoncharest@retronicdesign.com'],
+        'organization': [f'{__author__}', 'SLCIT, Inc.'],
+        'email': [f'{__email__}', 'simoncharest@gmail.com'],
         'Facebook': 'https://www.facebook.com/simon.charest/',
         'GitHub': 'https://github.com/Simon-Charest',
         'LinkedIn': 'https://www.linkedin.com/in/simoncharest/',
@@ -17,16 +17,37 @@ __credits__ = {
         'organization': 'Retronic Design',
         'product': 'DB9 to USB Game Controller Adapter',
         'email': 'info@retronicdesign.com',
+        'website': 'retronicdesign.com',
         'eBay': 'https://www.ebay.com/usr/retronicdesign',
         'Facebook': 'https://www.facebook.com/retronicdesign',
         'LinkedIn': 'https://ca.linkedin.com/in/francis-gradel-ing-b620591a',
         'Twitter': 'https://twitter.com/fogradel',
-        'Website': 'retronicdesign.com',
-        'AtariAge': 'https://atariage.com/forums/profile/37766-nitz1976/'
+        'AtariAge': 'https://atariage.com/forums/profile/37766-nitz1976/',
+        'Famille Gradel': 'https://www.retronicdesign.com/genealogie/'
        },
-    'Michel Charest': {},
-    'Louise Charest': {},
-    'Pierre Charest': {}
+    'Michel Charest': {
+        'email': 'mic6349@gmail.com'
+    },
+    'Louise Charest': {
+        'email': 'charestl53@videotron.ca'
+    },
+    'Pierre Charest': {
+        'organization': '9116-8872 Québec inc.',
+        'email': 'charestp@videotron.ca'
+    },
+    'Suzanne Coderre': {
+        'email': 'suzanne1809@gmail.com'
+    },
+    'Gilles Deguire': {
+        'organization': 'Mes ancêtres',
+        'email': 'deguire@mesancetres.ca',
+        'website': 'http://www.mesancetres.ca/'
+    },
+    'Richard Côté': {
+        'organization': "Le Centre de généalogie francophone d'Amérique",
+        'email': 'richardcoste@sogetel.net',
+        'website': 'http://www.genealogie.org/login/'
+    }
 }
 __license__ = 'GNU'
 __maintainer__ = 'Simon Charest'
@@ -42,19 +63,3 @@ ABOUT = f'{__project__}\n' \
         f'This software is open-source and provided free of charge.\n' \
         f'\n' \
         f'This product is license under the {__license__} License Terms.'
-DATA = 'data/*.json'
-DEBUG = True
-SOURCES = {
-    "Famille Gradel": {
-        'owner': 'Francis Gradel',
-        'email': 'info@retronicdesign.com',
-        'hyperlink': 'https://www.retronicdesign.com/genealogie/individual.php?ged=gradel&pid='
-    },
-    "Le Centre de généalogie francophone d'Amérique": {
-        'brief_summary': 'Familles Côté, Tremblay (02-2019)',
-        'detailed description': 'Une magnifique banque de données sur plus de 600,000 individus.',
-        'owner': 'Richard Côté',
-        'email': 'richardcoste@sogetel.net',
-        'hyperlink': 'http://www.genealogie.org/bcentrale/liste.asp?code_owner=214&code_individu='
-    }
-}
