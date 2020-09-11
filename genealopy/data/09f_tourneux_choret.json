@@ -14,7 +14,7 @@
     "gender": "M",
     "relationship": {
 	  "Angélique.Rapidieu": { "type": "mother" },
-      "Jean-Baptiste1.Choret": { "type": "father" },
+      "Jean-Baptiste.Choret": { "type": "father" },
       "Catherine.Tourneux": { "type": "union" }
     },
     "source": "data/Simon Charest.pdf"

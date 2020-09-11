@@ -571,36 +571,68 @@ Choret" color=lightblue2 shape=box style=filled]
 	"Angélique.Rapidieu" [label="Angélique
 Rapidieu, Lamer" color=pink shape=box style=filled]
 	"Angélique.Rapidieu" -> "Jean-Baptiste2.Choret" [color=pink style=solid]
-	"Jean-Baptiste1.Choret" [label="Jean-Baptiste
+	"Jean-Baptiste.Choret" [label="Jean-Baptiste
 Choret" color=lightblue2 shape=box style=filled]
-	"Jean-Baptiste1.Choret" -> "Jean-Baptiste2.Choret" [color=lightblue2 style=solid]
+	"Jean-Baptiste.Choret" -> "Jean-Baptiste2.Choret" [color=lightblue2 style=solid]
 	"Catherine.Tourneux" [label="Catherine
 Tourneux" color=pink shape=box style=filled]
 	"Catherine.Tourneux" -> "Jean-Baptiste2.Choret" [color=grey style=dashed]
 	"Angélique.Rapidieu" [label="Angélique
 Rapidieu, Lamer" color=pink shape=box style=filled]
-	"Jean-Baptiste1.Choret" [label="Jean-Baptiste
+	"Jean-Baptiste.Choret" [label="Jean-Baptiste
 Choret" color=lightblue2 shape=box style=filled]
-	"Jean-Baptiste1.Choret" -> "Angélique.Rapidieu" [color=grey style=dashed]
-	"Jean-Baptiste1.Choret" [label="Jean-Baptiste
+	"Jean-Baptiste.Choret" -> "Angélique.Rapidieu" [color=grey style=dashed]
+	"Jean-Baptiste.Choret" [label="Jean-Baptiste
 Choret" color=lightblue2 shape=box style=filled]
 	"Marie-Anne.Baugis" [label="Marie-Anne
 Baugis" color=pink shape=box style=filled]
-	"Marie-Anne.Baugis" -> "Jean-Baptiste1.Choret" [color=pink style=solid]
+	"Marie-Anne.Baugis" -> "Jean-Baptiste.Choret" [color=pink style=solid]
 	"Pierre.Choret" [label="Pierre
 Choret" color=lightblue2 shape=box style=filled]
-	"Pierre.Choret" -> "Jean-Baptiste1.Choret" [color=lightblue2 style=solid]
+	"Pierre.Choret" -> "Jean-Baptiste.Choret" [color=lightblue2 style=solid]
 	"Angélique.Rapidieu" [label="Angélique
 Rapidieu, Lamer" color=pink shape=box style=filled]
-	"Angélique.Rapidieu" -> "Jean-Baptiste1.Choret" [color=grey style=dashed]
+	"Angélique.Rapidieu" -> "Jean-Baptiste.Choret" [color=grey style=dashed]
 	"Marie-Anne.Baugis" [label="Marie-Anne
 Baugis" color=pink shape=box style=filled]
-	"Jean-Baptiste2.Choret" [label="Jean-Baptiste
-Choret" color=lightblue2 shape=box style=filled]
-	"Jean-Baptiste2.Choret" -> "Marie-Anne.Baugis" [color=grey style=dashed]
 	"Pierre.Choret" [label="Pierre
 Choret" color=lightblue2 shape=box style=filled]
+	"Pierre.Choret" -> "Marie-Anne.Baugis" [color=grey style=dashed]
+	"Pierre.Choret" [label="Pierre
+Choret" color=lightblue2 shape=box style=filled]
+	"Sébatienne.Veillon" [label="Sébatienne
+Veillon" color=pink shape=box style=filled]
+	"Sébatienne.Veillon" -> "Pierre.Choret" [color=pink style=solid]
+	"Mathieu2.Choret" [label="Mathieu
+Choret" color=lightblue2 shape=box style=filled]
+	"Mathieu2.Choret" -> "Pierre.Choret" [color=lightblue2 style=solid]
 	"Marie-Anne.Baugis" [label="Marie-Anne
 Baugis" color=pink shape=box style=filled]
 	"Marie-Anne.Baugis" -> "Pierre.Choret" [color=grey style=dashed]
+	"Sébatienne.Veillon" [label="Sébatienne
+Veillon" color=pink shape=box style=filled]
+	"Mathieu2.Choret" [label="Mathieu
+Choret" color=lightblue2 shape=box style=filled]
+	"Mathieu2.Choret" -> "Sébatienne.Veillon" [color=grey style=dashed]
+	"Mathieu2.Choret" [label="Mathieu
+Choret" color=lightblue2 shape=box style=filled]
+	"Jeanne.Serre" [label="Jeanne
+Serre" color=pink shape=box style=filled]
+	"Jeanne.Serre" -> "Mathieu2.Choret" [color=pink style=solid]
+	"Mathieu.Choret" [label="Mathieu
+Choret" color=lightblue2 shape=box style=filled]
+	"Mathieu.Choret" -> "Mathieu2.Choret" [color=lightblue2 style=solid]
+	"Sébatienne.Veillon" [label="Sébatienne
+Veillon" color=pink shape=box style=filled]
+	"Sébatienne.Veillon" -> "Mathieu2.Choret" [color=grey style=dashed]
+	"Jeanne.Serre" [label="Jeanne
+Serre" color=pink shape=box style=filled]
+	"Mathieu.Choret" [label="Mathieu
+Choret" color=lightblue2 shape=box style=filled]
+	"Mathieu.Choret" -> "Jeanne.Serre" [color=grey style=dashed]
+	"Mathieu.Choret" [label="Mathieu
+Choret" color=lightblue2 shape=box style=filled]
+	"Jeanne.Serre" [label="Jeanne
+Serre" color=pink shape=box style=filled]
+	"Jeanne.Serre" -> "Mathieu.Choret" [color=grey style=dashed]
 }

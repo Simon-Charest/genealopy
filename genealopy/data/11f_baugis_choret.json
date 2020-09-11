@@ -4,7 +4,7 @@
     "last_name": "Baugis",
     "gender": "F",
     "relationship": {
-      "Jean-Baptiste2.Choret": { "type": "union" }
+      "Pierre.Choret": { "type": "union" }
     },
     "source": "data/Simon Charest.pdf"
   },
@@ -13,6 +13,8 @@
     "last_name": "Choret",
     "gender": "M",
     "relationship": {
+	  "Sébatienne.Veillon": { "type": "mother" },
+      "Mathieu2.Choret": { "type": "father" },
       "Marie-Anne.Baugis": { "type": "union" }
     },
     "source": "data/Simon Charest.pdf"

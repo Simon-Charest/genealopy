@@ -1,0 +1,22 @@
+{
+  "Sébatienne.Veillon": {
+    "first_name": "Sébatienne",
+    "last_name": "Veillon",
+    "gender": "F",
+    "relationship": {
+      "Mathieu2.Choret": { "type": "union" }
+    },
+    "source": "data/Simon Charest.pdf"
+  },
+  "Mathieu2.Choret": {
+    "first_name": "Mathieu",
+    "last_name": "Choret",
+    "gender": "M",
+    "relationship": {
+	  "Jeanne.Serre": { "type": "mother" },
+      "Mathieu.Choret": { "type": "father" },
+      "Sébatienne.Veillon": { "type": "union" }
+    },
+    "source": "data/Simon Charest.pdf"
+  }
+}

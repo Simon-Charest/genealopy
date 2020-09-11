@@ -1,0 +1,20 @@
+{
+  "Jeanne.Serre": {
+    "first_name": "Jeanne",
+    "last_name": "Serre",
+    "gender": "F",
+    "relationship": {
+      "Mathieu.Choret": { "type": "union" }
+    },
+    "source": "data/Simon Charest.pdf"
+  },
+  "Mathieu.Choret": {
+    "first_name": "Mathieu",
+    "last_name": "Choret",
+    "gender": "M",
+    "relationship": {
+      "Jeanne.Serre": { "type": "union" }
+    },
+    "source": "data/Simon Charest.pdf"
+  }
+}

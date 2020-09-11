@@ -4,11 +4,11 @@
     "last_name": "Rapidieu, Lamer",
     "gender": "F",
     "relationship": {
-      "Jean-Baptiste1.Choret": { "type": "union" }
+      "Jean-Baptiste.Choret": { "type": "union" }
     },
     "source": "data/Simon Charest.pdf"
   },
-  "Jean-Baptiste1.Choret": {
+  "Jean-Baptiste.Choret": {
     "first_name": "Jean-Baptiste",
     "last_name": "Choret",
     "gender": "M",
