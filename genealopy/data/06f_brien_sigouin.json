@@ -1,0 +1,20 @@
+{
+  "Caroline.Brien": {
+    "first_name": "Caroline",
+    "last_name": "Brien, Lapierre",
+    "gender": "F",
+    "relationship": {
+      "Alexandre.Sigouin": { "type": "union" }
+    },
+    "source": "data/Simon Charest.pdf"
+  },
+  "Alexandre.Sigouin": {
+    "first_name": "Alphonse",
+    "last_name": "Sigouin",
+    "gender": "M",
+    "relationship": {
+      "Caroline.Brien": { "type": "union" }
+    },
+    "source": "data/Simon Charest.pdf"
+  }
+}

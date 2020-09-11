@@ -1,0 +1,22 @@
+{
+  "Malvina.Voisard": {
+    "first_name": "Malvina",
+    "last_name": "Voisard",
+    "gender": "F",
+    "relationship": {
+      "Alphonse.Sigouin": { "type": "union" }
+    },
+    "source": "data/Simon Charest.pdf"
+  },
+  "Alphonse.Sigouin": {
+    "first_name": "Alphonse",
+    "last_name": "Sigouin",
+    "gender": "M",
+    "relationship": {
+	  "Caroline.Brien": { "type": "mother" },
+	  "Alexandre.Sigouin": { "type": "father" },
+      "Malvina.Voisard": { "type": "union" }
+    },
+    "source": "data/Simon Charest.pdf"
+  }
+}

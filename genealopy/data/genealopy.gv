@@ -351,6 +351,12 @@ Dubreuil" color=pink shape=box style=filled]
 	I110 -> I109 [color=grey style=dashed]
 	511418 [label="Hélène
 Sigouin" color=pink shape=box style=filled]
+	"Malvina.Voisard" [label="Malvina
+Voisard" color=pink shape=box style=filled]
+	"Malvina.Voisard" -> 511418 [color=pink style=solid]
+	"Alphonse.Sigouin" [label="Alphonse
+Sigouin" color=lightblue2 shape=box style=filled]
+	"Alphonse.Sigouin" -> 511418 [color=lightblue2 style=solid]
 	511417 [label="Delphis
 Charest" color=lightblue2 shape=box style=filled]
 	511417 -> 511418 [color=grey style=dashed]
@@ -419,6 +425,22 @@ Turgeon" color=lightblue2 shape=box style=filled]
 	"Alphonse.Tremblay" [label="Alphonse
 Tremblay" color=lightblue2 shape=box style=filled]
 	"Alphonse.Tremblay" -> "Léotine.Turgeon" [color=grey style=dashed]
+	"Malvina.Voisard" [label="Malvina
+Voisard" color=pink shape=box style=filled]
+	"Alphonse.Sigouin" [label="Alphonse
+Sigouin" color=lightblue2 shape=box style=filled]
+	"Alphonse.Sigouin" -> "Malvina.Voisard" [color=grey style=dashed]
+	"Alphonse.Sigouin" [label="Alphonse
+Sigouin" color=lightblue2 shape=box style=filled]
+	"Caroline.Brien" [label="Caroline
+Brien, Lapierre" color=pink shape=box style=filled]
+	"Caroline.Brien" -> "Alphonse.Sigouin" [color=pink style=solid]
+	"Alexandre.Sigouin" [label="Alphonse
+Sigouin" color=lightblue2 shape=box style=filled]
+	"Alexandre.Sigouin" -> "Alphonse.Sigouin" [color=lightblue2 style=solid]
+	"Malvina.Voisard" [label="Malvina
+Voisard" color=pink shape=box style=filled]
+	"Malvina.Voisard" -> "Alphonse.Sigouin" [color=grey style=dashed]
 	I561 [label="Delphine
 Gareau" color=pink shape=box style=filled]
 	I585 [label="Etienne-Marie
@@ -429,6 +451,16 @@ Dubreuil" color=lightblue2 shape=box style=filled]
 	I561 [label="Delphine
 Gareau" color=pink shape=box style=filled]
 	I561 -> I585 [color=grey style=dashed]
+	"Caroline.Brien" [label="Caroline
+Brien, Lapierre" color=pink shape=box style=filled]
+	"Alexandre.Sigouin" [label="Alphonse
+Sigouin" color=lightblue2 shape=box style=filled]
+	"Alexandre.Sigouin" -> "Caroline.Brien" [color=grey style=dashed]
+	"Alexandre.Sigouin" [label="Alphonse
+Sigouin" color=lightblue2 shape=box style=filled]
+	"Caroline.Brien" [label="Caroline
+Brien, Lapierre" color=pink shape=box style=filled]
+	"Caroline.Brien" -> "Alexandre.Sigouin" [color=grey style=dashed]
 	"Joseph.Tremblay" [label="Joseph
 Tremblay" color=lightblue2 shape=box style=filled]
 	"Luce.Boily" [label="Luce

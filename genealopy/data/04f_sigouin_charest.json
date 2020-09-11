@@ -3,8 +3,9 @@
     "first_name": "Hélène",
     "last_name": "Sigouin",
     "gender": "F",
-    "death": null,
     "relationship": {
+	  "Malvina.Voisard": { "type": "mother" },
+	  "Alphonse.Sigouin": { "type": "father" },
       "511417": { "type": "union" }
     },
     "source": "http://www.genealogie.org/bcentrale/arbre.asp?code_owner=214&code_individu="
