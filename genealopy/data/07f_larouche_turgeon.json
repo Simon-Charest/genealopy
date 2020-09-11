@@ -1,0 +1,20 @@
+{
+  "François.Turgeon": {
+    "first_name": "François",
+    "last_name": "Turgeon",
+    "gender": "M",
+    "relationship": {
+      "Zoé.Larouche": { "type": "union" }
+    },
+    "source": "data/Simon Charest.pdf"
+  },
+  "Zoé.Larouche": {
+    "first_name": "Zoé",
+    "last_name": "Larouche",
+    "gender": "F",
+    "relationship": {
+      "François.Turgeon": { "type": "union" }
+    },
+    "source": "data/Simon Charest.pdf"
+  }
+}

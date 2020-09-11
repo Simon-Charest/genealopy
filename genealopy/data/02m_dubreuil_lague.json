@@ -75,28 +75,6 @@
     },
     "source" : "https://www.retronicdesign.com/genealogie/individual.php?ged=gradel&pid="
   },
-  "I610": {
-    "first_name": "Michel",
-    "middle_name": "Hubert",
-    "last_name": "Charest",
-    "gender": "M",
-    "job": [
-      "Dessinateur industriel",
-      "Agent négociateur"
-    ],
-    "birth": {
-      "date": "1951-06-13",
-      "city": "Montréal",
-      "state": "Québec",
-      "country": "Canada"
-    },
-    "relationship": {
-      "511415": { "type": "mother" },
-      "511416": { "type": "father" },
-      "I603": { "type": "union", "start": null, "end": null }
-    },
-    "source" : "https://www.retronicdesign.com/genealogie/individual.php?ged=gradel&pid="
-  },
   "I602": {
     "first_name": "Raymond",
     "last_name": "Laguë",
@@ -145,10 +123,12 @@
     "last_name": "Laguë",
     "gender": "M",
     "birth": {
-      "date": "1956-12-06"
+      "date": "1956-12-06",
+	  "place": "Montréal, Québec, Canada"
     },
     "death": {
-      "date": "2013-12-28"
+      "date": "2013-12-28",
+	  "place": "Repentigny, Québec, Canada"
     },
     "relationship": {
       "I110": { "type": "mother" },

@@ -1,0 +1,64 @@
+{
+  "I610": {
+    "first_name": "Michel",
+    "middle_name": "Hubert",
+    "last_name": "Charest",
+    "gender": "M",
+    "job": [
+      "Dessinateur industriel",
+      "Agent négociateur"
+    ],
+    "birth": {
+      "date": "1951-06-13",
+      "city": "Montréal",
+      "state": "Québec",
+      "country": "Canada"
+    },
+    "relationship": {
+      "511415": { "type": "mother" },
+      "511416": { "type": "father" },
+      "I603": { "type": "union", "start": null, "end": null }
+    },
+    "source" : "https://www.retronicdesign.com/genealogie/individual.php?ged=gradel&pid="
+  },
+  "GC": {
+    "first_name": "Gilles",
+    "last_name": "Charest",
+    "gender": "M",
+    "relationship": {
+      "511415": { "type": "mother" },
+      "511416": { "type": "father" }
+    },
+    "source" : null
+  },
+  "GhC": {
+    "first_name": "Ghyslaine",
+    "last_name": "Charest",
+    "gender": "F",
+    "relationship": {
+      "511415": { "type": "mother" },
+      "511416": { "type": "father" }
+    },
+    "source" : null
+  },
+  "JC": {
+    "first_name": "Jean",
+    "last_name": "Charest",
+    "gender": "M",
+    "relationship": {
+      "511415": { "type": "mother" },
+      "511416": { "type": "father" }
+    },
+    "source" : null
+  },
+  "JaC": {
+    "first_name": "Jacques",
+    "last_name": "Charest",
+    "gender": "M",
+    "relationship": {
+      "511415": { "type": "mother" },
+      "511416": { "type": "father" }
+    },
+    "source" : null
+  }
+}

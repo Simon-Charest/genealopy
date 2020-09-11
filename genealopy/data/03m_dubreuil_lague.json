@@ -3,7 +3,14 @@
     "first_name": "Anne-Marie",
     "last_name": "Dubreuil",
     "gender": "F",
-    "death": null,
+	"birth": {
+      "date": "1919-12-05",
+	  "place": "Saint-Henri, Québec, Canada"
+    },
+	"death": {
+      "date": "2011-04-03",
+	  "place": "Pincourt, Québec, Canada"
+    },
     "relationship": {
       "I118": { "type": "mother" },
       "I117": { "type": "father" },
@@ -15,7 +22,14 @@
     "first_name": "Jean-Paul",
     "last_name": "Laguë",
     "gender": "M",
-    "death": null,
+    "birth": {
+	  "date": "1919-11-11",
+	  "place": "Saint-Luc, Québec, Canada"
+    },
+	"death": {
+	  "date": "2006-03-05",
+	  "place": "Montréal, Québec, Canada"
+    },
     "relationship": {
       "I110": { "type": "union", "start": null, "end": null }
     },

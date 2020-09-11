@@ -1,0 +1,30 @@
+{
+  "I561": {
+    "first_name": "Delphine",
+    "last_name": "Gareau",
+    "gender": "F",
+	"birth": {
+      "date": "1849"
+    },
+	"death": null,
+    "relationship": {
+      "I585": { "type": "union" }
+    },
+    "source" : "https://www.retronicdesign.com/genealogie/individual.php?ged=gradel&pid="
+  },
+  "I585": {
+    "first_name": "Etienne-Marie",
+    "last_name": "Dubreuil",
+    "gender": "M",
+    "birth": {
+      "date": "1845"
+    },
+	"death": {
+      "date": "1886"
+    },
+    "relationship": {
+      "I561": { "type": "union" }
+    },
+    "source" : "https://www.retronicdesign.com/genealogie/individual.php?ged=gradel&pid="
+  }
+}

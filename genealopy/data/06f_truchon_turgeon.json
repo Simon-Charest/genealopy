@@ -1,0 +1,24 @@
+{
+  "Arsène.Turgeon": {
+    "first_name": "Arsène",
+    "last_name": "Turgeon",
+    "gender": "M",
+    "relationship": {
+	  "Zoé.Larouche": { "type": "mother" },
+	  "François.Turgeon": { "type": "father" },
+      "Angeline.Truchon": { "type": "union" }
+    },
+    "source": "data/Simon Charest.pdf"
+  },
+  "Angeline.Truchon": {
+    "first_name": "Angeline",
+    "last_name": "Truchon",
+    "gender": "F",
+    "relationship": {
+	  "Zoé.Pagé": { "type": "mother" },
+	  "Lucien.Truchon": { "type": "father" },
+      "Arsène.Turgeon": { "type": "union" }
+    },
+    "source": "data/Simon Charest.pdf"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Lucien.Truchon": {
+    "first_name": "Lucien",
+    "last_name": "Truchon",
+    "gender": "M",
+    "relationship": {
+      "Zoé.Pagé": { "type": "union" }
+    },
+    "source": "data/Simon Charest.pdf"
+  },
+  "Zoé.Pagé": {
+    "first_name": "Zoé",
+    "last_name": "Pagé",
+    "gender": "F",
+    "relationship": {
+      "Lucien.Truchon": { "type": "union" }
+    },
+    "source": "data/Simon Charest.pdf"
+  }
+}

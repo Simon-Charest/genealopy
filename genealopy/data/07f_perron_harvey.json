@@ -1,0 +1,20 @@
+{
+  "Désiré.Harvey": {
+    "first_name": "Désiré",
+    "last_name": "Harvey",
+    "gender": "M",
+    "relationship": {
+      "Angeline.Perron": { "type": "union" }
+    },
+    "source": "data/Simon Charest.pdf"
+  },
+  "Angeline.Perron": {
+    "first_name": "Angeline",
+    "last_name": "Perron",
+    "gender": "F",
+    "relationship": {
+      "Désiré.Harvey": { "type": "union" }
+    },
+    "source": "data/Simon Charest.pdf"
+  }
+}

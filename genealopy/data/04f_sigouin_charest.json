@@ -13,9 +13,18 @@
     "first_name": "Delphis",
     "last_name": "Charest",
     "gender": "M",
-    "death": null,
+	"birth": {
+	  "date": "1894-11-08",
+	  "place": "Amesbury, Co. Essex, Massachusets, USA"
+	},
+	"death": {
+	  "date": "1940-07-29",
+	  "place": "Hôpital Notre-Dame (Montréal), Québec, Canada"
+	},
     "relationship": {
-      "511418": { "type": "union" }
+	  "Alma.Tanguay": { "type": "mother" },
+	  "Adélard.Charest": { "type": "father" },
+      "511418": { "type": "union", "start": "1923-09-03", "place": "Sault-au-Recollet (Montréal), Québec, Canada" }
     },
     "source": "http://www.genealogie.org/bcentrale/arbre.asp?code_owner=214&code_individu="
   }

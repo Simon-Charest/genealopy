@@ -1,0 +1,20 @@
+{
+  "Louis.Tremblay": {
+    "first_name": "Louis",
+    "last_name": "Tremblay",
+    "gender": "M",
+    "relationship": {
+      "Luce.Boily": { "type": "union" }
+    },
+    "source": "data/Simon Charest.pdf"
+  },
+  "Luce.Boily": {
+    "first_name": "Luce",
+    "last_name": "Boily",
+    "gender": "F",
+    "relationship": {
+      "Louis.Tremblay": { "type": "union" }
+    },
+    "source": "data/Simon Charest.pdf"
+  }
+}

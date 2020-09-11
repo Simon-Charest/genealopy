@@ -1,0 +1,24 @@
+{
+  "Joseph.Tremblay": {
+    "first_name": "Joseph",
+    "last_name": "Tremblay",
+    "gender": "M",
+    "relationship": {
+	  "Luce.Boily": { "type": "mother" },
+	  "Louis.Tremblay": { "type": "father" },
+      "Marie.Harvey": { "type": "union" }
+    },
+    "source": "data/Simon Charest.pdf"
+  },
+  "Marie.Harvey": {
+    "first_name": "Marie",
+    "last_name": "Harvey",
+    "gender": "F",
+    "relationship": {
+	  "Angeline.Perron": { "type": "mother" },
+	  "Désiré.Harvey": { "type": "father" },
+      "Joseph.Tremblay": { "type": "union" }
+    },
+    "source": "data/Simon Charest.pdf"
+  }
+}

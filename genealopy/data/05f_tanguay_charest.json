@@ -1,0 +1,20 @@
+{
+  "Alma.Tanguay": {
+    "first_name": "Alma",
+    "last_name": "Tanguay",
+    "gender": "F",
+    "relationship": {
+      "Adélard.Charest": { "type": "union", "start": "1891-07-20", "place": "Immaculée-Conception (Montréal), Québec, Canada" }
+    },
+    "source": "http://www.genealogie.org/bcentrale/arbre.asp?code_owner=214&code_individu="
+  },
+  "Adélard.Charest": {
+    "first_name": "Adélard",
+    "last_name": "Charest",
+    "gender": "M",
+    "relationship": {
+      "Alma.Tanguay": { "type": "union", "start": "1891-07-20", "place": "Immaculée-Conception (Montréal), Québec, Canada" }
+    },
+    "source": "http://www.genealogie.org/bcentrale/arbre.asp?code_owner=214&code_individu="
+  }
+}

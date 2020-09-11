@@ -1,0 +1,39 @@
+{
+  "I118": {
+    "first_name": "Marie-Anne",
+    "last_name": "Lucas dit Francoeur",
+    "gender": "F",
+	"birth": {
+      "date": "1886-07-12"
+    },
+	"death": {
+      "date": "1986-05"
+    },
+    "relationship": {
+      "I117": { "type": "union" }
+    },
+    "source" : "https://www.retronicdesign.com/genealogie/individual.php?ged=gradel&pid="
+  },
+  "I117": {
+    "first_name": "Joseph",
+    "last_name": "Dubreuil",
+    "gender": "M",
+    "birth": {
+      "date": "1886-06-17",
+	  "place": "Sainte-Anne-de-Bellevue, Québec, Canada"
+    },
+	"death": {
+      "date": "1947"
+    },
+	"occupation": {
+		"title": "Conducteur de tramway",
+		"place": "Montréal, Québec, Canada"
+	},
+    "relationship": {
+	  "I561": { "type": "mother" },
+      "I585": { "type": "father" },
+      "I118": { "type": "union", "start": "1911-09-25", "place": "Sainte-Anne-de-Bellevue, Québec, Canada" }
+    },
+    "source" : "https://www.retronicdesign.com/genealogie/individual.php?ged=gradel&pid="
+  }
+}

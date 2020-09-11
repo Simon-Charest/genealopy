@@ -3,8 +3,16 @@
     "first_name": "Rita",
     "last_name": "Tremblay",
     "gender": "F",
-    "death": null,
+    "birth": {
+      "date": "1923"
+    },
+	"death": {
+      "date": "2004-05-03",
+	  "place": "St-Lambert, Québec, Canada"
+    },
     "relationship": {
+	  "Léotine.Turgeon": { "type": "mother" },
+	  "Alphonse.Tremblay": { "type": "father" },
       "511416": { "type": "union", "date": "1946-08-31" }
     },
     "source": "http://www.genealogie.org/bcentrale/arbre.asp?code_owner=214&code_individu="
@@ -13,11 +21,18 @@
     "first_name": "Clément",
     "last_name": "Charest",
     "gender": "M",
-    "death": null,
+    "birth": {
+      "date": "1925-08-05",
+	  "place": "Sault-au-Recollet (Montréal), Québec, Canada"
+    },
+	"death": {
+      "date": "2002-05-20",
+	  "place": "Centre de Lévis (Longueuil), Québec, Canada"
+    },
     "relationship": {
       "511418" : { "type":  "mother" },
       "511417" : { "type":  "father" },
-      "511415": { "type": "union", "date": "1946-08-31" }
+      "511415": { "type": "union", "start": "1946-08-31", "place": "St-Enfant-Jésus (Montréal), Québec, Canada"}
     },
     "source": "http://www.genealogie.org/bcentrale/arbre.asp?code_owner=214&code_individu="
   }

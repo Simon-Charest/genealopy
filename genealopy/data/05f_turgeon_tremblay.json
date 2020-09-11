@@ -1,0 +1,24 @@
+{
+  "Alphonse.Tremblay": {
+    "first_name": "Alphonse",
+    "last_name": "Tremblay",
+    "gender": "M",
+    "relationship": {
+	  "Marie.Harvey": { "type": "mother" },
+	  "Joseph.Tremblay": { "type": "father" },
+      "Léotine.Turgeon": { "type": "union" }
+    },
+    "source": "data/Simon Charest.pdf"
+  },
+  "Léotine.Turgeon": {
+    "first_name": "Léotine",
+    "last_name": "Turgeon",
+    "gender": "F",
+    "relationship": {
+	  "Angeline.Truchon": { "type": "mother" },
+	  "Arsène.Turgeon": { "type": "father" },
+      "Alphonse.Tremblay": { "type": "union" }
+    },
+    "source": "data/Simon Charest.pdf"
+  }
+}
