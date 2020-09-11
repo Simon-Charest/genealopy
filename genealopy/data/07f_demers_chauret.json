@@ -1,0 +1,22 @@
+{
+  "Geneviève.Demers": {
+    "first_name": "Geneviève",
+    "last_name": "Demers",
+    "gender": "F",
+    "relationship": {
+      "Joseph.Chauret": { "type": "union" }
+    },
+    "source": "data/Simon Charest.pdf"
+  },
+  "Joseph.Chauret": {
+    "first_name": "Joseph",
+    "last_name": "Chauret",
+    "gender": "M",
+    "relationship": {
+	  "Geneviève.Giroux": { "type": "mother" },
+      "Jean-Baptiste3.Choret": { "type": "father" },
+      "Geneviève.Demers": { "type": "union" }
+    },
+    "source": "data/Simon Charest.pdf"
+  }
+}

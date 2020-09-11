@@ -1,0 +1,20 @@
+{
+  "Marie-Anne.Baugis": {
+    "first_name": "Marie-Anne",
+    "last_name": "Baugis",
+    "gender": "F",
+    "relationship": {
+      "Jean-Baptiste2.Choret": { "type": "union" }
+    },
+    "source": "data/Simon Charest.pdf"
+  },
+  "Pierre.Choret": {
+    "first_name": "Pierre",
+    "last_name": "Choret",
+    "gender": "M",
+    "relationship": {
+      "Marie-Anne.Baugis": { "type": "union" }
+    },
+    "source": "data/Simon Charest.pdf"
+  }
+}

@@ -388,6 +388,12 @@ Charest" color=lightblue2 shape=box style=filled]
 	"Adélard.Charest" -> "Alma.Tanguay" [color=grey style=dashed]
 	"Adélard.Charest" [label="Adélard
 Charest" color=lightblue2 shape=box style=filled]
+	"Martine.Lebrun" [label="Martine
+Lebrun" color=pink shape=box style=filled]
+	"Martine.Lebrun" -> "Adélard.Charest" [color=pink style=solid]
+	"Joseph.Charette" [label="Joseph
+Charette" color=lightblue2 shape=box style=filled]
+	"Joseph.Charette" -> "Adélard.Charest" [color=lightblue2 style=solid]
 	"Alma.Tanguay" [label="Alma
 Tanguay" color=pink shape=box style=filled]
 	"Alma.Tanguay" -> "Adélard.Charest" [color=grey style=dashed]
@@ -445,6 +451,22 @@ Harvey" color=lightblue2 shape=box style=filled]
 	"Joseph.Tremblay" [label="Joseph
 Tremblay" color=lightblue2 shape=box style=filled]
 	"Joseph.Tremblay" -> "Marie.Harvey" [color=grey style=dashed]
+	"Martine.Lebrun" [label="Martine
+Lebrun" color=pink shape=box style=filled]
+	"Joseph.Charette" [label="Joseph
+Charette" color=lightblue2 shape=box style=filled]
+	"Joseph.Charette" -> "Martine.Lebrun" [color=grey style=dashed]
+	"Joseph.Charette" [label="Joseph
+Charette" color=lightblue2 shape=box style=filled]
+	"Geneviève.Demers" [label="Geneviève
+Demers" color=pink shape=box style=filled]
+	"Geneviève.Demers" -> "Joseph.Charette" [color=pink style=solid]
+	"Joseph.Chauret" [label="Joseph
+Chauret" color=lightblue2 shape=box style=filled]
+	"Joseph.Chauret" -> "Joseph.Charette" [color=lightblue2 style=solid]
+	"Martine.Lebrun" [label="Martine
+Lebrun" color=pink shape=box style=filled]
+	"Martine.Lebrun" -> "Joseph.Charette" [color=grey style=dashed]
 	"Arsène.Turgeon" [label="Arsène
 Turgeon" color=lightblue2 shape=box style=filled]
 	"Zoé.Larouche" [label="Zoé
@@ -477,6 +499,22 @@ Boily" color=pink shape=box style=filled]
 	"Louis.Tremblay" [label="Louis
 Tremblay" color=lightblue2 shape=box style=filled]
 	"Louis.Tremblay" -> "Luce.Boily" [color=grey style=dashed]
+	"Geneviève.Demers" [label="Geneviève
+Demers" color=pink shape=box style=filled]
+	"Joseph.Chauret" [label="Joseph
+Chauret" color=lightblue2 shape=box style=filled]
+	"Joseph.Chauret" -> "Geneviève.Demers" [color=grey style=dashed]
+	"Joseph.Chauret" [label="Joseph
+Chauret" color=lightblue2 shape=box style=filled]
+	"Geneviève.Giroux" [label="Geneviève
+Giroux" color=pink shape=box style=filled]
+	"Geneviève.Giroux" -> "Joseph.Chauret" [color=pink style=solid]
+	"Jean-Baptiste3.Choret" [label="Jean-Baptiste
+Choret" color=lightblue2 shape=box style=filled]
+	"Jean-Baptiste3.Choret" -> "Joseph.Chauret" [color=lightblue2 style=solid]
+	"Geneviève.Demers" [label="Geneviève
+Demers" color=pink shape=box style=filled]
+	"Geneviève.Demers" -> "Joseph.Chauret" [color=grey style=dashed]
 	"François.Turgeon" [label="François
 Turgeon" color=lightblue2 shape=box style=filled]
 	"Zoé.Larouche" [label="Zoé
@@ -507,4 +545,62 @@ Perron" color=pink shape=box style=filled]
 	"Désiré.Harvey" [label="Désiré
 Harvey" color=lightblue2 shape=box style=filled]
 	"Désiré.Harvey" -> "Angeline.Perron" [color=grey style=dashed]
+	"Geneviève.Giroux" [label="Geneviève
+Giroux" color=pink shape=box style=filled]
+	"Jean-Baptiste3.Choret" [label="Jean-Baptiste
+Choret" color=lightblue2 shape=box style=filled]
+	"Jean-Baptiste3.Choret" -> "Geneviève.Giroux" [color=grey style=dashed]
+	"Jean-Baptiste3.Choret" [label="Jean-Baptiste
+Choret" color=lightblue2 shape=box style=filled]
+	"Catherine.Tourneux" [label="Catherine
+Tourneux" color=pink shape=box style=filled]
+	"Catherine.Tourneux" -> "Jean-Baptiste3.Choret" [color=pink style=solid]
+	"Jean-Baptiste2.Choret" [label="Jean-Baptiste
+Choret" color=lightblue2 shape=box style=filled]
+	"Jean-Baptiste2.Choret" -> "Jean-Baptiste3.Choret" [color=lightblue2 style=solid]
+	"Geneviève.Giroux" [label="Geneviève
+Giroux" color=pink shape=box style=filled]
+	"Geneviève.Giroux" -> "Jean-Baptiste3.Choret" [color=grey style=dashed]
+	"Catherine.Tourneux" [label="Catherine
+Tourneux" color=pink shape=box style=filled]
+	"Jean-Baptiste2.Choret" [label="Jean-Baptiste
+Choret" color=lightblue2 shape=box style=filled]
+	"Jean-Baptiste2.Choret" -> "Catherine.Tourneux" [color=grey style=dashed]
+	"Jean-Baptiste2.Choret" [label="Jean-Baptiste
+Choret" color=lightblue2 shape=box style=filled]
+	"Angélique.Rapidieu" [label="Angélique
+Rapidieu, Lamer" color=pink shape=box style=filled]
+	"Angélique.Rapidieu" -> "Jean-Baptiste2.Choret" [color=pink style=solid]
+	"Jean-Baptiste1.Choret" [label="Jean-Baptiste
+Choret" color=lightblue2 shape=box style=filled]
+	"Jean-Baptiste1.Choret" -> "Jean-Baptiste2.Choret" [color=lightblue2 style=solid]
+	"Catherine.Tourneux" [label="Catherine
+Tourneux" color=pink shape=box style=filled]
+	"Catherine.Tourneux" -> "Jean-Baptiste2.Choret" [color=grey style=dashed]
+	"Angélique.Rapidieu" [label="Angélique
+Rapidieu, Lamer" color=pink shape=box style=filled]
+	"Jean-Baptiste1.Choret" [label="Jean-Baptiste
+Choret" color=lightblue2 shape=box style=filled]
+	"Jean-Baptiste1.Choret" -> "Angélique.Rapidieu" [color=grey style=dashed]
+	"Jean-Baptiste1.Choret" [label="Jean-Baptiste
+Choret" color=lightblue2 shape=box style=filled]
+	"Marie-Anne.Baugis" [label="Marie-Anne
+Baugis" color=pink shape=box style=filled]
+	"Marie-Anne.Baugis" -> "Jean-Baptiste1.Choret" [color=pink style=solid]
+	"Pierre.Choret" [label="Pierre
+Choret" color=lightblue2 shape=box style=filled]
+	"Pierre.Choret" -> "Jean-Baptiste1.Choret" [color=lightblue2 style=solid]
+	"Angélique.Rapidieu" [label="Angélique
+Rapidieu, Lamer" color=pink shape=box style=filled]
+	"Angélique.Rapidieu" -> "Jean-Baptiste1.Choret" [color=grey style=dashed]
+	"Marie-Anne.Baugis" [label="Marie-Anne
+Baugis" color=pink shape=box style=filled]
+	"Jean-Baptiste2.Choret" [label="Jean-Baptiste
+Choret" color=lightblue2 shape=box style=filled]
+	"Jean-Baptiste2.Choret" -> "Marie-Anne.Baugis" [color=grey style=dashed]
+	"Pierre.Choret" [label="Pierre
+Choret" color=lightblue2 shape=box style=filled]
+	"Marie-Anne.Baugis" [label="Marie-Anne
+Baugis" color=pink shape=box style=filled]
+	"Marie-Anne.Baugis" -> "Pierre.Choret" [color=grey style=dashed]
 }
