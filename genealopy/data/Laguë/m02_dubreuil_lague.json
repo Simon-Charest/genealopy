@@ -61,20 +61,6 @@
     },
     "source" : "https://www.retronicdesign.com/genealogie/individual.php?ged=gradel&pid="
   },
-  "I603": {
-    "first_name": "Suzanne",
-    "last_name": "Laguë",
-    "gender": "F",
-    "birth": {
-      "date": "1950-05-16"
-    },
-    "relationship": {
-      "I110": { "type": "mother" },
-      "I109": { "type": "father" },
-      "I610": { "type": "union", "start": null, "end": null }
-    },
-    "source" : "https://www.retronicdesign.com/genealogie/individual.php?ged=gradel&pid="
-  },
   "I602": {
     "first_name": "Raymond",
     "last_name": "Laguë",

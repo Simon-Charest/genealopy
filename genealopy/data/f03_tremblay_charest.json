@@ -1,7 +1,7 @@
 {
   "511415": {
     "first_name": "Rita",
-    "last_name": "Tremblay",
+    "last_name": "Lacombe Tremblay",
     "gender": "F",
     "birth": {
       "date": "1923"
@@ -35,5 +35,87 @@
       "511415": { "type": "union", "start": "1946-08-31", "place": "St-Enfant-Jésus (Montréal), Québec, Canada"}
     },
     "source": "http://www.genealogie.org/bcentrale/arbre.asp?code_owner=214&code_individu="
+  },
+  "Hubert.Charest": {
+    "first_name": "Hubert",
+    "last_name": "Charest",
+    "gender": "M",
+    "relationship": {
+      "511418" : { "type":  "mother" },
+      "511417" : { "type":  "father" }
+    },
+    "source": "Famille Charest"
+  },
+  "Luc.Charest": {
+    "first_name": "Luc",
+    "last_name": "Charest",
+    "gender": "M",
+    "relationship": {
+      "511418" : { "type":  "mother" },
+      "511417" : { "type":  "father" }
+    },
+    "source": "Famille Charest"
+  },
+  "Denis.Charest": {
+    "first_name": "Denis",
+    "last_name": "Charest",
+    "gender": "M",
+    "relationship": {
+      "511418" : { "type":  "mother" },
+      "511417" : { "type":  "father" }
+    },
+    "source": "Famille Charest"
+  },
+  "Henriette.Charest": {
+    "first_name": "Henriette",
+    "last_name": "Charest",
+    "gender": "F",
+    "relationship": {
+      "511418" : { "type":  "mother" },
+      "511417" : { "type":  "father" },
+	  "Aurèle.Charette" : { "type":  "father" }
+    },
+    "source": "Famille Charest"
+  },
+  "Aurèle.Charette": {
+    "first_name": "Aurèle",
+    "last_name": "Charette",
+    "gender": "M",
+    "relationship": {
+	  "Louisa.Dion" : { "type":  "mother" },
+	  "Albert.Charette" : { "type":  "father" },
+	  "Henriette.Charest" : { "type":  "union" }
+    },
+    "source": "Famille Charest"
+  },
+  "Gilles.Charest": {
+    "first_name": "Gilles",
+    "last_name": "Charest",
+    "gender": "M",
+    "relationship": {
+      "511418" : { "type":  "mother" },
+      "511417" : { "type":  "father" },
+	  "Denise.Deslauriers" : { "type":  "union" }
+    },
+    "source": "Famille Charest"
+  },
+  "Denise.Deslauriers": {
+    "first_name": "Denise",
+    "last_name": "Deslauriers",
+    "gender": "F",
+    "relationship": {
+      "Gilles.Charest" : { "type":  "union" }
+    },
+    "source": "Famille Charest"
+  },
+  "Michelle.Charest": {
+    "first_name": "Michelle",
+    "last_name": "Charest",
+    "gender": "F",
+    "relationship": {
+      "511418" : { "type":  "mother" },
+      "511417" : { "type":  "father" }
+    },
+    "source": "Famille Charest"
   }
 }
