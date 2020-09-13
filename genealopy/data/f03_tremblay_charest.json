@@ -99,6 +99,26 @@
     },
     "source": "Famille Charest"
   },
+  "René.Charest": {
+    "first_name": "René",
+    "last_name": "Charest",
+    "gender": "M",
+    "relationship": {
+      "511418" : { "type":  "mother" },
+      "511417" : { "type":  "father" },
+	  "Huguette.Lafrance" : { "type":  "union" }
+    },
+    "source": "Famille Charest"
+  },
+  "Huguette.Lafrance": {
+    "first_name": "Huguette",
+    "last_name": "Lafrance",
+    "gender": "F",
+    "relationship": {
+	  "René.Charest" : { "type":  "union" }
+	},
+    "source": "Famille Charest"
+  },
   "Denise.Deslauriers": {
     "first_name": "Denise",
     "last_name": "Deslauriers",
@@ -116,6 +136,67 @@
       "511418" : { "type":  "mother" },
       "511417" : { "type":  "father" }
     },
+    "source": "Famille Charest"
+  },
+  "Céline.Charest": {
+    "first_name": "Céline",
+    "last_name": "Charest",
+    "gender": "F",
+    "relationship": {
+      "511418" : { "type":  "mother" },
+      "511417" : { "type":  "father" }
+    },
+    "source": "Famille Charest"
+  },
+  "Claude.Charest": {
+    "first_name": "Claude",
+    "last_name": "Charest",
+    "gender": "M",
+    "relationship": {
+      "511418" : { "type":  "mother" },
+      "511417" : { "type":  "father" }
+    },
+    "source": "Famille Charest"
+  },
+  "Yolande.Charest": {
+    "first_name": "Yolande",
+    "last_name": "Charest",
+    "gender": "F",
+    "gender": "F",
+    "gender": "F",
+    "relationship": {
+      "511418" : { "type":  "mother" },
+      "511417" : { "type":  "father" }
+    },
+    "source": "Famille Charest"
+  },
+  "André.Charest": {
+    "first_name": "André",
+    "last_name": "Charest",
+    "gender": "F",
+    "relationship": {
+      "511418" : { "type":  "mother" },
+      "511417" : { "type":  "father" }
+    },
+    "source": "Famille Charest"
+  },
+  "Lise.Charest": {
+    "first_name": "Lise",
+    "last_name": "Charest",
+    "gender": "F",
+    "relationship": {
+      "511418" : { "type":  "mother" },
+      "511417" : { "type":  "father" }
+    },
+    "source": "Famille Charest"
+  },
+  "Réjeanne.Favreau": {
+    "first_name": "Réjeanne",
+    "last_name": "Favreau",
+    "gender": "F",
+    "relationship": {
+	  "Denis.Charest" : { "type":  "union" }
+	},
     "source": "Famille Charest"
   }
 }

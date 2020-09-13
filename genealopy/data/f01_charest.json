@@ -72,25 +72,26 @@
     "last_name": "Charest",
     "gender": "M",
     "relationship": {
-      "Carole.Lamothe": { "type": "mother" }
+	  "Yvon.Charest": { "type": "father" }
     },
     "source" : "Famille Charest"
   },
-  "Marilou.Charest": {
-    "first_name": "Marilou",
+  "Bruno.Charest": {
+    "first_name": "Bruno",
     "last_name": "Charest",
-    "gender": "F",
+    "gender": "M",
     "relationship": {
-      "Carole.Lamothe": { "type": "mother" }
+	  "Yvon.Charest": { "type": "father" }
     },
     "source" : "Famille Charest"
   },
-  "Joanie.Charest": {
+  "Joannie.Charest": {
     "first_name": "Joanie",
     "last_name": "Charest",
     "gender": "F",
     "relationship": {
-      "Carole.Lamothe": { "type": "mother" }
+      "Carole.Lamothe": { "type": "mother" },
+	  "Yvon.Charest": { "type": "father" }
     },
     "source" : "Famille Charest"
   },
@@ -131,7 +132,7 @@
     "gender": "F",
     "relationship": {
 	  "Johanne.Archambault": { "type": "mother" },
-	  "André.Charest": { "type": "father" },
+	  "André2.Charest": { "type": "father" },
 	  "Sylvain.Leroux": { "type": "union" }
     },
     "source" : "Famille Charest"
@@ -151,7 +152,7 @@
     "gender": "F",
     "relationship": {
 	  "Johanne.Archambault": { "type": "mother" },
-	  "André.Charest": { "type": "father" },
+	  "André2.Charest": { "type": "father" },
 	  "Sylvain.Ostiguy": { "type": "union" }
     },
     "source" : "Famille Charest"
@@ -162,15 +163,6 @@
     "gender": "M",
     "relationship": {
 	  "Valérie.Charest": { "type": "union" }
-    },
-    "source" : "Famille Charest"
-  },
-  "Anthony.Charest": {
-    "first_name": "Anthony",
-    "last_name": "Charest",
-    "gender": "M",
-    "relationship": {
-      "Valérie.Charest": { "type": "mother" }
     },
     "source" : "Famille Charest"
   },
@@ -191,15 +183,6 @@
     "relationship": {
 	  "Christiane.Larente": { "type": "mother" },
 	  "Marcel.Charest": { "type": "father" }
-	},
-    "source" : "Famille Charest"
-  },
-  "Kyanna.Charest": {
-    "first_name": "Kyanna",
-    "last_name": "Charest-Charles",
-    "gender": "F",
-    "relationship": {
-	  "Sandra.Charest": { "type": "mother" }
 	},
     "source" : "Famille Charest"
   },
@@ -229,7 +212,17 @@
     "gender": "F",
     "relationship": {
 	  "Louise.Charest": { "type": "mother" },
-	  "Claude.Bigaouette": { "type": "father" }
+	  "Claude.Bigaouette": { "type": "father" },
+	  "Joé.Plouffe": { "type": "union" }
+	},
+    "source" : "Famille Charest"
+  },
+  "Joé.Plouffe": {
+    "first_name": "Joé",
+    "last_name": "Plouffe",
+    "gender": "M",
+    "relationship": {
+	  "Mélanie.Bigaouette": { "type": "union" }
 	},
     "source" : "Famille Charest"
   },
@@ -313,9 +306,39 @@
   },
   "Stéphanie.Charest": {
     "first_name": "Stéphanie",
-    "last_name":"Charest",
+    "last_name": "Charest",
     "gender": "F",
     "relationship": {},
+    "source" : "Famille Charest"
+  },
+  "Annie.Hogue": {
+    "first_name": "Annie",
+    "last_name": "Hogue",
+    "gender": "F",
+    "relationship": {
+	  "Monique.Charest": { "type": "mother" },
+	  "Michel.Hogue": { "type": "union" }
+	},
+    "source" : "Famille Charest"
+  },
+  "Judith.Hogue": {
+    "first_name": "Judith",
+    "last_name": "Hogue",
+    "gender": "F",
+    "relationship": {
+	  "Monique.Charest": { "type": "mother" },
+	  "Michel.Hogue": { "type": "union" }
+	},
+    "source" : "Famille Charest"
+  },
+  "Jean-Sébastien.Hogue": {
+    "first_name": "Jean-Sébastien",
+    "last_name": "Hogue",
+    "gender": "M",
+    "relationship": {
+	  "Monique.Charest": { "type": "mother" },
+	  "Michel.Hogue": { "type": "union" }
+	},
     "source" : "Famille Charest"
   }
 }
