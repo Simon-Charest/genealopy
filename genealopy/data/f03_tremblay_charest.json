@@ -1,4 +1,14 @@
 {
+  "Michelle.Charest": {
+    "first_name": "Michelle",
+    "last_name": "Charest",
+    "gender": "F",
+    "relationship": {
+      "511418" : { "type":  "mother" },
+      "511417" : { "type":  "father" }
+    },
+    "source": "Famille Charest"
+  },
   "511415": {
     "first_name": "Rita",
     "last_name": "Lacombe Tremblay",
@@ -46,59 +56,6 @@
     },
     "source": "Famille Charest"
   },
-  "Luc.Charest": {
-    "first_name": "Luc",
-    "last_name": "Charest",
-    "gender": "M",
-    "relationship": {
-      "511418" : { "type":  "mother" },
-      "511417" : { "type":  "father" }
-    },
-    "source": "Famille Charest"
-  },
-  "Denis.Charest": {
-    "first_name": "Denis",
-    "last_name": "Charest",
-    "gender": "M",
-    "relationship": {
-      "511418" : { "type":  "mother" },
-      "511417" : { "type":  "father" }
-    },
-    "source": "Famille Charest"
-  },
-  "Henriette.Charest": {
-    "first_name": "Henriette",
-    "last_name": "Charest",
-    "gender": "F",
-    "relationship": {
-      "511418" : { "type":  "mother" },
-      "511417" : { "type":  "father" },
-	  "Aurèle.Charette" : { "type":  "father" }
-    },
-    "source": "Famille Charest"
-  },
-  "Aurèle.Charette": {
-    "first_name": "Aurèle",
-    "last_name": "Charette",
-    "gender": "M",
-    "relationship": {
-	  "Louisa.Dion" : { "type":  "mother" },
-	  "Albert.Charette" : { "type":  "father" },
-	  "Henriette.Charest" : { "type":  "union" }
-    },
-    "source": "Famille Charest"
-  },
-  "Gilles.Charest": {
-    "first_name": "Gilles",
-    "last_name": "Charest",
-    "gender": "M",
-    "relationship": {
-      "511418" : { "type":  "mother" },
-      "511417" : { "type":  "father" },
-	  "Denise.Deslauriers" : { "type":  "union" }
-    },
-    "source": "Famille Charest"
-  },
   "René.Charest": {
     "first_name": "René",
     "last_name": "Charest",
@@ -117,25 +74,6 @@
     "relationship": {
 	  "René.Charest" : { "type":  "union" }
 	},
-    "source": "Famille Charest"
-  },
-  "Denise.Deslauriers": {
-    "first_name": "Denise",
-    "last_name": "Deslauriers",
-    "gender": "F",
-    "relationship": {
-      "Gilles.Charest" : { "type":  "union" }
-    },
-    "source": "Famille Charest"
-  },
-  "Michelle.Charest": {
-    "first_name": "Michelle",
-    "last_name": "Charest",
-    "gender": "F",
-    "relationship": {
-      "511418" : { "type":  "mother" },
-      "511417" : { "type":  "father" }
-    },
     "source": "Famille Charest"
   },
   "Céline.Charest": {
@@ -158,15 +96,24 @@
     },
     "source": "Famille Charest"
   },
-  "Yolande.Charest": {
-    "first_name": "Yolande",
+  "Luc.Charest": {
+    "first_name": "Luc",
     "last_name": "Charest",
+    "gender": "M",
+    "relationship": {
+      "511418" : { "type":  "mother" },
+      "511417" : { "type":  "father" }
+    },
+    "source": "Famille Charest"
+  },
+  "Yolande.Contant": {
+    "first_name": "Yolande",
+    "last_name": "Contant",
     "gender": "F",
     "gender": "F",
     "gender": "F",
     "relationship": {
-      "511418" : { "type":  "mother" },
-      "511417" : { "type":  "father" }
+      "Luc.Charest" : { "type":  "union" }
     },
     "source": "Famille Charest"
   },
@@ -176,17 +123,48 @@
     "gender": "F",
     "relationship": {
       "511418" : { "type":  "mother" },
-      "511417" : { "type":  "father" }
+      "511417" : { "type":  "father" },
+	  "Lise.Métayer" : { "type":  "union" }
     },
     "source": "Famille Charest"
   },
-  "Lise.Charest": {
+  "Lise.Métayer": {
     "first_name": "Lise",
-    "last_name": "Charest",
+    "last_name": "Métayer",
     "gender": "F",
     "relationship": {
+      "André.Charest" : { "type":  "union" }
+    },
+    "source": "Famille Charest"
+  },
+  "Gilles.Charest": {
+    "first_name": "Gilles",
+    "last_name": "Charest",
+    "gender": "M",
+    "relationship": {
       "511418" : { "type":  "mother" },
-      "511417" : { "type":  "father" }
+      "511417" : { "type":  "father" },
+	  "Denise.Deslauriers" : { "type":  "union" }
+    },
+    "source": "Famille Charest"
+  },
+  "Denise.Deslauriers": {
+    "first_name": "Denise",
+    "last_name": "Deslauriers",
+    "gender": "F",
+    "relationship": {
+      "Gilles.Charest" : { "type":  "union" }
+    },
+    "source": "Famille Charest"
+  },
+  "Denis.Charest": {
+    "first_name": "Denis",
+    "last_name": "Charest",
+    "gender": "M",
+    "relationship": {
+      "511418" : { "type":  "mother" },
+      "511417" : { "type":  "father" },
+	  "Réjeanne.Favreau" : { "type":  "union" }
     },
     "source": "Famille Charest"
   },
@@ -197,6 +175,39 @@
     "relationship": {
 	  "Denis.Charest" : { "type":  "union" }
 	},
+    "source": "Famille Charest"
+  },
+  "Henriette.Charest": {
+    "first_name": "Henriette",
+    "last_name": "Charest",
+    "gender": "F",
+    "relationship": {
+      "511418" : { "type":  "mother" },
+      "511417" : { "type":  "father" },
+	  "Aurèle.Charette" : { "type":  "father" }
+    },
+    "source": "Famille Charest"
+  },
+  "Francine.Charest": {
+    "first_name": "Francine",
+    "last_name": "Charest",
+    "gender": "F",
+    "relationship": {
+      "511418" : { "type":  "mother" },
+      "511417" : { "type":  "father" },
+	  "Aurèle.Charette" : { "type":  "father" }
+    },
+    "source": "Famille Charest"
+  },
+  "Aurèle.Charette": {
+    "first_name": "Aurèle",
+    "last_name": "Charette",
+    "gender": "M",
+    "relationship": {
+	  "Louisa.Dion" : { "type":  "mother" },
+	  "Albert.Charette" : { "type":  "father" },
+	  "Henriette.Charest" : { "type":  "union" }
+    },
     "source": "Famille Charest"
   }
 }
