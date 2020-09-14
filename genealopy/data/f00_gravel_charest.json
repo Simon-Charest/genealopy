@@ -40,8 +40,8 @@
     "source" : "data/Louise Bigaouette [Charest].pdf"
   },
   "Alyss.Auger": {
-    "first_name": "Naila",
-    "last_name": "Charest",
+    "first_name": "Alyss",
+    "last_name": "Auger",
     "gender": "F",
     "relationship": {
 	  "Isabel.Charest": { "type": "mother" },

@@ -1,0 +1,32 @@
+{
+  "Sophia.Zvinyatskovsky": {
+    "first_name": "Sophia",
+    "last_name": "Zvinyatskovsky",
+    "gender": "F",
+    "relationship": {
+	  "Marie-Noel.Bouchard": { "type": "mother" },
+	  "Dimitry.Zvinyatskovsky": { "type": "father" }
+	},
+    "source" : "data/Louise Bigaouette [Charest].pdf"
+  },
+  "Benjamin.Sawyer": {
+    "first_name": "Benjamin",
+    "last_name": "Sawyer",
+    "gender": "M",
+    "relationship": {
+	  "Marie-Noel.Bouchard": { "type": "mother" },
+	  "Marc.Sawyer": { "type": "father" }
+	},
+    "source" : "data/Louise Bigaouette [Charest].pdf"
+  },
+  "Jérémi.Sawyer": {
+    "first_name": "Jérémi",
+    "last_name": "Sawyer",
+    "gender": "M",
+    "relationship": {
+	  "Marie-Noel.Bouchard": { "type": "mother" },
+	  "Marc.Sawyer": { "type": "father" }
+	},
+    "source" : "data/Louise Bigaouette [Charest].pdf"
+  }
+}

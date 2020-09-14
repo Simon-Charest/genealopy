@@ -1,0 +1,22 @@
+{
+  "Améliane.Hogue": {
+    "first_name": "Améliane",
+    "last_name": "Hogue",
+    "gender": "F",
+    "relationship": {
+	  "Cynthia.Morin": { "type": "mother" },
+	  "Jean-Sébastien.Hogue": { "type": "father" }
+	},
+    "source" : "data/Louise Bigaouette [Charest].pdf"
+  },
+  "Nolan.Hogue": {
+    "first_name": "Nolan",
+    "last_name": "Hogue",
+    "gender": "M",
+    "relationship": {
+	  "Cynthia.Morin": { "type": "mother" },
+	  "Jean-Sébastien.Hogue": { "type": "father" }
+	},
+    "source" : "data/Louise Bigaouette [Charest].pdf"
+  }
+}

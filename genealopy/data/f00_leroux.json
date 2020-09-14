@@ -1,0 +1,12 @@
+{
+  "M.Leroux": {
+    "first_name": "M",
+    "last_name": "Leroux",
+    "gender": "M",
+    "relationship": {
+	  "Judith.Charest": { "type": "mother" },
+	  "Sylvain.Leroux": { "type": "father" }
+	},
+    "source" : "data/Louise Bigaouette [Charest].pdf"
+  }
+}

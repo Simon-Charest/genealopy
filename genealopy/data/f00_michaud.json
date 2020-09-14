@@ -1,0 +1,12 @@
+{
+  "Gabriel.Michaud": {
+    "first_name": "Gabriel",
+    "last_name": "Michaud",
+    "gender": "M",
+    "relationship": {
+	  "Caroline.Dagenais": { "type": "mother" },
+	  "Cédric.Michaud": { "type": "father" }
+	},
+    "source" : "data/Louise Bigaouette [Charest].pdf"
+  }
+}

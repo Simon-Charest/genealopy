@@ -1,0 +1,22 @@
+{
+  "Kassandre.Lemay": {
+    "first_name": "Kassandre",
+    "last_name": "Lemay",
+    "gender": "F",
+    "relationship": {
+	  "Josée.Turennes": { "type": "mother" },
+	  "Denis.Lemay": { "type": "father" }
+	},
+    "source" : "data/Louise Bigaouette [Charest].pdf"
+  },
+  "Marilou.Lemay": {
+    "first_name": "Marilou",
+    "last_name": "Lemay",
+    "gender": "F",
+    "relationship": {
+	  "Josée.Turennes": { "type": "mother" },
+	  "Denis.Lemay": { "type": "father" }
+	},
+    "source" : "data/Louise Bigaouette [Charest].pdf"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "Élody.Pilon": {
+    "first_name": "Élody",
+    "last_name": "Pilon",
+    "gender": "F",
+    "relationship": {
+	  "Geneviève.Bouchard": { "type": "mother" },
+	  "M.Pilon": { "type": "father" }
+	},
+    "source" : "data/Louise Bigaouette [Charest].pdf"
+  },
+  "Camille.Pilon": {
+    "first_name": "Camille",
+    "last_name": "Pilon",
+    "gender": "F",
+    "relationship": {
+	  "Geneviève.Bouchard": { "type": "mother" },
+	  "M.Pilon": { "type": "father" }
+	},
+    "source" : "data/Louise Bigaouette [Charest].pdf"
+  }
+}

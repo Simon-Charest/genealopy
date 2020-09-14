@@ -1,0 +1,22 @@
+{
+  "Thomas.Bouchard": {
+    "first_name": "Thomas",
+    "last_name": "Bouchard",
+    "gender": "M",
+    "relationship": {
+	  "Christine.Girard": { "type": "mother" },
+	  "Sébastien.Bouchard": { "type": "father" }
+	},
+    "source" : "data/Louise Bigaouette [Charest].pdf"
+  },
+  "Eugénie.Bouchard": {
+    "first_name": "Eugénie",
+    "last_name": "Bouchard",
+    "gender": "F",
+    "relationship": {
+	  "Christine.Girard": { "type": "mother" },
+	  "Sébastien.Bouchard": { "type": "father" }
+	},
+    "source" : "data/Louise Bigaouette [Charest].pdf"
+  }
+}

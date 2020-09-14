@@ -1,0 +1,32 @@
+{
+  "Zachary.Ouimet": {
+    "first_name": "Kim",
+    "last_name": "Gauthier",
+    "gender": "M",
+    "relationship": {
+	  "Karine.Rousseau": { "type": "mother" },
+	  "Francis.Ouimet": { "type": "father" }
+	},
+    "source" : "data/Louise Bigaouette [Charest].pdf"
+  },
+  "Justin.Ouimet": {
+    "first_name": "Justin",
+    "last_name": "Ouimet",
+    "gender": "M",
+    "relationship": {
+	  "Karine.Rousseau": { "type": "mother" },
+	  "Francis.Ouimet": { "type": "father" }
+	},
+    "source" : "data/Louise Bigaouette [Charest].pdf"
+  },
+  "Alexis.Ouimet": {
+    "first_name": "Alexis",
+    "last_name": "Ouimet",
+    "gender": "M",
+    "relationship": {
+	  "Karine.Rousseau": { "type": "mother" },
+	  "Francis.Ouimet": { "type": "father" }
+	},
+    "source" : "data/Louise Bigaouette [Charest].pdf"
+  }
+}

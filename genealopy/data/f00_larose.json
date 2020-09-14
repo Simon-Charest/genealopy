@@ -1,0 +1,22 @@
+{
+  "Émile.Larose": {
+    "first_name": "Émile",
+    "last_name": "Larose",
+    "gender": "M",
+    "relationship": {
+	  "Isabelle.Therrien": { "type": "mother" },
+	  "Maxim.Larose": { "type": "father" }
+	},
+    "source" : "data/Louise Bigaouette [Charest].pdf"
+  },
+  "Julien.Larose": {
+    "first_name": "Julien",
+    "last_name": "Larose",
+    "gender": "M",
+    "relationship": {
+	  "Isabelle.Therrien": { "type": "mother" },
+	  "Maxim.Larose": { "type": "father" }
+	},
+    "source" : "data/Louise Bigaouette [Charest].pdf"
+  }
+}

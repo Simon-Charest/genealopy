@@ -1,0 +1,12 @@
+{
+  "Thomas.Verrette": {
+    "first_name": "Thomas",
+    "last_name": "Verrette",
+    "gender": "F",
+    "relationship": {
+	  "Judith.Hogue": { "type": "mother" },
+	  "François.Verrette": { "type": "father" }
+	},
+    "source" : "data/Louise Bigaouette [Charest].pdf"
+  }
+}

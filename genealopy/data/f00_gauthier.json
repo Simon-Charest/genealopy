@@ -1,0 +1,12 @@
+{
+  "Kim.Gauthier": {
+    "first_name": "Kim",
+    "last_name": "Gauthier",
+    "gender": "F",
+    "relationship": {
+	  "Mélissa.Beauséjour": { "type": "mother" },
+	  "Philippe.Gauthier": { "type": "father" }
+	},
+    "source" : "data/Louise Bigaouette [Charest].pdf"
+  }
+}
