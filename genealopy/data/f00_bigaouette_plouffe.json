@@ -1,0 +1,42 @@
+{
+  "William.Plouffe": {
+    "first_name": "William",
+    "last_name": "Plouffe",
+    "gender": "M",
+    "relationship": {
+	  "Mélanie.Bigaouette": { "type": "mother" },
+	  "Joé.Plouffe": { "type": "father" }
+	},
+    "source" : "Famille Charest"
+  },
+  "Nicolas.Plouffe": {
+    "first_name": "Nicolas",
+    "last_name": "Plouffe",
+    "gender": "M",
+    "relationship": {
+	  "Mélanie.Bigaouette": { "type": "mother" },
+	  "Joé.Plouffe": { "type": "father" }
+	},
+    "source" : "Famille Charest"
+  },
+  "Jessy.Plouffe": {
+    "first_name": "Jessy",
+    "last_name": "Plouffe",
+    "gender": "M",
+    "relationship": {
+	  "Mélanie.Bigaouette": { "type": "mother" },
+	  "Joé.Plouffe": { "type": "father" }
+	},
+    "source" : "Famille Charest"
+  },
+  "Étienne.Plouffe": {
+    "first_name": "Étienne",
+    "last_name": "Plouffe",
+    "gender": "M",
+    "relationship": {
+	  "Mélanie.Bigaouette": { "type": "mother" },
+	  "Joé.Plouffe": { "type": "father" }
+	},
+    "source" : "Famille Charest"
+  }
+}
