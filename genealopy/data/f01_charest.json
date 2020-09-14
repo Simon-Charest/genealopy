@@ -101,7 +101,7 @@
   "Sylvain.Leroux": {
     "first_name": "Sylvain",
     "last_name": "Leroux",
-    "gender": "F",
+    "gender": "M",
     "relationship": {
 	  "Judith.Charest": { "type": "union" }
     },
@@ -153,9 +153,19 @@
     "gender": "F",
     "relationship": {
 	  "Christiane.Larente": { "type": "mother" },
-	  "Marcel.Charest": { "type": "father" }
+	  "Marcel.Charest": { "type": "father" },
+      "Rolf.Charles": { "type": "union" }
 	},
     "source" : "Famille Charest"
+  },
+  "Rolf.Charles": {
+    "first_name": "Rolf",
+    "last_name": "Charles",
+    "gender": "M",
+    "relationship": {
+      "Sandra.Charest": { "type": "union" }
+    },
+    "source": "Famille Charest"
   },
   "Sonia.Charest": {
     "first_name": "Sonia",

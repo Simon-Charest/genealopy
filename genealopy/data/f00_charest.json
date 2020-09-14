@@ -1,4 +1,13 @@
 {
+  "Kevin.Ostiguy": {
+    "first_name": "Kevin",
+    "last_name": "Ostiguy",
+    "gender": "M",
+    "relationship": {
+      "Sylvain.Ostiguy": { "type": "father" }
+    },
+    "source" : "Famille Charest"
+  },
   "Anthony.Charest": {
     "first_name": "Anthony",
     "last_name": "Charest-Drouin",
@@ -14,7 +23,48 @@
     "last_name": "Charest-Charles",
     "gender": "F",
     "relationship": {
-	  "Sandra.Charest": { "type": "mother" }
+	  "Sandra.Charest": { "type": "mother" },
+      "Rolf.Charles": { "type": "father" }
+	},
+    "source" : "Famille Charest"
+  },
+  "Arély.Leroux": {
+    "first_name": "Kyanna",
+    "last_name": "Charest-Charles",
+    "gender": "F",
+    "relationship": {
+	  "Sandra.Charest": { "type": "mother" },
+      "Rolf.Charles": { "type": "father" }
+	},
+    "source" : "Famille Charest"
+  },
+  "Arély.Leroux": {
+    "first_name": "Arély",
+    "last_name": "Leroux",
+    "gender": "F",
+    "relationship": {
+	  "Judith.Charest": { "type": "mother" },
+      "Sylvain.Leroux": { "type": "father" }
+	},
+    "source" : "Famille Charest"
+  },
+  "Séléna.Leroux": {
+    "first_name": "Séléna",
+    "last_name": "Leroux",
+    "gender": "F",
+    "relationship": {
+	  "Judith.Charest": { "type": "mother" },
+      "Sylvain.Leroux": { "type": "father" }
+	},
+    "source" : "Famille Charest"
+  },
+  "Nolan.Leroux": {
+    "first_name": "Nolan",
+    "last_name": "Leroux",
+    "gender": "M",
+    "relationship": {
+	  "Judith.Charest": { "type": "mother" },
+      "Sylvain.Leroux": { "type": "father" }
 	},
     "source" : "Famille Charest"
   }
