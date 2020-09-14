@@ -242,7 +242,7 @@
     "gender": "F",
     "relationship": {
 	  "Louise.Charest": { "type": "mother" },
-	  "Claude.Bigaouette": { "type": "father" },
+	  "Jean-Claude.Bigaouette": { "type": "father" },
 	  "Joé.Plouffe": { "type": "union" }
 	},
     "source" : "Famille Charest"
@@ -262,7 +262,7 @@
     "gender": "M",
     "relationship": {
 	  "Louise.Charest": { "type": "mother" },
-	  "Claude.Bigaouette": { "type": "father" }
+	  "Jean-Claude.Bigaouette": { "type": "father" }
 	},
     "source" : "Famille Charest"
   },

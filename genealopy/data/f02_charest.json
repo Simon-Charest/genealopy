@@ -150,8 +150,8 @@
 	},
     "source" : "Famille Charest"
   },
-  "Claude.Bigaouette": {
-    "first_name": "Claude",
+  "Jean-Claude.Bigaouette": {
+    "first_name": "Jean-Claude",
     "last_name": "Bigaouette",
     "gender": "M",
     "relationship": {
