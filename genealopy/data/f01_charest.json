@@ -302,7 +302,7 @@
     "gender": "F",
     "relationship": {
 	  "Monique.Charest": { "type": "mother" },
-	  "Michel.Hogue": { "type": "union" }
+	  "Michel.Hogue": { "type": "father" }
 	},
     "source" : "Famille Charest"
   },
@@ -312,7 +312,7 @@
     "gender": "F",
     "relationship": {
 	  "Monique.Charest": { "type": "mother" },
-	  "Michel.Hogue": { "type": "union" },
+	  "Michel.Hogue": { "type": "father" },
       "François.Verrette": { "type": "union" }
 	},
     "source" : "Famille Charest"
@@ -332,7 +332,7 @@
     "gender": "M",
     "relationship": {
 	  "Monique.Charest": { "type": "mother" },
-	  "Michel.Hogue": { "type": "union" },
+	  "Michel.Hogue": { "type": "father" },
       "Cynthia.Morin": { "type": "union" }
 	},
     "source" : "Famille Charest"
