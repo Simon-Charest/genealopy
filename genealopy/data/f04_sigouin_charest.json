@@ -34,6 +34,8 @@
     "last_name": "Charette",
     "gender": "M",
     "relationship": {
+      "Rose de Lima.Mondoux" : { "type":  "mother" },
+      "Servini.Charette" : { "type":  "father" },
 	  "Louisa.Dion" : { "type":  "union" }
     },
     "source": "Famille Charest"

@@ -203,8 +203,6 @@
     "last_name": "Greaschepe",
     "gender": "F",
     "relationship": {
-      "511418" : { "type":  "mother" },
-      "511417" : { "type":  "father" },
 	  "Denis.Charest": { "type":  "union" }
     },
     "source": "Famille Charest"

@@ -16,5 +16,25 @@
       "Caroline.Brien": { "type": "union" }
     },
     "source": "data/Simon Charest.pdf"
+  },
+  "Servini2.Charette": {
+    "first_name": "Servini (Sylvain Sévère)",
+    "last_name": "Charette",
+    "gender": "M",
+    "relationship": {
+      "Julie.Demers": { "type": "mother" },
+      "Damase.Chauret": { "type": "father" },
+	  "Angélina.Perpétue" : { "type":  "union" }
+    },
+    "source": "Famille Charest"
+  },
+  "Angélina.Perpétue": {
+    "first_name": "Angélina (Rose)",
+    "last_name": "Perpétue",
+    "gender": "F",
+    "relationship": {
+	  "Servini2.Charette" : { "type":  "union" }
+    },
+    "source": "Famille Charest"
   }
 }
