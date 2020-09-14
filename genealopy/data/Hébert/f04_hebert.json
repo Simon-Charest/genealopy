@@ -1,0 +1,38 @@
+{
+  "Charles.Hébert": {
+    "first_name": "Charles",
+    "last_name": "Hébert",
+    "gender": "M",
+    "relationship": {
+      "Marie Éliza.Gadouas" : { "type":  "union" }
+    },
+    "source": "Famille Charest"
+  },
+  "Marie Éliza.Gadouas": {
+    "first_name": "Marie Éliza",
+    "last_name": "Gadouas",
+    "gender": "F",
+    "relationship": {
+      "Charles.Hébert" : { "type":  "union" }
+    },
+    "source": "Famille Charest"
+  },
+  "Madeleine.Hébert": {
+    "first_name": "Madeleine",
+    "last_name": "Hébert",
+    "gender": "F",
+    "relationship": {
+      "Lucien.Beaulieu" : { "type":  "union" }
+    },
+    "source": "Famille Charest"
+  },
+  "Lucien.Beaulieu": {
+    "first_name": "Lucien",
+    "last_name": "Beaulieu",
+    "gender": "M",
+    "relationship": {
+      "Madeleine.Hébert" : { "type":  "union" }
+    },
+    "source": "Famille Charest"
+  }
+}

@@ -1,0 +1,192 @@
+{
+  "Denise.Bouchard": {
+    "first_name": "Denise",
+    "last_name": "Bouchard",
+    "gender": "F",
+    "relationship": {
+      "Cécile.Hébert": { "type": "mother" },
+      "Ambroise.Bouchard": { "type": "father" },
+      "Lionel.Lemay": { "type": "union" }
+    },
+    "source" : "Famille Charest"
+  },
+  "Lionel.Lemay": {
+    "first_name": "Lionel",
+    "last_name": "Lemay",
+    "gender": "M",
+    "relationship": {
+      "Denise.Bouchard": { "type": "union" }
+    },
+    "source" : "Famille Charest"
+  },
+  "Micheline.Bouchard": {
+    "first_name": "Denise",
+    "last_name": "Bouchard",
+    "gender": "F",
+    "relationship": {
+      "Cécile.Hébert": { "type": "mother" },
+      "Ambroise.Bouchard": { "type": "father" },
+      "Yvon.Vigneault": { "type": "union" }
+    },
+    "source" : "Famille Charest"
+  },
+  "Yvon.Vigneault": {
+    "first_name": "Yvon",
+    "last_name": "Vigneault",
+    "gender": "M",
+    "relationship": {
+      "Micheline.Bouchard": { "type": "union" }
+    },
+    "source" : "Famille Charest"
+  },
+  "Michel.Bouchard": {
+    "first_name": "Michel",
+    "last_name": "Bouchard",
+    "gender": "M",
+    "relationship": {
+      "Cécile.Hébert": { "type": "mother" },
+      "Ambroise.Bouchard": { "type": "father" },
+      "Solange.Préfontaine": { "type": "union" }
+    },
+    "source" : "Famille Charest"
+  },
+  "Solange.Préfontaine": {
+    "first_name": "Solange",
+    "last_name": "Préfontaine",
+    "gender": "F",
+    "relationship": {
+      "Michel.Bouchard": { "type": "union" }
+    },
+    "source" : "Famille Charest"
+  },
+  "Gaétan.Bouchard": {
+    "first_name": "Gaétan",
+    "last_name": "Bouchard",
+    "gender": "M",
+    "relationship": {
+      "Cécile.Hébert": { "type": "mother" },
+      "Ambroise.Bouchard": { "type": "father" },
+      "Sonia.Caron": { "type": "union" }
+    },
+    "source" : "Famille Charest"
+  },
+  "Sonia.Caron": {
+    "first_name": "Sonia",
+    "last_name": "Caron",
+    "gender": "F",
+    "relationship": {
+      "Gaétan.Bouchard": { "type": "union" }
+    },
+    "source" : "Famille Charest"
+  },
+  "Monique.Bouchard": {
+    "first_name": "Monique",
+    "last_name": "Bouchard",
+    "gender": "F",
+    "relationship": {
+      "Cécile.Hébert": { "type": "mother" },
+      "Ambroise.Bouchard": { "type": "father" },
+      "Jacques.Beauséjour": { "type": "union" }
+    },
+    "source" : "Famille Charest"
+  },
+  "Jacques.Beauséjour": {
+    "first_name": "Jacques",
+    "last_name": "Beauséjour",
+    "gender": "M",
+    "relationship": {
+      "Monique.Bouchard": { "type": "union" }
+    },
+    "source" : "Famille Charest"
+  },
+  "Francine.Bouchard": {
+    "first_name": "Francine",
+    "last_name": "Bouchard",
+    "gender": "F",
+    "relationship": {
+      "Cécile.Hébert": { "type": "mother" },
+      "Ambroise.Bouchard": { "type": "father" },
+      "Bernard.Rousseau": { "type": "union" }
+    },
+    "source" : "Famille Charest"
+  },
+  "Bernard.Rousseau": {
+    "first_name": "Bernard",
+    "last_name": "Rousseau",
+    "gender": "M",
+    "relationship": {
+      "Francine.Bouchard": { "type": "union" }
+    },
+    "source" : "Famille Charest"
+  },
+  "Bertrand.Bouchard": {
+    "first_name": "Bertrand",
+    "last_name": "Bouchard",
+    "gender": "M",
+    "relationship": {
+      "Cécile.Hébert": { "type": "mother" },
+      "Ambroise.Bouchard": { "type": "father" },
+      "Manon.Duplantis": { "type": "union" }
+    },
+    "source" : "Famille Charest"
+  },
+  "Manon.Duplantis": {
+    "first_name": "Manon",
+    "last_name": "Duplantis",
+    "gender": "F",
+    "relationship": {
+      "Bertrand.Bouchard": { "type": "union" }
+    },
+    "source" : "Famille Charest"
+  },
+  "Lise.Bouchard": {
+    "first_name": "Lise",
+    "last_name": "Bouchard",
+    "gender": "F",
+    "relationship": {
+      "Cécile.Hébert": { "type": "mother" },
+      "Ambroise.Bouchard": { "type": "father" },
+      "Mario.Michaud": { "type": "union" }
+    },
+    "source" : "Famille Charest"
+  },
+  "Mario.Michaud": {
+    "first_name": "Mario",
+    "last_name": "Michaud",
+    "gender": "M",
+    "relationship": {
+      "Lise.Bouchard": { "type": "union" }
+    },
+    "source" : "Famille Charest"
+  },
+  "Guylaine.Bouchard": {
+    "first_name": "Guylaine",
+    "last_name": "Bouchard",
+    "gender": "F",
+    "relationship": {
+      "Cécile.Hébert": { "type": "mother" },
+      "Ambroise.Bouchard": { "type": "father" }
+    },
+    "source" : "Famille Charest"
+  },
+  "Louis.Bouchard": {
+    "first_name": "Louis",
+    "last_name": "Bouchard",
+    "gender": "M",
+    "relationship": {
+      "Cécile.Hébert": { "type": "mother" },
+      "Ambroise.Bouchard": { "type": "father" },
+      "Marie-Berthe.Bernier": { "type": "union" }
+    },
+    "source" : "Famille Charest"
+  },
+  "Marie-Berthe.Bernier": {
+    "first_name": "Marie-Berthe",
+    "last_name": "Bernier",
+    "gender": "F",
+    "relationship": {
+      "Louis.Bouchard": { "type": "union" }
+    },
+    "source" : "Famille Charest"
+  }
+}

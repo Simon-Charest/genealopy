@@ -1,0 +1,24 @@
+{
+  "Cécile.Hébert": {
+    "first_name": "Cécile",
+    "last_name": "Hébert",
+    "gender": "F",
+    "relationship": {
+      "Marie Éliza.Gadouas" : { "type":  "mother" },
+      "Charles.Hébert" : { "type":  "father" },
+	  "Ambroise.Bouchard" : { "type":  "union" }
+    },
+    "source": "Famille Charest"
+  },
+  "Ambroise.Bouchard": {
+    "first_name": "Ambroise",
+    "last_name": "Bouchard",
+    "gender": "M",
+    "relationship": {
+      "Alma.Fortin" : { "type":  "mother" },
+      "Thomas.Bouchard" : { "type":  "father" },
+	  "Cécile.Hébert" : { "type":  "union" }
+    },
+    "source": "Famille Charest"
+  }
+}

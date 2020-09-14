@@ -1,0 +1,61 @@
+{
+  "Marc.Charest": {
+    "first_name": "Marc",
+    "last_name": "Charest",
+    "gender": "M",
+    "relationship": {
+	  "Jocelyne.Dulude": { "type": "mother" },
+      "Gilles2.Charest": { "type": "father" }
+    },
+    "source" : null
+  },
+  "Annie.Charest": {
+    "first_name": "Annie",
+    "last_name": "Charest",
+    "gender": "F",
+    "relationship": {
+	  "Jocelyne.Dulude": { "type": "mother" },
+      "Gilles2.Charest": { "type": "father" }
+    },
+    "source" : null
+  },
+  "Daniel.Marcil": {
+    "first_name": "Daniel",
+    "last_name": "Marcil",
+    "gender": "M",
+    "relationship": {
+      "Ghislaine.Charest": { "type": "mother" }
+    },
+    "source" : null
+  },
+  "Julie.Marcil": {
+    "first_name": "Julie",
+    "last_name": "Marcil",
+	"death": "2003-08-19",
+    "gender": "F",
+    "relationship": {
+      "Ghislaine.Charest": { "type": "mother" }
+    },
+    "source" : null
+  },
+  "Laurence.Charest": {
+    "first_name": "Laurence",
+    "last_name": "Charest",
+    "gender": "F",
+    "relationship": {
+	  "Christine": { "type": "mother" },
+      "Jean.Charest": { "type": "father" }
+    },
+    "source" : null
+  },
+  "Thomas.Charest": {
+    "first_name": "Thomas",
+    "last_name": "Charest",
+    "gender": "M",
+    "relationship": {
+	  "Danielle.Mayer": { "type": "mother" },
+      "Jean.Charest": { "type": "father" }
+    },
+    "source" : "data/Arsène Turgeon-Angeline Truchon.pdf"
+  }
+}

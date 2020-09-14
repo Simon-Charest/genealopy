@@ -1,0 +1,42 @@
+{
+  "Partick.Denny": {
+    "first_name": "Partick",
+    "last_name": "Denny",
+    "gender": "M",
+    "relationship": {
+      "Johanne.Beaulieu": { "type": "mother" },
+      "M.Denny": { "type": "father" }
+    },
+    "source": "Famille Charest"
+  },
+  "Philip.Denny": {
+    "first_name": "Philip",
+    "last_name": "Denny",
+    "gender": "M",
+    "relationship": {
+      "Johanne.Beaulieu": { "type": "mother" },
+      "M.Denny": { "type": "father" }
+    },
+    "source": "Famille Charest"
+  },
+  "M.Tzegai-Teferi": {
+    "first_name": "M",
+    "last_name": "Tzegai-Teferi",
+    "gender": "M",
+    "relationship": {
+      "Carole.Beaulieu": { "type": "mother" },
+      "Solomon.Tzegai-Teferi": { "type": "father" }
+    },
+    "source": "Famille Charest"
+  },
+  "Charlie.Hébert": {
+    "first_name": "Charlie",
+    "last_name": "Hébert",
+    "gender": "M",
+    "relationship": {
+      "Lyne.Hébert": { "type": "mother" },
+      "Daniel.Hébert": { "type": "father" }
+    },
+    "source": "Famille Charest"
+  }
+}

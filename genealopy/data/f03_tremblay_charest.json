@@ -118,11 +118,11 @@
     "source": "Famille Charest"
   },
   "Rita.Léonard": {
-    "first_name": "Claude",
-    "last_name": "Charest",
+    "first_name": "Rita",
+    "last_name": "Léonard",
     "gender": "F",
     "relationship": {
-      "Claude.Charest" : { "type":  "union" }
+      "Claude2.Charest" : { "type":  "union" }
     },
     "source": "Famille Charest"
   },
@@ -271,25 +271,12 @@
     },
     "source": "Famille Charest"
   },
-  "Cécile.Hébert": {
-    "first_name": "Cécile",
-    "last_name": "Hébert",
-    "gender": "F",
+  "Jacques.Monette": {
+    "first_name": "Jacques",
+    "last_name": "Monette",
+    "gender": "M",
     "relationship": {
-      "Marie Éliza.Gadouas" : { "type":  "mother" },
-      "Charles.Hébert" : { "type":  "father" },
-	  "Ambroise.Bouchard" : { "type":  "union" }
-    },
-    "source": "Famille Charest"
-  },
-  "Ambroise.Bouchard": {
-    "first_name": "Ambroise",
-    "last_name": "Bouchard",
-    "gender": "F",
-    "relationship": {
-      "Alma.Fortin" : { "type":  "mother" },
-      "Thomas.Bouchard" : { "type":  "father" },
-	  "Cécile.Hébert" : { "type":  "union" }
+	  "Francine.Charest" : { "type":  "union" }
     },
     "source": "Famille Charest"
   }

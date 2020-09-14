@@ -1,0 +1,31 @@
+{
+  "Johannie.Bayard": {
+    "first_name": "Johannie",
+    "last_name": "Bayard",
+    "gender": "F",
+    "relationship": {
+      "Johanne.Charest": { "type": "mother" },
+      "Michel.Bayard": { "type": "father" }
+    },
+    "source": "Famille Charest"
+  },
+  "Nicholas.Pinet": {
+    "first_name": "Nicholas",
+    "last_name": "Pinet",
+    "gender": "M",
+    "relationship": {
+      "Johannie.Bayard": { "type": "union" }
+    },
+    "source": "Famille Charest"
+  },
+  "Marie-Michelle.Bayard": {
+    "first_name": "Marie-Michelle",
+    "last_name": "Bayard",
+    "gender": "F",
+    "relationship": {
+      "Johanne.Charest": { "type": "mother" },
+      "Michel.Bayard": { "type": "father" }
+    },
+    "source": "Famille Charest"
+  }
+}
