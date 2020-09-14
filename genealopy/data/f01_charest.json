@@ -242,7 +242,8 @@
     "gender": "F",
     "relationship": {
 	  "Ginette.Gravel": { "type": "mother" },
-	  "Pierre.Charest": { "type": "father" }
+	  "Pierre.Charest": { "type": "father" },
+      "Nick.Auger": { "type": "union" }
 	},
     "source" : "Famille Charest"
   },
@@ -251,7 +252,7 @@
     "last_name": "Auger",
     "gender": "M",
     "relationship": {
-	  "Nick.Auger": { "type": "union" }
+	  "Isabel.Charest": { "type": "union" }
 	},
     "source" : "Famille Charest"
   },
@@ -267,9 +268,9 @@
     "source" : "Famille Charest"
   },
   "Francis.Tobin": {
-    "first_name": "Jessika",
-    "last_name": "Charest",
-    "gender": "F",
+    "first_name": "Francis",
+    "last_name": "Tobin",
+    "gender": "M",
     "relationship": {
 	  "Jessika.Charest": { "type": "union" }
 	},
@@ -644,7 +645,7 @@
     "source": "Famille Charest"
   },
   "Nicholas.Monette": {
-    "first_name": "Robin",
+    "first_name": "Nicholas",
     "last_name": "Monette",
     "gender": "M",
     "relationship": {
@@ -654,7 +655,7 @@
     "source": "Famille Charest"
   },
   "Hugo.Monette": {
-    "first_name": "Robin",
+    "first_name": "Hugo",
     "last_name": "Monette",
     "gender": "M",
     "relationship": {
@@ -664,7 +665,7 @@
     "source": "Famille Charest"
   },
   "Philippe.Monette": {
-    "first_name": "Robin",
+    "first_name": "Philippe",
     "last_name": "Monette",
     "gender": "M",
     "relationship": {
@@ -700,6 +701,16 @@
     "relationship": {
       "Caroline.Paradis": { "type": "mother" },
       "François.Charest": { "type": "father" }
+    },
+    "source": "Famille Charest"
+  },
+  "Laurence2.Charest": {
+    "first_name": "Laurence",
+    "last_name": "Charest",
+    "gender": "F",
+    "relationship": {
+      "Hélène.LaManna": { "type": "mother" },
+      "Jacques.Charest": { "type": "father" }
     },
     "source": "Famille Charest"
   }

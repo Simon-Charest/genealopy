@@ -220,7 +220,8 @@
     "relationship": {
 	  "Fleurette.Hébert": { "type": "mother" },
 	  "Hubert.Charest": { "type": "father" },
-      "Ginette.Gravel": { "type": "union" }
+      "Ginette.Gravel": { "type": "union" },
+      "Chantal.Leblond": { "type": "union" }
 	},
     "source" : "Famille Charest"
   },
