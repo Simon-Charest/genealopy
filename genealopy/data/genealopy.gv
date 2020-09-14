@@ -1274,7 +1274,7 @@ Charest" color=pink shape=box style=filled]
 Métayer" color=pink shape=box style=filled]
 	"Lise.Métayer" -> "Diane.Charest" [color=pink style=solid]
 	"André.Charest" [label="André
-Charest" color=pink shape=box style=filled]
+Charest" color=lightblue2 shape=box style=filled]
 	"André.Charest" -> "Diane.Charest" [color=lightblue2 style=solid]
 	"Georges.Lessard" [label="Georges
 Lessard" color=lightblue2 shape=box style=filled]
@@ -1290,7 +1290,7 @@ Charest" color=pink shape=box style=filled]
 Métayer" color=pink shape=box style=filled]
 	"Lise.Métayer" -> "Hélène.Charest" [color=pink style=solid]
 	"André.Charest" [label="André
-Charest" color=pink shape=box style=filled]
+Charest" color=lightblue2 shape=box style=filled]
 	"André.Charest" -> "Hélène.Charest" [color=lightblue2 style=solid]
 	"Harvey.Young" [label="Harvey
 Young" color=lightblue2 shape=box style=filled]
@@ -1584,7 +1584,7 @@ Contant" color=pink shape=box style=filled]
 Charest" color=lightblue2 shape=box style=filled]
 	"Luc.Charest" -> "Yolande.Contant" [color=grey style=dashed]
 	"André.Charest" [label="André
-Charest" color=pink shape=box style=filled]
+Charest" color=lightblue2 shape=box style=filled]
 	511418 [label="Hélène
 Sigouin" color=pink shape=box style=filled]
 	511418 -> "André.Charest" [color=pink style=solid]
@@ -1597,7 +1597,7 @@ Métayer" color=pink shape=box style=filled]
 	"Lise.Métayer" [label="Lise
 Métayer" color=pink shape=box style=filled]
 	"André.Charest" [label="André
-Charest" color=pink shape=box style=filled]
+Charest" color=lightblue2 shape=box style=filled]
 	"André.Charest" -> "Lise.Métayer" [color=grey style=dashed]
 	"Gilles.Charest" [label="Gilles
 Charest" color=lightblue2 shape=box style=filled]
