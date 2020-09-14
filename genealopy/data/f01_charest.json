@@ -111,7 +111,7 @@
     "last_name": "Charest",
     "gender": "F",
     "relationship": {
-	  "Lise.Thériault": { "type": "mother" },
+	  "Julie.Thériault": { "type": "mother" },
 	  "Guy.Charest": { "type": "father" }
     },
     "source" : "Famille Charest"
@@ -121,7 +121,7 @@
     "last_name": "Charest",
     "gender": "M",
     "relationship": {
-	  "Lise.Thériault": { "type": "mother" },
+	  "Julie.Thériault": { "type": "mother" },
 	  "Guy.Charest": { "type": "father" }
     },
     "source" : "Famille Charest"

@@ -37,6 +37,15 @@
     },
     "source" : "https://www.retronicdesign.com/genealogie/individual.php?ged=gradel&pid="
   },
+  "Jenny.Mastragostino": {
+    "first_name": "Jenny",
+    "last_name": "Mastragostino",
+    "gender": "F",
+    "relationship": {
+      "I610": { "type": "union" }
+    },
+    "source" : "Famille Charest"
+  },
   "Gilles2.Charest": {
     "first_name": "Gilles",
     "last_name": "Charest",

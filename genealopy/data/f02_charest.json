@@ -16,12 +16,12 @@
     "relationship": {
 	  "Réjeanne.Favreau": { "type": "mother" },
       "Denis.Charest": { "type": "father" },
-	  "Lise.Thériault": { "type": "union" }
+	  "Julie.Thériault": { "type": "union" }
     },
     "source" : "Famille Charest"
   },
-  "Lise.Thériault": {
-    "first_name": "Lise",
+  "Julie.Thériault": {
+    "first_name": "Julie",
     "last_name": "Thériault",
     "gender": "F",
     "relationship": {
@@ -165,7 +165,17 @@
     "gender": "M",
     "relationship": {
 	  "Fleurette.Hébert": { "type": "mother" },
-	  "Hubert.Charest": { "type": "father" }
+	  "Hubert.Charest": { "type": "father" },
+      "Ginette.Gravel": { "type": "union" }
+	},
+    "source" : "Famille Charest"
+  },
+  "Ginette.Gravel": {
+    "first_name": "Ginette",
+    "last_name": "Gravel",
+    "gender": "F",
+    "relationship": {
+	  "Pierre.Charest": { "type": "union" }
 	},
     "source" : "Famille Charest"
   },

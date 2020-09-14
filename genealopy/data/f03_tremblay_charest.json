@@ -51,8 +51,18 @@
     "last_name": "Charest",
     "gender": "M",
     "relationship": {
-      "511418" : { "type":  "mother" },
-      "511417" : { "type":  "father" }
+      "511418": { "type":  "mother" },
+      "511417": { "type":  "father" },
+      "Fleurette.Hébert": { "type":  "union" }
+    },
+    "source": "Famille Charest"
+  },
+  "Fleurette.Hébert": {
+    "first_name": "Fleurette",
+    "last_name": "Hébert",
+    "gender": "F",
+    "relationship": {
+      "Hubert.Charest": { "type":  "union" }
     },
     "source": "Famille Charest"
   },
@@ -61,8 +71,8 @@
     "last_name": "Charest",
     "gender": "M",
     "relationship": {
-      "511418" : { "type":  "mother" },
-      "511417" : { "type":  "father" },
+      "511418": { "type":  "mother" },
+      "511417": { "type":  "father" },
 	  "Huguette.Lafrance" : { "type":  "union" }
     },
     "source": "Famille Charest"
@@ -109,8 +119,6 @@
   "Yolande.Contant": {
     "first_name": "Yolande",
     "last_name": "Contant",
-    "gender": "F",
-    "gender": "F",
     "gender": "F",
     "relationship": {
       "Luc.Charest" : { "type":  "union" }
@@ -188,17 +196,6 @@
     },
     "source": "Famille Charest"
   },
-  "Francine.Charest": {
-    "first_name": "Francine",
-    "last_name": "Charest",
-    "gender": "F",
-    "relationship": {
-      "511418" : { "type":  "mother" },
-      "511417" : { "type":  "father" },
-	  "Aurèle.Charette" : { "type":  "father" }
-    },
-    "source": "Famille Charest"
-  },
   "Aurèle.Charette": {
     "first_name": "Aurèle",
     "last_name": "Charette",
@@ -207,6 +204,17 @@
 	  "Louisa.Dion" : { "type":  "mother" },
 	  "Albert.Charette" : { "type":  "father" },
 	  "Henriette.Charest" : { "type":  "union" }
+    },
+    "source": "Famille Charest"
+  },
+  "Francine.Charest": {
+    "first_name": "Francine",
+    "last_name": "Charest",
+    "gender": "F",
+    "relationship": {
+      "511418" : { "type":  "mother" },
+      "511417" : { "type":  "father" },
+	  "Aurèle.Charette" : { "type":  "father" }
     },
     "source": "Famille Charest"
   }
