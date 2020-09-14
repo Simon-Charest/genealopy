@@ -92,7 +92,37 @@
     "gender": "F",
     "relationship": {
       "511418" : { "type":  "mother" },
-      "511417" : { "type":  "father" }
+      "511417" : { "type":  "father" },
+      "Gérald.Coderre" : { "type":  "union" }
+    },
+    "source": "Famille Charest"
+  },
+  "Gérald.Coderre": {
+    "first_name": "Gérald",
+    "last_name": "Coderre",
+    "gender": "M",
+    "relationship": {
+      "Céline.Charest" : { "type":  "union" }
+    },
+    "source": "Famille Charest"
+  },
+  "Claude2.Charest": {
+    "first_name": "Claude",
+    "last_name": "Charest",
+    "gender": "M",
+    "relationship": {
+      "Rose-Amande.Dion" : { "type":  "mother" },
+      "Urbain-Ludovic Charest" : { "type":  "father" },
+      "Rita.Léonard" : { "type":  "union" }
+    },
+    "source": "Famille Charest"
+  },
+  "Rita.Léonard": {
+    "first_name": "Claude",
+    "last_name": "Charest",
+    "gender": "F",
+    "relationship": {
+      "Claude.Charest" : { "type":  "union" }
     },
     "source": "Famille Charest"
   },
@@ -102,7 +132,17 @@
     "gender": "M",
     "relationship": {
       "511418" : { "type":  "mother" },
-      "511417" : { "type":  "father" }
+      "511417" : { "type":  "father" },
+      "Fleurette.Tardif" : { "type":  "union" }
+    },
+    "source": "Famille Charest"
+  },
+  "Fleurette.Tardif": {
+    "first_name": "Fleurette",
+    "last_name": "Tardif",
+    "gender": "F",
+    "relationship": {
+      "Claude.Charest" : { "type":  "union" }
     },
     "source": "Famille Charest"
   },
