@@ -239,7 +239,7 @@
   "Carolann.Samson": {
     "first_name": "Carolann",
     "last_name": "Samson",
-    "gender": "M",
+    "gender": "F",
     "relationship": {
 	  "François.Bigaouette": { "type": "union" }
 	},
@@ -291,12 +291,12 @@
     "relationship": {
 	  "Ginette.Gravel": { "type": "mother" },
 	  "Pierre.Charest": { "type": "father" },
-	  "Marie.Dugal": { "type": "union" }
+	  "Marilyne.Dugal": { "type": "union" }
 	},
     "source" : "Famille Charest"
   },
-  "Marie.Dugal": {
-    "first_name": "Marie",
+  "Marilyne.Dugal": {
+    "first_name": "Marilyne",
     "last_name":"Dugal",
     "gender": "F",
     "relationship": {

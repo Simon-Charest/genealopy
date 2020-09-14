@@ -56,5 +56,65 @@
 	  "Joé.Plouffe": { "type": "father" }
 	},
     "source" : "Famille Charest"
+  },
+  "Gabriel.Charest": {
+    "first_name": "Gabriel",
+    "last_name": "Charest",
+    "gender": "M",
+    "relationship": {
+	  "Marilyne.Dugal": { "type": "mother" },
+	  "Jonathan.Charest": { "type": "father" }
+	},
+    "source" : "data/Louise Bigaouette [Charest].pdf"
+  },
+  "Naila.Charest": {
+    "first_name": "Naila",
+    "last_name": "Charest",
+    "gender": "F",
+    "relationship": {
+	  "Marilyne.Dugal": { "type": "mother" },
+	  "Jonathan.Charest": { "type": "father" }
+	},
+    "source" : "data/Louise Bigaouette [Charest].pdf"
+  },
+  "Yannick2.Charest": {
+    "first_name": "Yannick",
+    "last_name": "Charest",
+    "gender": "F",
+    "relationship": {
+	  "Marilyne.Dugal": { "type": "mother" },
+	  "Jonathan.Charest": { "type": "father" }
+	},
+    "source" : "data/Louise Bigaouette [Charest].pdf"
+  },
+  "Éli.Charest": {
+    "first_name": "Éli",
+    "last_name": "Charest",
+    "gender": "M",
+    "relationship": {
+	  "Marilyne.Dugal": { "type": "mother" },
+	  "Jonathan.Charest": { "type": "father" }
+	},
+    "source" : "data/Louise Bigaouette [Charest].pdf"
+  },
+  "Alyss.Auger": {
+    "first_name": "Naila",
+    "last_name": "Charest",
+    "gender": "F",
+    "relationship": {
+	  "Isabel.Charest": { "type": "mother" },
+	  "Nick.Auger": { "type": "father" }
+	},
+    "source" : "data/Louise Bigaouette [Charest].pdf"
+  },
+  "Thomas.Verrette": {
+    "first_name": "Thomas",
+    "last_name": "Verrette",
+    "gender": "F",
+    "relationship": {
+	  "Judith.Hogue": { "type": "mother" },
+	  "François.Verrette": { "type": "father" }
+	},
+    "source" : "data/Louise Bigaouette [Charest].pdf"
   }
 }
