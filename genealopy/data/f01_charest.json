@@ -793,8 +793,8 @@
     "source": "Famille Charest"
   },
   "Josée.Turennes": {
-    "first_name": "Denis",
-    "last_name": "Lemay",
+    "first_name": "Josée",
+    "last_name": "Turennes",
     "gender": "F",
     "relationship": {
       "Denis.Lemay": { "type": "union" }
