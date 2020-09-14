@@ -1,0 +1,12 @@
+{
+  "M.Marcotte": {
+    "first_name": "M",
+    "last_name": "Marcotte",
+    "gender": "F",
+    "relationship": {
+      "Lyne.Labrecque": { "type": "mother" },
+      "François.Marcotte": { "type": "father" }
+    },
+    "source" : "Famille Charest"
+  }
+}

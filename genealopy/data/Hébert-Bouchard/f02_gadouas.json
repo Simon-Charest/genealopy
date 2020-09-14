@@ -1,0 +1,22 @@
+{
+  "Nathalie.Gadouas": {
+    "first_name": "Daniel",
+    "last_name": "Gadouas",
+    "gender": "F",
+    "relationship": {
+      "Andrée.Lachapelle": { "type": "mother" },
+      "Robert.Gadouas": { "type": "father" }
+    },
+    "source" : "Famille Charest"
+  },
+  "Catherine.Gadouas": {
+    "first_name": "Catherine",
+    "last_name": "Gadouas",
+    "gender": "F",
+    "relationship": {
+      "Andrée.Lachapelle": { "type": "mother" },
+      "Robert.Gadouas": { "type": "father" }
+    },
+    "source" : "Famille Charest"
+  }
+}

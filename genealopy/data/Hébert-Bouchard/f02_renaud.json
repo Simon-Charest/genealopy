@@ -1,0 +1,32 @@
+{
+  "M.Renaud": {
+    "first_name": "M",
+    "last_name": "Renaud",
+    "gender": "M",
+    "relationship": {
+      "Louise.Meunier": { "type": "mother" },
+      "Robert.Renaud": { "type": "father" }
+    },
+    "source" : "Famille Charest"
+  },
+  "M2.Renaud": {
+    "first_name": "M",
+    "last_name": "Renaud",
+    "gender": "M",
+    "relationship": {
+      "Louise.Meunier": { "type": "mother" },
+      "Robert.Renaud": { "type": "father" }
+    },
+    "source" : "Famille Charest"
+  },
+  "M3.Renaud": {
+    "first_name": "M",
+    "last_name": "Renaud",
+    "gender": "M",
+    "relationship": {
+      "Louise.Meunier": { "type": "mother" },
+      "Robert.Renaud": { "type": "father" }
+    },
+    "source" : "Famille Charest"
+  }
+}
