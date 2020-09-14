@@ -85,8 +85,8 @@
     },
     "source" : "Famille Charest"
   },
-  "Joannie.Charest": {
-    "first_name": "Joanie",
+  "Jo-Annie.Charest": {
+    "first_name": "Jo-Annie",
     "last_name": "Charest",
     "gender": "F",
     "relationship": {
@@ -100,6 +100,26 @@
     "last_name": "Langlais",
     "gender": "M",
 	"job": "CEO at Le Chantier Général",
+    "relationship": {
+	  "Lucie.Coderre": { "type": "mother" },
+	  "Francois.Langlais": { "type": "father" }
+    },
+    "source" : "Famille Charest"
+  },
+  "Mme.Langlais": {
+    "first_name": "Mme",
+    "last_name": "Langlais",
+    "gender": "F",
+    "relationship": {
+	  "Lucie.Coderre": { "type": "mother" },
+	  "Francois.Langlais": { "type": "father" }
+    },
+    "source" : "Famille Charest"
+  },
+  "Sébastien.Langlais": {
+    "first_name": "Sébastien",
+    "last_name": "Langlais",
+    "gender": "M",
     "relationship": {
 	  "Lucie.Coderre": { "type": "mother" },
 	  "Francois.Langlais": { "type": "father" }
@@ -153,7 +173,17 @@
     "relationship": {
 	  "Johanne.Archambault": { "type": "mother" },
 	  "André2.Charest": { "type": "father" },
-	  "Sylvain.Ostiguy": { "type": "union" }
+	  "M.Drouin": { "type": "union" },
+      "Sylvain.Ostiguy": { "type": "union" }
+    },
+    "source" : "Famille Charest"
+  },
+  "M.Drouin": {
+    "first_name": "M",
+    "last_name": "Drouin",
+    "gender": "M",
+    "relationship": {
+	  "Valérie.Charest": { "type": "union" }
     },
     "source" : "Famille Charest"
   },
@@ -245,7 +275,7 @@
 	},
     "source" : "Famille Charest"
   },
-  "Véronique.Charest": {
+  "Véronik.Charest": {
     "first_name": "Véronique",
     "last_name": "Charest",
     "gender": "F",
@@ -280,7 +310,17 @@
     "gender": "F",
     "relationship": {
 	  "Ginette.Gravel": { "type": "mother" },
-	  "Pierre.Charest": { "type": "father" }
+	  "Pierre.Charest": { "type": "father" },
+      "Francis.Tobin": { "type": "union" }
+	},
+    "source" : "Famille Charest"
+  },
+  "Francis.Tobin": {
+    "first_name": "Jessika",
+    "last_name": "Charest",
+    "gender": "F",
+    "relationship": {
+	  "Jessika.Charest": { "type": "union" }
 	},
     "source" : "Famille Charest"
   },
@@ -304,13 +344,6 @@
 	},
     "source" : "Famille Charest"
   },
-  "Stéphanie.Charest": {
-    "first_name": "Stéphanie",
-    "last_name": "Charest",
-    "gender": "F",
-    "relationship": {},
-    "source" : "Famille Charest"
-  },
   "Annie.Hogue": {
     "first_name": "Annie",
     "last_name": "Hogue",
@@ -327,7 +360,17 @@
     "gender": "F",
     "relationship": {
 	  "Monique.Charest": { "type": "mother" },
-	  "Michel.Hogue": { "type": "union" }
+	  "Michel.Hogue": { "type": "union" },
+      "François.Verrette": { "type": "union" }
+	},
+    "source" : "Famille Charest"
+  },
+  "François.Verrette": {
+    "first_name": "François",
+    "last_name": "Verrette",
+    "gender": "M",
+    "relationship": {
+	  "Judith.Hogue": { "type": "union" }
 	},
     "source" : "Famille Charest"
   },
@@ -337,8 +380,106 @@
     "gender": "M",
     "relationship": {
 	  "Monique.Charest": { "type": "mother" },
-	  "Michel.Hogue": { "type": "union" }
+	  "Michel.Hogue": { "type": "union" },
+      "Cynthia.Morin": { "type": "union" }
 	},
     "source" : "Famille Charest"
+  },
+  "Cynthia.Morin": {
+    "first_name": "Cynthia",
+    "last_name": "Morin",
+    "gender": "F",
+    "relationship": {
+	  "Jean-Sébastien.Hogue": { "type": "union" }
+	},
+    "source" : "Famille Charest"
+  },
+  "Gabriel.Charest": {
+    "first_name": "Gabriel",
+    "last_name": "Charest",
+    "gender": "M",
+    "relationship": {
+	  "Rose.Monette": { "type": "mother" },
+	  "Yves.Charest": { "type": "father" }
+	},
+    "source" : "Famille Charest"
+  },
+  "Vincent.Charest": {
+    "first_name": "Vincent",
+    "last_name": "Charest",
+    "gender": "M",
+    "relationship": {
+	  "Rose.Monette": { "type": "mother" },
+	  "Yves.Charest": { "type": "father" }
+	},
+    "source" : "Famille Charest"
+  },
+  "Jean-Michel.Charest": {
+    "first_name": "Jean-Michel",
+    "last_name": "Charest",
+    "gender": "M",
+    "relationship": {
+	  "Rose.Monette": { "type": "mother" },
+	  "Yves.Charest": { "type": "father" },
+      "Audrey.Paquette-Desjardins": { "type": "union" }
+	},
+    "source" : "Famille Charest"
+  },
+  "Audrey.Paquette-Desjardins": {
+    "first_name": "Audrey",
+    "last_name": "Paquette-Desjardins",
+    "gender": "F",
+    "relationship": {
+      "Jean-Michel.Charest": { "type": "union" }
+    },
+    "source": "Famille Charest"
+  },
+  "Alex.Grand'Maison": {
+    "first_name": "Alex",
+    "last_name": "Grand'Maison",
+    "gender": "M",
+    "relationship": {
+      "Suzanne.Coderre": { "type": "mother" },
+      "Gérald.Grand'Maison": { "type": "father" }
+    },
+    "source": "Famille Charest"
+  },
+  "Bruno.Grand'Maison": {
+    "first_name": "Bruno",
+    "last_name": "Grand'Maison",
+    "gender": "M",
+    "relationship": {
+      "Suzanne.Coderre": { "type": "mother" },
+      "Gérald.Grand'Maison": { "type": "father" }
+    },
+    "source": "Famille Charest"
+  },
+  "Mme.Coderre": {
+    "first_name": "Mme",
+    "last_name": "Coderre",
+    "gender": "F",
+    "relationship": {
+      "Benoît.Coderre": { "type": "father" }
+    },
+    "source": "Famille Charest"
+  },
+  "Johannie.Bayard": {
+    "first_name": "Johannie",
+    "last_name": "Bayard",
+    "gender": "F",
+    "relationship": {
+      "Johanne.Therrien": { "type": "mother" },
+      "Michel.Bayard": { "type": "father" }
+    },
+    "source": "Famille Charest"
+  },
+  "Nicholas.Pinet": {
+    "first_name": "Nicholas",
+    "last_name": "Pinet",
+    "gender": "M",
+    "relationship": {
+      "Johannie.Bayard": { "type": "union" }
+    },
+    "source": "Famille Charest"
   }
 }
