@@ -238,13 +238,13 @@
 	},
     "source" : "data/Louise Bigaouette [Charest].pdf"
   },
-  "M.Roux": {
+  "M.Leroux": {
     "first_name": "M",
-    "last_name": "Roux",
+    "last_name": "Leroux",
     "gender": "M",
     "relationship": {
 	  "Judith.Charest": { "type": "mother" },
-	  "M.Roux": { "type": "father" }
+	  "Sylvain.Leroux": { "type": "father" }
 	},
     "source" : "data/Louise Bigaouette [Charest].pdf"
   },
