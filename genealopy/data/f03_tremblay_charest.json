@@ -149,7 +149,7 @@
   "André.Charest": {
     "first_name": "André",
     "last_name": "Charest",
-    "gender": "F",
+    "gender": "M",
     "relationship": {
       "511418" : { "type":  "mother" },
       "511417" : { "type":  "father" },
