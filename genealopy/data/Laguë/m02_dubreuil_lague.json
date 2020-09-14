@@ -13,8 +13,8 @@
     "last_name": "Laguë",
     "gender": "M",
     "relationship": {
-      "I110": { "type": "mother" },
-      "I109": { "type": "father" },
+      "Anne-Marie.Dubreuil": { "type": "mother" },
+      "Jean-Paul.Laguë": { "type": "father" },
       "I606": { "type": "union", "start": null, "end": null }
     },
     "source" : "https://www.retronicdesign.com/genealogie/individual.php?ged=gradel&pid="
@@ -34,8 +34,8 @@
     "last_name": "Laguë",
     "gender": "F",
     "relationship": {
-      "I110": { "type": "mother" },
-      "I109": { "type": "father" },
+      "Anne-Marie.Dubreuil": { "type": "mother" },
+      "Jean-Paul.Laguë": { "type": "father" },
       "I17": { "type": "union", "start": null, "end": null }
     },
     "source" : "https://www.retronicdesign.com/genealogie/individual.php?ged=gradel&pid="
@@ -55,8 +55,8 @@
     "last_name": "Laguë",
     "gender": "M",
     "relationship": {
-      "I110": { "type": "mother" },
-      "I109": { "type": "father" },
+      "Anne-Marie.Dubreuil": { "type": "mother" },
+      "Jean-Paul.Laguë": { "type": "father" },
       "I615": { "type": "union", "start": null, "end": null }
     },
     "source" : "https://www.retronicdesign.com/genealogie/individual.php?ged=gradel&pid="
@@ -75,8 +75,8 @@
     "last_name": "Laguë",
     "gender": "M",
     "relationship": {
-      "I110": { "type": "mother" },
-      "I109": { "type": "father" },
+      "Anne-Marie.Dubreuil": { "type": "mother" },
+      "Jean-Paul.Laguë": { "type": "father" },
       "I607": { "type": "union" }
     },
     "source" : "https://www.retronicdesign.com/genealogie/individual.php?ged=gradel&pid="
@@ -95,8 +95,8 @@
     "last_name": "Laguë",
     "gender": "F",
     "relationship": {
-      "I110": { "type": "mother" },
-      "I109": { "type": "father" },
+      "Anne-Marie.Dubreuil": { "type": "mother" },
+      "Jean-Paul.Laguë": { "type": "father" },
       "I611": { "type": "union", "start": null, "end": null }
     },
     "source" : "https://www.retronicdesign.com/genealogie/individual.php?ged=gradel&pid="
@@ -126,8 +126,8 @@
 	  "place": "Repentigny, Québec, Canada"
     },
     "relationship": {
-      "I110": { "type": "mother" },
-      "I109": { "type": "father" }
+      "Anne-Marie.Dubreuil": { "type": "mother" },
+      "Jean-Paul.Laguë": { "type": "father" }
     },
     "source" : "https://www.retronicdesign.com/genealogie/individual.php?ged=gradel&pid="
   }

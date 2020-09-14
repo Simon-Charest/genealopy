@@ -31,8 +31,8 @@
       "date": "1950-05-16"
     },
     "relationship": {
-      "I110": { "type": "mother" },
-      "I109": { "type": "father" },
+      "Anne-Marie.Dubreuil": { "type": "mother" },
+      "Jean-Paul.Laguë": { "type": "father" },
       "I610": { "type": "union", "start": null, "end": null }
     },
     "source" : "https://www.retronicdesign.com/genealogie/individual.php?ged=gradel&pid="
@@ -151,6 +151,7 @@
     "last_name": "LaManna",
     "gender": "F",
     "relationship": {
+      "I610": { "type": "union" },
       "Jacques.Charest": { "type": "union" }
     },
     "source" : "Famille Charest"

@@ -46,23 +46,5 @@
 	  "Albert.Charette" : { "type":  "union" }
     },
     "source": "Famille Charest"
-  },
-  "Alma.Fortin": {
-    "first_name": "Alma",
-    "last_name": "Fortin",
-    "gender": "F",
-    "relationship": {
-      "Thomas.Bouchard" : { "type":  "union" }
-    },
-    "source": "Famille Charest"
-  },
-  "Thomas.Bouchard": {
-    "first_name": "Thomas",
-    "last_name": "Bouchard",
-    "gender": "M",
-    "relationship": {
-      "Alma.Fortin" : { "type":  "union" }
-    },
-    "source": "Famille Charest"
   }
 }

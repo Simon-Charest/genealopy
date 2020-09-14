@@ -1,0 +1,62 @@
+{
+  "Nathalie.Gadouas": {
+    "first_name": "Daniel",
+    "last_name": "Gadouas",
+    "gender": "F",
+    "relationship": {
+      "Andrée.Lachapelle": { "type": "mother" },
+      "Robert.Gadouas": { "type": "father" }
+    },
+    "source" : "Famille Charest"
+  },
+  "Catherine.Gadouas": {
+    "first_name": "Catherine",
+    "last_name": "Gadouas",
+    "gender": "F",
+    "relationship": {
+      "Andrée.Lachapelle": { "type": "mother" },
+      "Robert.Gadouas": { "type": "father" }
+    },
+    "source" : "Famille Charest"
+  },
+  "M.Marcotte": {
+    "first_name": "M",
+    "last_name": "Marcotte",
+    "gender": "F",
+    "relationship": {
+      "Lyne.Labrecque": { "type": "mother" },
+      "François.Marcotte": { "type": "father" }
+    },
+    "source" : "Famille Charest"
+  },
+  "M.Renaud": {
+    "first_name": "M",
+    "last_name": "Renaud",
+    "gender": "M",
+    "relationship": {
+      "Louise.Meunier": { "type": "mother" },
+      "Robert.Renaud": { "type": "father" }
+    },
+    "source" : "Famille Charest"
+  },
+  "M2.Renaud": {
+    "first_name": "M",
+    "last_name": "Renaud",
+    "gender": "M",
+    "relationship": {
+      "Louise.Meunier": { "type": "mother" },
+      "Robert.Renaud": { "type": "father" }
+    },
+    "source" : "Famille Charest"
+  },
+  "M3.Renaud": {
+    "first_name": "M",
+    "last_name": "Renaud",
+    "gender": "M",
+    "relationship": {
+      "Louise.Meunier": { "type": "mother" },
+      "Robert.Renaud": { "type": "father" }
+    },
+    "source" : "Famille Charest"
+  }
+}

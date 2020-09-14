@@ -1,0 +1,12 @@
+{
+  "Jean2.Charest": {
+    "first_name": "John James (Jean)",
+    "last_name": "Charest",
+    "gender": "M",
+    "relationship": {
+      "Rita.Léonard": { "type": "mother" },
+      "Claude2.Charest": { "type": "father" }
+    },
+    "source": "Famille Charest"
+  }
+}

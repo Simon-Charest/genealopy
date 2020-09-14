@@ -682,15 +682,5 @@
       "Claude.Monette": { "type": "father" }
     },
     "source": "Famille Charest"
-  },
-  "Juliette.Pietramala": {
-    "first_name": "Juliette",
-    "last_name": "Pietramala",
-    "gender": "F",
-    "relationship": {
-      "Sonia.Pietramala": { "type": "mother" },
-      "Alain.Pietramala": { "type": "father" }
-    },
-    "source": "Famille Charest"
   }
 }

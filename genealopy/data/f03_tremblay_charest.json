@@ -106,26 +106,6 @@
     },
     "source": "Famille Charest"
   },
-  "Claude2.Charest": {
-    "first_name": "Claude",
-    "last_name": "Charest",
-    "gender": "M",
-    "relationship": {
-      "Rose-Amande.Dion" : { "type":  "mother" },
-      "Urbain-Ludovic Charest" : { "type":  "father" },
-      "Rita.Léonard" : { "type":  "union" }
-    },
-    "source": "Famille Charest"
-  },
-  "Rita.Léonard": {
-    "first_name": "Rita",
-    "last_name": "Léonard",
-    "gender": "F",
-    "relationship": {
-      "Claude2.Charest" : { "type":  "union" }
-    },
-    "source": "Famille Charest"
-  },
   "Claude.Charest": {
     "first_name": "Claude",
     "last_name": "Charest",
