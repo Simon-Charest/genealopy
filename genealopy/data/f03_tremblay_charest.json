@@ -152,7 +152,8 @@
     "gender": "M",
     "relationship": {
       "511418" : { "type":  "mother" },
-      "511417" : { "type":  "father" }
+      "511417" : { "type":  "father" },
+      "Yolande.Contant" : { "type":  "union" }
     },
     "source": "Famille Charest"
   },
@@ -212,7 +213,19 @@
     "relationship": {
       "511418" : { "type":  "mother" },
       "511417" : { "type":  "father" },
-	  "Réjeanne.Favreau" : { "type":  "union" }
+	  "Réjeanne.Favreau" : { "type":  "union" },
+      "Odette.Greaschepe": { "type":  "union" }
+    },
+    "source": "Famille Charest"
+  },
+  "Odette.Greaschepe": {
+    "first_name": "Odette",
+    "last_name": "Greaschepe",
+    "gender": "F",
+    "relationship": {
+      "511418" : { "type":  "mother" },
+      "511417" : { "type":  "father" },
+	  "Denis.Charest": { "type":  "union" }
     },
     "source": "Famille Charest"
   },
@@ -254,7 +267,7 @@
     "relationship": {
       "511418" : { "type":  "mother" },
       "511417" : { "type":  "father" },
-	  "Aurèle.Charette" : { "type":  "father" }
+	  "Jacques.Monette" : { "type":  "union" }
     },
     "source": "Famille Charest"
   }

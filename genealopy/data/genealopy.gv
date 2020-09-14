@@ -2123,6 +2123,9 @@ Charest" color=lightblue2 shape=box style=filled]
 	511417 -> "Luc.Charest" [color=lightblue2 style=solid]
 	"Yolande.Contant" [label="Yolande
 Contant" color=pink shape=box style=filled]
+	"Yolande.Contant" -> "Luc.Charest" [color=grey style=dashed]
+	"Yolande.Contant" [label="Yolande
+Contant" color=pink shape=box style=filled]
 	"Luc.Charest" [label="Luc
 Charest" color=lightblue2 shape=box style=filled]
 	"Luc.Charest" -> "Yolande.Contant" [color=grey style=dashed]
@@ -2169,6 +2172,20 @@ Charest" color=lightblue2 shape=box style=filled]
 	"Réjeanne.Favreau" [label="Réjeanne
 Favreau" color=pink shape=box style=filled]
 	"Réjeanne.Favreau" -> "Denis.Charest" [color=grey style=dashed]
+	"Odette.Greaschepe" [label="Odette
+Greaschepe" color=pink shape=box style=filled]
+	"Odette.Greaschepe" -> "Denis.Charest" [color=grey style=dashed]
+	"Odette.Greaschepe" [label="Odette
+Greaschepe" color=pink shape=box style=filled]
+	511418 [label="Hélène
+Sigouin" color=pink shape=box style=filled]
+	511418 -> "Odette.Greaschepe" [color=pink style=solid]
+	511417 [label="Delphis
+Charest" color=lightblue2 shape=box style=filled]
+	511417 -> "Odette.Greaschepe" [color=lightblue2 style=solid]
+	"Denis.Charest" [label="Denis
+Charest" color=lightblue2 shape=box style=filled]
+	"Denis.Charest" -> "Odette.Greaschepe" [color=grey style=dashed]
 	"Réjeanne.Favreau" [label="Réjeanne
 Favreau" color=pink shape=box style=filled]
 	"Denis.Charest" [label="Denis
@@ -2204,9 +2221,8 @@ Sigouin" color=pink shape=box style=filled]
 	511417 [label="Delphis
 Charest" color=lightblue2 shape=box style=filled]
 	511417 -> "Francine.Charest" [color=lightblue2 style=solid]
-	"Aurèle.Charette" [label="Aurèle
-Charette" color=lightblue2 shape=box style=filled]
-	"Aurèle.Charette" -> "Francine.Charest" [color=lightblue2 style=solid]
+	"Jacques.Monette" [color=grey shape=box style=filled]
+	"Jacques.Monette" -> "Francine.Charest" [color=grey style=dashed]
 	511418 [label="Hélène
 Sigouin" color=pink shape=box style=filled]
 	"Malvina.Voisard" [label="Malvina
