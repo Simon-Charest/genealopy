@@ -4,17 +4,19 @@
     "last_name": "Demers",
     "gender": "F",
     "relationship": {
-      "Joseph.Chauret": { "type": "union" }
+      "Josephte.Éthier": { "type": "mother" },
+      "Jacques.Demers": { "type": "father" },
+      "Joseph.Chorret Chaurette": { "type": "union" }
     },
     "source": "data/Simon Charest.pdf"
   },
-  "Joseph.Chauret": {
+  "Joseph.Chorret Chaurette": {
     "first_name": "Joseph",
-    "last_name": "Chauret",
+    "last_name": "Chorret Chaurette",
     "gender": "M",
     "relationship": {
 	  "Geneviève.Giroux": { "type": "mother" },
-      "Jean-Baptiste3.Choret": { "type": "father" },
+      "Jean-Baptiste3.Chorret Chaurette": { "type": "father" },
       "Geneviève.Demers": { "type": "union" }
     },
     "source": "data/Simon Charest.pdf"
@@ -36,6 +38,24 @@
     "gender": "M",
     "relationship": {
       "Damase.Chauret": { "type": "union" }
+    },
+    "source": "data/Simon Charest.pdf"
+  },
+  "Martine.Joyal": {
+    "first_name": "Martine",
+    "last_name": "Joyal",
+    "gender": "F",
+    "relationship": {
+      "Pierre.Lebrun": { "type": "union" }
+    },
+    "source": "data/Simon Charest.pdf"
+  },
+  "Pierre.Lebrun": {
+    "first_name": "Pierre",
+    "last_name": "Lebrun dit St-Antoine",
+    "gender": "M",
+    "relationship": {
+      "Martine.Joyal": { "type": "union" }
     },
     "source": "data/Simon Charest.pdf"
   }

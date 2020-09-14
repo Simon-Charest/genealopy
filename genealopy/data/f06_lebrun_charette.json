@@ -4,6 +4,8 @@
     "last_name": "Lebrun",
     "gender": "F",
     "relationship": {
+      "Martine.Joyal": { "type": "mother" },
+      "Pierre.Lebrun": { "type": "father" },
       "Joseph.Charette": { "type": "union" }
     },
     "source": "data/Simon Charest.pdf"
@@ -14,7 +16,7 @@
     "gender": "M",
     "relationship": {
 	  "Geneviève.Demers": { "type": "mother" },
-      "Joseph.Chauret": { "type": "father" },
+      "Joseph.Chorret Chaurette": { "type": "father" },
       "Martine.Lebrun": { "type": "union" }
     },
     "source": "data/Simon Charest.pdf"

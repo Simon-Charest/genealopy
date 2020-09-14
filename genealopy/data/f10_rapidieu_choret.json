@@ -4,13 +4,13 @@
     "last_name": "Rapidieu, Lamer",
     "gender": "F",
     "relationship": {
-      "Jean-Baptiste.Choret": { "type": "union" }
+      "Jean-Baptiste.Choret Chaurette": { "type": "union" }
     },
     "source": "data/Simon Charest.pdf"
   },
-  "Jean-Baptiste.Choret": {
+  "Jean-Baptiste.Choret Chaurette": {
     "first_name": "Jean-Baptiste",
-    "last_name": "Choret",
+    "last_name": "Choret Chaurette",
     "gender": "M",
     "relationship": {
 	  "Marie-Anne.Baugis": { "type": "mother" },

@@ -4,17 +4,19 @@
     "last_name": "Giroux",
     "gender": "F",
     "relationship": {
-      "Jean-Baptiste3.Choret": { "type": "union" }
+      "Thérèse.Jolivet": { "type": "mother" },
+      "Jean-Baptiste.Giroux": { "type": "father" },
+      "Jean-Baptiste3.Chorret Chaurette": { "type": "union" }
     },
     "source": "data/Simon Charest.pdf"
   },
-  "Jean-Baptiste3.Choret": {
+  "Jean-Baptiste3.Chorret Chaurette": {
     "first_name": "Jean-Baptiste",
-    "last_name": "Choret",
+    "last_name": "Chorret Chaurette",
     "gender": "M",
     "relationship": {
-	  "Catherine.Tourneux": { "type": "mother" },
-      "Jean-Baptiste2.Choret": { "type": "father" },
+	  "Marie-Catherine.Letourneux": { "type": "mother" },
+      "Jean-Baptiste2.Choret Chaurette": { "type": "father" },
       "Geneviève.Giroux": { "type": "union" }
     },
     "source": "data/Simon Charest.pdf"
@@ -25,7 +27,7 @@
     "gender": "M",
     "relationship": {
       "Geneviève.Giroux": { "type": "mother" },
-      "Jean-Baptiste3.Choret": { "type": "father" },
+      "Jean-Baptiste3.Chorret Chaurette": { "type": "father" },
       "Josephte.Valiquette": { "type": "union" }
     },
     "source": "data/Simon Charest.pdf"
@@ -36,6 +38,28 @@
     "gender": "F",
     "relationship": {
       "Théodore.Choret Chaurette": { "type": "union" }
+    },
+    "source": "data/Simon Charest.pdf"
+  },
+  "Josephte.Éthier": {
+    "first_name": "Josephte",
+    "last_name": "Éthier",
+    "gender": "F",
+    "relationship": {
+      "Josephte.Biroleau": { "type": "mother" },
+      "Pierre.Éthier": { "type": "father" },
+      "Jacques.Demers": { "type": "union" }
+    },
+    "source": "data/Simon Charest.pdf"
+  },
+  "Jacques.Demers": {
+    "first_name": "Jacques",
+    "last_name": "Demers",
+    "gender": "M",
+    "relationship": {
+      "Ursule.Beaulne": { "type": "mother" },
+      "Jean-Baptiste.Demers": { "type": "father" },
+      "Josephte.Éthier": { "type": "union" }
     },
     "source": "data/Simon Charest.pdf"
   }

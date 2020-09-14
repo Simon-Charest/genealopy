@@ -17,7 +17,7 @@ STYLE = 'filled'
 
 def run():
     graph = Digraph(constant.__project__, filename=f'data/{constant.__project__.lower()}.gv', format='png')
-    graph.attr(rankdir='LR')
+    # graph.attr(rankdir='LR')
 
     files = get_files(DATA)
     file_list = get_file_list(files)

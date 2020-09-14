@@ -1,5 +1,4 @@
 digraph Genealopy {
-	rankdir=LR
 	I619 [label="Simon
 Charest" color=lightblue2 shape=box style=filled]
 	I603 [label="Suzanne
@@ -1792,6 +1791,12 @@ Charette" color=lightblue2 shape=box style=filled]
 	"Servini2.Charette" -> "Angélina.Perpétue" [color=grey style=dashed]
 	"Martine.Lebrun" [label="Martine
 Lebrun" color=pink shape=box style=filled]
+	"Martine.Joyal" [label="Martine
+Joyal" color=pink shape=box style=filled]
+	"Martine.Joyal" -> "Martine.Lebrun" [color=pink style=solid]
+	"Pierre.Lebrun" [label="Pierre
+Lebrun dit St-Antoine" color=lightblue2 shape=box style=filled]
+	"Pierre.Lebrun" -> "Martine.Lebrun" [color=lightblue2 style=solid]
 	"Joseph.Charette" [label="Joseph
 Charette" color=lightblue2 shape=box style=filled]
 	"Joseph.Charette" -> "Martine.Lebrun" [color=grey style=dashed]
@@ -1800,28 +1805,34 @@ Charette" color=lightblue2 shape=box style=filled]
 	"Geneviève.Demers" [label="Geneviève
 Demers" color=pink shape=box style=filled]
 	"Geneviève.Demers" -> "Joseph.Charette" [color=pink style=solid]
-	"Joseph.Chauret" [label="Joseph
-Chauret" color=lightblue2 shape=box style=filled]
-	"Joseph.Chauret" -> "Joseph.Charette" [color=lightblue2 style=solid]
+	"Joseph.Chorret Chaurette" [label="Joseph
+Chorret Chaurette" color=lightblue2 shape=box style=filled]
+	"Joseph.Chorret Chaurette" -> "Joseph.Charette" [color=lightblue2 style=solid]
 	"Martine.Lebrun" [label="Martine
 Lebrun" color=pink shape=box style=filled]
 	"Martine.Lebrun" -> "Joseph.Charette" [color=grey style=dashed]
 	"Geneviève.Demers" [label="Geneviève
 Demers" color=pink shape=box style=filled]
-	"Joseph.Chauret" [label="Joseph
-Chauret" color=lightblue2 shape=box style=filled]
-	"Joseph.Chauret" -> "Geneviève.Demers" [color=grey style=dashed]
-	"Joseph.Chauret" [label="Joseph
-Chauret" color=lightblue2 shape=box style=filled]
+	"Josephte.Éthier" [label="Josephte
+Éthier" color=pink shape=box style=filled]
+	"Josephte.Éthier" -> "Geneviève.Demers" [color=pink style=solid]
+	"Jacques.Demers" [label="Jacques
+Demers" color=lightblue2 shape=box style=filled]
+	"Jacques.Demers" -> "Geneviève.Demers" [color=lightblue2 style=solid]
+	"Joseph.Chorret Chaurette" [label="Joseph
+Chorret Chaurette" color=lightblue2 shape=box style=filled]
+	"Joseph.Chorret Chaurette" -> "Geneviève.Demers" [color=grey style=dashed]
+	"Joseph.Chorret Chaurette" [label="Joseph
+Chorret Chaurette" color=lightblue2 shape=box style=filled]
 	"Geneviève.Giroux" [label="Geneviève
 Giroux" color=pink shape=box style=filled]
-	"Geneviève.Giroux" -> "Joseph.Chauret" [color=pink style=solid]
-	"Jean-Baptiste3.Choret" [label="Jean-Baptiste
-Choret" color=lightblue2 shape=box style=filled]
-	"Jean-Baptiste3.Choret" -> "Joseph.Chauret" [color=lightblue2 style=solid]
+	"Geneviève.Giroux" -> "Joseph.Chorret Chaurette" [color=pink style=solid]
+	"Jean-Baptiste3.Chorret Chaurette" [label="Jean-Baptiste
+Chorret Chaurette" color=lightblue2 shape=box style=filled]
+	"Jean-Baptiste3.Chorret Chaurette" -> "Joseph.Chorret Chaurette" [color=lightblue2 style=solid]
 	"Geneviève.Demers" [label="Geneviève
 Demers" color=pink shape=box style=filled]
-	"Geneviève.Demers" -> "Joseph.Chauret" [color=grey style=dashed]
+	"Geneviève.Demers" -> "Joseph.Chorret Chaurette" [color=grey style=dashed]
 	"Damase.Chauret" [label="Damase
 Chauret" color=lightblue2 shape=box style=filled]
 	"Josephte.Valiquette" [label="Josephte
@@ -1838,30 +1849,46 @@ Demers" color=lightblue2 shape=box style=filled]
 	"Damase.Chauret" [label="Damase
 Chauret" color=lightblue2 shape=box style=filled]
 	"Damase.Chauret" -> "Julie.Demers" [color=grey style=dashed]
+	"Martine.Joyal" [label="Martine
+Joyal" color=pink shape=box style=filled]
+	"Pierre.Lebrun" [label="Pierre
+Lebrun dit St-Antoine" color=lightblue2 shape=box style=filled]
+	"Pierre.Lebrun" -> "Martine.Joyal" [color=grey style=dashed]
+	"Pierre.Lebrun" [label="Pierre
+Lebrun dit St-Antoine" color=lightblue2 shape=box style=filled]
+	"Martine.Joyal" [label="Martine
+Joyal" color=pink shape=box style=filled]
+	"Martine.Joyal" -> "Pierre.Lebrun" [color=grey style=dashed]
 	"Geneviève.Giroux" [label="Geneviève
 Giroux" color=pink shape=box style=filled]
-	"Jean-Baptiste3.Choret" [label="Jean-Baptiste
-Choret" color=lightblue2 shape=box style=filled]
-	"Jean-Baptiste3.Choret" -> "Geneviève.Giroux" [color=grey style=dashed]
-	"Jean-Baptiste3.Choret" [label="Jean-Baptiste
-Choret" color=lightblue2 shape=box style=filled]
-	"Catherine.Tourneux" [label="Catherine
-Tourneux" color=pink shape=box style=filled]
-	"Catherine.Tourneux" -> "Jean-Baptiste3.Choret" [color=pink style=solid]
-	"Jean-Baptiste2.Choret" [label="Jean-Baptiste
-Choret" color=lightblue2 shape=box style=filled]
-	"Jean-Baptiste2.Choret" -> "Jean-Baptiste3.Choret" [color=lightblue2 style=solid]
+	"Thérèse.Jolivet" [label="Thérèse
+Jolivet, Lépine, Joly" color=pink shape=box style=filled]
+	"Thérèse.Jolivet" -> "Geneviève.Giroux" [color=pink style=solid]
+	"Jean-Baptiste.Giroux" [label="Jean-Baptiste
+Giroux" color=lightblue2 shape=box style=filled]
+	"Jean-Baptiste.Giroux" -> "Geneviève.Giroux" [color=lightblue2 style=solid]
+	"Jean-Baptiste3.Chorret Chaurette" [label="Jean-Baptiste
+Chorret Chaurette" color=lightblue2 shape=box style=filled]
+	"Jean-Baptiste3.Chorret Chaurette" -> "Geneviève.Giroux" [color=grey style=dashed]
+	"Jean-Baptiste3.Chorret Chaurette" [label="Jean-Baptiste
+Chorret Chaurette" color=lightblue2 shape=box style=filled]
+	"Marie-Catherine.Letourneux" [label="Marie-Catherine
+Letourneux" color=pink shape=box style=filled]
+	"Marie-Catherine.Letourneux" -> "Jean-Baptiste3.Chorret Chaurette" [color=pink style=solid]
+	"Jean-Baptiste2.Choret Chaurette" [label="Jean-Baptiste
+Choret Chaurette" color=lightblue2 shape=box style=filled]
+	"Jean-Baptiste2.Choret Chaurette" -> "Jean-Baptiste3.Chorret Chaurette" [color=lightblue2 style=solid]
 	"Geneviève.Giroux" [label="Geneviève
 Giroux" color=pink shape=box style=filled]
-	"Geneviève.Giroux" -> "Jean-Baptiste3.Choret" [color=grey style=dashed]
+	"Geneviève.Giroux" -> "Jean-Baptiste3.Chorret Chaurette" [color=grey style=dashed]
 	"Théodore.Choret Chaurette" [label="Théodore
 Choret Chaurette" color=lightblue2 shape=box style=filled]
 	"Geneviève.Giroux" [label="Geneviève
 Giroux" color=pink shape=box style=filled]
 	"Geneviève.Giroux" -> "Théodore.Choret Chaurette" [color=pink style=solid]
-	"Jean-Baptiste3.Choret" [label="Jean-Baptiste
-Choret" color=lightblue2 shape=box style=filled]
-	"Jean-Baptiste3.Choret" -> "Théodore.Choret Chaurette" [color=lightblue2 style=solid]
+	"Jean-Baptiste3.Chorret Chaurette" [label="Jean-Baptiste
+Chorret Chaurette" color=lightblue2 shape=box style=filled]
+	"Jean-Baptiste3.Chorret Chaurette" -> "Théodore.Choret Chaurette" [color=lightblue2 style=solid]
 	"Josephte.Valiquette" [label="Josephte
 Valiquette" color=pink shape=box style=filled]
 	"Josephte.Valiquette" -> "Théodore.Choret Chaurette" [color=grey style=dashed]
@@ -1870,38 +1897,90 @@ Valiquette" color=pink shape=box style=filled]
 	"Théodore.Choret Chaurette" [label="Théodore
 Choret Chaurette" color=lightblue2 shape=box style=filled]
 	"Théodore.Choret Chaurette" -> "Josephte.Valiquette" [color=grey style=dashed]
-	"Catherine.Tourneux" [label="Catherine
-Tourneux" color=pink shape=box style=filled]
-	"Jean-Baptiste2.Choret" [label="Jean-Baptiste
-Choret" color=lightblue2 shape=box style=filled]
-	"Jean-Baptiste2.Choret" -> "Catherine.Tourneux" [color=grey style=dashed]
-	"Jean-Baptiste2.Choret" [label="Jean-Baptiste
-Choret" color=lightblue2 shape=box style=filled]
+	"Josephte.Éthier" [label="Josephte
+Éthier" color=pink shape=box style=filled]
+	"Josephte.Biroleau" [label="Josephte
+Biroleau dit Lafleur" color=pink shape=box style=filled]
+	"Josephte.Biroleau" -> "Josephte.Éthier" [color=pink style=solid]
+	"Pierre.Éthier" [label="Pierre
+Éthier" color=lightblue2 shape=box style=filled]
+	"Pierre.Éthier" -> "Josephte.Éthier" [color=lightblue2 style=solid]
+	"Jacques.Demers" [label="Jacques
+Demers" color=lightblue2 shape=box style=filled]
+	"Jacques.Demers" -> "Josephte.Éthier" [color=grey style=dashed]
+	"Jacques.Demers" [label="Jacques
+Demers" color=lightblue2 shape=box style=filled]
+	"Ursule.Beaulne" [label="Ursule
+Beaulne (Beaune)" color=pink shape=box style=filled]
+	"Ursule.Beaulne" -> "Jacques.Demers" [color=pink style=solid]
+	"Jean-Baptiste.Demers" [label="Jean-Baptiste
+Demers" color=lightblue2 shape=box style=filled]
+	"Jean-Baptiste.Demers" -> "Jacques.Demers" [color=lightblue2 style=solid]
+	"Josephte.Éthier" [label="Josephte
+Éthier" color=pink shape=box style=filled]
+	"Josephte.Éthier" -> "Jacques.Demers" [color=grey style=dashed]
+	"Marie-Catherine.Letourneux" [label="Marie-Catherine
+Letourneux" color=pink shape=box style=filled]
+	"Jean-Baptiste2.Choret Chaurette" [label="Jean-Baptiste
+Choret Chaurette" color=lightblue2 shape=box style=filled]
+	"Jean-Baptiste2.Choret Chaurette" -> "Marie-Catherine.Letourneux" [color=grey style=dashed]
+	"Jean-Baptiste2.Choret Chaurette" [label="Jean-Baptiste
+Choret Chaurette" color=lightblue2 shape=box style=filled]
 	"Angélique.Rapidieu" [label="Angélique
 Rapidieu, Lamer" color=pink shape=box style=filled]
-	"Angélique.Rapidieu" -> "Jean-Baptiste2.Choret" [color=pink style=solid]
-	"Jean-Baptiste.Choret" [label="Jean-Baptiste
-Choret" color=lightblue2 shape=box style=filled]
-	"Jean-Baptiste.Choret" -> "Jean-Baptiste2.Choret" [color=lightblue2 style=solid]
-	"Catherine.Tourneux" [label="Catherine
-Tourneux" color=pink shape=box style=filled]
-	"Catherine.Tourneux" -> "Jean-Baptiste2.Choret" [color=grey style=dashed]
+	"Angélique.Rapidieu" -> "Jean-Baptiste2.Choret Chaurette" [color=pink style=solid]
+	"Jean-Baptiste.Choret Chaurette" [label="Jean-Baptiste
+Choret Chaurette" color=lightblue2 shape=box style=filled]
+	"Jean-Baptiste.Choret Chaurette" -> "Jean-Baptiste2.Choret Chaurette" [color=lightblue2 style=solid]
+	"Marie-Catherine.Letourneux" [label="Marie-Catherine
+Letourneux" color=pink shape=box style=filled]
+	"Marie-Catherine.Letourneux" -> "Jean-Baptiste2.Choret Chaurette" [color=grey style=dashed]
+	"Thérèse.Jolivet" [label="Thérèse
+Jolivet, Lépine, Joly" color=pink shape=box style=filled]
+	"Jean-Baptiste.Giroux" [label="Jean-Baptiste
+Giroux" color=lightblue2 shape=box style=filled]
+	"Jean-Baptiste.Giroux" -> "Thérèse.Jolivet" [color=grey style=dashed]
+	"Jean-Baptiste.Giroux" [label="Jean-Baptiste
+Giroux" color=lightblue2 shape=box style=filled]
+	"Thérèse.Jolivet" [label="Thérèse
+Jolivet, Lépine, Joly" color=pink shape=box style=filled]
+	"Thérèse.Jolivet" -> "Jean-Baptiste.Giroux" [color=grey style=dashed]
+	"Ursule.Beaulne" [label="Ursule
+Beaulne (Beaune)" color=pink shape=box style=filled]
+	"Jean-Baptiste.Demers" [label="Jean-Baptiste
+Demers" color=lightblue2 shape=box style=filled]
+	"Jean-Baptiste.Demers" -> "Ursule.Beaulne" [color=grey style=dashed]
+	"Jean-Baptiste.Demers" [label="Jean-Baptiste
+Demers" color=lightblue2 shape=box style=filled]
+	"Ursule.Beaulne" [label="Ursule
+Beaulne (Beaune)" color=pink shape=box style=filled]
+	"Ursule.Beaulne" -> "Jean-Baptiste.Demers" [color=grey style=dashed]
+	"Josephte.Biroleau" [label="Josephte
+Biroleau dit Lafleur" color=pink shape=box style=filled]
+	"Pierre.Éthier" [label="Pierre
+Éthier" color=lightblue2 shape=box style=filled]
+	"Pierre.Éthier" -> "Josephte.Biroleau" [color=grey style=dashed]
+	"Pierre.Éthier" [label="Pierre
+Éthier" color=lightblue2 shape=box style=filled]
+	"Josephte.Biroleau" [label="Josephte
+Biroleau dit Lafleur" color=pink shape=box style=filled]
+	"Josephte.Biroleau" -> "Pierre.Éthier" [color=grey style=dashed]
 	"Angélique.Rapidieu" [label="Angélique
 Rapidieu, Lamer" color=pink shape=box style=filled]
-	"Jean-Baptiste.Choret" [label="Jean-Baptiste
-Choret" color=lightblue2 shape=box style=filled]
-	"Jean-Baptiste.Choret" -> "Angélique.Rapidieu" [color=grey style=dashed]
-	"Jean-Baptiste.Choret" [label="Jean-Baptiste
-Choret" color=lightblue2 shape=box style=filled]
+	"Jean-Baptiste.Choret Chaurette" [label="Jean-Baptiste
+Choret Chaurette" color=lightblue2 shape=box style=filled]
+	"Jean-Baptiste.Choret Chaurette" -> "Angélique.Rapidieu" [color=grey style=dashed]
+	"Jean-Baptiste.Choret Chaurette" [label="Jean-Baptiste
+Choret Chaurette" color=lightblue2 shape=box style=filled]
 	"Marie-Anne.Baugis" [label="Marie-Anne
 Baugis" color=pink shape=box style=filled]
-	"Marie-Anne.Baugis" -> "Jean-Baptiste.Choret" [color=pink style=solid]
+	"Marie-Anne.Baugis" -> "Jean-Baptiste.Choret Chaurette" [color=pink style=solid]
 	"Pierre.Choret" [label="Pierre
 Choret" color=lightblue2 shape=box style=filled]
-	"Pierre.Choret" -> "Jean-Baptiste.Choret" [color=lightblue2 style=solid]
+	"Pierre.Choret" -> "Jean-Baptiste.Choret Chaurette" [color=lightblue2 style=solid]
 	"Angélique.Rapidieu" [label="Angélique
 Rapidieu, Lamer" color=pink shape=box style=filled]
-	"Angélique.Rapidieu" -> "Jean-Baptiste.Choret" [color=grey style=dashed]
+	"Angélique.Rapidieu" -> "Jean-Baptiste.Choret Chaurette" [color=grey style=dashed]
 	"Marie-Anne.Baugis" [label="Marie-Anne
 Baugis" color=pink shape=box style=filled]
 	"Pierre.Choret" [label="Pierre
