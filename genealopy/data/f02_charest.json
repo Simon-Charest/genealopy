@@ -180,7 +180,17 @@
     "relationship": {
 	  "Huguette.Lafrance" : { "type":  "mother" },
 	  "René.Charest": { "type": "father" },
+      "Michelle.Claude": { "type": "union" },
       "Carole.Lamothe": { "type": "union" }
+	},
+    "source" : "Famille Charest"
+  },
+  "Michelle.Claude": {
+    "first_name": "Michelle",
+    "last_name": "Claude",
+    "gender": "F",
+    "relationship": {
+      "Yvon.Charest": { "type": "union" }
 	},
     "source" : "Famille Charest"
   },

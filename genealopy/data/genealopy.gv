@@ -307,11 +307,17 @@ Charest" color=lightblue2 shape=box style=filled]
 	"Robert.Charest" -> "Dominique.Charest" [color=lightblue2 style=solid]
 	"Yannick.Charest" [label="Yannick
 Charest" color=lightblue2 shape=box style=filled]
+	"Michelle.Claude" [label="Michelle
+Claude" color=pink shape=box style=filled]
+	"Michelle.Claude" -> "Yannick.Charest" [color=pink style=solid]
 	"Yvon.Charest" [label="Yvon
 Charest" color=lightblue2 shape=box style=filled]
 	"Yvon.Charest" -> "Yannick.Charest" [color=lightblue2 style=solid]
 	"Bruno.Charest" [label="Bruno
 Charest" color=lightblue2 shape=box style=filled]
+	"Michelle.Claude" [label="Michelle
+Claude" color=pink shape=box style=filled]
+	"Michelle.Claude" -> "Bruno.Charest" [color=pink style=solid]
 	"Yvon.Charest" [label="Yvon
 Charest" color=lightblue2 shape=box style=filled]
 	"Yvon.Charest" -> "Bruno.Charest" [color=lightblue2 style=solid]
@@ -1044,9 +1050,17 @@ Lafrance" color=pink shape=box style=filled]
 	"René.Charest" [label="René
 Charest" color=lightblue2 shape=box style=filled]
 	"René.Charest" -> "Yvon.Charest" [color=lightblue2 style=solid]
+	"Michelle.Claude" [label="Michelle
+Claude" color=pink shape=box style=filled]
+	"Michelle.Claude" -> "Yvon.Charest" [color=grey style=dashed]
 	"Carole.Lamothe" [label="Carole
 Lamothe" color=pink shape=box style=filled]
 	"Carole.Lamothe" -> "Yvon.Charest" [color=grey style=dashed]
+	"Michelle.Claude" [label="Michelle
+Claude" color=pink shape=box style=filled]
+	"Yvon.Charest" [label="Yvon
+Charest" color=lightblue2 shape=box style=filled]
+	"Yvon.Charest" -> "Michelle.Claude" [color=grey style=dashed]
 	"Carole.Lamothe" [label="Carole
 Lamothe" color=pink shape=box style=filled]
 	"Yvon.Charest" [label="Yvon

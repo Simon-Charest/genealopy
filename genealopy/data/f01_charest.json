@@ -13,6 +13,7 @@
     "last_name": "Charest",
     "gender": "M",
     "relationship": {
+      "Michelle.Claude": { "type": "mother" },
 	  "Yvon.Charest": { "type": "father" }
     },
     "source" : "Famille Charest"
@@ -22,6 +23,7 @@
     "last_name": "Charest",
     "gender": "M",
     "relationship": {
+      "Michelle.Claude": { "type": "mother" },
 	  "Yvon.Charest": { "type": "father" }
     },
     "source" : "Famille Charest"
