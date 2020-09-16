@@ -13,6 +13,8 @@ import json
 DATA = 'data/*.json'
 SHAPE = 'box'
 STYLE = 'filled'
+GENDER = ['M', 'F']
+RELATIONSHIP = ['father', 'mother', 'union']
 
 
 def run():
@@ -29,28 +31,33 @@ def run():
             # Get first person properties
             name1 = get_name(value1)
             gender1 = value1['gender']
-            color1 = get_color(gender1)
 
-            # Draw first person
-            graph.node(key1, label=name1, color=color1, shape=SHAPE, style=STYLE)
+            if gender1 in GENDER:
+                color1 = get_color(gender1)
 
-            # Loop on every relationship
-            for key2 in value1['relationship']:
-                # Get second person properties
-                name2 = get_relationship_name(file_list, key2)
-                gender2 = get_relationship_gender(file_list, key2)
-                color2 = get_color(gender2)
+                # Draw first person
+                graph.node(key1, label=name1, color=color1, shape=SHAPE, style=STYLE)
 
-                # Get relationship properties
-                type_ = get_type(value1, key2)
-                edge_color = get_color(type_)
-                edge_style = get_style(type_)
+                # Loop on every relationship
+                for key2 in value1['relationship']:
+                    # Get second person properties
+                    name2 = get_relationship_name(file_list, key2)
+                    gender2 = get_relationship_gender(file_list, key2)
 
-                # Draw second person
-                graph.node(key2, label=name2, color=color2, shape=SHAPE, style=STYLE)
+                    if gender2 in GENDER:
+                        color2 = get_color(gender2)
 
-                # Draw relationship
-                graph.edge(key2, key1, color=edge_color, style=edge_style)
+                        # Get relationship properties
+                        relationship = get_relationship(value1, key2)
+                        edge_color = get_color(relationship)
+                        edge_style = get_style(relationship)
+
+                        # Draw second person
+                        graph.node(key2, label=name2, color=color2, shape=SHAPE, style=STYLE)
+
+                        if relationship in RELATIONSHIP:
+                            # Draw relationship
+                            graph.edge(key2, key1, color=edge_color, style=edge_style)
 
     graph.view()
 
@@ -126,5 +133,5 @@ def get_style(type_):
     return style
 
 
-def get_type(value, id_):
+def get_relationship(value, id_):
     return value['relationship'][id_]['type']
