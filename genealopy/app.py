@@ -10,22 +10,23 @@ from graphviz import Digraph
 import glob
 import json
 
-DATA = 'data/*.json'
+DATA = 'data/Charest/*.json'
 SHAPE = 'box'
 STYLE = 'filled'
 GENDER = ['M', 'F']
 RELATIONSHIP = ['father', 'mother', 'union']
+DEBUG = True
 
 
 def run():
     graph = Digraph(constant.__project__, filename=f'data/{constant.__project__.lower()}.gv', format='png')
     # graph.attr(rankdir='LR')
 
-    files = get_files(DATA)
-    file_list = get_file_list(files)
+    filenames = get_filenames(DATA)
+    json_documents = get_json_documents(filenames)
 
     # Loop on every JSON document
-    for json_document in file_list:
+    for json_document in json_documents:
         # Loop on every person
         for key1, value1 in json_document.items():
             # Get first person properties
@@ -41,8 +42,8 @@ def run():
                 # Loop on every relationship
                 for key2 in value1['relationship']:
                     # Get second person properties
-                    name2 = get_relationship_name(file_list, key2)
-                    gender2 = get_relationship_gender(file_list, key2)
+                    name2 = get_relationship_name(json_documents, key2)
+                    gender2 = get_relationship_gender(json_documents, key2)
 
                     if gender2 in GENDER:
                         color2 = get_color(gender2)
@@ -75,25 +76,33 @@ def get_color(gender):
     return color
 
 
-def get_file_list(files, encoding='utf-8'):
-    file_list = list()
+def get_json_documents(filenames, encoding='utf-8'):
+    json_documents = list()
 
-    for file in files:
+    for filename in filenames:
+        if DEBUG:
+            print(filename)
+
         # Read JSON data
-        with open(file, encoding=encoding) as stream:
-            file_list.append(json.load(stream))
+        with open(filename, encoding=encoding) as stream:
+            json_document = json.load(stream)
 
-    return file_list
+            if DEBUG:
+                print(json_document)
+
+            json_documents.append(json_document)
+
+    return json_documents
 
 
-def get_files(path):
-    files = glob.glob(path)
+def get_filenames(path):
+    filenames = glob.glob(path)
 
-    return files
+    return filenames
 
 
-def get_gender(list_, id_):
-    for json_document in list_:
+def get_gender(json_documents, id_):
+    for json_document in json_documents:
         for key, value in json_document.items():
             if f"{value['first_name']}\n{value['last_name']}" == id_:
                 return value['gender']
@@ -105,8 +114,8 @@ def get_name(value):
     return f"{value['first_name']}\n{value['last_name']}"
 
 
-def get_relationship_gender(list_, id_):
-    for json_document in list_:
+def get_relationship_gender(json_documents, id_):
+    for json_document in json_documents:
         for key, value in json_document.items():
             if key == id_:
                 return f"{value['gender']}"
@@ -114,8 +123,8 @@ def get_relationship_gender(list_, id_):
     return None
 
 
-def get_relationship_name(list_, id_):
-    for json_document in list_:
+def get_relationship_name(json_documents, id_):
+    for json_document in json_documents:
         for key, value in json_document.items():
             if key == id_:
                 return f"{value['first_name']}\n{value['last_name']}"
