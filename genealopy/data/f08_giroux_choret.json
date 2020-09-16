@@ -62,5 +62,25 @@
       "Josephte.Éthier": { "type": "union" }
     },
     "source": "data/Simon Charest.pdf"
+  },
+  "Marie-Catherine Théotiste.Morin": {
+    "first_name": "Marie-Catherine Théotiste",
+    "last_name": "Morin",
+    "gender": "F",
+    "relationship": {
+      "Jean-Baptiste.Tanguay": { "type": "union" }
+    },
+    "source": "https://www.myheritage.fr/site-family-tree-205814691/charest"
+  },
+  "Jean-Baptiste.Tanguay": {
+    "first_name": "Jean-Baptiste",
+    "last_name": "Tanguay",
+    "gender": "M",
+    "relationship": {
+      "Marguerite.Boissonneau": { "type": "mother" },
+      "Jean-François.Tanguay": { "type": "father" },
+      "Marie-Catherine Théotiste.Morin": { "type": "union" }
+    },
+    "source": "https://www.myheritage.fr/site-family-tree-205814691/charest"
   }
 }

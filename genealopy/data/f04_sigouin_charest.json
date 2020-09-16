@@ -22,6 +22,22 @@
 	  "date": "1940-07-29",
 	  "place": "Hôpital Notre-Dame (Montréal), Québec, Canada"
 	},
+    "job": ["magasin d'animaux", "imprimeur"],
+    "address": [
+      {
+        "date": null,
+        "apartment": null,
+        "civic_number": "10188",
+        "street": "avenue Péloquin",
+        "municipality": "Ahuntsic-Cartierville",
+        "city": "Montréal",
+        "postal_code": "H2C2J8",
+        "state": "Québec",
+        "country": "Canada",
+        "phone": null
+      }
+    ]
+    ,
     "relationship": {
 	  "Alma.Tanguay": { "type": "mother" },
 	  "Adélard.Charest": { "type": "father" },

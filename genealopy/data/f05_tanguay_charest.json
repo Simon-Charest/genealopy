@@ -4,6 +4,8 @@
     "last_name": "Tanguay",
     "gender": "F",
     "relationship": {
+      "Adèle.Bédard": { "type": "mother" },
+      "Célestin.Tanguay": { "type": "father" },
       "Adélard.Charest": { "type": "union", "start": "1891-07-20", "place": "Immaculée-Conception (Montréal), Québec, Canada" }
     },
     "source": "data/Simon Charest.pdf"

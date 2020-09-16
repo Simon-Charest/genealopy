@@ -39,6 +39,7 @@
       "date": "2002-05-20",
 	  "place": "Centre de Lévis (Longueuil), Québec, Canada"
     },
+    "job": ["ferblantier", "forgeron", "métallurgiste"],
     "relationship": {
       "511418" : { "type":  "mother" },
       "511417" : { "type":  "father" },

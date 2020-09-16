@@ -1731,6 +1731,12 @@ Charette" color=lightblue2 shape=box style=filled]
 	"Albert.Charette" -> "Louisa.Dion" [color=grey style=dashed]
 	"Alma.Tanguay" [label="Alma
 Tanguay" color=pink shape=box style=filled]
+	"Adèle.Bédard" [label="Adèle
+Bédard" color=pink shape=box style=filled]
+	"Adèle.Bédard" -> "Alma.Tanguay" [color=pink style=solid]
+	"Célestin.Tanguay" [label="Célestin
+Tanguay" color=lightblue2 shape=box style=filled]
+	"Célestin.Tanguay" -> "Alma.Tanguay" [color=lightblue2 style=solid]
 	"Adélard.Charest" [label="Adélard
 Charest" color=lightblue2 shape=box style=filled]
 	"Adélard.Charest" -> "Alma.Tanguay" [color=grey style=dashed]
@@ -1825,6 +1831,22 @@ Chorret Chaurette" color=lightblue2 shape=box style=filled]
 	"Martine.Lebrun" [label="Martine
 Lebrun" color=pink shape=box style=filled]
 	"Martine.Lebrun" -> "Joseph.Charette" [color=grey style=dashed]
+	"Adèle.Bédard" [label="Adèle
+Bédard" color=pink shape=box style=filled]
+	"Célestin.Tanguay" [label="Célestin
+Tanguay" color=lightblue2 shape=box style=filled]
+	"Célestin.Tanguay" -> "Adèle.Bédard" [color=grey style=dashed]
+	"Célestin.Tanguay" [label="Célestin
+Tanguay" color=lightblue2 shape=box style=filled]
+	"Thérèse.Bussière" [label="Thérèse
+Bussière" color=pink shape=box style=filled]
+	"Thérèse.Bussière" -> "Célestin.Tanguay" [color=pink style=solid]
+	"André.Tanguay" [label="André
+Tanguay" color=lightblue2 shape=box style=filled]
+	"André.Tanguay" -> "Célestin.Tanguay" [color=lightblue2 style=solid]
+	"Adèle.Bédard" [label="Adèle
+Bédard" color=pink shape=box style=filled]
+	"Adèle.Bédard" -> "Célestin.Tanguay" [color=grey style=dashed]
 	"Geneviève.Demers" [label="Geneviève
 Demers" color=pink shape=box style=filled]
 	"Josephte.Éthier" [label="Josephte
@@ -1873,6 +1895,22 @@ Lebrun dit St-Antoine" color=lightblue2 shape=box style=filled]
 	"Martine.Joyal" [label="Martine
 Joyal" color=pink shape=box style=filled]
 	"Martine.Joyal" -> "Pierre.Lebrun" [color=grey style=dashed]
+	"Thérèse.Bussière" [label="Thérèse
+Bussière" color=pink shape=box style=filled]
+	"André.Tanguay" [label="André
+Tanguay" color=lightblue2 shape=box style=filled]
+	"André.Tanguay" -> "Thérèse.Bussière" [color=grey style=dashed]
+	"André.Tanguay" [label="André
+Tanguay" color=lightblue2 shape=box style=filled]
+	"Marie-Catherine Théotiste.Morin" [label="Marie-Catherine Théotiste
+Morin" color=pink shape=box style=filled]
+	"Marie-Catherine Théotiste.Morin" -> "André.Tanguay" [color=pink style=solid]
+	"Jean-Baptiste.Tanguay" [label="Jean-Baptiste
+Tanguay" color=lightblue2 shape=box style=filled]
+	"Jean-Baptiste.Tanguay" -> "André.Tanguay" [color=lightblue2 style=solid]
+	"Thérèse.Bussière" [label="Thérèse
+Bussière" color=pink shape=box style=filled]
+	"Thérèse.Bussière" -> "André.Tanguay" [color=grey style=dashed]
 	"Geneviève.Giroux" [label="Geneviève
 Giroux" color=pink shape=box style=filled]
 	"Thérèse.Jolivet" [label="Thérèse
@@ -1933,6 +1971,22 @@ Demers" color=lightblue2 shape=box style=filled]
 	"Josephte.Éthier" [label="Josephte
 Éthier" color=pink shape=box style=filled]
 	"Josephte.Éthier" -> "Jacques.Demers" [color=grey style=dashed]
+	"Marie-Catherine Théotiste.Morin" [label="Marie-Catherine Théotiste
+Morin" color=pink shape=box style=filled]
+	"Jean-Baptiste.Tanguay" [label="Jean-Baptiste
+Tanguay" color=lightblue2 shape=box style=filled]
+	"Jean-Baptiste.Tanguay" -> "Marie-Catherine Théotiste.Morin" [color=grey style=dashed]
+	"Jean-Baptiste.Tanguay" [label="Jean-Baptiste
+Tanguay" color=lightblue2 shape=box style=filled]
+	"Marguerite.Boissonneau" [label="Marguerite
+Boissonneau" color=pink shape=box style=filled]
+	"Marguerite.Boissonneau" -> "Jean-Baptiste.Tanguay" [color=pink style=solid]
+	"Jean-François.Tanguay" [label="Jean-François
+Tanguay" color=lightblue2 shape=box style=filled]
+	"Jean-François.Tanguay" -> "Jean-Baptiste.Tanguay" [color=lightblue2 style=solid]
+	"Marie-Catherine Théotiste.Morin" [label="Marie-Catherine Théotiste
+Morin" color=pink shape=box style=filled]
+	"Marie-Catherine Théotiste.Morin" -> "Jean-Baptiste.Tanguay" [color=grey style=dashed]
 	"Marie-Catherine.Letourneux" [label="Marie-Catherine
 Letourneux" color=pink shape=box style=filled]
 	"Jean-Baptiste2.Choret Chaurette" [label="Jean-Baptiste
@@ -1979,6 +2033,16 @@ Biroleau dit Lafleur" color=pink shape=box style=filled]
 	"Josephte.Biroleau" [label="Josephte
 Biroleau dit Lafleur" color=pink shape=box style=filled]
 	"Josephte.Biroleau" -> "Pierre.Éthier" [color=grey style=dashed]
+	"Marguerite.Boissonneau" [label="Marguerite
+Boissonneau" color=pink shape=box style=filled]
+	"Jean-François.Tanguay" [label="Jean-François
+Tanguay" color=lightblue2 shape=box style=filled]
+	"Jean-François.Tanguay" -> "Marguerite.Boissonneau" [color=grey style=dashed]
+	"Jean-François.Tanguay" [label="Jean-François
+Tanguay" color=lightblue2 shape=box style=filled]
+	"Marguerite.Boissonneau" [label="Marguerite
+Boissonneau" color=pink shape=box style=filled]
+	"Marguerite.Boissonneau" -> "Jean-François.Tanguay" [color=grey style=dashed]
 	"Angélique.Rapidieu" [label="Angélique
 Rapidieu, Lamer" color=pink shape=box style=filled]
 	"Jean-Baptiste.Choret Chaurette" [label="Jean-Baptiste
