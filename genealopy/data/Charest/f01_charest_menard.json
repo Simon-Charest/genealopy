@@ -1,0 +1,32 @@
+{
+  "Sébastien.Ménard": {
+    "first_name": "Sébastien",
+    "last_name": "Ménard",
+    "gender": "M",
+    "relationship": {
+      "Linda.Charette": { "type": "mother" },
+      "Guy.Ménard": { "type": "father" }
+    },
+    "source": "Famille Charest"
+  },
+  "Michael.Ménard": {
+    "first_name": "Michael",
+    "last_name": "Ménard",
+    "gender": "M",
+    "relationship": {
+      "Linda.Charette": { "type": "mother" },
+      "Guy.Ménard": { "type": "father" }
+    },
+    "source": "Famille Charest"
+  },
+  "Jonathan.Ménard": {
+    "first_name": "Jonathan",
+    "last_name": "Ménard",
+    "gender": "M",
+    "relationship": {
+      "Linda.Charette": { "type": "mother" },
+      "Guy.Ménard": { "type": "father" }
+    },
+    "source": "Famille Charest"
+  }
+}

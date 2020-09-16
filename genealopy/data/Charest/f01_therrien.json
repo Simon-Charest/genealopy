@@ -1,0 +1,52 @@
+{
+  "Stéphane.Therrien": {
+    "first_name": "Stéphane",
+    "last_name": "Therrien",
+    "gender": "M",
+    "relationship": {
+      "Johanne.Charest": { "type": "mother" },
+      "Guy.Therrien": { "type": "father" }
+    },
+    "source": "Famille Charest"
+  },
+  "Isabelle.Therrien": {
+    "first_name": "Isabelle",
+    "last_name": "Therrien",
+    "gender": "F",
+    "relationship": {
+      "Johanne.Charest": { "type": "mother" },
+      "Guy.Therrien": { "type": "father" },
+      "Maxim.Larose": { "type": "union" }
+    },
+    "source": "Famille Charest"
+  },
+  "Maxim.Larose": {
+    "first_name": "Maxim",
+    "last_name": "Larose",
+    "gender": "M",
+    "relationship": {
+      "Isabelle.Therrien": { "type": "union" }
+    },
+    "source": "Famille Charest"
+  },
+  "Caroline.Therrien": {
+    "first_name": "Caroline",
+    "last_name": "Therrien",
+    "gender": "F",
+    "relationship": {
+      "Johanne.Charest": { "type": "mother" },
+      "Guy.Therrien": { "type": "father" },
+      "Luc.Guay": { "type": "union" }
+    },
+    "source": "Famille Charest"
+  },
+  "Luc.Guay": {
+    "first_name": "Luc",
+    "last_name": "Guay",
+    "gender": "M",
+    "relationship": {
+      "Caroline.Therrien": { "type": "union" }
+    },
+    "source": "Famille Charest"
+  }
+}

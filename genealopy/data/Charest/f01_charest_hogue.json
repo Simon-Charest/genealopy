@@ -1,0 +1,52 @@
+{
+  "Annie.Hogue": {
+    "first_name": "Annie",
+    "last_name": "Hogue",
+    "gender": "F",
+    "relationship": {
+	  "Monique.Charest": { "type": "mother" },
+	  "Michel.Hogue": { "type": "father" }
+	},
+    "source" : "Famille Charest"
+  },
+  "Judith.Hogue": {
+    "first_name": "Judith",
+    "last_name": "Hogue",
+    "gender": "F",
+    "relationship": {
+	  "Monique.Charest": { "type": "mother" },
+	  "Michel.Hogue": { "type": "father" },
+      "François.Verrette": { "type": "union" }
+	},
+    "source" : "Famille Charest"
+  },
+  "François.Verrette": {
+    "first_name": "François",
+    "last_name": "Verrette",
+    "gender": "M",
+    "relationship": {
+	  "Judith.Hogue": { "type": "union" }
+	},
+    "source" : "Famille Charest"
+  },
+  "Jean-Sébastien.Hogue": {
+    "first_name": "Jean-Sébastien",
+    "last_name": "Hogue",
+    "gender": "M",
+    "relationship": {
+	  "Monique.Charest": { "type": "mother" },
+	  "Michel.Hogue": { "type": "father" },
+      "Cynthia.Morin": { "type": "union" }
+	},
+    "source" : "Famille Charest"
+  },
+  "Cynthia.Morin": {
+    "first_name": "Cynthia",
+    "last_name": "Morin",
+    "gender": "F",
+    "relationship": {
+	  "Jean-Sébastien.Hogue": { "type": "union" }
+	},
+    "source" : "Famille Charest"
+  }
+}

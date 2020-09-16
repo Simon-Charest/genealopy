@@ -1,0 +1,62 @@
+{
+  "Alex.Grand'Maison": {
+    "first_name": "Alex",
+    "last_name": "Grand'Maison",
+    "gender": "M",
+    "relationship": {
+      "Suzanne.Coderre": { "type": "mother" },
+      "Gérald.Grand'Maison": { "type": "father" }
+    },
+    "source": "Famille Charest"
+  },
+  "Bruno.Grand'Maison": {
+    "first_name": "Bruno",
+    "last_name": "Grand'Maison",
+    "gender": "M",
+    "relationship": {
+      "Suzanne.Coderre": { "type": "mother" },
+      "Gérald.Grand'Maison": { "type": "father" }
+    },
+    "source": "Famille Charest"
+  },
+  "Mme.Coderre": {
+    "first_name": "Mme",
+    "last_name": "Coderre",
+    "gender": "F",
+    "relationship": {
+      "Benoît.Coderre": { "type": "father" }
+    },
+    "source": "Famille Charest"
+  },
+  "Samuel.Langlais": {
+    "first_name": "Samuel",
+    "last_name": "Langlais",
+    "gender": "M",
+	"job": "CEO at Le Chantier Général",
+    "relationship": {
+	  "Lucie.Coderre": { "type": "mother" },
+	  "Francois.Langlais": { "type": "father" }
+    },
+    "source" : "Famille Charest"
+  },
+  "Mme.Langlais": {
+    "first_name": "Mme",
+    "last_name": "Langlais",
+    "gender": "F",
+    "relationship": {
+	  "Lucie.Coderre": { "type": "mother" },
+	  "Francois.Langlais": { "type": "father" }
+    },
+    "source" : "Famille Charest"
+  },
+  "Sébastien.Langlais": {
+    "first_name": "Sébastien",
+    "last_name": "Langlais",
+    "gender": "M",
+    "relationship": {
+	  "Lucie.Coderre": { "type": "mother" },
+	  "Francois.Langlais": { "type": "father" }
+    },
+    "source" : "Famille Charest"
+  }
+}

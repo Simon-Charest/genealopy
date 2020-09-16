@@ -1,0 +1,22 @@
+{
+  "Francis.Charette": {
+    "first_name": "Francis",
+    "last_name": "Charette",
+    "gender": "M",
+    "relationship": {
+      "Sophie.Couture": { "type": "mother" },
+      "Eric.Charette": { "type": "father" }
+    },
+    "source": "Famille Charest"
+  },
+  "Lucas.Charette": {
+    "first_name": "Lucas",
+    "last_name": "Charette",
+    "gender": "M",
+    "relationship": {
+      "Sophie.Couture": { "type": "mother" },
+      "Eric.Charette": { "type": "father" }
+    },
+    "source": "Famille Charest"
+  }
+}

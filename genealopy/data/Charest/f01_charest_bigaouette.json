@@ -1,0 +1,41 @@
+{
+  "Mélanie.Bigaouette": {
+    "first_name": "Mélanie",
+    "last_name": "Bigaouette",
+    "gender": "F",
+    "relationship": {
+	  "Louise.Charest": { "type": "mother" },
+	  "Jean-Claude.Bigaouette": { "type": "father" },
+	  "Joé.Plouffe": { "type": "union" }
+	},
+    "source" : "Famille Charest"
+  },
+  "Joé.Plouffe": {
+    "first_name": "Joé",
+    "last_name": "Plouffe",
+    "gender": "M",
+    "relationship": {
+	  "Mélanie.Bigaouette": { "type": "union" }
+	},
+    "source" : "Famille Charest"
+  },
+  "François.Bigaouette": {
+    "first_name": "François",
+    "last_name": "Bigaouette",
+    "gender": "M",
+    "relationship": {
+	  "Louise.Charest": { "type": "mother" },
+	  "Jean-Claude.Bigaouette": { "type": "father" }
+	},
+    "source" : "Famille Charest"
+  },
+  "Carolann.Samson": {
+    "first_name": "Carolann",
+    "last_name": "Samson",
+    "gender": "F",
+    "relationship": {
+	  "François.Bigaouette": { "type": "union" }
+	},
+    "source" : "Famille Charest"
+  }
+}

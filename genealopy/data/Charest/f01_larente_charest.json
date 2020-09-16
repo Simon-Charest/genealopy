@@ -1,0 +1,52 @@
+{
+  "Sylvain.Charest": {
+    "first_name": "Sylvain",
+    "last_name": "Charest",
+    "gender": "M",
+    "relationship": {
+	  "Christiane.Larente": { "type": "mother" },
+	  "Marcel.Charest": { "type": "father" }
+	},
+    "source" : "Famille Charest"
+  },
+  "Sandra.Charest": {
+    "first_name": "Sandra",
+    "last_name": "Charest",
+    "gender": "F",
+    "relationship": {
+	  "Christiane.Larente": { "type": "mother" },
+	  "Marcel.Charest": { "type": "father" },
+      "Rolf.Charles": { "type": "union" }
+	},
+    "source" : "Famille Charest"
+  },
+  "Rolf.Charles": {
+    "first_name": "Rolf",
+    "last_name": "Charles",
+    "gender": "M",
+    "relationship": {
+      "Sandra.Charest": { "type": "union" }
+    },
+    "source": "Famille Charest"
+  },
+  "Sonia.Charest": {
+    "first_name": "Sonia",
+    "last_name": "Charest",
+    "gender": "F",
+    "relationship": {
+	  "Christiane.Larente": { "type": "mother" },
+	  "Marcel.Charest": { "type": "father" }
+	},
+    "source" : "Famille Charest"
+  },
+  "Sara.Charest": {
+    "first_name": "Sara",
+    "last_name": "Charest",
+    "gender": "F",
+    "relationship": {
+	  "Christiane.Larente": { "type": "mother" },
+	  "Marcel.Charest": { "type": "father" }
+	},
+    "source" : "Famille Charest"
+  }
+}

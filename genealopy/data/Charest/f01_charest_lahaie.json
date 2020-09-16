@@ -1,0 +1,51 @@
+{
+  "Steve.Lahaie": {
+    "first_name": "Steve",
+    "last_name": "Lahaie",
+    "gender": "M",
+    "relationship": {
+      "Sylvie.Charest": { "type": "mother" },
+      "Gilles.Lahaie": { "type": "father" },
+      "Marie-Claude.Faucher": { "type": "union" }
+    },
+    "source": "Famille Charest"
+  },
+  "Marie-Claude.Faucher": {
+    "first_name": "Marie-Claude",
+    "last_name": "Faucher",
+    "gender": "F",
+    "relationship": {
+      "Steve.Lahaie": { "type": "union" }
+    },
+    "source": "Famille Charest"
+  },
+  "Jimmy.Lahaie": {
+    "first_name": "Jimmy",
+    "last_name": "Lahaie",
+    "gender": "M",
+    "relationship": {
+      "Sylvie.Charest": { "type": "mother" },
+      "Gilles.Lahaie": { "type": "father" }
+    },
+    "source": "Famille Charest"
+  },
+  "Julie.Vaillancourt": {
+    "first_name": "Julie",
+    "last_name": "Vaillancourt",
+    "gender": "F",
+    "relationship": {
+      "Jimmy.Lahaie": { "type": "union" }
+    },
+    "source": "Famille Charest"
+  },
+  "Daniel.Lahaie": {
+    "first_name": "Daniel",
+    "last_name": "Lahaie",
+    "gender": "M",
+    "relationship": {
+      "Sylvie.Charest": { "type": "mother" },
+      "Gilles.Lahaie": { "type": "father" }
+    },
+    "source": "Famille Charest"
+  }
+}

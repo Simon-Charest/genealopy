@@ -1,0 +1,11 @@
+{
+  "Kevin.Ostiguy": {
+    "first_name": "Kevin",
+    "last_name": "Ostiguy",
+    "gender": "M",
+    "relationship": {
+      "Sylvain.Ostiguy": { "type": "father" }
+    },
+    "source" : "Famille Charest"
+  }
+}

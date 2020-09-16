@@ -1,0 +1,11 @@
+{
+  "Dominique.Charest": {
+    "first_name": "Dominique",
+    "last_name": "Charest",
+    "gender": "F",
+    "relationship": {
+	  "Robert.Charest": { "type": "father" }
+    },
+    "source" : "Famille Charest"
+  }
+}

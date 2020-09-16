@@ -1,0 +1,22 @@
+{
+  "Ryan.Lessard": {
+    "first_name": "Ryan",
+    "last_name": "Lessard",
+    "gender": "M",
+    "relationship": {
+      "Diane.Charest": { "type": "mother" },
+      "Georges.Lessard": { "type": "father" }
+    },
+    "source": "Famille Charest"
+  },
+  "Simon.Lessard": {
+    "first_name": "Simon",
+    "last_name": "Lessard",
+    "gender": "M",
+    "relationship": {
+      "Diane.Charest": { "type": "mother" },
+      "Georges.Lessard": { "type": "father" }
+    },
+    "source": "Famille Charest"
+  }
+}

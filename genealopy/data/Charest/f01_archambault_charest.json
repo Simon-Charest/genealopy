@@ -1,0 +1,52 @@
+{
+  "Judith.Charest": {
+    "first_name": "Judith",
+    "last_name": "Charest",
+    "gender": "F",
+    "relationship": {
+	  "Johanne.Archambault": { "type": "mother" },
+	  "André2.Charest": { "type": "father" },
+	  "Sylvain.Leroux": { "type": "union" }
+    },
+    "source" : "Famille Charest"
+  },
+  "Sylvain.Leroux": {
+    "first_name": "Sylvain",
+    "last_name": "Leroux",
+    "gender": "M",
+    "relationship": {
+	  "Judith.Charest": { "type": "union" }
+    },
+    "source" : "Famille Charest"
+  },
+  "Valérie.Charest": {
+    "first_name": "Valérie",
+    "last_name": "Charest",
+    "gender": "F",
+    "relationship": {
+	  "Johanne.Archambault": { "type": "mother" },
+	  "André2.Charest": { "type": "father" },
+	  "M.Drouin": { "type": "union" },
+      "Sylvain.Ostiguy": { "type": "union" }
+    },
+    "source" : "Famille Charest"
+  },
+  "M.Drouin": {
+    "first_name": "M",
+    "last_name": "Drouin",
+    "gender": "M",
+    "relationship": {
+	  "Valérie.Charest": { "type": "union" }
+    },
+    "source" : "Famille Charest"
+  },
+  "Sylvain.Ostiguy": {
+    "first_name": "Sylvain",
+    "last_name": "Ostiguy",
+    "gender": "M",
+    "relationship": {
+	  "Valérie.Charest": { "type": "union" }
+    },
+    "source" : "Famille Charest"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "Laurence2.Charest": {
+    "first_name": "Laurence",
+    "last_name": "Charest",
+    "gender": "F",
+    "relationship": {
+      "Hélène.LaManna": { "type": "mother" },
+      "Jacques.Charest": { "type": "father" }
+    },
+    "source": "Famille Charest"
+  }
+}

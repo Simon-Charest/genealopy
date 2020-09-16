@@ -1,0 +1,72 @@
+{
+  "Véronik.Charest": {
+    "first_name": "Véronik",
+    "last_name": "Charest",
+    "gender": "F",
+    "relationship": {
+	  "Ginette.Gravel": { "type": "mother" },
+	  "Pierre.Charest": { "type": "father" }
+	},
+    "source" : "Famille Charest"
+  },
+  "Isabel.Charest": {
+    "first_name": "Isabel",
+    "last_name": "Charest",
+    "gender": "F",
+    "relationship": {
+	  "Ginette.Gravel": { "type": "mother" },
+	  "Pierre.Charest": { "type": "father" },
+      "Nick.Auger": { "type": "union" }
+	},
+    "source" : "Famille Charest"
+  },
+  "Nick.Auger": {
+    "first_name": "Nick",
+    "last_name": "Auger",
+    "gender": "M",
+    "relationship": {
+	  "Isabel.Charest": { "type": "union" }
+	},
+    "source" : "Famille Charest"
+  },
+  "Jessika.Charest": {
+    "first_name": "Jessika",
+    "last_name": "Charest",
+    "gender": "F",
+    "relationship": {
+	  "Ginette.Gravel": { "type": "mother" },
+	  "Pierre.Charest": { "type": "father" },
+      "Francis.Tobin": { "type": "union" }
+	},
+    "source" : "Famille Charest"
+  },
+  "Francis.Tobin": {
+    "first_name": "Francis",
+    "last_name": "Tobin",
+    "gender": "M",
+    "relationship": {
+	  "Jessika.Charest": { "type": "union" }
+	},
+    "source" : "Famille Charest"
+  },
+  "Jonathan.Charest": {
+    "first_name": "Jonathan",
+    "last_name": "Charest",
+    "gender": "M",
+    "relationship": {
+	  "Ginette.Gravel": { "type": "mother" },
+	  "Pierre.Charest": { "type": "father" },
+	  "Marilyne.Dugal": { "type": "union" }
+	},
+    "source" : "Famille Charest"
+  },
+  "Marilyne.Dugal": {
+    "first_name": "Marilyne",
+    "last_name":"Dugal",
+    "gender": "F",
+    "relationship": {
+	  "Jonathan.Charest": { "type": "union" }
+	},
+    "source" : "Famille Charest"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "M.Charest": {
+    "first_name": "M",
+    "last_name": "Charest",
+    "gender": "M",
+    "relationship": {
+      "Caroline.Paradis": { "type": "mother" },
+      "François.Charest": { "type": "father" }
+    },
+    "source": "Famille Charest"
+  }
+}

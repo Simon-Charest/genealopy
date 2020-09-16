@@ -1,0 +1,32 @@
+{
+  "Yannick.Charest": {
+    "first_name": "Yannick",
+    "last_name": "Charest",
+    "gender": "M",
+    "relationship": {
+      "Michelle.Claude": { "type": "mother" },
+	  "Yvon.Charest": { "type": "father" }
+    },
+    "source" : "Famille Charest"
+  },
+  "Bruno.Charest": {
+    "first_name": "Bruno",
+    "last_name": "Charest",
+    "gender": "M",
+    "relationship": {
+      "Michelle.Claude": { "type": "mother" },
+	  "Yvon.Charest": { "type": "father" }
+    },
+    "source" : "Famille Charest"
+  },
+  "Jo-Annie.Charest": {
+    "first_name": "Jo-Annie",
+    "last_name": "Charest",
+    "gender": "F",
+    "relationship": {
+      "Carole.Lamothe": { "type": "mother" },
+	  "Yvon.Charest": { "type": "father" }
+    },
+    "source" : "Famille Charest"
+  }
+}

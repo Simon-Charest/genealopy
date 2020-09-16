@@ -1,0 +1,12 @@
+{
+  "Kyanna.Charest-Charles": {
+    "first_name": "Kyanna",
+    "last_name": "Charest-Charles",
+    "gender": "F",
+    "relationship": {
+	  "Sandra.Charest": { "type": "mother" },
+      "Rolf.Charles": { "type": "father" }
+	},
+    "source" : "Famille Charest"
+  }
+}

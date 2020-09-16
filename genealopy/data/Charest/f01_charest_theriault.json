@@ -1,0 +1,12 @@
+{
+  "Alexandra.Charest": {
+    "first_name": "Alexandra",
+    "last_name": "Charest",
+    "gender": "F",
+    "relationship": {
+      "Renée.Charest": { "type": "mother" },
+      "Pierre.Thériault": { "type": "father" }
+    },
+    "source": "Famille Charest"
+  }
+}

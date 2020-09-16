@@ -1,0 +1,22 @@
+{
+  "Jenifer.Young": {
+    "first_name": "Jenifer",
+    "last_name": "Young",
+    "gender": "F",
+    "relationship": {
+      "Hélène.Charest": { "type": "mother" },
+      "Harvey.Young": { "type": "father" }
+    },
+    "source": "Famille Charest"
+  },
+  "Valérie.Young": {
+    "first_name": "Valérie",
+    "last_name": "Young",
+    "gender": "F",
+    "relationship": {
+      "Hélène.Charest": { "type": "mother" },
+      "Harvey.Young": { "type": "father" }
+    },
+    "source": "Famille Charest"
+  }
+}

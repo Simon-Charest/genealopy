@@ -1,0 +1,22 @@
+{
+  "Simon-Pierre.Lauzon": {
+    "first_name": "Simon-Pierre",
+    "last_name": "Lauzon",
+    "gender": "M",
+    "relationship": {
+      "Danielle.Charest": { "type": "mother" },
+      "Robert.Lauzon": { "type": "father" }
+    },
+    "source": "Famille Charest"
+  },
+  "Marie-Michelle.Lauzon": {
+    "first_name": "Marie-Michelle",
+    "last_name": "Lauzon",
+    "gender": "F",
+    "relationship": {
+      "Danielle.Charest": { "type": "mother" },
+      "Robert.Lauzon": { "type": "father" }
+    },
+    "source": "Famille Charest"
+  }
+}
