@@ -126,7 +126,7 @@
   "Benoît.Coderre": {
     "first_name": "Benoît",
     "last_name": "Coderre",
-    "gender": "F",
+    "gender": "M",
     "relationship": {
       "Céline.Charest" : { "type":  "mother" },
 	  "Gérald.Coderre": { "type": "father" }
@@ -136,7 +136,7 @@
   "Monique.Charest": {
     "first_name": "Monique",
     "last_name": "Charest",
-    "gender": "M",
+    "gender": "F",
     "relationship": {
 	  "Huguette.Lafrance" : { "type":  "mother" },
 	  "René.Charest": { "type": "father" },

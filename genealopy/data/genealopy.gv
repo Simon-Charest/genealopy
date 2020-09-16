@@ -537,7 +537,7 @@ Charest" color=lightblue2 shape=box style=filled]
 	"Annie.Hogue" [label="Annie
 Hogue" color=pink shape=box style=filled]
 	"Monique.Charest" [label="Monique
-Charest" color=lightblue2 shape=box style=filled]
+Charest" color=pink shape=box style=filled]
 	"Monique.Charest" -> "Annie.Hogue" [color=pink style=solid]
 	"Michel.Hogue" [label="Michel
 Hogue" color=lightblue2 shape=box style=filled]
@@ -545,7 +545,7 @@ Hogue" color=lightblue2 shape=box style=filled]
 	"Judith.Hogue" [label="Judith
 Hogue" color=pink shape=box style=filled]
 	"Monique.Charest" [label="Monique
-Charest" color=lightblue2 shape=box style=filled]
+Charest" color=pink shape=box style=filled]
 	"Monique.Charest" -> "Judith.Hogue" [color=pink style=solid]
 	"Michel.Hogue" [label="Michel
 Hogue" color=lightblue2 shape=box style=filled]
@@ -561,7 +561,7 @@ Hogue" color=pink shape=box style=filled]
 	"Jean-Sébastien.Hogue" [label="Jean-Sébastien
 Hogue" color=lightblue2 shape=box style=filled]
 	"Monique.Charest" [label="Monique
-Charest" color=lightblue2 shape=box style=filled]
+Charest" color=pink shape=box style=filled]
 	"Monique.Charest" -> "Jean-Sébastien.Hogue" [color=pink style=solid]
 	"Michel.Hogue" [label="Michel
 Hogue" color=lightblue2 shape=box style=filled]
@@ -625,7 +625,7 @@ Grand'Maison" color=lightblue2 shape=box style=filled]
 	"Mme.Coderre" [label="Mme
 Coderre" color=pink shape=box style=filled]
 	"Benoît.Coderre" [label="Benoît
-Coderre" color=pink shape=box style=filled]
+Coderre" color=lightblue2 shape=box style=filled]
 	"Benoît.Coderre" -> "Mme.Coderre" [color=lightblue2 style=solid]
 	"Stéphane.Therrien" [label="Stéphane
 Therrien" color=lightblue2 shape=box style=filled]
@@ -1003,7 +1003,7 @@ Charest" color=pink shape=box style=filled]
 Coderre" color=lightblue2 shape=box style=filled]
 	"Gérald.Coderre" -> "Nicole.Coderre" [color=lightblue2 style=solid]
 	"Benoît.Coderre" [label="Benoît
-Coderre" color=pink shape=box style=filled]
+Coderre" color=lightblue2 shape=box style=filled]
 	"Céline.Charest" [label="Céline
 Charest" color=pink shape=box style=filled]
 	"Céline.Charest" -> "Benoît.Coderre" [color=pink style=solid]
@@ -1011,7 +1011,7 @@ Charest" color=pink shape=box style=filled]
 Coderre" color=lightblue2 shape=box style=filled]
 	"Gérald.Coderre" -> "Benoît.Coderre" [color=lightblue2 style=solid]
 	"Monique.Charest" [label="Monique
-Charest" color=lightblue2 shape=box style=filled]
+Charest" color=pink shape=box style=filled]
 	"Huguette.Lafrance" [label="Huguette
 Lafrance" color=pink shape=box style=filled]
 	"Huguette.Lafrance" -> "Monique.Charest" [color=pink style=solid]
@@ -1024,7 +1024,7 @@ Hogue" color=lightblue2 shape=box style=filled]
 	"Michel.Hogue" [label="Michel
 Hogue" color=lightblue2 shape=box style=filled]
 	"Monique.Charest" [label="Monique
-Charest" color=lightblue2 shape=box style=filled]
+Charest" color=pink shape=box style=filled]
 	"Monique.Charest" -> "Michel.Hogue" [color=grey style=dashed]
 	"Serge.Charest" [label="Serge
 Charest" color=lightblue2 shape=box style=filled]
@@ -1389,10 +1389,6 @@ Mastragostino" color=pink shape=box style=filled]
 	"Jenny.Mastragostino" -> I610 [color=grey style=dashed]
 	I603 [label="Suzanne
 Laguë" color=pink shape=box style=filled]
-	"Anne-Marie.Dubreuil" [color=grey shape=box style=filled]
-	"Anne-Marie.Dubreuil" -> I603 [color=pink style=solid]
-	"Jean-Paul.Laguë" [color=grey shape=box style=filled]
-	"Jean-Paul.Laguë" -> I603 [color=lightblue2 style=solid]
 	I610 [label="Michel
 Charest" color=lightblue2 shape=box style=filled]
 	I610 -> I603 [color=grey style=dashed]
@@ -1499,10 +1495,6 @@ Charest" color=lightblue2 shape=box style=filled]
 	511417 -> "Michelle.Charest" [color=lightblue2 style=solid]
 	511415 [label="Rita
 Lacombe Tremblay" color=pink shape=box style=filled]
-	"Léotine.Turgeon" [color=grey shape=box style=filled]
-	"Léotine.Turgeon" -> 511415 [color=pink style=solid]
-	"Alphonse.Tremblay" [color=grey shape=box style=filled]
-	"Alphonse.Tremblay" -> 511415 [color=lightblue2 style=solid]
 	511416 [label="Clément
 Charest" color=lightblue2 shape=box style=filled]
 	511416 -> 511415 [color=grey style=dashed]
@@ -1796,7 +1788,7 @@ Brien, Lapierre" color=pink shape=box style=filled]
 	"Servini2.Charette" [label="Servini (Sylvain Sévère)
 Charette" color=lightblue2 shape=box style=filled]
 	"Julie.Demers" [label="Julie
-Demers" color=lightblue2 shape=box style=filled]
+Demers" color=pink shape=box style=filled]
 	"Julie.Demers" -> "Servini2.Charette" [color=pink style=solid]
 	"Damase.Chauret" [label="Damase
 Chauret" color=lightblue2 shape=box style=filled]
@@ -1878,10 +1870,10 @@ Valiquette" color=pink shape=box style=filled]
 Choret Chaurette" color=lightblue2 shape=box style=filled]
 	"Théodore.Choret Chaurette" -> "Damase.Chauret" [color=lightblue2 style=solid]
 	"Julie.Demers" [label="Julie
-Demers" color=lightblue2 shape=box style=filled]
+Demers" color=pink shape=box style=filled]
 	"Julie.Demers" -> "Damase.Chauret" [color=grey style=dashed]
 	"Julie.Demers" [label="Julie
-Demers" color=lightblue2 shape=box style=filled]
+Demers" color=pink shape=box style=filled]
 	"Damase.Chauret" [label="Damase
 Chauret" color=lightblue2 shape=box style=filled]
 	"Damase.Chauret" -> "Julie.Demers" [color=grey style=dashed]

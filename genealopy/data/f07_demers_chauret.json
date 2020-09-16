@@ -35,7 +35,7 @@
   "Julie.Demers": {
     "first_name": "Julie",
     "last_name": "Demers",
-    "gender": "M",
+    "gender": "F",
     "relationship": {
       "Damase.Chauret": { "type": "union" }
     },
