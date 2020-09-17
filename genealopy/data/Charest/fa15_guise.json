@@ -2,6 +2,7 @@
   "Louis.Guise": {
     "first_name": "Louis",
     "last_name": "Guise",
+    "title": "Cardinal",
     "gender": "M",
     "relationship": {
       "Claude.de Lorraine": { "type": "father" }

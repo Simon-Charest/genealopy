@@ -23,6 +23,17 @@ PARENT_LINK_STYLE = 'solid'
 UNDEFINED_LINK_STYLE = 'dashed'
 DEBUG = True
 
+"""
+Filenames examples:
+    ma01_dubreuil_lague.json   : first-degree (01) ascendant (a) of the mother's side (m) of the family
+    fa01_tremblay_charest.json : first-degree (01) ascendant (a) of the father's side (f) of the family
+    00_lague_charest.json      : Root (00) of both sides of the family
+    m00_dubreuil_lague.json    : Root (00) of the mother's side (m) of the family
+    f00_tremblay_charest.json  : Root (00) of the father's side (f) of the family
+    md01_dubreuil_lague.json   : first-degree (01) descendant (d) of the mother's side (m) of the family
+    fd01_charest_drouin.json   : first-degree (01) descendant (d) of the father's side (f) of the family
+"""
+
 
 def run():
     graph = Digraph(constant.__project__, filename=f'data/{constant.__project__.lower()}.gv', format='png')

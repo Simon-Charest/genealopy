@@ -38,6 +38,7 @@ __credits__ = {
     'Suzanne Coderre': {
         'email': 'suzanne1809@gmail.com'
     },
+    'The Charest Family': {},
     'Gilles Deguire': {
         'organization': 'Mes ancêtres',
         'email': 'deguire@mesancetres.ca',

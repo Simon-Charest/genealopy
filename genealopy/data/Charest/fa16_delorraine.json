@@ -1,0 +1,13 @@
+{
+  "Claude.de Lorraine": {
+    "first_name": "Claude",
+    "last_name": "de Lorraine",
+    "title": "duc de Guise",
+    "gender": "M",
+    "relationship": {
+      "Filippa.van Gelre": { "type": "mother" },
+      "René II.de Lorraine": { "type": "father" },
+      "Antoinette.de Bourbon-Vendôme": { "type": "union" }
+    }
+  }
+}
