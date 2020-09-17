@@ -2079,6 +2079,14 @@ Dulude" color=pink shape=box style=filled]
 	"Gilles2.Charest" [label="Gilles
 Charest" color=lightblue2 shape=box style=filled]
 	"Gilles2.Charest" -> "Marc.Charest" [color=lightblue2 style=solid]
+	"Sandie.Poirier" [label="Sandie
+Poirier" color=pink shape=box style=filled]
+	"Sandie.Poirier" -> "Marc.Charest" [color=grey style=dashed]
+	"Sandie.Poirier" [label="Sandie
+Poirier" color=pink shape=box style=filled]
+	"Marc.Charest" [label="Marc
+Charest" color=lightblue2 shape=box style=filled]
+	"Marc.Charest" -> "Sandie.Poirier" [color=grey style=dashed]
 	"Annie.Charest" [label="Annie
 Charest" color=pink shape=box style=filled]
 	"Jocelyne.Dulude" [label="Jocelyne
@@ -2092,6 +2100,17 @@ Marcil" color=lightblue2 shape=box style=filled]
 	"Ghislaine.Charest" [label="Ghislaine
 Charest" color=pink shape=box style=filled]
 	"Ghislaine.Charest" -> "Daniel.Marcil" [color=pink style=solid]
+	"Serge.Marcil" [label="Serge
+Marcil" color=lightblue2 shape=box style=filled]
+	"Serge.Marcil" -> "Daniel.Marcil" [color=lightblue2 style=solid]
+	"Sandra.Maluorni" [label="Sandra
+Maluorni" color=lightblue2 shape=box style=filled]
+	"Sandra.Maluorni" -> "Daniel.Marcil" [color=grey style=dashed]
+	"Sandra.Maluorni" [label="Sandra
+Maluorni" color=lightblue2 shape=box style=filled]
+	"Daniel.Marcil" [label="Daniel
+Marcil" color=lightblue2 shape=box style=filled]
+	"Daniel.Marcil" -> "Sandra.Maluorni" [color=grey style=dashed]
 	"Julie.Marcil" [label="Julie
 Marcil" color=pink shape=box style=filled]
 	"Ghislaine.Charest" [label="Ghislaine
@@ -2321,11 +2340,43 @@ Vaillancourt" color=pink shape=box style=filled]
 	"Jimmy.Lahaie" [label="Jimmy
 Lahaie" color=lightblue2 shape=box style=filled]
 	"Jimmy.Lahaie" -> "Nicholas.Lahaie" [color=lightblue2 style=solid]
+	Marcil [label="None
+Marcil" color=lightblue2 shape=box style=filled]
+	"Sandra.Maluorni" [label="Sandra
+Maluorni" color=lightblue2 shape=box style=filled]
+	"Sandra.Maluorni" -> Marcil [color=pink style=solid]
+	"Daniel.Marcil" [label="Daniel
+Marcil" color=lightblue2 shape=box style=filled]
+	"Daniel.Marcil" -> Marcil [color=lightblue2 style=solid]
+	"Gabriel.Marcil" [label="Gabriel
+Marcil" color=lightblue2 shape=box style=filled]
+	"Sandra.Maluorni" [label="Sandra
+Maluorni" color=lightblue2 shape=box style=filled]
+	"Sandra.Maluorni" -> "Gabriel.Marcil" [color=pink style=solid]
+	"Daniel.Marcil" [label="Daniel
+Marcil" color=lightblue2 shape=box style=filled]
+	"Daniel.Marcil" -> "Gabriel.Marcil" [color=lightblue2 style=solid]
 	"Kevin.Ostiguy" [label="Kevin
 Ostiguy" color=lightblue2 shape=box style=filled]
 	"Sylvain.Ostiguy" [label="Sylvain
 Ostiguy" color=lightblue2 shape=box style=filled]
 	"Sylvain.Ostiguy" -> "Kevin.Ostiguy" [color=lightblue2 style=solid]
+	Charest [label="
+Charest" color=lightblue2 shape=box style=filled]
+	"Sandie.Poirier" [label="Sandie
+Poirier" color=pink shape=box style=filled]
+	"Sandie.Poirier" -> Charest [color=pink style=solid]
+	"Marc.Charest" [label="Marc
+Charest" color=lightblue2 shape=box style=filled]
+	"Marc.Charest" -> Charest [color=lightblue2 style=solid]
+	Charest2 [label="
+Charest" color=pink shape=box style=filled]
+	"Sandie.Poirier" [label="Sandie
+Poirier" color=pink shape=box style=filled]
+	"Sandie.Poirier" -> Charest2 [color=pink style=solid]
+	"Marc.Charest" [label="Marc
+Charest" color=lightblue2 shape=box style=filled]
+	"Marc.Charest" -> Charest2 [color=lightblue2 style=solid]
 	"Julianne.Guay" [label="Julianne
 Guay" color=pink shape=box style=filled]
 	"Caroline.Therrien" [label="Caroline

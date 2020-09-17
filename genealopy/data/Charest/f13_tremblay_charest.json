@@ -5,7 +5,17 @@
     "gender": "M",
     "relationship": {
 	  "Jocelyne.Dulude": { "type": "mother" },
-      "Gilles2.Charest": { "type": "father" }
+      "Gilles2.Charest": { "type": "father" },
+      "Sandie.Poirier": { "type": "union" }
+    },
+    "source" : null
+  },
+  "Sandie.Poirier": {
+    "first_name": "Sandie",
+    "last_name": "Poirier",
+    "gender": "F",
+    "relationship": {
+	  "Marc.Charest": { "type": "union" }
     },
     "source" : null
   },
@@ -24,7 +34,18 @@
     "last_name": "Marcil",
     "gender": "M",
     "relationship": {
-      "Ghislaine.Charest": { "type": "mother" }
+      "Ghislaine.Charest": { "type": "mother" },
+      "Serge.Marcil": { "type": "father" },
+      "Sandra.Maluorni": { "type": "union" }
+    },
+    "source" : null
+  },
+  "Sandra.Maluorni": {
+    "first_name": "Sandra",
+    "last_name": "Maluorni",
+    "gender": "M",
+    "relationship": {
+      "Daniel.Marcil": { "type": "union" }
     },
     "source" : null
   },

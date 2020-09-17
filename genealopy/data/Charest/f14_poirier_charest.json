@@ -1,0 +1,22 @@
+{
+  "Charest": {
+    "first_name": "",
+    "last_name": "Charest",
+    "gender": "M",
+    "relationship": {
+	  "Sandie.Poirier": { "type": "mother" },
+      "Marc.Charest": { "type": "father" }
+    },
+    "source" : null
+  },
+  "Charest2": {
+    "first_name": "",
+    "last_name": "Charest",
+    "gender": "F",
+    "relationship": {
+	  "Sandie.Poirier": { "type": "mother" },
+      "Marc.Charest": { "type": "father" }
+    },
+    "source" : null
+  }
+}
