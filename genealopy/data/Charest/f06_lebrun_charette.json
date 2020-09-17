@@ -26,6 +26,8 @@
     "last_name": "Bédard",
     "gender": "F",
     "relationship": {
+      "Esther.Maheu": { "type": "mother" },
+      "Joseph.Bédard": { "type": "father" },
       "Célestin.Tanguay": { "type": "union" }
     },
     "source": "https://www.myheritage.fr/site-family-tree-205814691/charest"
@@ -38,6 +40,26 @@
       "Thérèse.Bussière": { "type": "mother" },
       "André.Tanguay": { "type": "father" },
       "Adèle.Bédard": { "type": "union" }
+    },
+    "source": "https://www.myheritage.fr/site-family-tree-205814691/charest"
+  },
+  "Jeanne.Marchand": {
+    "first_name": "Jeanne",
+    "last_name": "Marchand",
+    "gender": "F",
+    "relationship": {
+      "Joseph Edouard.Voisard": { "type": "union" }
+    },
+    "source": "https://www.myheritage.fr/site-family-tree-205814691/charest"
+  },
+  "Joseph Edouard.Voisard": {
+    "first_name": "Joseph Edouard",
+    "last_name": "Voisard",
+    "gender": "M",
+    "relationship": {
+      "Léocadie.Moreau": { "type": "mother" },
+      "Joseph Désiré.Voisard": { "type": "father" },
+      "Jeanne.Marchand": { "type": "union" }
     },
     "source": "https://www.myheritage.fr/site-family-tree-205814691/charest"
   }

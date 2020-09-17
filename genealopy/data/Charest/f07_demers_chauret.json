@@ -78,5 +78,49 @@
       "Thérèse.Bussière": { "type": "union" }
     },
     "source": "https://www.myheritage.fr/site-family-tree-205814691/charest"
+  },
+  "Esther.Maheu": {
+    "first_name": "Esther",
+    "last_name": "Maheu",
+    "gender": "F",
+    "relationship": {
+      "Louise.Doiron": { "type": "mother" },
+      "Joseph.Maheu": { "type": "father" },
+      "Joseph.Bédard": { "type": "union" }
+    },
+    "source": "https://www.myheritage.fr/site-family-tree-205814691/charest"
+  },
+  "Joseph.Bédard": {
+    "first_name": "Joseph",
+    "last_name": "Bédard",
+    "gender": "M",
+    "relationship": {
+      "Marie-Angélique.Bourbeau": { "type": "mother" },
+      "Jean-Baptiste.Bédard": { "type": "father" },
+      "Esther.Maheu": { "type": "union" }
+    },
+    "source": "https://www.myheritage.fr/site-family-tree-205814691/charest"
+  },
+  "Léocadie.Moreau": {
+    "first_name": "Léocadie",
+    "last_name": "Moreau",
+    "gender": "F",
+    "relationship": {
+      "Marie-Rosalie.Bergeron": { "type": "mother" },
+      "Jean-Baptiste.Moreau": { "type": "father" },
+      "Joseph Désiré.Voisard": { "type": "union" }
+    },
+    "source": "https://www.myheritage.fr/site-family-tree-205814691/charest"
+  },
+  "Joseph Désiré.Voisard": {
+    "first_name": "Joseph Désiré",
+    "last_name": "Voisard",
+    "gender": "M",
+    "relationship": {
+      "Catherine.Bourassa": { "type": "mother" },
+      "François.Voisard": { "type": "father" },
+      "Léocadie.Moreau": { "type": "union" }
+    },
+    "source": "https://www.myheritage.fr/site-family-tree-205814691/charest"
   }
 }

@@ -68,6 +68,8 @@
     "last_name": "Morin",
     "gender": "F",
     "relationship": {
+      "Marguerite.Dagneau": { "type": "mother" },
+      "Antoine.Morin": { "type": "father" },
       "Jean-Baptiste.Tanguay": { "type": "union" }
     },
     "source": "https://www.myheritage.fr/site-family-tree-205814691/charest"
@@ -80,6 +82,84 @@
       "Marguerite.Boissonneau": { "type": "mother" },
       "Jean-François.Tanguay": { "type": "father" },
       "Marie-Catherine Théotiste.Morin": { "type": "union" }
+    },
+    "source": "https://www.myheritage.fr/site-family-tree-205814691/charest"
+  },
+  "Marie-Angélique.Bourbeau": {
+    "first_name": "Marie-Angélique",
+    "last_name": "Bourbeau",
+    "gender": "F",
+    "relationship": {
+      "Jean-Baptiste.Bédard": { "type": "union" }
+    },
+    "source": "https://www.myheritage.fr/site-family-tree-205814691/charest"
+  },
+  "Jean-Baptiste.Bédard": {
+    "first_name": "Jean-Baptiste",
+    "last_name": "Bédard",
+    "gender": "M",
+    "relationship": {
+      "Louise.Paquet": { "type": "mother" },
+      "Simon.Bédard": { "type": "father" },
+      "Marie-Angélique.Bourbeau": { "type": "union" }
+    },
+    "source": "https://www.myheritage.fr/site-family-tree-205814691/charest"
+  },
+  "Louise.Doiron": {
+    "first_name": "Louise",
+    "last_name": "Doiron",
+    "gender": "F",
+    "relationship": {
+      "Joseph.Maheu": { "type": "union" }
+    },
+    "source": "https://www.myheritage.fr/site-family-tree-205814691/charest"
+  },
+  "Joseph.Maheu": {
+    "first_name": "Joseph",
+    "last_name": "Maheu",
+    "gender": "M",
+    "relationship": {
+      "Louise.Doiron": { "type": "union" }
+    },
+    "source": "https://www.myheritage.fr/site-family-tree-205814691/charest"
+  },
+  "Marie-Rosalie.Bergeron": {
+    "first_name": "Marie-Rosalie",
+    "last_name": "Bergeron",
+    "gender": "F",
+    "relationship": {
+      "Jean-Baptiste.Moreau": { "type": "union" }
+    },
+    "source": "https://www.myheritage.fr/site-family-tree-205814691/charest"
+  },
+  "Jean-Baptiste.Moreau": {
+    "first_name": "Jean-Baptiste",
+    "last_name": "Moreau",
+    "gender": "M",
+    "relationship": {
+      "Marie-Rosalie.Bergeron": { "type": "union" }
+    },
+    "source": "https://www.myheritage.fr/site-family-tree-205814691/charest"
+  },
+  "Catherine.Bourassa": {
+    "first_name": "Catherine",
+    "last_name": "Bourassa",
+    "gender": "F",
+    "relationship": {
+      "Marie Thérèse.Fontaine Marion": { "type": "mother" },
+      "Pierre R.Bourassa": { "type": "father" },
+      "François.Voisard": { "type": "union" }
+    },
+    "source": "https://www.myheritage.fr/site-family-tree-205814691/charest"
+  },
+  "François.Voisard": {
+    "first_name": "François",
+    "last_name": "Voisard",
+    "gender": "M",
+    "relationship": {
+      "Marie-Charlotte.Auger": { "type": "mother" },
+      "Henri Joseph.Voisard": { "type": "father" },
+      "Catherine.Bourassa": { "type": "union" }
     },
     "source": "https://www.myheritage.fr/site-family-tree-205814691/charest"
   }

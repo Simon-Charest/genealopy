@@ -90,5 +90,77 @@
       "Marguerite.Boissonneau": { "type": "union" }
     },
     "source": "https://www.myheritage.fr/site-family-tree-205814691/charest"
+  },
+  "Marguerite.Dagneau": {
+    "first_name": "Marguerite",
+    "last_name": "Dagneau (Daniau)",
+    "gender": "F",
+    "relationship": {
+      "Antoine.Morin": { "type": "union" }
+    },
+    "source": "https://www.myheritage.fr/site-family-tree-205814691/charest"
+  },
+  "Antoine.Morin": {
+    "first_name": "Antoine",
+    "last_name": "Morin",
+    "gender": "M",
+    "relationship": {
+      "Marguerite.Dagneau": { "type": "union" }
+    },
+    "source": "https://www.myheritage.fr/site-family-tree-205814691/charest"
+  },
+  "Louise.Paquet": {
+    "first_name": "Louise",
+    "last_name": "Paquet",
+    "gender": "F",
+    "relationship": {
+      "Simon.Bédard": { "type": "union" }
+    },
+    "source": "https://www.myheritage.fr/site-family-tree-205814691/charest"
+  },
+  "Simon.Bédard": {
+    "first_name": "Simon",
+    "last_name": "Bédard",
+    "gender": "M",
+    "relationship": {
+      "Louise.Paquet": { "type": "union" }
+    },
+    "source": "https://www.myheritage.fr/site-family-tree-205814691/charest"
+  },
+  "Marie-Charlotte.Auger": {
+    "first_name": "Marie-Charlotte",
+    "last_name": "Auger dit Lemaître",
+    "gender": "F",
+    "relationship": {
+      "Henri Joseph.Voisard": { "type": "union" }
+    },
+    "source": "https://www.myheritage.fr/site-family-tree-205814691/charest"
+  },
+  "Henri Joseph.Voisard": {
+    "first_name": "Henri Joseph",
+    "last_name": "Voisard dit Vadeboncoeur",
+    "gender": "M",
+    "relationship": {
+      "Marie-Charlotte.Auger": { "type": "union" }
+    },
+    "source": "https://www.myheritage.fr/site-family-tree-205814691/charest"
+  },
+  "Marie Thérèse.Fontaine Marion": {
+    "first_name": "Marie Thérèse",
+    "last_name": "Fontaine Marion",
+    "gender": "F",
+    "relationship": {
+      "Pierre R.Bourassa": { "type": "union" }
+    },
+    "source": "https://www.myheritage.fr/site-family-tree-205814691/charest"
+  },
+  "Pierre R.Bourassa": {
+    "first_name": "Pierre R",
+    "last_name": "Bourassa",
+    "gender": "M",
+    "relationship": {
+      "Marie Thérèse.Fontaine Marion": { "type": "union" }
+    },
+    "source": "https://www.myheritage.fr/site-family-tree-205814691/charest"
   }
 }

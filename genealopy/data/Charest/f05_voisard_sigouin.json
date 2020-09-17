@@ -4,6 +4,8 @@
     "last_name": "Voisard",
     "gender": "F",
     "relationship": {
+      "Jeanne.Marchand": { "type": "mother" },
+      "Joseph Edouard.Voisard": { "type": "father" },
       "Alphonse.Sigouin": { "type": "union" }
     },
     "source": "data/Simon Charest.pdf"
