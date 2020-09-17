@@ -1,0 +1,22 @@
+{
+  "Luc.Perron": {
+    "first_name": "Luc",
+    "last_name": "Perron",
+    "gender": "M",
+    "relationship": {
+      "Lise.Charest": { "type": "mother" },
+      "Marc.Perron": { "type": "father" }
+    },
+    "source" : "Famille Charest"
+  },
+  "Perron": {
+    "first_name": null,
+    "last_name": "Perron",
+    "gender": "M",
+    "relationship": {
+      "Lise.Charest": { "type": "mother" },
+      "Marc.Perron": { "type": "father" }
+    },
+    "source" : "Famille Charest"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "Stéphanie.Charest": {
+    "first_name": "Stéphanie",
+    "last_name": "Charest",
+    "gender": "F",
+    "relationship": {
+      "Paul.Charest": { "type": "father" },
+      "Maxime.Lagacé": { "type": "union" }
+    },
+    "source" : "Famille Charest"
+  },
+  "Maxime.Lagacé": {
+    "first_name": "Maxime",
+    "last_name": "Lagacé",
+    "gender": "M",
+    "relationship": {
+      "Stéphanie.Charest": { "type": "union" }
+    },
+    "source" : "Famille Charest"
+  },
+  "Anick.Charest": {
+    "first_name": "Anick",
+    "last_name": "Charest",
+    "gender": "F",
+    "relationship": {
+      "Paul.Charest": { "type": "father" }
+    },
+    "source" : "Famille Charest"
+  }
+}
