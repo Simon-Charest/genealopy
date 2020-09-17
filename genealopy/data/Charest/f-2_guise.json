@@ -1,0 +1,11 @@
+{
+  "Louis.Guise": {
+    "first_name": "Louis",
+    "last_name": "Guise",
+    "gender": "M",
+    "relationship": {
+      "Claude.de Lorraine": { "type": "father" }
+    },
+    "source": "https://www.geni.com/people/CARDINAL-LOUIS-Guise-I/6000000100886612941"
+  }
+}

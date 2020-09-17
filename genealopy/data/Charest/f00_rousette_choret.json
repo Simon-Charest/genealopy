@@ -1,0 +1,32 @@
+{
+  "Thomas.Choret": {
+    "first_name": "Thomas",
+    "last_name": "Choret",
+    "gender": "M",
+    "birth": {
+	  "date": "1560",
+	  "place": "La Rochelle, Aunis, France"
+	},
+    "death": {
+	  "date": "1636-10-17",
+	  "place": "La Rochelle, Poitou-Charentes, France"
+	},
+    "relationship": {
+      "Marie.Rousette": { "type": "union" }
+    },
+    "source": "https://www.geni.com/people/Thomas-Charest/6000000006581643659"
+  },
+  "Marie.Rousette": {
+    "first_name": "Marie",
+    "last_name": "Rousette",
+    "gender": "F",
+    "birth": {
+	  "date": "1575",
+	  "place": "France"
+	},
+    "relationship": {
+      "Thomas.Choret": { "type": "union" }
+    },
+    "source": "https://www.geni.com/people/Marie-Rousette/6000000006581591534"
+  }
+}

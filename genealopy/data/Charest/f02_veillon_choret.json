@@ -3,19 +3,35 @@
     "first_name": "Sébatienne",
     "last_name": "Veillon",
     "gender": "F",
+    "birth": {
+	  "date": "1626",
+	  "place": "Sainte-Famille, L'Île-d'Orléans Regional County Municipality, Quebec, Canada"
+	},
     "relationship": {
-      "Mathieu2.Choret": { "type": "union" }
+      "Bernarde.Venet": { "type": "mother" },
+      "Maxient.Veillon": { "type": "father" },
+      "Mathieu2.Choret": { "type": "union", "start": "1647-03-04", "place": "Chapelle Sainte-Marguerite, La Rochelle, France" },
+      "Pierre.Aufroy": { "type": "union", "start": "1664-08-25", "place": "Québec" }
     },
     "source": "data/Simon Charest.pdf"
   },
   "Mathieu2.Choret": {
-    "first_name": "Mathieu",
-    "last_name": "Choret",
+    "first_name": "Robert-Mathieu",
+    "last_name": "Choret-Chourel",
     "gender": "M",
+    "birth": {
+	  "date": "1624",
+	  "place": "Église Notre-Dame-de-Cougnes, La Rochelle, France"
+	},
+    "death": {
+	  "date": "1664-03-28",
+	  "place": "Hôpital Hôtel-Dieu, Vieux-Québec, La Cité-Limoilou, Québec"
+	},
+    "job": { "name": "serviteur des Jésuites à Trois-Rivières", "start":  "1645" },
     "relationship": {
 	  "Jeanne.Serre": { "type": "mother" },
       "Mathieu.Choret": { "type": "father" },
-      "Sébatienne.Veillon": { "type": "union" }
+      "Sébatienne.Veillon": { "type": "union", "start": "1647-03-04", "place": "Chapelle Sainte-Marguerite, La Rochelle, France" }
     },
     "source": "data/Simon Charest.pdf"
   }

@@ -1,0 +1,38 @@
+{
+  "Bernarde.Venet": {
+    "first_name": "Bernarde",
+    "last_name": "Venet",
+    "gender": "F",
+    "birth": {
+	  "date": "1592",
+	  "place": "Saintes, Saintonge, France"
+	},
+    "death": {
+	  "date": "1647-03-04",
+	  "place": "Angoulême, Angoumois, France"
+	},
+    "relationship": {
+      "Lallement Peinuet": { "type": "mother" },
+      "Venet": { "type": "father" },
+      "Maxient.Venet": { "type": "union" }
+    },
+    "source": "data/Simon Charest.pdf"
+  },
+  "Maxient.Veillon": {
+    "first_name": "Maxient",
+    "last_name": "Veillon",
+    "gender": "M",
+    "birth": {
+	  "date": "1595",
+	  "place": "Verdille, Angoumois, France"
+	},
+    "death": {
+	  "date": "1645-03-04",
+	  "place": "Champagné, Maine, France"
+	},
+    "relationship": {
+      "Bernarde.Venet": { "type": "union" }
+    },
+    "source": "data/Simon Charest.pdf"
+  }
+}
