@@ -10,20 +10,29 @@ from graphviz import Digraph
 import glob
 import json
 
+RANK_DIRECTION = 'TB'  # TB, LR, BT or RL
 DATA = 'data/Charest/*.json'
 SHAPE = 'box'
 STYLE = 'filled'
 GENDER = ['M', 'F']
 RELATIONSHIP = ['father', 'mother', 'union']
+FEMALE_COLOR = 'pink'
+MALE_COLOR = 'lightblue2'
+UNDEFINED_COLOR = 'grey'
+PARENT_LINK_STYLE = 'solid'
+UNDEFINED_LINK_STYLE = 'dashed'
 DEBUG = True
 
 
 def run():
     graph = Digraph(constant.__project__, filename=f'data/{constant.__project__.lower()}.gv', format='png')
-    # graph.attr(rankdir='LR')
+    graph.attr(rankdir=RANK_DIRECTION)
 
     filenames = get_filenames(DATA)
     json_documents = get_json_documents(filenames)
+
+    person_count = 0
+    relationship_count = 0
 
     # Loop on every JSON document
     for json_document in json_documents:
@@ -32,6 +41,7 @@ def run():
             # Get first person properties
             name1 = get_name(value1)
             gender1 = value1['gender']
+            person_count += 1
 
             if gender1 in GENDER:
                 color1 = get_color(gender1)
@@ -60,18 +70,24 @@ def run():
                             # Draw relationship
                             graph.edge(key2, key1, color=edge_color, style=edge_style)
 
+                            relationship_count += 1
+
+    if DEBUG:
+        print(f"{person_count} {pluralize('person')}")
+        print(f"{relationship_count} {pluralize('relationship')}")
+
     graph.view()
 
 
 def get_color(gender):
     if gender in ['F', 'mother']:
-        color = 'pink'
+        color = FEMALE_COLOR
 
     elif gender in ['M', 'father']:
-        color = 'lightblue2'
+        color = MALE_COLOR
 
     else:
-        color = 'grey'
+        color = UNDEFINED_COLOR
 
     return color
 
@@ -134,13 +150,17 @@ def get_relationship_name(json_documents, id_):
 
 def get_style(type_):
     if type_ in ['F', 'mother', 'M', 'father']:
-        style = 'solid'
+        style = PARENT_LINK_STYLE
 
     else:
-        style = 'dashed'
+        style = UNDEFINED_LINK_STYLE
 
     return style
 
 
 def get_relationship(value, id_):
     return value['relationship'][id_]['type']
+
+
+def pluralize(word, count=2):
+    return word if count <= 1 else f"{word}s"
