@@ -1,0 +1,102 @@
+{
+  "André2.Charest": {
+    "first_name": "André",
+    "last_name": "Charest",
+    "gender": "M",
+    "relationship": {
+      "Denise.Deslauriers": { "type": "mother" },
+      "Gilles.Charest": { "type": "father" },
+	  "Johanne.Archambault": { "type": "union" }
+    },
+    "source" : "Famille Charest"
+  },
+  "Johanne.Archambault": {
+    "first_name": "Johanne",
+    "last_name": "Archambault",
+    "gender": "F",
+    "relationship": {
+	  "André2.Charest": { "type": "union" }
+    },
+    "source" : "Famille Charest"
+  },
+  "Thérèse.Charest": {
+    "first_name": "Thérèse",
+    "last_name": "Charest",
+    "gender": "F",
+    "relationship": {
+	  "Denise.Deslauriers": { "type": "mother" },
+      "Gilles.Charest": { "type": "father" },
+      "Daniel.Beauséjour": { "type": "union" }
+    },
+    "source" : "Famille Charest"
+  },
+  "Daniel.Beauséjour": {
+    "first_name": "Daniel",
+    "last_name": "Beauséjour",
+    "gender": "M",
+    "relationship": {
+      "Thérèse.Charest": { "type": "union" }
+    },
+    "source" : "Famille Charest"
+  },
+  "Marcel.Charest": {
+    "first_name": "Marcel",
+    "last_name": "Charest",
+    "gender": "M",
+    "relationship": {
+	  "Denise.Deslauriers": { "type": "mother" },
+	  "Gilles.Charest": { "type": "father" },
+	  "Hélène.Maurice": { "type": "union" },
+      "Christiane.Larente": { "type": "union" }
+	},
+    "source" : "Famille Charest"
+  },
+  "Hélène.Maurice": {
+    "first_name": "Hélène",
+    "last_name": "Maurice",
+    "gender": "F",
+    "relationship": {
+	  "Marcel.Charest": { "type": "union" }
+	},
+    "source" : "Famille Charest"
+  },
+  "Christiane.Larente": {
+    "first_name": "Christiane",
+    "last_name": "Larente",
+    "gender": "F",
+    "relationship": {
+	  "Marcel.Charest": { "type": "union" }
+	},
+    "source" : "Famille Charest"
+  },
+  "Paul.Charest": {
+    "first_name": "Paul",
+    "last_name": "Charest",
+    "gender": "M",
+    "relationship": {
+	  "Denise.Deslauriers": { "type": "mother" },
+      "Gilles.Charest": { "type": "father" }
+    },
+    "source" : "Famille Charest"
+  },
+  "Lise.Charest": {
+    "first_name": "Lise",
+    "last_name": "Charest-Perron",
+    "gender": "F",
+    "relationship": {
+	  "Denise.Deslauriers": { "type": "mother" },
+      "Gilles.Charest": { "type": "father" },
+      "Marc.Perron": { "type": "union" }
+	},
+    "source" : "Famille Charest"
+  },
+  "Marc.Perron": {
+    "first_name": "Marc",
+    "last_name": "Perron",
+    "gender": "M",
+    "relationship": {
+      "Lise.Charest": { "type": "union" }
+	},
+    "source" : "Famille Charest"
+  }
+}

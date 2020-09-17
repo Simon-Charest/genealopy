@@ -44,25 +44,5 @@
       "511418": { "type": "union", "start": "1923-09-03", "place": "Sault-au-Recollet (Montréal), Québec, Canada" }
     },
     "source": "http://www.genealogie.org/bcentrale/arbre.asp?code_owner=214&code_individu="
-  },
-  "Albert.Charette": {
-    "first_name": "Albert",
-    "last_name": "Charette",
-    "gender": "M",
-    "relationship": {
-      "Rose de Lima.Mondoux" : { "type":  "mother" },
-      "Servini.Charette" : { "type":  "father" },
-	  "Louisa.Dion" : { "type":  "union" }
-    },
-    "source": "Famille Charest"
-  },
-  "Louisa.Dion": {
-    "first_name": "Louisa",
-    "last_name": "Dion",
-    "gender": "F",
-    "relationship": {
-	  "Albert.Charette" : { "type":  "union" }
-    },
-    "source": "Famille Charest"
   }
 }

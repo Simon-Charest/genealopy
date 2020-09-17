@@ -1,0 +1,20 @@
+{
+  "Ursule.Beaulne": {
+    "first_name": "Ursule",
+    "last_name": "Beaulne (Beaune)",
+    "gender": "F",
+    "relationship": {
+      "Jean-Baptiste.Demers": { "type": "union" }
+    },
+    "source": "data/Simon Charest.pdf"
+  },
+  "Jean-Baptiste.Demers": {
+    "first_name": "Jean-Baptiste",
+    "last_name": "Demers",
+    "gender": "M",
+    "relationship": {
+      "Ursule.Beaulne": { "type": "union" }
+    },
+    "source": "data/Simon Charest.pdf"
+  }
+}

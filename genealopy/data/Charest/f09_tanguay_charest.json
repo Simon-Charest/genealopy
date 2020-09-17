@@ -20,25 +20,5 @@
       "Alma.Tanguay": { "type": "union", "start": "1891-07-20", "place": "Immaculée-Conception (Montréal), Québec, Canada" }
     },
     "source": "data/Simon Charest.pdf"
-  },
-  "Servini.Charette": {
-    "first_name": "Servini (Sylvanie)",
-    "last_name": "Charette",
-    "gender": "M",
-    "relationship": {
-      "Angélina.Perpétue": { "type": "mother" },
-      "Servini2.Charette": { "type": "father" },
-	  "Rose de Lima.Mondoux" : { "type":  "union" }
-    },
-    "source": "Famille Charest"
-  },
-  "Rose de Lima.Mondoux": {
-    "first_name": "Rose de Lima",
-    "last_name": "Mondoux",
-    "gender": "F",
-    "relationship": {
-	  "Servini.Charette" : { "type":  "union" }
-    },
-    "source": "Famille Charest"
   }
 }

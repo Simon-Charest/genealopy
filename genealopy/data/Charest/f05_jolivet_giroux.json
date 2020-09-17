@@ -1,0 +1,20 @@
+{
+  "Thérèse.Jolivet": {
+    "first_name": "Thérèse",
+    "last_name": "Jolivet, Lépine, Joly",
+    "gender": "F",
+    "relationship": {
+      "Jean-Baptiste.Giroux": { "type": "union" }
+    },
+    "source": "data/Simon Charest.pdf"
+  },
+  "Jean-Baptiste.Giroux": {
+    "first_name": "Jean-Baptiste",
+    "last_name": "Giroux",
+    "gender": "M",
+    "relationship": {
+      "Thérèse.Jolivet": { "type": "union" }
+    },
+    "source": "data/Simon Charest.pdf"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "Geneviève.Demers": {
+    "first_name": "Geneviève",
+    "last_name": "Demers",
+    "gender": "F",
+    "relationship": {
+      "Josephte.Éthier": { "type": "mother" },
+      "Jacques.Demers": { "type": "father" },
+      "Joseph.Chorret Chaurette": { "type": "union" }
+    },
+    "source": "data/Simon Charest.pdf"
+  },
+  "Joseph.Chorret Chaurette": {
+    "first_name": "Joseph",
+    "last_name": "Chorret Chaurette",
+    "gender": "M",
+    "relationship": {
+	  "Geneviève.Giroux": { "type": "mother" },
+      "Jean-Baptiste3.Chorret Chaurette": { "type": "father" },
+      "Geneviève.Demers": { "type": "union" }
+    },
+    "source": "data/Simon Charest.pdf"
+  },
+  "Damase.Chauret": {
+    "first_name": "Damase",
+    "last_name": "Chauret",
+    "gender": "M",
+    "relationship": {
+      "Josephte.Valiquette": { "type": "mother" },
+      "Théodore.Choret Chaurette": { "type": "father" },
+      "Julie.Demers": { "type": "union" }
+    },
+    "source": "data/Simon Charest.pdf"
+  },
+  "Julie.Demers": {
+    "first_name": "Julie",
+    "last_name": "Demers",
+    "gender": "F",
+    "relationship": {
+      "Damase.Chauret": { "type": "union" }
+    },
+    "source": "data/Simon Charest.pdf"
+  }
+}

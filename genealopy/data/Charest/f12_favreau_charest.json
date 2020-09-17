@@ -1,0 +1,52 @@
+{
+  "Robert.Charest": {
+    "first_name": "Robert",
+    "last_name": "Charest",
+    "gender": "M",
+    "relationship": {
+	  "Réjeanne.Favreau": { "type": "mother" },
+      "Denis.Charest": { "type": "father" }
+    },
+    "source" : "Famille Charest"
+  },
+  "Guy.Charest": {
+    "first_name": "Guy",
+    "last_name": "Charest",
+    "gender": "M",
+    "relationship": {
+	  "Réjeanne.Favreau": { "type": "mother" },
+      "Denis.Charest": { "type": "father" },
+	  "Julie.Thériault": { "type": "union" }
+    },
+    "source" : "Famille Charest"
+  },
+  "Julie.Thériault": {
+    "first_name": "Julie",
+    "last_name": "Thériault",
+    "gender": "F",
+    "relationship": {
+      "Guy.Charest": { "type": "union" }
+    },
+    "source" : "Famille Charest"
+  },
+  "François.Charest": {
+    "first_name": "François",
+    "last_name": "Charest",
+    "gender": "M",
+    "relationship": {
+	  "Réjeanne.Favreau": { "type": "mother" },
+      "Denis.Charest": { "type": "father" },
+      "Caroline.Paradis": { "type": "union" }
+    },
+    "source" : "Famille Charest"
+  },
+  "Caroline.Paradis": {
+    "first_name": "Caroline",
+    "last_name": "Paradis",
+    "gender": "F",
+    "relationship": {
+      "François.Charest": { "type": "union" }
+    },
+    "source" : "Famille Charest"
+  }
+}

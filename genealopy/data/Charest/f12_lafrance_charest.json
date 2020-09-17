@@ -1,0 +1,72 @@
+{
+  "Monique.Charest": {
+    "first_name": "Monique",
+    "last_name": "Charest",
+    "gender": "F",
+    "relationship": {
+	  "Huguette.Lafrance" : { "type":  "mother" },
+	  "René.Charest": { "type": "father" },
+	  "Michel.Hogue": { "type": "union" }
+	},
+    "source" : "Famille Charest"
+  },
+  "Michel.Hogue": {
+    "first_name": "Michel",
+    "last_name": "Hogue",
+    "gender": "M",
+    "relationship": {
+	  "Monique.Charest": { "type": "union" }
+	},
+    "source" : "Famille Charest"
+  },
+  "Serge.Charest": {
+    "first_name": "Serge",
+    "last_name": "Charest",
+    "gender": "M",
+    "relationship": {
+	  "Huguette.Lafrance" : { "type":  "mother" },
+	  "René.Charest": { "type": "father" },
+      "Danielle.Paquette": { "type": "union" }
+	},
+    "source" : "Famille Charest"
+  },
+  "Danielle.Paquette": {
+    "first_name": "Danielle",
+    "last_name": "Paquette",
+    "gender": "F",
+    "relationship": {
+      "Serge.Charest": { "type": "union" }
+	},
+    "source" : "Famille Charest"
+  },
+  "Yvon.Charest": {
+    "first_name": "Yvon",
+    "last_name": "Charest",
+    "gender": "M",
+    "relationship": {
+	  "Huguette.Lafrance" : { "type":  "mother" },
+	  "René.Charest": { "type": "father" },
+      "Michelle.Claude": { "type": "union" },
+      "Carole.Lamothe": { "type": "union" }
+	},
+    "source" : "Famille Charest"
+  },
+  "Michelle.Claude": {
+    "first_name": "Michelle",
+    "last_name": "Claude",
+    "gender": "F",
+    "relationship": {
+      "Yvon.Charest": { "type": "union" }
+	},
+    "source" : "Famille Charest"
+  },
+  "Carole.Lamothe": {
+    "first_name": "Carole",
+    "last_name": "Lamothe",
+    "gender": "F",
+    "relationship": {
+      "Yvon.Charest": { "type": "union" }
+    },
+    "source" : "Famille Charest"
+  }
+}

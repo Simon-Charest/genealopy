@@ -1,0 +1,66 @@
+{
+  "Lucie.Coderre": {
+    "first_name": "Lucie",
+    "last_name": "Coderre",
+    "gender": "F",
+    "relationship": {
+      "Céline.Charest" : { "type":  "mother" },
+	  "Gérald.Coderre": { "type": "father" },
+      "Francois.Langlais": { "type": "union" }
+    },
+    "source" : "Famille Charest"
+  },
+  "Francois.Langlais": {
+    "first_name": "Francois",
+    "last_name": "Langlais",
+    "gender": "M",
+	"job": [
+		"Lebeau Vitres d'autos",
+		"DURO Vitres d'autos et Lebeau Vitres d'autos"
+	],
+    "relationship": {
+      "Lucie.Coderre": { "type": "union" }
+    },
+    "source" : "Famille Charest"
+  },
+  "Suzanne.Coderre": {
+    "first_name": "Suzanne",
+    "last_name": "Coderre",
+    "gender": "F",
+    "relationship": {
+      "Céline.Charest" : { "type":  "mother" },
+	  "Gérald.Coderre": { "type": "father" },
+	  "Gérald.Grand'Maison": { "type": "union" }
+    },
+    "source" : "Famille Charest"
+  },
+  "Gérald.Grand'Maison": {
+    "first_name": "Gérald",
+    "last_name": "Grand'Maison",
+    "gender": "M",
+    "relationship": {
+      "Suzanne.Coderre": { "type": "union" }
+    },
+    "source" : "Famille Charest"
+  },
+  "Nicole.Coderre": {
+    "first_name": "Nicole",
+    "last_name": "Coderre",
+    "gender": "F",
+    "relationship": {
+      "Céline.Charest" : { "type":  "mother" },
+	  "Gérald.Coderre": { "type": "father" }
+    },
+    "source" : "Famille Charest"
+  },
+  "Benoît.Coderre": {
+    "first_name": "Benoît",
+    "last_name": "Coderre",
+    "gender": "M",
+    "relationship": {
+      "Céline.Charest" : { "type":  "mother" },
+	  "Gérald.Coderre": { "type": "father" }
+    },
+    "source" : "Famille Charest"
+  }
+}

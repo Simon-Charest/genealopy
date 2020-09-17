@@ -1,0 +1,83 @@
+{
+  "Louise.Charest": {
+    "first_name": "Louise",
+    "last_name": "Charest",
+    "gender": "F",
+    "relationship": {
+	  "Fleurette.Hébert": { "type": "mother" },
+	  "Hubert.Charest": { "type": "father" },
+	  "Jean-Claude.Bigaouette": { "type": "union" }
+	},
+    "source" : "Famille Charest"
+  },
+  "Jean-Claude.Bigaouette": {
+    "first_name": "Jean-Claude",
+    "last_name": "Bigaouette",
+    "gender": "M",
+    "relationship": {
+	  "Louise.Charest": { "type": "union" }
+	},
+    "source" : "Famille Charest"
+  },
+  "Pierre.Charest": {
+    "first_name": "Pierre",
+    "last_name": "Charest",
+    "gender": "M",
+    "relationship": {
+	  "Fleurette.Hébert": { "type": "mother" },
+	  "Hubert.Charest": { "type": "father" },
+      "Ginette.Gravel": { "type": "union" },
+      "Chantal.Leblond": { "type": "union" }
+	},
+    "source" : "Famille Charest"
+  },
+  "Ginette.Gravel": {
+    "first_name": "Ginette",
+    "last_name": "Gravel",
+    "gender": "F",
+    "relationship": {
+	  "Pierre.Charest": { "type": "union" }
+	},
+    "source" : "Famille Charest"
+  },
+  "Chantal.Leblond": {
+    "first_name": "Chantal",
+    "last_name": "Leblond",
+    "gender": "F",
+    "relationship": {
+	  "Pierre.Charest": { "type": "union" }
+	},
+    "source" : "Famille Charest"
+  },
+  "Yves.Charest": {
+    "first_name": "Yves",
+    "last_name": "Charest",
+    "gender": "M",
+	"job": "policier à Ville de Laval",
+    "relationship": {
+	  "Fleurette.Hébert": { "type": "mother" },
+	  "Hubert.Charest": { "type": "father" },
+      "Rose.Monette": { "type": "union" }
+	},
+    "source" : "Famille Charest"
+  },
+  "Rose.Monette": {
+    "first_name": "Rose",
+    "last_name": "Monette",
+    "gender": "F",
+    "relationship": {
+	  "Yves.Charest": { "type": "union" }
+	},
+    "source" : "Famille Charest"
+  },
+  "BB.Charest": {
+    "first_name": "BB",
+    "last_name": "Charest",
+    "gender": "F",
+    "relationship": {
+	  "Fleurette.Hébert": { "type": "mother" },
+	  "Hubert.Charest": { "type": "father" }
+	},
+    "source" : "Famille Charest"
+  }
+}

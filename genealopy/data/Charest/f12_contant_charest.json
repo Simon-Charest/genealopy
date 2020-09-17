@@ -1,0 +1,92 @@
+{
+  "Johanne.Charest": {
+    "first_name": "Johanne",
+    "last_name": "Charest",
+    "gender": "F",
+    "relationship": {
+	  "Yolande.Contant": { "type": "mother" },
+      "Luc.Charest": { "type": "father" },
+      "Michel.Bayard": { "type": "union" },
+      "Guy.Therrien": { "type": "union" }
+	},
+    "source" : "Famille Charest"
+  },
+  "Michel.Bayard": {
+    "first_name": "Michel",
+    "last_name": "Bayard",
+    "gender": "M",
+    "relationship": {
+      "Johanne.Charest": { "type": "union" }
+	},
+    "source" : "Famille Charest"
+  },
+  "Guy.Therrien": {
+    "first_name": "Guy",
+    "last_name": "Therrien",
+    "gender": "M",
+    "relationship": {
+      "Johanne.Charest": { "type": "union" }
+	},
+    "source" : "Famille Charest"
+  },
+  "Danielle.Charest": {
+    "first_name": "Danielle",
+    "last_name": "Charest",
+    "gender": "F",
+    "relationship": {
+      "Yolande.Contant": { "type": "mother" },
+      "Luc.Charest": { "type": "father" },
+      "Robert.Lauzon": { "type": "union" }
+    },
+    "source" : "Famille Charest"
+  },
+  "Robert.Lauzon": {
+    "first_name": "Robert",
+    "last_name": "Lauzon",
+    "gender": "M",
+    "relationship": {
+      "Danielle.Charest": { "type": "father" }
+    },
+    "source" : "Famille Charest"
+  },
+  "Sylvie.Charest": {
+    "first_name": "Sylvie",
+    "last_name": "Charest",
+    "gender": "F",
+    "relationship": {
+      "Yolande.Contant": { "type": "mother" },
+      "Luc.Charest": { "type": "father" },
+      "Gilles.Lahaie": { "type": "union" }
+    },
+    "source" : "Famille Charest"
+  },
+  "Gilles.Lahaie": {
+    "first_name": "Gilles",
+    "last_name": "Lahaie",
+    "gender": "M",
+    "relationship": {
+      "Sylvie.Charest": { "type": "union" }
+    },
+    "source" : "Famille Charest"
+  },
+  "Renée.Charest": {
+    "first_name": "Renée",
+    "last_name": "Charest",
+    "gender": "F",
+    "relationship": {
+      "Yolande.Contant": { "type": "mother" },
+      "Luc.Charest": { "type": "father" },
+      "Pierre.Thériault": { "type": "union" }
+    },
+    "source" : "Famille Charest"
+  },
+  "Pierre.Thériault": {
+    "first_name": "Pierre",
+    "last_name": "Thériault",
+    "gender": "M",
+    "relationship": {
+      "Renée.Charest": { "type": "union" }
+    },
+    "source" : "Famille Charest"
+  }
+}

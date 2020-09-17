@@ -1,0 +1,24 @@
+{
+  "Léocadie.Moreau": {
+    "first_name": "Léocadie",
+    "last_name": "Moreau",
+    "gender": "F",
+    "relationship": {
+      "Marie-Rosalie.Bergeron": { "type": "mother" },
+      "Jean-Baptiste.Moreau": { "type": "father" },
+      "Joseph Désiré.Voisard": { "type": "union" }
+    },
+    "source": "https://www.myheritage.fr/site-family-tree-205814691/charest"
+  },
+  "Joseph Désiré.Voisard": {
+    "first_name": "Joseph Désiré",
+    "last_name": "Voisard",
+    "gender": "M",
+    "relationship": {
+      "Catherine.Bourassa": { "type": "mother" },
+      "François.Voisard": { "type": "father" },
+      "Léocadie.Moreau": { "type": "union" }
+    },
+    "source": "https://www.myheritage.fr/site-family-tree-205814691/charest"
+  }
+}

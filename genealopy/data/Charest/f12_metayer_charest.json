@@ -1,0 +1,42 @@
+{
+  "Diane.Charest": {
+    "first_name": "Diane",
+    "last_name": "Charest",
+    "gender": "F",
+    "relationship": {
+      "Lise.Métayer": { "type": "mother" },
+      "André.Charest": { "type": "father" },
+      "Georges.Lessard": { "type": "union" }
+    },
+    "source" : "Famille Charest"
+  },
+  "Georges.Lessard": {
+    "first_name": "Georges",
+    "last_name": "Lessard",
+    "gender": "M",
+    "relationship": {
+      "Diane.Charest": { "type": "union" }
+    },
+    "source" : "Famille Charest"
+  },
+  "Hélène.Charest": {
+    "first_name": "Hélène",
+    "last_name": "Charest",
+    "gender": "F",
+    "relationship": {
+      "Lise.Métayer": { "type": "mother" },
+      "André.Charest": { "type": "father" },
+      "Harvey.Young": { "type": "union" }
+    },
+    "source" : "Famille Charest"
+  },
+  "Harvey.Young": {
+    "first_name": "Harvey",
+    "last_name": "Young",
+    "gender": "M",
+    "relationship": {
+      "Hélène.Charest": { "type": "union" }
+    },
+    "source" : "Famille Charest"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Louise.Paquet": {
+    "first_name": "Louise",
+    "last_name": "Paquet",
+    "gender": "F",
+    "relationship": {
+      "Simon.Bédard": { "type": "union" }
+    },
+    "source": "https://www.myheritage.fr/site-family-tree-205814691/charest"
+  },
+  "Simon.Bédard": {
+    "first_name": "Simon",
+    "last_name": "Bédard",
+    "gender": "M",
+    "relationship": {
+      "Louise.Paquet": { "type": "union" }
+    },
+    "source": "https://www.myheritage.fr/site-family-tree-205814691/charest"
+  }
+}

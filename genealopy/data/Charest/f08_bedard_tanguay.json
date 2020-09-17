@@ -1,0 +1,24 @@
+{
+  "Adèle.Bédard": {
+    "first_name": "Adèle",
+    "last_name": "Bédard",
+    "gender": "F",
+    "relationship": {
+      "Esther.Maheu": { "type": "mother" },
+      "Joseph.Bédard": { "type": "father" },
+      "Célestin.Tanguay": { "type": "union" }
+    },
+    "source": "https://www.myheritage.fr/site-family-tree-205814691/charest"
+  },
+  "Célestin.Tanguay": {
+    "first_name": "Célestin",
+    "last_name": "Tanguay",
+    "gender": "M",
+    "relationship": {
+      "Thérèse.Bussière": { "type": "mother" },
+      "André.Tanguay": { "type": "father" },
+      "Adèle.Bédard": { "type": "union" }
+    },
+    "source": "https://www.myheritage.fr/site-family-tree-205814691/charest"
+  }
+}

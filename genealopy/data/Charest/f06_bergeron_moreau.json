@@ -1,0 +1,20 @@
+{
+  "Marie-Rosalie.Bergeron": {
+    "first_name": "Marie-Rosalie",
+    "last_name": "Bergeron",
+    "gender": "F",
+    "relationship": {
+      "Jean-Baptiste.Moreau": { "type": "union" }
+    },
+    "source": "https://www.myheritage.fr/site-family-tree-205814691/charest"
+  },
+  "Jean-Baptiste.Moreau": {
+    "first_name": "Jean-Baptiste",
+    "last_name": "Moreau",
+    "gender": "M",
+    "relationship": {
+      "Marie-Rosalie.Bergeron": { "type": "union" }
+    },
+    "source": "https://www.myheritage.fr/site-family-tree-205814691/charest"
+  }
+}

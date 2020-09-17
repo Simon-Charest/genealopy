@@ -1,0 +1,52 @@
+{
+  "Eric.Charette": {
+    "first_name": "Eric",
+    "last_name": "Charette",
+    "gender": "M",
+    "relationship": {
+      "Henriette.Charest": { "type": "mother" },
+	  "Aurèle.Charette": { "type": "father" },
+      "Sophie.Couture": { "type": "union" }
+    },
+    "source" : "Famille Charest"
+  },
+  "Sophie.Couture": {
+    "first_name": "Sophie",
+    "last_name": "Couture",
+    "gender": "F",
+    "relationship": {
+      "Eric.Charette": { "type": "union" }
+    },
+    "source" : "Famille Charest"
+  },
+  "Pauline.Charette": {
+    "first_name": "Pauline",
+    "last_name": "Charette",
+    "gender": "F",
+    "relationship": {
+      "Henriette.Charest": { "type": "mother" },
+      "Aurèle.Charette": { "type": "father" }
+    },
+    "source" : "Famille Charest"
+  },
+  "Linda.Charette": {
+    "first_name": "Linda",
+    "last_name": "Charette",
+    "gender": "F",
+    "relationship": {
+      "Henriette.Charest": { "type": "mother" },
+      "Aurèle.Charette": { "type": "father" },
+      "Guy.Ménard": { "type": "union" }
+    },
+    "source" : "Famille Charest"
+  },
+  "Guy.Ménard": {
+    "first_name": "Guy",
+    "last_name": "Ménard",
+    "gender": "M",
+    "relationship": {
+      "Linda.Charette": { "type": "union" }
+    },
+    "source" : "Famille Charest"
+  }
+}

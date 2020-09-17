@@ -1,0 +1,20 @@
+{
+  "Marie-Charlotte.Auger": {
+    "first_name": "Marie-Charlotte",
+    "last_name": "Auger dit Lemaître",
+    "gender": "F",
+    "relationship": {
+      "Henri Joseph.Voisard": { "type": "union" }
+    },
+    "source": "https://www.myheritage.fr/site-family-tree-205814691/charest"
+  },
+  "Henri Joseph.Voisard": {
+    "first_name": "Henri Joseph",
+    "last_name": "Voisard dit Vadeboncoeur",
+    "gender": "M",
+    "relationship": {
+      "Marie-Charlotte.Auger": { "type": "union" }
+    },
+    "source": "https://www.myheritage.fr/site-family-tree-205814691/charest"
+  }
+}

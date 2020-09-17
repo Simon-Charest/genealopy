@@ -1,0 +1,22 @@
+{
+  "Thérèse.Bussière": {
+    "first_name": "Thérèse",
+    "last_name": "Bussière",
+    "gender": "F",
+    "relationship": {
+      "André.Tanguay": { "type": "union" }
+    },
+    "source": "https://www.myheritage.fr/site-family-tree-205814691/charest"
+  },
+  "André.Tanguay": {
+    "first_name": "André",
+    "last_name": "Tanguay",
+    "gender": "M",
+    "relationship": {
+      "Marie-Catherine Théotiste.Morin": { "type": "mother" },
+      "Jean-Baptiste.Tanguay": { "type": "father" },
+      "Thérèse.Bussière": { "type": "union" }
+    },
+    "source": "https://www.myheritage.fr/site-family-tree-205814691/charest"
+  }
+}

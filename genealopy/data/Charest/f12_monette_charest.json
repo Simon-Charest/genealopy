@@ -1,0 +1,42 @@
+{
+  "Sylvain.Monette": {
+    "first_name": "Sylvain",
+    "last_name": "Monette",
+    "gender": "M",
+    "relationship": {
+      "Francine.Charest": { "type": "mother" },
+      "Jacques.Monette": { "type": "father" },
+      "Rachel.Ladouceur": { "type": "union" }
+    },
+    "source" : "Famille Charest"
+  },
+  "Rachel.Ladouceur": {
+    "first_name": "Rachel",
+    "last_name": "Ladouceur",
+    "gender": "F",
+    "relationship": {
+      "Sylvain.Monette": { "type": "union" }
+    },
+    "source" : "Famille Charest"
+  },
+  "Claude.Monette": {
+    "first_name": "Claude",
+    "last_name": "Monette",
+    "gender": "M",
+    "relationship": {
+      "Francine.Charest": { "type": "mother" },
+      "Jacques.Monette": { "type": "father" },
+      "Lise.Gagnon": { "type": "union" }
+    },
+    "source" : "Famille Charest"
+  },
+  "Lise.Gagnon": {
+    "first_name": "Lise",
+    "last_name": "Gagnon",
+    "gender": "F",
+    "relationship": {
+      "Claude.Monette": { "type": "union" }
+    },
+    "source" : "Famille Charest"
+  }
+}

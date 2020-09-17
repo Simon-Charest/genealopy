@@ -1,0 +1,20 @@
+{
+  "Josephte.Biroleau": {
+    "first_name": "Josephte",
+    "last_name": "Biroleau dit Lafleur",
+    "gender": "F",
+    "relationship": {
+      "Pierre.Éthier": { "type": "union" }
+    },
+    "source": "data/Simon Charest.pdf"
+  },
+  "Pierre.Éthier": {
+    "first_name": "Pierre",
+    "last_name": "Éthier",
+    "gender": "M",
+    "relationship": {
+      "Josephte.Biroleau": { "type": "union" }
+    },
+    "source": "data/Simon Charest.pdf"
+  }
+}

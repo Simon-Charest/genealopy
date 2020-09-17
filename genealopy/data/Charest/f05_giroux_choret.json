@@ -1,0 +1,24 @@
+{
+  "Geneviève.Giroux": {
+    "first_name": "Geneviève",
+    "last_name": "Giroux",
+    "gender": "F",
+    "relationship": {
+      "Thérèse.Jolivet": { "type": "mother" },
+      "Jean-Baptiste.Giroux": { "type": "father" },
+      "Jean-Baptiste3.Chorret Chaurette": { "type": "union" }
+    },
+    "source": "data/Simon Charest.pdf"
+  },
+  "Jean-Baptiste3.Chorret Chaurette": {
+    "first_name": "Jean-Baptiste",
+    "last_name": "Chorret Chaurette",
+    "gender": "M",
+    "relationship": {
+	  "Marie-Catherine.Letourneux": { "type": "mother" },
+      "Jean-Baptiste2.Choret Chaurette": { "type": "father" },
+      "Geneviève.Giroux": { "type": "union" }
+    },
+    "source": "data/Simon Charest.pdf"
+  }
+}
