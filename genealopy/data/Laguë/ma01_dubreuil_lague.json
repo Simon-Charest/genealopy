@@ -1,13 +1,4 @@
 {
-  "Marcel.Lamirande": {
-    "first_name": "Marcel",
-    "last_name": "Lamirande",
-    "gender": "M",
-    "relationship": {
-      "I603": { "type": "union" }
-    },
-    "source" : null
-  },
   "I600": {
     "first_name": "André",
     "last_name": "Laguë",

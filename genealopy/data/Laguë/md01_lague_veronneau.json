@@ -1,0 +1,22 @@
+{
+  "Kalie.Véronneau": {
+    "first_name": "Kalie",
+    "last_name": "Véronneau",
+    "gender": "F",
+    "relationship": {
+      "I616": { "type": "mother" },
+      "Louis.Véronneau": { "type": "father" }
+    },
+    "source" : "https://www.retronicdesign.com/genealogie/individual.php?ged=gradel&pid="
+  },
+  "Eli.Véronneau": {
+    "first_name": "Eli",
+    "last_name": "Véronneau",
+    "gender": "M",
+    "relationship": {
+      "I616": { "type": "mother" },
+      "Louis.Véronneau": { "type": "father" }
+    },
+    "source" : "https://www.retronicdesign.com/genealogie/individual.php?ged=gradel&pid="
+  }
+}

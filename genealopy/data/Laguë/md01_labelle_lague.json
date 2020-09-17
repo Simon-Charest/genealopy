@@ -1,0 +1,12 @@
+{
+  "Elodie.Labelle Laguë": {
+    "first_name": "Elodie",
+    "last_name": "Labelle Laguë",
+    "gender": "F",
+    "relationship": {
+      "Karina.Labelle": { "type": "mother" },
+      "I608": { "type": "father" }
+    },
+    "source" : "https://www.retronicdesign.com/genealogie/individual.php?ged=gradel&pid="
+  }
+}

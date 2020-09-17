@@ -40,7 +40,17 @@
     "gender": "M",
     "relationship": {
       "I19": { "type": "mother" },
-      "I17": { "type": "father" }
+      "I17": { "type": "father" },
+      "Josée.Laniel": { "type": "union" }
+    },
+    "source" : "https://www.retronicdesign.com/genealogie/individual.php?ged=gradel&pid="
+  },
+  "Josée.Laniel": {
+    "first_name": "Josée",
+    "last_name": "Laniel",
+    "gender": "F",
+    "relationship": {
+      "I20": { "type": "union" }
     },
     "source" : "https://www.retronicdesign.com/genealogie/individual.php?ged=gradel&pid="
   },
@@ -52,7 +62,17 @@
     "gender": "F",
     "relationship": {
       "I19": { "type": "mother" },
-      "I17": { "type": "father" }
+      "I17": { "type": "father" },
+      "Larry.McDowell": { "type": "union" }
+    },
+    "source" : "https://www.retronicdesign.com/genealogie/individual.php?ged=gradel&pid="
+  },
+  "Larry.McDowell": {
+    "first_name": "Larry",
+    "last_name": "McDowell",
+    "gender": "M",
+    "relationship": {
+      "I21": { "type": "union" }
     },
     "source" : "https://www.retronicdesign.com/genealogie/individual.php?ged=gradel&pid="
   },
@@ -64,7 +84,17 @@
     "gender": "M",
     "relationship": {
       "I19": { "type": "mother" },
-      "I17": { "type": "father" }
+      "I17": { "type": "father" },
+      "Marie-Eve.LeBlanc": { "type": "union" }
+    },
+    "source" : "https://www.retronicdesign.com/genealogie/individual.php?ged=gradel&pid="
+  },
+  "Marie-Eve.LeBlanc": {
+    "first_name": "Marie-Eve",
+    "last_name": "LeBlanc",
+    "gender": "F",
+    "relationship": {
+      "I22": { "type": "union" }
     },
     "source" : "https://www.retronicdesign.com/genealogie/individual.php?ged=gradel&pid="
   },
@@ -87,11 +117,21 @@
     "relationship": {
       "I604": { "type": "mother" },
       "I611": { "type": "father" },
-	  "ME": { "type": "union" }
+	  "Mélanie.Boucher": { "type": "union" },
+      "Mary Eve": { "type": "union" }
     },
     "source" : "https://www.retronicdesign.com/genealogie/individual.php?ged=gradel&pid="
   },
-  "ME": {
+  "Mélanie.Boucher": {
+    "first_name": "Mélanie",
+    "last_name": "Boucher",
+    "gender": "F",
+    "relationship": {
+      "I617": { "type": "union" }
+    },
+    "source" : "https://www.retronicdesign.com/genealogie/individual.php?ged=gradel&pid="
+  },
+  "Mary Eve": {
     "first_name": "Mary Eve",
     "last_name": null,
     "gender": "F",
@@ -110,7 +150,17 @@
     },
     "relationship": {
       "I607": { "type": "mother" },
-      "I602": { "type": "father" }
+      "I602": { "type": "father" },
+      "Karina.Labelle": { "type": "union" }
+    },
+    "source" : "https://www.retronicdesign.com/genealogie/individual.php?ged=gradel&pid="
+  },
+  "Karina.Labelle": {
+    "first_name": "Karina",
+    "last_name": "Labelle",
+    "gender": "F",
+    "relationship": {
+	  "I608": { "type": "union" }
     },
     "source" : "https://www.retronicdesign.com/genealogie/individual.php?ged=gradel&pid="
   },
@@ -139,17 +189,6 @@
     },
     "source" : null
   },
-  "VH": {
-    "first_name": "Victoria",
-    "last_name": "Hardy",
-    "gender": "F",
-    "birth": null,
-    "relationship": {
-      "I609": { "type": "mother" },
-      "FH": { "type": "father" }
-    },
-    "source" : null
-  },
   "I616": {
     "first_name": "Isabelle",
     "mother_s_maiden_name": "Doyle",
@@ -160,7 +199,17 @@
     },
     "relationship": {
       "I615": { "type": "mother" },
-      "I601": { "type": "father" }
+      "I601": { "type": "father" },
+      "Louis.Véronneau": { "type": "union" }
+    },
+    "source" : "https://www.retronicdesign.com/genealogie/individual.php?ged=gradel&pid="
+  },
+  "Louis.Véronneau": {
+    "first_name": "Louis",
+    "last_name": "Véronneau",
+    "gender": "M",
+    "relationship": {
+      "I616": { "type": "union" }
     },
     "source" : "https://www.retronicdesign.com/genealogie/individual.php?ged=gradel&pid="
   }

@@ -1,0 +1,12 @@
+{
+  "Lou-Ann.Giasson": {
+    "first_name": "Lou-Ann",
+    "last_name": "Giasson",
+    "gender": "F",
+    "relationship": {
+      "Mélanie.Boucher": { "type": "mother" },
+      "I617": { "type": "father" }
+    },
+    "source" : "https://www.retronicdesign.com/genealogie/individual.php?ged=gradel&pid="
+  }
+}

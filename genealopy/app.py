@@ -11,7 +11,11 @@ import glob
 import json
 
 RANK_DIRECTION = 'TB'  # TB, LR, BT or RL
-DATA = 'data/Charest/*.json'
+DATA = [
+    'data/0?_lague_charest.json',
+    'data/Laguë/*.json',
+    'data/Charest/*.json'
+]
 SHAPE = 'box'
 STYLE = 'filled'
 GENDER = ['M', 'F']
@@ -104,10 +108,14 @@ def get_color(gender):
     return color
 
 
-def get_filenames(path):
-    filenames = glob.glob(path)
+def get_filenames(paths):
+    list_ = list()
 
-    return filenames
+    for path in paths:
+        filenames = glob.glob(path)
+        list_.extend(filenames)
+
+    return list_
 
 
 def get_gender(json_documents, id_):
