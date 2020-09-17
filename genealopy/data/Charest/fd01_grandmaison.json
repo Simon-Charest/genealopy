@@ -1,0 +1,20 @@
+{
+  "Grand'Maison": {
+    "first_name": null,
+    "last_name": "Grand'Maison",
+    "gender": "M",
+    "relationship": {
+      "Alex.Grand'Maison": { "type": "father" }
+    },
+    "source": "Famille Charest"
+  },
+  "Grand'Maison2": {
+    "first_name": null,
+    "last_name": "Grand'Maison",
+    "gender": "M",
+    "relationship": {
+      "Alex.Grand'Maison": { "type": "father" }
+    },
+    "source": "Famille Charest"
+  }
+}

@@ -21,6 +21,7 @@ MALE_COLOR = 'lightblue2'
 UNDEFINED_COLOR = 'grey'
 PARENT_LINK_STYLE = 'solid'
 UNDEFINED_LINK_STYLE = 'dashed'
+NAME_UNKNOWN = '(inconnu)'
 DEBUG = True
 
 """
@@ -103,6 +104,21 @@ def get_color(gender):
     return color
 
 
+def get_filenames(path):
+    filenames = glob.glob(path)
+
+    return filenames
+
+
+def get_gender(json_documents, id_):
+    for json_document in json_documents:
+        for key, value in json_document.items():
+            if f"{value['first_name']}\n{value['last_name']}" == id_:
+                return value['gender']
+
+    return None
+
+
 def get_json_documents(filenames, encoding='utf-8'):
     json_documents = list()
 
@@ -122,23 +138,17 @@ def get_json_documents(filenames, encoding='utf-8'):
     return json_documents
 
 
-def get_filenames(path):
-    filenames = glob.glob(path)
-
-    return filenames
-
-
-def get_gender(json_documents, id_):
-    for json_document in json_documents:
-        for key, value in json_document.items():
-            if f"{value['first_name']}\n{value['last_name']}" == id_:
-                return value['gender']
-
-    return None
-
-
 def get_name(value):
-    return f"{value['first_name']}\n{value['last_name']}"
+    first_name = value['first_name']
+    last_name = value['last_name']
+
+    if first_name in [None, '']:
+        first_name = NAME_UNKNOWN
+
+    if last_name in [None, '']:
+        last_name = NAME_UNKNOWN
+
+    return f"{first_name}\n{last_name}"
 
 
 def get_relationship_gender(json_documents, id_):

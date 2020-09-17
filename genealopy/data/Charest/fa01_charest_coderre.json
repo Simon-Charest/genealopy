@@ -59,7 +59,17 @@
     "gender": "M",
     "relationship": {
       "Céline.Charest" : { "type":  "mother" },
-	  "Gérald.Coderre": { "type": "father" }
+	  "Gérald.Coderre": { "type": "father" },
+      "Chaput": { "type": "union" }
+    },
+    "source" : "Famille Charest"
+  },
+  "Sylvie.Chaput": {
+    "first_name": "Sylvie",
+    "last_name": "Chaput",
+    "gender": "F",
+    "relationship": {
+      "Benoît.Coderre" : { "type":  "union" }
     },
     "source" : "Famille Charest"
   }

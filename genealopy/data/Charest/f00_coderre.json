@@ -19,14 +19,15 @@
     },
     "source": "Famille Charest"
   },
-  "Mme.Coderre": {
-    "first_name": "Mme",
-    "last_name": "Coderre",
+  "Rachel.Chaput Coderre": {
+    "first_name": "Rachel",
+    "last_name": "Chaput Coderre",
     "gender": "F",
     "relationship": {
-      "Benoît.Coderre": { "type": "father" }
+      "Chaput" : { "type":  "mother" },
+	  "Benoît.Coderre": { "type": "father" }
     },
-    "source": "Famille Charest"
+    "source" : "Famille Charest"
   },
   "Samuel.Langlais": {
     "first_name": "Samuel",
@@ -39,8 +40,8 @@
     },
     "source" : "Famille Charest"
   },
-  "Mme.Langlais": {
-    "first_name": "Mme",
+  "Marianne.Langlais": {
+    "first_name": "Marianne",
     "last_name": "Langlais",
     "gender": "F",
     "relationship": {
@@ -54,7 +55,6 @@
     "last_name": "Langlais",
     "gender": "M",
     "relationship": {
-	  "Lucie.Coderre": { "type": "mother" },
 	  "Francois.Langlais": { "type": "father" }
     },
     "source" : "Famille Charest"
