@@ -13,7 +13,7 @@ import json
 RANK_DIRECTION = 'TB'  # TB, LR, BT or RL
 DATA = [
     'data/0?_lague_charest.json',
-    'data/Laguë/*.json',
+    # 'data/Laguë/*.json',
     'data/Charest/*.json'
 ]
 SHAPE = 'box'
