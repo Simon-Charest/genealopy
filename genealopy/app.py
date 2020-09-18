@@ -93,7 +93,7 @@ def run():
                             relationship_count += 1
 
     if DEBUG:
-        print(f"{person_count} {pluralize('person')}")
+        print(f"{person_count} {pluralize('family member')}")
         print(f"{relationship_count} {pluralize('relationship')}")
 
     graph.view()
