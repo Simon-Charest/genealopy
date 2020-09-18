@@ -21,11 +21,14 @@ STYLE = 'filled'
 GENDER = ['M', 'F']
 RELATIONSHIP = ['father', 'mother', 'union']
 FEMALE_COLOR = 'pink'
-MALE_COLOR = 'lightblue2'
+FEMALE_INCOMPLETE_COLOR = 'deeppink'
+MALE_COLOR = 'lightblue'
+MALE_INCOMPLETE_COLOR = 'deepskyblue'
 UNDEFINED_COLOR = 'grey'
 PARENT_LINK_STYLE = 'solid'
 UNDEFINED_LINK_STYLE = 'dashed'
 NAME_UNKNOWN = '(inconnu)'
+HIGHLIGHT_INCOMPLETE = True
 DEBUG = True
 
 """
@@ -60,7 +63,13 @@ def run():
             person_count += 1
 
             if gender1 in GENDER:
-                color1 = get_color(gender1)
+                if HIGHLIGHT_INCOMPLETE:
+                    complete1 = has_parents(value1['relationship'])
+
+                else:
+                    complete1 = True
+
+                color1 = get_color(gender1, complete1)
 
                 # Draw first person
                 graph.node(key1, label=name1, color=color1, shape=SHAPE, style=STYLE)
@@ -80,7 +89,7 @@ def run():
                         edge_style = get_style(relationship)
 
                         # Draw second person
-                        graph.node(key2, label=name2, color=color2, shape=SHAPE, style=STYLE)
+                        # graph.node(key2, label=name2, color=color2, shape=SHAPE, style=STYLE)
 
                         if relationship in RELATIONSHIP:
                             # Draw relationship
@@ -95,12 +104,20 @@ def run():
     graph.view()
 
 
-def get_color(gender):
+def get_color(gender, complete=True):
     if gender in ['F', 'mother']:
-        color = FEMALE_COLOR
+        if complete:
+            color = FEMALE_COLOR
+
+        else:
+            color = FEMALE_INCOMPLETE_COLOR
 
     elif gender in ['M', 'father']:
-        color = MALE_COLOR
+        if complete:
+            color = MALE_COLOR
+
+        else:
+            color = MALE_INCOMPLETE_COLOR
 
     else:
         color = UNDEFINED_COLOR
@@ -189,6 +206,20 @@ def get_style(type_):
 
 def get_relationship(value, id_):
     return value['relationship'][id_]['type']
+
+
+def has_parents(values):
+    mother = False
+    father = False
+
+    for id_ in values:
+        if 'mother' in values[id_]['type']:
+            mother = True
+
+        if 'father' in values[id_]['type']:
+            father = True
+
+    return mother and father
 
 
 def pluralize(word, count=2):
