@@ -24,6 +24,7 @@
     "first_name": "Rolf",
     "last_name": "Charles",
     "gender": "M",
+    "family": false,
     "relationship": {
       "Sandra.Charest": { "type": "union" }
     },

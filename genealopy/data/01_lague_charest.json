@@ -27,6 +27,7 @@
     "first_name": "Jenny",
     "last_name": "Mastragostino",
     "gender": "F",
+    "family": false,
     "relationship": {
       "I610": { "type": "union" }
     },
@@ -51,6 +52,7 @@
     "first_name": "Marcel",
     "last_name": "Lamirande",
     "gender": "M",
+    "family": false,
     "relationship": {
       "I603": { "type": "union" }
     },

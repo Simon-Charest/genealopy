@@ -14,6 +14,7 @@
     "first_name": "Marie-Claude",
     "last_name": "Faucher",
     "gender": "F",
+    "family": false,
     "relationship": {
       "Steve.Lahaie": { "type": "union" }
     },
@@ -33,6 +34,7 @@
     "first_name": "Julie",
     "last_name": "Vaillancourt",
     "gender": "F",
+    "family": false,
     "relationship": {
       "Jimmy.Lahaie": { "type": "union" }
     },

@@ -24,6 +24,7 @@
     "first_name": "François",
     "last_name": "Verrette",
     "gender": "M",
+    "family": false,
     "relationship": {
 	  "Judith.Hogue": { "type": "union" }
 	},
@@ -44,6 +45,7 @@
     "first_name": "Cynthia",
     "last_name": "Morin",
     "gender": "F",
+    "family": false,
     "relationship": {
 	  "Jean-Sébastien.Hogue": { "type": "union" }
 	},

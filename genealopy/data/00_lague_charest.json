@@ -33,6 +33,7 @@
     "mother_s_maiden_name": "Cauchon",
     "last_name": "Emond",
     "gender": "F",
+    "family": false,
     "birth": {
       "date": "1978"
     },
@@ -69,6 +70,7 @@
     "first_name": "Marc",
     "last_name": "Lecompte",
     "gender": "M",
+    "family": false,
     "relationship": {
       "I620": { "type": "union" }
     }

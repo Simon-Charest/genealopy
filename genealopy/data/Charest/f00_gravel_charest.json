@@ -24,6 +24,7 @@
     "first_name": "Nick",
     "last_name": "Auger",
     "gender": "M",
+    "family": false,
     "relationship": {
 	  "Isabel.Charest": { "type": "union" }
 	},
@@ -44,6 +45,7 @@
     "first_name": "Francis",
     "last_name": "Tobin",
     "gender": "M",
+    "family": false,
     "relationship": {
 	  "Jessika.Charest": { "type": "union" }
 	},
@@ -64,6 +66,7 @@
     "first_name": "Marilyne",
     "last_name":"Dugal",
     "gender": "F",
+    "family": false,
     "relationship": {
 	  "Jonathan.Charest": { "type": "union" }
 	},

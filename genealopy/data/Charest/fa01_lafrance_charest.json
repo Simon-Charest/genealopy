@@ -14,6 +14,7 @@
     "first_name": "Michel",
     "last_name": "Hogue",
     "gender": "M",
+    "family": false,
     "relationship": {
 	  "Monique.Charest": { "type": "union" }
 	},
@@ -34,6 +35,7 @@
     "first_name": "Danielle",
     "last_name": "Paquette",
     "gender": "F",
+    "family": false,
     "relationship": {
       "Serge.Charest": { "type": "union" }
 	},
@@ -55,6 +57,7 @@
     "first_name": "Michelle",
     "last_name": "Claude",
     "gender": "F",
+    "family": false,
     "relationship": {
       "Yvon.Charest": { "type": "union" }
 	},
@@ -64,6 +67,7 @@
     "first_name": "Carole",
     "last_name": "Lamothe",
     "gender": "F",
+    "family": false,
     "relationship": {
       "Yvon.Charest": { "type": "union" }
     },

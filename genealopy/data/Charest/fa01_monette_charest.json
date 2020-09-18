@@ -14,6 +14,7 @@
     "first_name": "Rachel",
     "last_name": "Ladouceur",
     "gender": "F",
+    "family": false,
     "relationship": {
       "Sylvain.Monette": { "type": "union" }
     },
@@ -34,6 +35,7 @@
     "first_name": "Lise",
     "last_name": "Gagnon",
     "gender": "F",
+    "family": false,
     "relationship": {
       "Claude.Monette": { "type": "union" }
     },

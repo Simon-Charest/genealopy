@@ -14,6 +14,7 @@
     "first_name": "Georges",
     "last_name": "Lessard",
     "gender": "M",
+    "family": false,
     "relationship": {
       "Diane.Charest": { "type": "union" }
     },
@@ -34,6 +35,7 @@
     "first_name": "Harvey",
     "last_name": "Young",
     "gender": "M",
+    "family": false,
     "relationship": {
       "Hélène.Charest": { "type": "union" }
     },

@@ -3,6 +3,7 @@
     "first_name": "Kevin",
     "last_name": "Ostiguy",
     "gender": "M",
+    "family": false,
     "relationship": {
       "Sylvain.Ostiguy": { "type": "father" }
     },

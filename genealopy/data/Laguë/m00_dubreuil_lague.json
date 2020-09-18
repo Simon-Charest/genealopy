@@ -49,6 +49,7 @@
     "first_name": "Josée",
     "last_name": "Laniel",
     "gender": "F",
+    "family": false,
     "relationship": {
       "I20": { "type": "union" }
     },
@@ -71,6 +72,7 @@
     "first_name": "Larry",
     "last_name": "McDowell",
     "gender": "M",
+    "family": false,
     "relationship": {
       "I21": { "type": "union" }
     },
@@ -93,6 +95,7 @@
     "first_name": "Marie-Eve",
     "last_name": "LeBlanc",
     "gender": "F",
+    "family": false,
     "relationship": {
       "I22": { "type": "union" }
     },
@@ -105,7 +108,20 @@
     "gender": "F",
     "relationship": {
       "I604": { "type": "mother" },
-      "I611": { "type": "father" }
+      "I611": { "type": "father" },
+      "Mario F.Bernier": { "type": "union" }
+    },
+    "source" : "https://www.retronicdesign.com/genealogie/individual.php?ged=gradel&pid="
+  },
+  "Mario F.Bernier": {
+    "first_name": "Mario F.",
+    "last_name": " Bernier",
+    "gender": "M",
+    "family": false,
+    "title": "Dr.",
+    "job": ["chirurgien plastique"],
+    "relationship": {
+      "I618": { "type": "union" }
     },
     "source" : "https://www.retronicdesign.com/genealogie/individual.php?ged=gradel&pid="
   },
@@ -126,6 +142,7 @@
     "first_name": "Mélanie",
     "last_name": "Boucher",
     "gender": "F",
+    "family": false,
     "relationship": {
       "I617": { "type": "union" }
     },
@@ -135,6 +152,7 @@
     "first_name": "Mary Eve",
     "last_name": null,
     "gender": "F",
+    "family": false,
     "relationship": {
       "I617": { "type": "union" }
     },
@@ -159,6 +177,7 @@
     "first_name": "Karina",
     "last_name": "Labelle",
     "gender": "F",
+    "family": false,
     "relationship": {
 	  "I608": { "type": "union" }
     },
@@ -183,6 +202,7 @@
     "first_name": "Frederick",
     "last_name": "Hardy",
     "gender": "M",
+    "family": false,
     "birth": null,
     "relationship": {
       "I609": { "type": "union" }
@@ -208,6 +228,7 @@
     "first_name": "Louis",
     "last_name": "Véronneau",
     "gender": "M",
+    "family": false,
     "relationship": {
       "I616": { "type": "union" }
     },

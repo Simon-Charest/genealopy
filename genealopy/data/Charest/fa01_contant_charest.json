@@ -15,6 +15,7 @@
     "first_name": "Michel",
     "last_name": "Bayard",
     "gender": "M",
+    "family": false,
     "relationship": {
       "Johanne.Charest": { "type": "union" }
 	},
@@ -24,6 +25,7 @@
     "first_name": "Guy",
     "last_name": "Therrien",
     "gender": "M",
+    "family": false,
     "relationship": {
       "Johanne.Charest": { "type": "union" }
 	},
@@ -44,6 +46,7 @@
     "first_name": "Robert",
     "last_name": "Lauzon",
     "gender": "M",
+    "family": false,
     "relationship": {
       "Danielle.Charest": { "type": "father" }
     },
@@ -64,6 +67,7 @@
     "first_name": "Gilles",
     "last_name": "Lahaie",
     "gender": "M",
+    "family": false,
     "relationship": {
       "Sylvie.Charest": { "type": "union" }
     },
@@ -84,6 +88,7 @@
     "first_name": "Pierre",
     "last_name": "Thériault",
     "gender": "M",
+    "family": false,
     "relationship": {
       "Renée.Charest": { "type": "union" }
     },

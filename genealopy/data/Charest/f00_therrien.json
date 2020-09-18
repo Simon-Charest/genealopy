@@ -24,6 +24,7 @@
     "first_name": "Maxim",
     "last_name": "Larose",
     "gender": "M",
+    "family": false,
     "relationship": {
       "Isabelle.Therrien": { "type": "union" }
     },
@@ -44,6 +45,7 @@
     "first_name": "Luc",
     "last_name": "Guay",
     "gender": "M",
+    "family": false,
     "relationship": {
       "Caroline.Therrien": { "type": "union" }
     },

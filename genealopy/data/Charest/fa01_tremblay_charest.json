@@ -14,6 +14,7 @@
     "first_name": "Jocelyne",
     "last_name": "Dulude",
     "gender": "F",
+    "family": false,
     "relationship": {
       "Gilles2.Charest": { "type": "union" }
     },
@@ -23,6 +24,7 @@
     "first_name": "Solange",
     "last_name": null,
     "gender": "F",
+    "family": false,
     "relationship": {
       "Gilles2.Charest": { "type": "union" }
     },
@@ -43,6 +45,7 @@
     "first_name": "Serge",
     "last_name": "Marcil",
     "gender": "M",
+    "family": false,
     "relationship": {
       "Ghislaine.Charest": { "type": "union" }
     },
@@ -64,6 +67,7 @@
     "first_name": "Christine",
     "last_name": null,
     "gender": "F",
+    "family": false,
     "relationship": {
       "Jean.Charest": { "type": "union" }
     },
@@ -73,6 +77,7 @@
     "first_name": "Danielle",
     "last_name": "Mayer",
     "gender": "F",
+    "family": false,
     "relationship": {
       "Jean.Charest": { "type": "union" }
     },
@@ -94,6 +99,7 @@
     "first_name": "Françoise",
     "last_name": "Morin",
     "gender": "F",
+    "family": false,
     "relationship": {
       "Jacques.Charest": { "type": "union" }
     },
@@ -103,6 +109,7 @@
     "first_name": "Hélène",
     "last_name": "LaManna",
     "gender": "F",
+    "family": false,
     "relationship": {
       "I610": { "type": "union" },
       "Jacques.Charest": { "type": "union" }

@@ -94,6 +94,7 @@
     "first_name": "Audrey",
     "last_name": "Paquette-Desjardins",
     "gender": "F",
+    "family": false,
     "relationship": {
       "Jean-Michel.Charest": { "type": "union" }
     },

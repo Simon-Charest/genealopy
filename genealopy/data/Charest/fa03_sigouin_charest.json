@@ -80,6 +80,7 @@
     "first_name": "Jeanne",
     "last_name": "Delisle",
     "gender": "F",
+    "family": false,
     "relationship": {
 	  "Antonio.Charest Chaurette": { "type": "union" }
     },

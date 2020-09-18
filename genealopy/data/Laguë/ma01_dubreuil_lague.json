@@ -14,6 +14,7 @@
     "first_name": "Nicole",
     "last_name": "Imbeault",
     "gender": "F",
+    "family": false,
     "relationship": {
       "I600": { "type": "union", "start": null, "end": null }
     },
@@ -36,6 +37,7 @@
     "middle_name": "Claude",
     "last_name": "Gradel",
     "gender": "M",
+    "family": false,
     "relationship": {
       "I19": { "type": "union", "start": null, "end": null }
     },
@@ -56,6 +58,7 @@
     "first_name": "Collette",
     "last_name": "Doyle",
     "gender": "F",
+    "family": false,
     "relationship": {
       "I601": { "type": "union", "start": null, "end": null }
     },
@@ -76,6 +79,7 @@
     "first_name": "Jacqueline",
     "last_name": "Jodoin",
     "gender": "F",
+    "family": false,
     "relationship": {
       "I602": { "type": "union" }
     },
@@ -96,6 +100,7 @@
     "first_name": "Normand",
     "last_name": "Giasson",
     "gender": "M",
+    "family": false,
     "birth": {
       "date": "1960-07-05"
     },

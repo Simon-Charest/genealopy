@@ -13,6 +13,7 @@
     "first_name": "Maxime",
     "last_name": "Lagacé",
     "gender": "M",
+    "family": false,
     "relationship": {
       "Stéphanie.Charest": { "type": "union" }
     },

@@ -24,6 +24,7 @@
     "first_name": "Julie",
     "last_name": "Thériault",
     "gender": "F",
+    "family": false,
     "relationship": {
       "Guy.Charest": { "type": "union" }
     },
@@ -44,6 +45,7 @@
     "first_name": "Caroline",
     "last_name": "Paradis",
     "gender": "F",
+    "family": false,
     "relationship": {
       "François.Charest": { "type": "union" }
     },

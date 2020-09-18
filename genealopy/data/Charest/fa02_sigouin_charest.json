@@ -32,6 +32,7 @@
     "first_name": null,
     "last_name": "Lacombe",
     "gender": "M",
+    "family": false,
     "relationship": {
       "511415": { "type": "union" }
     },
@@ -72,6 +73,7 @@
     "first_name": "Fleurette",
     "last_name": "Hébert",
     "gender": "F",
+    "family": false,
     "relationship": {
       "Hubert.Charest": { "type":  "union" }
     },
@@ -92,6 +94,7 @@
     "first_name": "Huguette",
     "last_name": "Lafrance",
     "gender": "F",
+    "family": false,
     "relationship": {
 	  "René.Charest" : { "type":  "union" }
 	},
@@ -112,6 +115,7 @@
     "first_name": "Gérald",
     "last_name": "Coderre",
     "gender": "M",
+    "family": false,
     "relationship": {
       "Céline.Charest" : { "type":  "union" }
     },
@@ -132,6 +136,7 @@
     "first_name": "Fleurette",
     "last_name": "Tardif",
     "gender": "F",
+    "family": false,
     "relationship": {
       "Claude.Charest" : { "type":  "union" }
     },
@@ -152,6 +157,7 @@
     "first_name": "Yolande",
     "last_name": "Contant",
     "gender": "F",
+    "family": false,
     "relationship": {
       "Luc.Charest" : { "type":  "union" }
     },
@@ -172,6 +178,7 @@
     "first_name": "Lise",
     "last_name": "Métayer",
     "gender": "F",
+    "family": false,
     "relationship": {
       "André.Charest" : { "type":  "union" }
     },
@@ -192,6 +199,7 @@
     "first_name": "Denise",
     "last_name": "Deslauriers",
     "gender": "F",
+    "family": false,
     "relationship": {
       "Gilles.Charest" : { "type":  "union" }
     },
@@ -213,6 +221,7 @@
     "first_name": "Odette",
     "last_name": "Greaschepe",
     "gender": "F",
+    "family": false,
     "relationship": {
 	  "Denis.Charest": { "type":  "union" }
     },
@@ -222,6 +231,7 @@
     "first_name": "Réjeanne",
     "last_name": "Favreau",
     "gender": "F",
+    "family": false,
     "relationship": {
 	  "Denis.Charest" : { "type":  "union" }
 	},
@@ -264,6 +274,7 @@
     "first_name": "Jacques",
     "last_name": "Monette",
     "gender": "M",
+    "family": false,
     "relationship": {
 	  "Francine.Charest" : { "type":  "union" }
     },

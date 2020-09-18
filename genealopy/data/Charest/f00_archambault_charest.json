@@ -14,6 +14,7 @@
     "first_name": "Sylvain",
     "last_name": "Leroux",
     "gender": "M",
+    "family": false,
     "relationship": {
 	  "Judith.Charest": { "type": "union" }
     },
@@ -35,6 +36,7 @@
     "first_name": "M",
     "last_name": "Drouin",
     "gender": "M",
+    "family": false,
     "relationship": {
 	  "Valérie.Charest": { "type": "union" }
     },
@@ -44,6 +46,7 @@
     "first_name": "Sylvain",
     "last_name": "Ostiguy",
     "gender": "M",
+    "family": false,
     "relationship": {
 	  "Valérie.Charest": { "type": "union" }
     },

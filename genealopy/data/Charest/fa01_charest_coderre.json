@@ -14,6 +14,7 @@
     "first_name": "Francois",
     "last_name": "Langlais",
     "gender": "M",
+    "family": false,
 	"job": [
 		"Lebeau Vitres d'autos",
 		"DURO Vitres d'autos et Lebeau Vitres d'autos"
@@ -38,6 +39,7 @@
     "first_name": "Gérald",
     "last_name": "Grand'Maison",
     "gender": "M",
+    "family": false,
     "relationship": {
       "Suzanne.Coderre": { "type": "union" }
     },
@@ -60,7 +62,7 @@
     "relationship": {
       "Céline.Charest" : { "type":  "mother" },
 	  "Gérald.Coderre": { "type": "father" },
-      "Chaput": { "type": "union" }
+      "Sylvie.Chaput": { "type": "union" }
     },
     "source" : "Famille Charest"
   },
@@ -68,6 +70,7 @@
     "first_name": "Sylvie",
     "last_name": "Chaput",
     "gender": "F",
+    "family": false,
     "relationship": {
       "Benoît.Coderre" : { "type":  "union" }
     },
