@@ -14,6 +14,7 @@ RANK_DIRECTION = 'TB'  # TB, LR, BT or RL
 DATA = [
     'data/0?_lague_charest.json',
     # 'data/Laguë/*.json',
+    # 'data/Tremblay/*.json',
     'data/Charest/*.json'
 ]
 SHAPE = 'box'
@@ -77,19 +78,13 @@ def run():
                 # Loop on every relationship
                 for key2 in value1['relationship']:
                     # Get second person properties
-                    name2 = get_relationship_name(json_documents, key2)
                     gender2 = get_relationship_gender(json_documents, key2)
 
                     if gender2 in GENDER:
-                        color2 = get_color(gender2)
-
                         # Get relationship properties
                         relationship = get_relationship(value1, key2)
                         edge_color = get_color(relationship)
                         edge_style = get_style(relationship)
-
-                        # Draw second person
-                        # graph.node(key2, label=name2, color=color2, shape=SHAPE, style=STYLE)
 
                         if relationship in RELATIONSHIP:
                             # Draw relationship

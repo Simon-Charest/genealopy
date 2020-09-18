@@ -20,7 +20,18 @@
 		"DURO Vitres d'autos et Lebeau Vitres d'autos"
 	],
     "relationship": {
+      "Annette.Parent": { "type": "union" },
       "Lucie.Coderre": { "type": "union" }
+    },
+    "source" : "Famille Charest"
+  },
+  "Annette.Parent": {
+    "first_name": "Annette",
+    "last_name": "Parent",
+    "gender": "F",
+    "family": false,
+    "relationship": {
+	  "Francois.Langlais": { "type": "union" }
     },
     "source" : "Famille Charest"
   },
@@ -31,13 +42,13 @@
     "relationship": {
       "Céline.Charest" : { "type":  "mother" },
 	  "Gérald.Coderre": { "type": "father" },
-	  "Gérald.Grand'Maison": { "type": "union" }
+	  "Gérald.Grandmaison": { "type": "union" }
     },
     "source" : "Famille Charest"
   },
-  "Gérald.Grand'Maison": {
+  "Gérald.Grandmaison": {
     "first_name": "Gérald",
-    "last_name": "Grand'Maison",
+    "last_name": "Grandmaison",
     "gender": "M",
     "family": false,
     "relationship": {

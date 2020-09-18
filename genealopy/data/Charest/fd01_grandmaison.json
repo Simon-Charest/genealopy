@@ -1,19 +1,21 @@
 {
-  "Zak.Grand'Maison": {
+  "Zak.Grandmaison": {
     "first_name": "Zak",
-    "last_name": "Grand'Maison",
+    "last_name": "Grandmaison",
     "gender": "M",
     "relationship": {
-      "Alex.Grand'Maison": { "type": "father" }
+      "Julie.Mastrovito": { "type": "mother" },
+      "Alex.Grandmaison": { "type": "father" }
     },
     "source": "Famille Charest"
   },
-  "Malik.Grand'Maison": {
+  "Malik.Grandmaison": {
     "first_name": "Malik",
-    "last_name": "Grand'Maison",
+    "last_name": "Grandmaison",
     "gender": "M",
     "relationship": {
-      "Alex.Grand'Maison": { "type": "father" }
+      "Julie.Mastrovito": { "type": "mother" },
+      "Alex.Grandmaison": { "type": "father" }
     },
     "source": "Famille Charest"
   }

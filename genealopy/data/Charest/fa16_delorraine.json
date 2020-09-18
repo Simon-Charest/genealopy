@@ -9,5 +9,13 @@
       "René II.de Lorraine": { "type": "father" },
       "Antoinette.de Bourbon-Vendôme": { "type": "union" }
     }
+  },
+  "Antoinette.de Bourbon-Vendôme": {
+    "first_name": "Antoinette",
+    "last_name": "de Bourbon-Vendôme",
+    "gender": "F",
+    "relationship": {
+      "Claude.de Lorraine": { "type": "union" }
+    }
   }
 }

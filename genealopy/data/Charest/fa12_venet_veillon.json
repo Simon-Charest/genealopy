@@ -14,7 +14,7 @@
     "relationship": {
       "Lallement Peinuet": { "type": "mother" },
       "Venet": { "type": "father" },
-      "Maxient.Venet": { "type": "union" }
+      "Maxient.Veillon": { "type": "union" }
     },
     "source": "data/Simon Charest.pdf"
   },

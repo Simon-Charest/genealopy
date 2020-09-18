@@ -34,5 +34,14 @@
       "Sébatienne.Veillon": { "type": "union", "start": "1647-03-04", "place": "Chapelle Sainte-Marguerite, La Rochelle, France" }
     },
     "source": "data/Simon Charest.pdf"
+  },
+  "Pierre.Aufroy": {
+    "first_name": "Pierre",
+    "last_name": "Aufroy",
+    "gender": "M",
+    "relationship": {
+      "Sébatienne.Veillon": { "type": "union", "start": "1664-08-25", "place": "Québec" }
+    },
+    "source": "data/Simon Charest.pdf"
   }
 }

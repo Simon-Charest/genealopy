@@ -1,21 +1,33 @@
 {
-  "Alex.Grand'Maison": {
+  "Alex.Grandmaison": {
     "first_name": "Alex",
-    "last_name": "Grand'Maison",
+    "last_name": "Grandmaison",
     "gender": "M",
     "relationship": {
       "Suzanne.Coderre": { "type": "mother" },
-      "Gérald.Grand'Maison": { "type": "father" }
+      "Gérald.Grandmaison": { "type": "father" },
+      "Julie.Mastrovito": { "type": "union" }
+
     },
     "source": "Famille Charest"
   },
-  "Bruno.Grand'Maison": {
+  "Julie.Mastrovito": {
+    "first_name": "Julie",
+    "last_name": "Mastrovito",
+    "gender": "F",
+    "family": false,
+    "relationship": {
+      "Alex.Grandmaison": { "type": "union" }
+    },
+    "source": "Famille Charest"
+  },
+  "Bruno.Grandmaison": {
     "first_name": "Bruno",
-    "last_name": "Grand'Maison",
+    "last_name": "Grandmaison",
     "gender": "M",
     "relationship": {
       "Suzanne.Coderre": { "type": "mother" },
-      "Gérald.Grand'Maison": { "type": "father" }
+      "Gérald.Grandmaison": { "type": "father" }
     },
     "source": "Famille Charest"
   },
@@ -24,7 +36,7 @@
     "last_name": "Chaput Coderre",
     "gender": "F",
     "relationship": {
-      "Chaput" : { "type":  "mother" },
+      "Sylvie.Chaput" : { "type":  "mother" },
 	  "Benoît.Coderre": { "type": "father" }
     },
     "source" : "Famille Charest"
@@ -55,6 +67,7 @@
     "last_name": "Langlais",
     "gender": "M",
     "relationship": {
+      "Annette.Parent": { "type": "mother" },
 	  "Francois.Langlais": { "type": "father" }
     },
     "source" : "Famille Charest"
