@@ -63,7 +63,7 @@ def run():
             person_count += 1
 
             if gender1 in GENDER:
-                if HIGHLIGHT_INCOMPLETE:
+                if HIGHLIGHT_INCOMPLETE and is_family(value1):
                     complete1 = has_parents(value1['relationship'])
 
                 else:
@@ -220,6 +220,13 @@ def has_parents(values):
             father = True
 
     return mother and father
+
+
+def is_family(value):
+    if 'family' in value:
+        return value['family'] == 'true'
+
+    return True
 
 
 def pluralize(word, count=2):
