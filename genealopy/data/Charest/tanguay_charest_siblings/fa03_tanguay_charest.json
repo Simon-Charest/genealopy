@@ -1,0 +1,73 @@
+{
+  "Léopold.Chaurette Charest": {
+    "first_name": "Léopold",
+    "last_name": "Chaurette Charest",
+    "gender": "M",
+    "relationship": {
+	  "Alma.Tanguay": { "type": "mother" },
+	  "Adélard.Charest": { "type": "father" }
+    },
+    "source": "https://www.myheritage.fr/site-family-tree-205814691/charest"
+  },
+  "Charles Émile.Charest Chaurette": {
+    "first_name": "Charles Émile",
+    "last_name": "Charest Chaurette",
+    "gender": "M",
+    "relationship": {
+	  "Alma.Tanguay": { "type": "mother" },
+	  "Adélard.Charest": { "type": "father" }
+    },
+    "source": "https://www.myheritage.fr/site-family-tree-205814691/charest"
+  },
+  "Antonio.Charest Chaurette": {
+    "first_name": "Antonio",
+    "last_name": "Charest Chaurette",
+    "gender": "M",
+    "relationship": {
+	  "Alma.Tanguay": { "type": "mother" },
+	  "Adélard.Charest": { "type": "father" },
+      "Jeanne.Delisle": { "type": "union" }
+    },
+    "source": "https://www.myheritage.fr/site-family-tree-205814691/charest"
+  },
+  "Jeanne.Delisle": {
+    "first_name": "Jeanne",
+    "last_name": "Delisle",
+    "gender": "F",
+    "family": false,
+    "relationship": {
+	  "Antonio.Charest Chaurette": { "type": "union" }
+    },
+    "source": "https://www.myheritage.fr/site-family-tree-205814691/charest"
+  },
+  "Anita Marguerite.Charest Chaurette": {
+    "first_name": "Anita Marguerite",
+    "last_name": "Charest Chaurette",
+    "gender": "F",
+    "relationship": {
+	  "Alma.Tanguay": { "type": "mother" },
+	  "Adélard.Charest": { "type": "father" }
+    },
+    "source": "https://www.myheritage.fr/site-family-tree-205814691/charest"
+  },
+  "Hector.Charest Chaurette": {
+    "first_name": "Hector",
+    "last_name": "Charest Chaurette",
+    "gender": "M",
+    "relationship": {
+	  "Alma.Tanguay": { "type": "mother" },
+	  "Adélard.Charest": { "type": "father" }
+    },
+    "source": "https://www.myheritage.fr/site-family-tree-205814691/charest"
+  },
+  "Clotilde.Charest Chaurette": {
+    "first_name": "Clotilde",
+    "last_name": "Charest Chaurette",
+    "gender": "M",
+    "relationship": {
+	  "Alma.Tanguay": { "type": "mother" },
+	  "Adélard.Charest": { "type": "father" }
+    },
+    "source": "https://www.myheritage.fr/site-family-tree-205814691/charest"
+  }
+}

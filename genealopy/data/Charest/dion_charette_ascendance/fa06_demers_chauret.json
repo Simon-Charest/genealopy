@@ -1,0 +1,22 @@
+{
+  "Damase.Chauret": {
+    "first_name": "Damase",
+    "last_name": "Chauret",
+    "gender": "M",
+    "relationship": {
+      "Josephte.Valiquette": { "type": "mother" },
+      "Théodore.Choret Chaurette": { "type": "father" },
+      "Julie.Demers": { "type": "union" }
+    },
+    "source": "data/Simon Charest.pdf"
+  },
+  "Julie.Demers": {
+    "first_name": "Julie",
+    "last_name": "Demers",
+    "gender": "F",
+    "relationship": {
+      "Damase.Chauret": { "type": "union" }
+    },
+    "source": "data/Simon Charest.pdf"
+  }
+}

@@ -13,9 +13,15 @@ import json
 RANK_DIRECTION = 'TB'  # TB, LR, BT or RL
 DATA = [
     'data/0?_lague_charest.json',
-    # 'data/Laguë/*.json',
-    # 'data/Tremblay/*.json',
-    'data/Charest/*.json'
+    'data/Charest/*.json',
+    'data/Charest/descendance/*.json'
+    'data/Charest/dion_charette_ascendance/*.json',  # Aurèle Charette (Charest-Charette)'s ascendance
+    'data/Charest/far_ascendance/*.json',  # Delphis Charest's ascendance
+    'data/Charest/little_cousins/*.json',  # Clément Charest siblings' descendance
+    'data/Charest/little_cousin_descendance/*.json',  # Clément Charest siblings' descendance
+    'data/Charest/tanguay_charest_siblings/*.json',  # Delphis Charest's siblings
+    'data/Laguë/*.json',  # Suzanne Laguë's ascendance
+    'data/Tremblay/*.json',  # Rita Lacombe Tremblay's ascendance
 ]
 SHAPE = 'box'
 STYLE = 'filled'
