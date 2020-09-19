@@ -37,6 +37,11 @@ UNDEFINED_LINK_STYLE = 'dashed'
 NAME_UNKNOWN = '(inconnu)'
 HIGHLIGHT_INCOMPLETE = True
 DEBUG = True
+SEARCH = [
+    # 'Simon.Charest',
+    # 'Julie.Emond'
+]
+SEARCH_COLOR = 'yellow'
 
 """
 Filenames examples:
@@ -70,13 +75,17 @@ def run():
             person_count += 1
 
             if gender1 in GENDER:
-                if HIGHLIGHT_INCOMPLETE and is_family(value1):
-                    complete1 = has_parents(value1['relationship'])
+                if key1 in SEARCH:
+                    color1 = SEARCH_COLOR
 
                 else:
-                    complete1 = True
+                    if HIGHLIGHT_INCOMPLETE and is_family(value1):
+                        complete1 = has_parents(value1['relationship'])
 
-                color1 = get_color(gender1, complete1)
+                    else:
+                        complete1 = True
+
+                    color1 = get_color(gender1, complete1)
 
                 # Draw first person
                 graph.node(key1, label=name1, color=color1, shape=SHAPE, style=STYLE)

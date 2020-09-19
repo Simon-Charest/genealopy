@@ -1,5 +1,5 @@
 {
-  "I619": {
+  "Simon.Charest": {
     "first_name": "Simon",
     "middle_name": "Daniel Michel Jean-Paul Clément",
     "mother_s_maiden_name": "Laguë",
@@ -24,11 +24,11 @@
     "relationship": {
       "I603": { "type": "mother" },
       "I610": { "type": "father" },
-      "JE": { "type": "union", "start": "2012-02-19" }
+      "Julie.Emond": { "type": "union", "start": "2012-02-19" }
     },
     "source" : "https://www.retronicdesign.com/genealogie/individual.php?ged=gradel&pid="
   },
-  "JE": {
+  "Julie.Emond": {
     "first_name": "Julie",
     "mother_s_maiden_name": "Cauchon",
     "last_name": "Emond",
@@ -38,7 +38,7 @@
       "date": "1978"
     },
     "relationship": {
-      "I619": { "type": "union", "start": "2012-02-19" }
+      "Simon.Charest": { "type": "union", "start": "2012-02-19" }
     }
   },
   "I620": {

@@ -1,13 +1,13 @@
 digraph Genealopy {
 	rankdir=TB
-	I619 [label="Simon
+	"Simon.Charest" [label="Simon
 Charest" color=lightblue shape=box style=filled]
-	I603 -> I619 [color=pink style=solid]
-	I610 -> I619 [color=lightblue style=solid]
-	JE -> I619 [color=grey style=dashed]
-	JE [label="Julie
+	I603 -> "Simon.Charest" [color=pink style=solid]
+	I610 -> "Simon.Charest" [color=lightblue style=solid]
+	"Julie.Emond" -> "Simon.Charest" [color=grey style=dashed]
+	"Julie.Emond" [label="Julie
 Emond" color=pink shape=box style=filled]
-	I619 -> JE [color=grey style=dashed]
+	"Simon.Charest" -> "Julie.Emond" [color=grey style=dashed]
 	I620 [label="Catherine
 Charest" color=pink shape=box style=filled]
 	I603 -> I620 [color=pink style=solid]
