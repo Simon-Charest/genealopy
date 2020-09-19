@@ -36,12 +36,13 @@ PARENT_LINK_STYLE = 'solid'
 UNDEFINED_LINK_STYLE = 'dashed'
 NAME_UNKNOWN = '(inconnu)'
 HIGHLIGHT_INCOMPLETE = True
-DEBUG = True
+DEBUG = False
 SEARCH = [
     # 'Simon.Charest',
     # 'Julie.Emond'
 ]
 SEARCH_COLOR = 'yellow'
+
 
 """
 Filenames examples:
@@ -97,7 +98,7 @@ def run():
 
                     if gender2 in GENDER:
                         # Get relationship properties
-                        relationship = get_relationship(value1, key2)
+                        relationship = get_relationship_type(value1, key2)
                         edge_color = get_color(relationship)
                         edge_style = get_style(relationship)
 
@@ -111,7 +112,24 @@ def run():
         print(f"{person_count} {pluralize('family member')}")
         print(f"{relationship_count} {pluralize('relationship')}")
 
+    # TODO
+    # path = get_shortest_path(json_documents, 'Simon.Charest', 'Henri Joseph.Voisard')
+
     graph.view()
+
+
+# TODO
+def get_shortest_path(json_documents, id1, id2):
+    node = get_node(json_documents, 'Simon.Charest')
+    id_ = get_relationship(node, 'father')
+
+    print(node, id_)
+
+    return None
+
+
+def count_edges(path):
+    return len(path)
 
 
 def get_color(gender, complete=True):
@@ -186,6 +204,25 @@ def get_name(value):
     return f"{first_name}\n{last_name}"
 
 
+def get_node(json_documents, id_):
+    # Loop on every JSON document
+    for json_document in json_documents:
+        # Loop on every person
+        for key1, value1 in json_document.items():
+            if key1 == id_:
+                return value1
+
+    return None
+
+
+def get_relationship(node, type_):
+    for key in node['relationship']:
+        if node['relationship'][key]['type'] == type_:
+            return key
+
+    return None
+
+
 def get_relationship_gender(json_documents, id_):
     for json_document in json_documents:
         for key, value in json_document.items():
@@ -214,7 +251,7 @@ def get_style(type_):
     return style
 
 
-def get_relationship(value, id_):
+def get_relationship_type(value, id_):
     return value['relationship'][id_]['type']
 
 
