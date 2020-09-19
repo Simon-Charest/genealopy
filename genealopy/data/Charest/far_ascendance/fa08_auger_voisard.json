@@ -1,20 +1,22 @@
 {
   "Marie-Charlotte.Auger": {
     "first_name": "Marie-Charlotte",
-    "last_name": "Auger dit Lemaître",
+    "last_name": "Lemaitre dit Auger Genon",
     "gender": "F",
     "relationship": {
       "Henri Joseph.Voisard": { "type": "union" }
     },
-    "source": "https://www.myheritage.fr/site-family-tree-205814691/charest"
+    "source": "https://www.geni.com/people/Marie-Lemaitre-dit-Auger-Genon/6000000136818942975"
   },
   "Henri Joseph.Voisard": {
     "first_name": "Henri Joseph",
     "last_name": "Voisard dit Vadeboncoeur",
     "gender": "M",
+    "birth": { "date": "1729-04-11", "place": "Fontenais, Suisse" },
+    "death": { "date": "1801-03-31", "place": "Louiseville, Maskinongé, Québec, Canada" },
     "relationship": {
       "Marie-Charlotte.Auger": { "type": "union" }
     },
-    "source": "https://www.myheritage.fr/site-family-tree-205814691/charest"
+    "source": "https://www.geni.com/people/Henri-Vorsard-Dit-Vadeboncoeur/6000000136818942986"
   }
 }

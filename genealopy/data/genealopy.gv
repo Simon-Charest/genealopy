@@ -614,7 +614,7 @@ Tanguay" color=lightblue shape=box style=filled]
 	"Jean-François.Tanguay" -> "Jean-Baptiste.Tanguay" [color=lightblue style=solid]
 	"Marie-Catherine Théotiste.Morin" -> "Jean-Baptiste.Tanguay" [color=grey style=dashed]
 	"Marie-Charlotte.Auger" [label="Marie-Charlotte
-Auger dit Lemaître" color=deeppink shape=box style=filled]
+Lemaitre dit Auger Genon" color=deeppink shape=box style=filled]
 	"Henri Joseph.Voisard" -> "Marie-Charlotte.Auger" [color=grey style=dashed]
 	"Henri Joseph.Voisard" [label="Henri Joseph
 Voisard dit Vadeboncoeur" color=deepskyblue shape=box style=filled]
