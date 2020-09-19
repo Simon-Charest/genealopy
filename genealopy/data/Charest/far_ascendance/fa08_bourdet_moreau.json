@@ -1,0 +1,22 @@
+{
+  "Marie Joseph.Bourdet": {
+    "first_name": "Marie Joseph.Bourdet",
+    "last_name": "Bourdet",
+    "gender": "F",
+    "relationship": {
+      "Felix.Moreau": { "type": "union" }
+    },
+    "source": "https://www.geni.com/people/Marie-Moreau/6000000078454891673"
+  },
+  "Felix.Moreau": {
+    "first_name": "Felix",
+    "last_name": "Moreau",
+    "gender": "M",
+    "relationship": {
+      "Marie Dorthee.Mauchaud": { "type": "mother" },
+      "Pierre Joseph.Moreau": { "type": "father" },
+      "Marie Joseph.Bourdet": { "type": "union" }
+    },
+    "source": "https://www.geni.com/people/Felix-Moreau/6000000078456103992"
+  }
+}

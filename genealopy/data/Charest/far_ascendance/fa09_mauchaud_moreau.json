@@ -1,0 +1,22 @@
+{
+  "Marie Dorthee.Mauchaud": {
+    "first_name": "Marie Dorthee",
+    "last_name": "Mauchaud",
+    "gender": "F",
+    "relationship": {
+      "Pierre Joseph.Moreau": { "type": "union" }
+    },
+    "source": "https://www.geni.com/people/Marie-Moreau/6000000078456317858"
+  },
+  "Pierre Joseph.Moreau": {
+    "first_name": "Pierre Joseph",
+    "last_name": "Moreau",
+    "gender": "M",
+    "relationship": {
+      "Marie Rosalie.Rodrigue": { "type": "mother" },
+      "Jean Baptiste.Moreau": { "type": "father" },
+      "Marie Dorthee.Mauchaud": { "type": "union" }
+    },
+    "source": "https://www.geni.com/people/Pierre-Moreau/6000000078456237849"
+  }
+}

@@ -565,7 +565,9 @@ Voisard" color=lightblue shape=box style=filled]
 Bergeron" color=deeppink shape=box style=filled]
 	"Jean-Baptiste.Moreau" -> "Marie-Rosalie.Bergeron" [color=grey style=dashed]
 	"Jean-Baptiste.Moreau" [label="Jean-Baptiste
-Moreau" color=deepskyblue shape=box style=filled]
+Moreau" color=lightblue shape=box style=filled]
+	"Marie Joseph.Bourdet" -> "Jean-Baptiste.Moreau" [color=pink style=solid]
+	"Felix.Moreau" -> "Jean-Baptiste.Moreau" [color=lightblue style=solid]
 	"Marie-Rosalie.Bergeron" -> "Jean-Baptiste.Moreau" [color=grey style=dashed]
 	"Catherine.Bourassa" [label="Catherine
 Bourassa" color=pink shape=box style=filled]
@@ -635,6 +637,14 @@ Boissonneau" color=deeppink shape=box style=filled]
 	"Jean-François.Tanguay" [label="Jean-François
 Tanguay" color=deepskyblue shape=box style=filled]
 	"Marguerite.Boissonneau" -> "Jean-François.Tanguay" [color=grey style=dashed]
+	"Marie Joseph.Bourdet" [label="Marie Joseph.Bourdet
+Bourdet" color=deeppink shape=box style=filled]
+	"Felix.Moreau" -> "Marie Joseph.Bourdet" [color=grey style=dashed]
+	"Felix.Moreau" [label="Felix
+Moreau" color=lightblue shape=box style=filled]
+	"Marie Dorthee.Mauchaud" -> "Felix.Moreau" [color=pink style=solid]
+	"Pierre Joseph.Moreau" -> "Felix.Moreau" [color=lightblue style=solid]
+	"Marie Joseph.Bourdet" -> "Felix.Moreau" [color=grey style=dashed]
 	"Marguerite.Dagneau" [label="Marguerite
 Dagneau (Daniau)" color=deeppink shape=box style=filled]
 	"Antoine.Morin" -> "Marguerite.Dagneau" [color=grey style=dashed]
@@ -677,6 +687,14 @@ Paquet" color=deeppink shape=box style=filled]
 	"Simon.Bédard" [label="Simon
 Bédard" color=deepskyblue shape=box style=filled]
 	"Louise.Paquet" -> "Simon.Bédard" [color=grey style=dashed]
+	"Marie Dorthee.Mauchaud" [label="Marie Dorthee
+Mauchaud" color=deeppink shape=box style=filled]
+	"Pierre Joseph.Moreau" -> "Marie Dorthee.Mauchaud" [color=grey style=dashed]
+	"Pierre Joseph.Moreau" [label="Pierre Joseph
+Moreau" color=lightblue shape=box style=filled]
+	"Marie Rosalie.Rodrigue" -> "Pierre Joseph.Moreau" [color=pink style=solid]
+	"Jean Baptiste.Moreau" -> "Pierre Joseph.Moreau" [color=lightblue style=solid]
+	"Marie Dorthee.Mauchaud" -> "Pierre Joseph.Moreau" [color=grey style=dashed]
 	"Angélique.Rapidieu" [label="Angélique
 Rapidieu, Lamer" color=deeppink shape=box style=filled]
 	"Jean-Baptiste.Choret Chaurette" -> "Angélique.Rapidieu" [color=grey style=dashed]
@@ -693,6 +711,12 @@ Choret" color=lightblue shape=box style=filled]
 	"Sébatienne.Veillon" -> "Pierre.Choret" [color=pink style=solid]
 	"Mathieu2.Choret" -> "Pierre.Choret" [color=lightblue style=solid]
 	"Marie-Anne.Baugis" -> "Pierre.Choret" [color=grey style=dashed]
+	"Marie Rosalie.Rodrigue" [label="Marie Rosalie
+Rodrigue" color=deeppink shape=box style=filled]
+	"Jean Baptiste.Moreau" -> "Marie Rosalie.Rodrigue" [color=grey style=dashed]
+	"Jean Baptiste.Moreau" [label="Jean Baptiste
+Moreau" color=deepskyblue shape=box style=filled]
+	"Marie Rosalie.Rodrigue" -> "Jean Baptiste.Moreau" [color=grey style=dashed]
 	"Sébatienne.Veillon" [label="Sébatienne
 Veillon" color=pink shape=box style=filled]
 	"Bernarde.Venet" -> "Sébatienne.Veillon" [color=pink style=solid]

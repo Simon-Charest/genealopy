@@ -1,0 +1,20 @@
+{
+  "Marie Rosalie.Rodrigue": {
+    "first_name": "Marie Rosalie",
+    "last_name": "Rodrigue",
+    "gender": "F",
+    "relationship": {
+      "Jean Baptiste.Moreau": { "type": "union" }
+    },
+    "source": "https://www.geni.com/people/Marie-Moreau/6000000078456091924"
+  },
+  "Jean Baptiste.Moreau": {
+    "first_name": "Jean Baptiste",
+    "last_name": "Moreau",
+    "gender": "M",
+    "relationship": {
+      "Marie Rosalie.Rodrigue": { "type": "union" }
+    },
+    "source": "https://www.geni.com/people/Jean-Moreau/6000000078456265848"
+  }
+}
