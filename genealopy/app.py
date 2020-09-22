@@ -14,14 +14,14 @@ RANK_DIRECTION = 'TB'  # TB, LR, BT or RL
 DATA = [
     'data/0?_lague_charest.json',
     'data/Charest/*.json',
-    'data/Charest/descendance/*.json'
+    # 'data/Charest/descendance/*.json'
     'data/Charest/dion_charette_ascendance/*.json',  # Aurèle Charette (Charest-Charette)'s ascendance
     'data/Charest/far_ascendance/*.json',  # Delphis Charest's ascendance
-    'data/Charest/little_cousins/*.json',  # Clément Charest siblings' descendance
-    'data/Charest/little_cousin_descendance/*.json',  # Clément Charest siblings' descendance
-    'data/Charest/tanguay_charest_siblings/*.json',  # Delphis Charest's siblings
-    'data/Laguë/*.json',  # Suzanne Laguë's ascendance
-    'data/Tremblay/*.json',  # Rita Lacombe Tremblay's ascendance
+    # 'data/Charest/little_cousins/*.json',  # Clément Charest siblings' descendance
+    # 'data/Charest/little_cousin_descendance/*.json',  # Clément Charest siblings' descendance
+    # 'data/Charest/tanguay_charest_siblings/*.json',  # Delphis Charest's siblings
+    # 'data/Laguë/*.json',  # Suzanne Laguë's ascendance
+    # 'data/Tremblay/*.json',  # Rita Lacombe Tremblay's ascendance
 ]
 SHAPE = 'box'
 STYLE = 'filled'
@@ -36,9 +36,8 @@ PARENT_LINK_STYLE = 'solid'
 UNDEFINED_LINK_STYLE = 'dashed'
 NAME_UNKNOWN = '(inconnu)'
 HIGHLIGHT_INCOMPLETE = True
-DEBUG = False
+DEBUG = True
 SEARCH_COLOR = 'yellow'
-
 
 """
 Filenames examples:
@@ -62,7 +61,11 @@ def run():
 
     # Highlight shortest path(s)
     search = list()
-    # search = get_paths(json_objects, 'Eric.Charette', 'Jean-Baptiste.Choret Chaurette')
+    # search.extend(get_shortest_path(json_objects, 'Aurèle.Charette', 'Jean-Baptiste3.Chorret Chaurette'))
+    # search.extend(get_shortest_path(json_objects, 'Henriette.Charest', 'Jean-Baptiste3.Chorret Chaurette'))
+
+    if DEBUG:
+        print(search)
 
     person_count = 0
     relationship_count = 0
@@ -76,7 +79,7 @@ def run():
         person_count += 1
 
         if gender1 in GENDER:
-            if key1 in search:
+            if 'search' in locals() and key1 in search:
                 color1 = SEARCH_COLOR
 
             else:
@@ -211,30 +214,6 @@ def get_node(json_objects, id_):
     return None
 
 
-def get_paths(json_objects, start, end, path=list()):
-    """ TODO: Fix this """
-
-    path.append(start)
-
-    if start == end:
-        return path
-
-    if start not in json_objects or end not in json_objects:
-        return None
-
-    paths = list()
-
-    for node in json_objects[start]['relationship']:
-        if node not in path:
-            new_paths = get_paths(json_objects, node, end, path)
-
-            if new_paths:
-                for new_path in new_paths:
-                    paths.append(new_path)
-
-    return paths
-
-
 def get_relationship(node, type_):
     for key in node['relationship']:
         if node['relationship'][key]['type'] == type_:
@@ -261,6 +240,62 @@ def get_relationship_name(json_objects, id_):
             return f"{value['first_name']}\n{value['last_name']}"
 
     return None
+
+
+def get_shortest_path(json_objects, initial, end):
+    """
+        Dijkstra's shortest path algorithm
+        Source: https://benalexkeen.com/implementing-djikstras-shortest-path-algorithm-with-python/
+    """
+
+    # shortest paths is a dict of nodes
+    # whose value is a tuple of (previous node, weight)
+    shortest_paths = {initial: (None, 0)}
+    current_node = initial
+    visited = set()
+
+    while current_node != end:
+        visited.add(current_node)
+
+        destinations = {}
+
+        if exists_in(json_objects, current_node):
+            destinations = json_objects[current_node]['relationship']
+
+        weight_to_current_node = shortest_paths[current_node][1]
+
+        for next_node in destinations:
+            weight = 1 + weight_to_current_node
+
+            if next_node not in shortest_paths:
+                shortest_paths[next_node] = (current_node, weight)
+
+            else:
+                current_shortest_weight = shortest_paths[next_node][1]
+
+                if current_shortest_weight > weight:
+                    shortest_paths[next_node] = (current_node, weight)
+
+        next_destinations = {node: shortest_paths[node] for node in shortest_paths if node not in visited}
+
+        if not next_destinations:
+            return {}
+
+        # next node is the destination with the lowest weight
+        current_node = min(next_destinations, key=lambda k: next_destinations[k][1])
+
+    # Work back through destinations in shortest path
+    path = []
+
+    while current_node is not None:
+        path.append(current_node)
+        next_node = shortest_paths[current_node][0]
+        current_node = next_node
+
+    # Reverse path
+    path = path[::-1]
+
+    return path
 
 
 def get_style(type_):
