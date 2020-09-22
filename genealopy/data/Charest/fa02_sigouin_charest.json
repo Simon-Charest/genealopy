@@ -244,7 +244,7 @@
     "relationship": {
       "511418" : { "type":  "mother" },
       "511417" : { "type":  "father" },
-	  "Aurèle.Charette" : { "type":  "father" }
+	  "Aurèle.Charette" : { "type":  "union" }
     },
     "source": "Famille Charest"
   },

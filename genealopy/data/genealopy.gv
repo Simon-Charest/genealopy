@@ -441,7 +441,7 @@ Favreau" color=pink shape=box style=filled]
 Charest" color=pink shape=box style=filled]
 	511418 -> "Henriette.Charest" [color=pink style=solid]
 	511417 -> "Henriette.Charest" [color=lightblue style=solid]
-	"Aurèle.Charette" -> "Henriette.Charest" [color=lightblue style=solid]
+	"Aurèle.Charette" -> "Henriette.Charest" [color=grey style=dashed]
 	"Aurèle.Charette" [label="Aurèle
 Charette" color=lightblue shape=box style=filled]
 	"Henriette.Charest" -> "Aurèle.Charette" [color=grey style=dashed]
