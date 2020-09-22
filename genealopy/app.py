@@ -14,14 +14,14 @@ RANK_DIRECTION = 'TB'  # TB, LR, BT or RL
 DATA = [
     'data/0?_lague_charest.json',
     'data/Charest/*.json',
-    # 'data/Charest/descendance/*.json'
+    'data/Charest/descendance/*.json'
     'data/Charest/dion_charette_ascendance/*.json',  # Aurèle Charette (Charest-Charette)'s ascendance
     'data/Charest/far_ascendance/*.json',  # Delphis Charest's ascendance
-    # 'data/Charest/little_cousins/*.json',  # Clément Charest siblings' descendance
-    # 'data/Charest/little_cousin_descendance/*.json',  # Clément Charest siblings' descendance
-    # 'data/Charest/tanguay_charest_siblings/*.json',  # Delphis Charest's siblings
-    # 'data/Laguë/*.json',  # Suzanne Laguë's ascendance
-    # 'data/Tremblay/*.json',  # Rita Lacombe Tremblay's ascendance
+    'data/Charest/little_cousins/*.json',  # Clément Charest siblings' descendance
+    'data/Charest/little_cousin_descendance/*.json',  # Clément Charest siblings' descendance
+    'data/Charest/tanguay_charest_siblings/*.json',  # Delphis Charest's siblings
+    'data/Laguë/*.json',  # Suzanne Laguë's ascendance
+    'data/Tremblay/*.json',  # Rita Lacombe Tremblay's ascendance
 ]
 SHAPE = 'box'
 STYLE = 'filled'
@@ -63,9 +63,13 @@ def run():
     search = list()
     # search.extend(get_shortest_path(json_objects, 'Aurèle.Charette', 'Jean-Baptiste3.Chorret Chaurette'))
     # search.extend(get_shortest_path(json_objects, 'Henriette.Charest', 'Jean-Baptiste3.Chorret Chaurette'))
+    # search.extend(get_shortest_path(json_objects, 'Simon.Charest', '511417'))
+    # search.extend(get_shortest_path(json_objects, 'Dominique.Charest', '511417'))
+    search.extend(get_shortest_path(json_objects, '511417', 'Simon.Charest'))  # Does not work
+    # search.extend(get_shortest_path(json_objects, 'Simon.Charest', 'Dominique.Charest'))  # Does not work
 
     if DEBUG:
-        print(search)
+        print(f'Search: {search}')
 
     person_count = 0
     relationship_count = 0
@@ -176,14 +180,14 @@ def get_json_objects(filenames, encoding='utf-8'):
 
     for filename in filenames:
         if DEBUG:
-            print(filename)
+            print(f'Filename: {filename}')
 
         # Read JSON data
         with open(filename, encoding=encoding) as stream:
             json_document = json.load(stream)
 
             if DEBUG:
-                print(json_document)
+                print(f'JSON Document: {json_document}')
 
             json_objects.update(json_document)
 
@@ -242,21 +246,20 @@ def get_relationship_name(json_objects, id_):
     return None
 
 
-def get_shortest_path(json_objects, initial, end):
+def get_shortest_path(json_objects, start, end):
     """
         Dijkstra's shortest path algorithm
         Source: https://benalexkeen.com/implementing-djikstras-shortest-path-algorithm-with-python/
+        TODO: Fix this (does not go back down)
     """
 
-    # shortest paths is a dict of nodes
-    # whose value is a tuple of (previous node, weight)
-    shortest_paths = {initial: (None, 0)}
-    current_node = initial
+    # Shortest paths is a dictionary of nodes whose values are tuples of (previous node, weight)
+    current_node = start
     visited = set()
+    shortest_paths = {start: (None, 0)}
 
     while current_node != end:
         visited.add(current_node)
-
         destinations = {}
 
         if exists_in(json_objects, current_node):
@@ -281,21 +284,21 @@ def get_shortest_path(json_objects, initial, end):
         if not next_destinations:
             return {}
 
-        # next node is the destination with the lowest weight
-        current_node = min(next_destinations, key=lambda k: next_destinations[k][1])
+        # Next node is the destination with the lowest weight
+        current_node = min(next_destinations, key=lambda key: next_destinations[key][1])
 
     # Work back through destinations in shortest path
-    path = []
+    shortest_path = []
 
     while current_node is not None:
-        path.append(current_node)
+        shortest_path.append(current_node)
         next_node = shortest_paths[current_node][0]
         current_node = next_node
 
     # Reverse path
-    path = path[::-1]
+    shortest_path = shortest_path[::-1]
 
-    return path
+    return shortest_path
 
 
 def get_style(type_):
