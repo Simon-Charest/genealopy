@@ -1,468 +1,5 @@
 digraph Genealopy {
 	rankdir=TB
-	"Simon.Charest" [label="Simon
-Charest" color=lightblue shape=box style=filled]
-	I603 -> "Simon.Charest" [color=pink style=solid]
-	I610 -> "Simon.Charest" [color=lightblue style=solid]
-	"Julie.Emond" -> "Simon.Charest" [color=grey style=dashed]
-	"Julie.Emond" [label="Julie
-Emond" color=pink shape=box style=filled]
-	"Simon.Charest" -> "Julie.Emond" [color=grey style=dashed]
-	I620 [label="Catherine
-Charest" color=pink shape=box style=filled]
-	I603 -> I620 [color=pink style=solid]
-	I610 -> I620 [color=lightblue style=solid]
-	ML -> I620 [color=grey style=dashed]
-	ML [label="Marc
-Lecompte" color=lightblue shape=box style=filled]
-	I620 -> ML [color=grey style=dashed]
-	I610 [label="Michel
-Charest" color=lightblue shape=box style=filled]
-	511415 -> I610 [color=pink style=solid]
-	511416 -> I610 [color=lightblue style=solid]
-	I603 -> I610 [color=grey style=dashed]
-	"Hélène.LaManna" -> I610 [color=grey style=dashed]
-	"Jenny.Mastragostino" -> I610 [color=grey style=dashed]
-	"Jenny.Mastragostino" [label="Jenny
-Mastragostino" color=pink shape=box style=filled]
-	I610 -> "Jenny.Mastragostino" [color=grey style=dashed]
-	I603 [label="Suzanne
-Laguë" color=pink shape=box style=filled]
-	"Anne-Marie.Dubreuil" -> I603 [color=pink style=solid]
-	"Jean-Paul.Laguë" -> I603 [color=lightblue style=solid]
-	I610 -> I603 [color=grey style=dashed]
-	"Marcel.Lamirande" -> I603 [color=grey style=dashed]
-	"Marcel.Lamirande" [label="Marcel
-Lamirande" color=lightblue shape=box style=filled]
-	I603 -> "Marcel.Lamirande" [color=grey style=dashed]
-	"Marc.Charest" [label="Marc
-Charest" color=lightblue shape=box style=filled]
-	"Jocelyne.Dulude" -> "Marc.Charest" [color=pink style=solid]
-	"Gilles2.Charest" -> "Marc.Charest" [color=lightblue style=solid]
-	"Sandie.Poirier" -> "Marc.Charest" [color=grey style=dashed]
-	"Sandie.Poirier" [label="Sandie
-Poirier" color=pink shape=box style=filled]
-	"Marc.Charest" -> "Sandie.Poirier" [color=grey style=dashed]
-	"Annie.Charest" [label="Annie
-Charest" color=pink shape=box style=filled]
-	"Jocelyne.Dulude" -> "Annie.Charest" [color=pink style=solid]
-	"Gilles2.Charest" -> "Annie.Charest" [color=lightblue style=solid]
-	"Daniel.Marcil" [label="Daniel
-Marcil" color=lightblue shape=box style=filled]
-	"Ghislaine.Charest" -> "Daniel.Marcil" [color=pink style=solid]
-	"Serge.Marcil" -> "Daniel.Marcil" [color=lightblue style=solid]
-	"Sandra.Maluorni" -> "Daniel.Marcil" [color=grey style=dashed]
-	"Sandra.Maluorni" [label="Sandra
-Maluorni" color=lightblue shape=box style=filled]
-	"Daniel.Marcil" -> "Sandra.Maluorni" [color=grey style=dashed]
-	"Julie.Marcil" [label="Julie
-Marcil" color=pink shape=box style=filled]
-	"Ghislaine.Charest" -> "Julie.Marcil" [color=pink style=solid]
-	"Serge.Marcil" -> "Julie.Marcil" [color=lightblue style=solid]
-	"Laurence.Charest" [label="Laurence
-Charest" color=pink shape=box style=filled]
-	Christine -> "Laurence.Charest" [color=pink style=solid]
-	"Jean.Charest" -> "Laurence.Charest" [color=lightblue style=solid]
-	"Thomas.Charest" [label="Thomas
-Charest" color=lightblue shape=box style=filled]
-	"Danielle.Mayer" -> "Thomas.Charest" [color=pink style=solid]
-	"Jean.Charest" -> "Thomas.Charest" [color=lightblue style=solid]
-	"Eric.Charette" [label="Eric
-Charette" color=lightblue shape=box style=filled]
-	"Henriette.Charest" -> "Eric.Charette" [color=pink style=solid]
-	"Aurèle.Charette" -> "Eric.Charette" [color=lightblue style=solid]
-	"Sophie.Couture" -> "Eric.Charette" [color=grey style=dashed]
-	"Sophie.Couture" [label="Sophie
-Couture" color=pink shape=box style=filled]
-	"Eric.Charette" -> "Sophie.Couture" [color=grey style=dashed]
-	"Pauline.Charette" [label="Pauline
-Charette" color=pink shape=box style=filled]
-	"Henriette.Charest" -> "Pauline.Charette" [color=pink style=solid]
-	"Aurèle.Charette" -> "Pauline.Charette" [color=lightblue style=solid]
-	"Linda.Charette" [label="Linda
-Charette" color=pink shape=box style=filled]
-	"Henriette.Charest" -> "Linda.Charette" [color=pink style=solid]
-	"Aurèle.Charette" -> "Linda.Charette" [color=lightblue style=solid]
-	"Guy.Ménard" -> "Linda.Charette" [color=grey style=dashed]
-	"Guy.Ménard" [label="Guy
-Ménard" color=lightblue shape=box style=filled]
-	"Linda.Charette" -> "Guy.Ménard" [color=grey style=dashed]
-	"Lucie.Coderre" [label="Lucie
-Coderre" color=pink shape=box style=filled]
-	"Céline.Charest" -> "Lucie.Coderre" [color=pink style=solid]
-	"Gérald.Coderre" -> "Lucie.Coderre" [color=lightblue style=solid]
-	"Francois.Langlais" -> "Lucie.Coderre" [color=grey style=dashed]
-	"Francois.Langlais" [label="Francois
-Langlais" color=lightblue shape=box style=filled]
-	"Annette.Parent" -> "Francois.Langlais" [color=grey style=dashed]
-	"Lucie.Coderre" -> "Francois.Langlais" [color=grey style=dashed]
-	"Annette.Parent" [label="Annette
-Parent" color=pink shape=box style=filled]
-	"Francois.Langlais" -> "Annette.Parent" [color=grey style=dashed]
-	"Suzanne.Coderre" [label="Suzanne
-Coderre" color=pink shape=box style=filled]
-	"Céline.Charest" -> "Suzanne.Coderre" [color=pink style=solid]
-	"Gérald.Coderre" -> "Suzanne.Coderre" [color=lightblue style=solid]
-	"Gérald.Grandmaison" -> "Suzanne.Coderre" [color=grey style=dashed]
-	"Gérald.Grandmaison" [label="Gérald
-Grandmaison" color=lightblue shape=box style=filled]
-	"Suzanne.Coderre" -> "Gérald.Grandmaison" [color=grey style=dashed]
-	"Nicole.Coderre" [label="Nicole
-Coderre" color=pink shape=box style=filled]
-	"Céline.Charest" -> "Nicole.Coderre" [color=pink style=solid]
-	"Gérald.Coderre" -> "Nicole.Coderre" [color=lightblue style=solid]
-	"Benoît.Coderre" [label="Benoît
-Coderre" color=lightblue shape=box style=filled]
-	"Céline.Charest" -> "Benoît.Coderre" [color=pink style=solid]
-	"Gérald.Coderre" -> "Benoît.Coderre" [color=lightblue style=solid]
-	"Sylvie.Chaput" -> "Benoît.Coderre" [color=grey style=dashed]
-	"Sylvie.Chaput" [label="Sylvie
-Chaput" color=pink shape=box style=filled]
-	"Benoît.Coderre" -> "Sylvie.Chaput" [color=grey style=dashed]
-	"Johanne.Charest" [label="Johanne
-Charest" color=pink shape=box style=filled]
-	"Yolande.Contant" -> "Johanne.Charest" [color=pink style=solid]
-	"Luc.Charest" -> "Johanne.Charest" [color=lightblue style=solid]
-	"Michel.Bayard" -> "Johanne.Charest" [color=grey style=dashed]
-	"Guy.Therrien" -> "Johanne.Charest" [color=grey style=dashed]
-	"Michel.Bayard" [label="Michel
-Bayard" color=lightblue shape=box style=filled]
-	"Johanne.Charest" -> "Michel.Bayard" [color=grey style=dashed]
-	"Guy.Therrien" [label="Guy
-Therrien" color=lightblue shape=box style=filled]
-	"Johanne.Charest" -> "Guy.Therrien" [color=grey style=dashed]
-	"Danielle.Charest" [label="Danielle
-Charest" color=pink shape=box style=filled]
-	"Yolande.Contant" -> "Danielle.Charest" [color=pink style=solid]
-	"Luc.Charest" -> "Danielle.Charest" [color=lightblue style=solid]
-	"Robert.Lauzon" -> "Danielle.Charest" [color=grey style=dashed]
-	"Robert.Lauzon" [label="Robert
-Lauzon" color=lightblue shape=box style=filled]
-	"Danielle.Charest" -> "Robert.Lauzon" [color=lightblue style=solid]
-	"Sylvie.Charest" [label="Sylvie
-Charest" color=pink shape=box style=filled]
-	"Yolande.Contant" -> "Sylvie.Charest" [color=pink style=solid]
-	"Luc.Charest" -> "Sylvie.Charest" [color=lightblue style=solid]
-	"Gilles.Lahaie" -> "Sylvie.Charest" [color=grey style=dashed]
-	"Gilles.Lahaie" [label="Gilles
-Lahaie" color=lightblue shape=box style=filled]
-	"Sylvie.Charest" -> "Gilles.Lahaie" [color=grey style=dashed]
-	"Renée.Charest" [label="Renée
-Charest" color=pink shape=box style=filled]
-	"Yolande.Contant" -> "Renée.Charest" [color=pink style=solid]
-	"Luc.Charest" -> "Renée.Charest" [color=lightblue style=solid]
-	"Pierre.Thériault" -> "Renée.Charest" [color=grey style=dashed]
-	"Pierre.Thériault" [label="Pierre
-Thériault" color=lightblue shape=box style=filled]
-	"Renée.Charest" -> "Pierre.Thériault" [color=grey style=dashed]
-	"André2.Charest" [label="André
-Charest" color=lightblue shape=box style=filled]
-	"Denise.Deslauriers" -> "André2.Charest" [color=pink style=solid]
-	"Gilles.Charest" -> "André2.Charest" [color=lightblue style=solid]
-	"Johanne.Archambault" -> "André2.Charest" [color=grey style=dashed]
-	"Johanne.Archambault" [label="Johanne
-Archambault" color=pink shape=box style=filled]
-	"André2.Charest" -> "Johanne.Archambault" [color=grey style=dashed]
-	"Thérèse.Charest" [label="Thérèse
-Charest" color=pink shape=box style=filled]
-	"Denise.Deslauriers" -> "Thérèse.Charest" [color=pink style=solid]
-	"Gilles.Charest" -> "Thérèse.Charest" [color=lightblue style=solid]
-	"Daniel.Beauséjour" -> "Thérèse.Charest" [color=grey style=dashed]
-	"Daniel.Beauséjour" [label="Daniel
-Beauséjour" color=lightblue shape=box style=filled]
-	"Thérèse.Charest" -> "Daniel.Beauséjour" [color=grey style=dashed]
-	"Marcel.Charest" [label="Marcel
-Charest" color=lightblue shape=box style=filled]
-	"Denise.Deslauriers" -> "Marcel.Charest" [color=pink style=solid]
-	"Gilles.Charest" -> "Marcel.Charest" [color=lightblue style=solid]
-	"Hélène.Maurice" -> "Marcel.Charest" [color=grey style=dashed]
-	"Christiane.Larente" -> "Marcel.Charest" [color=grey style=dashed]
-	"Hélène.Maurice" [label="Hélène
-Maurice" color=pink shape=box style=filled]
-	"Marcel.Charest" -> "Hélène.Maurice" [color=grey style=dashed]
-	"Christiane.Larente" [label="Christiane
-Larente" color=pink shape=box style=filled]
-	"Marcel.Charest" -> "Christiane.Larente" [color=grey style=dashed]
-	"Paul.Charest" [label="Paul
-Charest" color=lightblue shape=box style=filled]
-	"Denise.Deslauriers" -> "Paul.Charest" [color=pink style=solid]
-	"Gilles.Charest" -> "Paul.Charest" [color=lightblue style=solid]
-	"Lise.Charest" [label="Lise
-Charest-Perron" color=pink shape=box style=filled]
-	"Denise.Deslauriers" -> "Lise.Charest" [color=pink style=solid]
-	"Gilles.Charest" -> "Lise.Charest" [color=lightblue style=solid]
-	"Marc.Perron" -> "Lise.Charest" [color=grey style=dashed]
-	"Marc.Perron" [label="Marc
-Perron" color=lightblue shape=box style=filled]
-	"Lise.Charest" -> "Marc.Perron" [color=grey style=dashed]
-	"Robert.Charest" [label="Robert
-Charest" color=lightblue shape=box style=filled]
-	"Réjeanne.Favreau" -> "Robert.Charest" [color=pink style=solid]
-	"Denis.Charest" -> "Robert.Charest" [color=lightblue style=solid]
-	"Guy.Charest" [label="Guy
-Charest" color=lightblue shape=box style=filled]
-	"Réjeanne.Favreau" -> "Guy.Charest" [color=pink style=solid]
-	"Denis.Charest" -> "Guy.Charest" [color=lightblue style=solid]
-	"Julie.Thériault" -> "Guy.Charest" [color=grey style=dashed]
-	"Julie.Thériault" [label="Julie
-Thériault" color=pink shape=box style=filled]
-	"Guy.Charest" -> "Julie.Thériault" [color=grey style=dashed]
-	"François.Charest" [label="François
-Charest" color=lightblue shape=box style=filled]
-	"Réjeanne.Favreau" -> "François.Charest" [color=pink style=solid]
-	"Denis.Charest" -> "François.Charest" [color=lightblue style=solid]
-	"Caroline.Paradis" -> "François.Charest" [color=grey style=dashed]
-	"Caroline.Paradis" [label="Caroline
-Paradis" color=pink shape=box style=filled]
-	"François.Charest" -> "Caroline.Paradis" [color=grey style=dashed]
-	"Louise.Charest" [label="Louise
-Charest" color=pink shape=box style=filled]
-	"Fleurette.Hébert" -> "Louise.Charest" [color=pink style=solid]
-	"Hubert.Charest" -> "Louise.Charest" [color=lightblue style=solid]
-	"Jean-Claude.Bigaouette" -> "Louise.Charest" [color=grey style=dashed]
-	"Jean-Claude.Bigaouette" [label="Jean-Claude
-Bigaouette" color=lightblue shape=box style=filled]
-	"Louise.Charest" -> "Jean-Claude.Bigaouette" [color=grey style=dashed]
-	"Pierre.Charest" [label="Pierre
-Charest" color=lightblue shape=box style=filled]
-	"Fleurette.Hébert" -> "Pierre.Charest" [color=pink style=solid]
-	"Hubert.Charest" -> "Pierre.Charest" [color=lightblue style=solid]
-	"Ginette.Gravel" -> "Pierre.Charest" [color=grey style=dashed]
-	"Chantal.Leblond" -> "Pierre.Charest" [color=grey style=dashed]
-	"Ginette.Gravel" [label="Ginette
-Gravel" color=pink shape=box style=filled]
-	"Pierre.Charest" -> "Ginette.Gravel" [color=grey style=dashed]
-	"Chantal.Leblond" [label="Chantal
-Leblond" color=pink shape=box style=filled]
-	"Pierre.Charest" -> "Chantal.Leblond" [color=grey style=dashed]
-	"Yves.Charest" [label="Yves
-Charest" color=lightblue shape=box style=filled]
-	"Fleurette.Hébert" -> "Yves.Charest" [color=pink style=solid]
-	"Hubert.Charest" -> "Yves.Charest" [color=lightblue style=solid]
-	"Rose.Monette" -> "Yves.Charest" [color=grey style=dashed]
-	"Rose.Monette" [label="Rose
-Monette" color=pink shape=box style=filled]
-	"Yves.Charest" -> "Rose.Monette" [color=grey style=dashed]
-	"BB.Charest" [label="BB
-Charest" color=pink shape=box style=filled]
-	"Fleurette.Hébert" -> "BB.Charest" [color=pink style=solid]
-	"Hubert.Charest" -> "BB.Charest" [color=lightblue style=solid]
-	"Monique.Charest" [label="Monique
-Charest" color=pink shape=box style=filled]
-	"Huguette.Lafrance" -> "Monique.Charest" [color=pink style=solid]
-	"René.Charest" -> "Monique.Charest" [color=lightblue style=solid]
-	"Michel.Hogue" -> "Monique.Charest" [color=grey style=dashed]
-	"Michel.Hogue" [label="Michel
-Hogue" color=lightblue shape=box style=filled]
-	"Monique.Charest" -> "Michel.Hogue" [color=grey style=dashed]
-	"Serge.Charest" [label="Serge
-Charest" color=lightblue shape=box style=filled]
-	"Huguette.Lafrance" -> "Serge.Charest" [color=pink style=solid]
-	"René.Charest" -> "Serge.Charest" [color=lightblue style=solid]
-	"Danielle.Paquette" -> "Serge.Charest" [color=grey style=dashed]
-	"Danielle.Paquette" [label="Danielle
-Paquette" color=pink shape=box style=filled]
-	"Serge.Charest" -> "Danielle.Paquette" [color=grey style=dashed]
-	"Yvon.Charest" [label="Yvon
-Charest" color=lightblue shape=box style=filled]
-	"Huguette.Lafrance" -> "Yvon.Charest" [color=pink style=solid]
-	"René.Charest" -> "Yvon.Charest" [color=lightblue style=solid]
-	"Michelle.Claude" -> "Yvon.Charest" [color=grey style=dashed]
-	"Carole.Lamothe" -> "Yvon.Charest" [color=grey style=dashed]
-	"Michelle.Claude" [label="Michelle
-Claude" color=pink shape=box style=filled]
-	"Yvon.Charest" -> "Michelle.Claude" [color=grey style=dashed]
-	"Carole.Lamothe" [label="Carole
-Lamothe" color=pink shape=box style=filled]
-	"Yvon.Charest" -> "Carole.Lamothe" [color=grey style=dashed]
-	"Diane.Charest" [label="Diane
-Charest" color=pink shape=box style=filled]
-	"Lise.Métayer" -> "Diane.Charest" [color=pink style=solid]
-	"André.Charest" -> "Diane.Charest" [color=lightblue style=solid]
-	"Georges.Lessard" -> "Diane.Charest" [color=grey style=dashed]
-	"Georges.Lessard" [label="Georges
-Lessard" color=lightblue shape=box style=filled]
-	"Diane.Charest" -> "Georges.Lessard" [color=grey style=dashed]
-	"Hélène.Charest" [label="Hélène
-Charest" color=pink shape=box style=filled]
-	"Lise.Métayer" -> "Hélène.Charest" [color=pink style=solid]
-	"André.Charest" -> "Hélène.Charest" [color=lightblue style=solid]
-	"Harvey.Young" -> "Hélène.Charest" [color=grey style=dashed]
-	"Harvey.Young" [label="Harvey
-Young" color=lightblue shape=box style=filled]
-	"Hélène.Charest" -> "Harvey.Young" [color=grey style=dashed]
-	"Sylvain.Monette" [label="Sylvain
-Monette" color=lightblue shape=box style=filled]
-	"Francine.Charest" -> "Sylvain.Monette" [color=pink style=solid]
-	"Jacques.Monette" -> "Sylvain.Monette" [color=lightblue style=solid]
-	"Rachel.Ladouceur" -> "Sylvain.Monette" [color=grey style=dashed]
-	"Rachel.Ladouceur" [label="Rachel
-Ladouceur" color=pink shape=box style=filled]
-	"Sylvain.Monette" -> "Rachel.Ladouceur" [color=grey style=dashed]
-	"Claude.Monette" [label="Claude
-Monette" color=lightblue shape=box style=filled]
-	"Francine.Charest" -> "Claude.Monette" [color=pink style=solid]
-	"Jacques.Monette" -> "Claude.Monette" [color=lightblue style=solid]
-	"Lise.Gagnon" -> "Claude.Monette" [color=grey style=dashed]
-	"Lise.Gagnon" [label="Lise
-Gagnon" color=pink shape=box style=filled]
-	"Claude.Monette" -> "Lise.Gagnon" [color=grey style=dashed]
-	"Gilles2.Charest" [label="Gilles
-Charest" color=lightblue shape=box style=filled]
-	511415 -> "Gilles2.Charest" [color=pink style=solid]
-	511416 -> "Gilles2.Charest" [color=lightblue style=solid]
-	"Jocelyne.Dulude" -> "Gilles2.Charest" [color=grey style=dashed]
-	"Jocelyne.Dulude" [label="Jocelyne
-Dulude" color=pink shape=box style=filled]
-	"Gilles2.Charest" -> "Jocelyne.Dulude" [color=grey style=dashed]
-	Solange [label="Solange
-(inconnu)" color=pink shape=box style=filled]
-	"Gilles2.Charest" -> Solange [color=grey style=dashed]
-	"Ghislaine.Charest" [label="Ghislaine
-Charest" color=pink shape=box style=filled]
-	511415 -> "Ghislaine.Charest" [color=pink style=solid]
-	511416 -> "Ghislaine.Charest" [color=lightblue style=solid]
-	"Serge.Marcil" -> "Ghislaine.Charest" [color=grey style=dashed]
-	"Serge.Marcil" [label="Serge
-Marcil" color=lightblue shape=box style=filled]
-	"Ghislaine.Charest" -> "Serge.Marcil" [color=grey style=dashed]
-	"Jean.Charest" [label="Jean
-Charest" color=lightblue shape=box style=filled]
-	511415 -> "Jean.Charest" [color=pink style=solid]
-	511416 -> "Jean.Charest" [color=lightblue style=solid]
-	Christine -> "Jean.Charest" [color=grey style=dashed]
-	"Danielle.Mayer" -> "Jean.Charest" [color=grey style=dashed]
-	Christine [label="Christine
-(inconnu)" color=pink shape=box style=filled]
-	"Jean.Charest" -> Christine [color=grey style=dashed]
-	"Danielle.Mayer" [label="Danielle
-Mayer" color=pink shape=box style=filled]
-	"Jean.Charest" -> "Danielle.Mayer" [color=grey style=dashed]
-	"Jacques.Charest" [label="Jacques
-Charest" color=lightblue shape=box style=filled]
-	511415 -> "Jacques.Charest" [color=pink style=solid]
-	511416 -> "Jacques.Charest" [color=lightblue style=solid]
-	"Françoise.Morin" -> "Jacques.Charest" [color=grey style=dashed]
-	"Hélène.LaManna" -> "Jacques.Charest" [color=grey style=dashed]
-	"Françoise.Morin" [label="Françoise
-Morin" color=pink shape=box style=filled]
-	"Jacques.Charest" -> "Françoise.Morin" [color=grey style=dashed]
-	"Hélène.LaManna" [label="Hélène
-LaManna" color=pink shape=box style=filled]
-	I610 -> "Hélène.LaManna" [color=grey style=dashed]
-	"Jacques.Charest" -> "Hélène.LaManna" [color=grey style=dashed]
-	"Michelle.Charest" [label="Michelle
-Charest" color=pink shape=box style=filled]
-	511418 -> "Michelle.Charest" [color=pink style=solid]
-	511417 -> "Michelle.Charest" [color=lightblue style=solid]
-	511415 [label="Rita
-Lacombe Tremblay" color=pink shape=box style=filled]
-	"Léotine.Turgeon" -> 511415 [color=pink style=solid]
-	"Alphonse.Tremblay" -> 511415 [color=lightblue style=solid]
-	Lacombe -> 511415 [color=grey style=dashed]
-	511416 -> 511415 [color=grey style=dashed]
-	Lacombe [label="(inconnu)
-Lacombe" color=lightblue shape=box style=filled]
-	511415 -> Lacombe [color=grey style=dashed]
-	511416 [label="Clément
-Charest" color=lightblue shape=box style=filled]
-	511418 -> 511416 [color=pink style=solid]
-	511417 -> 511416 [color=lightblue style=solid]
-	511415 -> 511416 [color=grey style=dashed]
-	"Hubert.Charest" [label="Hubert
-Charest" color=lightblue shape=box style=filled]
-	511418 -> "Hubert.Charest" [color=pink style=solid]
-	511417 -> "Hubert.Charest" [color=lightblue style=solid]
-	"Fleurette.Hébert" -> "Hubert.Charest" [color=grey style=dashed]
-	"Fleurette.Hébert" [label="Fleurette
-Hébert" color=pink shape=box style=filled]
-	"Hubert.Charest" -> "Fleurette.Hébert" [color=grey style=dashed]
-	"René.Charest" [label="René
-Charest" color=lightblue shape=box style=filled]
-	511418 -> "René.Charest" [color=pink style=solid]
-	511417 -> "René.Charest" [color=lightblue style=solid]
-	"Huguette.Lafrance" -> "René.Charest" [color=grey style=dashed]
-	"Huguette.Lafrance" [label="Huguette
-Lafrance" color=pink shape=box style=filled]
-	"René.Charest" -> "Huguette.Lafrance" [color=grey style=dashed]
-	"Céline.Charest" [label="Céline
-Charest" color=pink shape=box style=filled]
-	511418 -> "Céline.Charest" [color=pink style=solid]
-	511417 -> "Céline.Charest" [color=lightblue style=solid]
-	"Gérald.Coderre" -> "Céline.Charest" [color=grey style=dashed]
-	"Gérald.Coderre" [label="Gérald
-Coderre" color=lightblue shape=box style=filled]
-	"Céline.Charest" -> "Gérald.Coderre" [color=grey style=dashed]
-	"Claude.Charest" [label="Claude
-Charest" color=lightblue shape=box style=filled]
-	511418 -> "Claude.Charest" [color=pink style=solid]
-	511417 -> "Claude.Charest" [color=lightblue style=solid]
-	"Fleurette.Tardif" -> "Claude.Charest" [color=grey style=dashed]
-	"Fleurette.Tardif" [label="Fleurette
-Tardif" color=pink shape=box style=filled]
-	"Claude.Charest" -> "Fleurette.Tardif" [color=grey style=dashed]
-	"Luc.Charest" [label="Luc
-Charest" color=lightblue shape=box style=filled]
-	511418 -> "Luc.Charest" [color=pink style=solid]
-	511417 -> "Luc.Charest" [color=lightblue style=solid]
-	"Yolande.Contant" -> "Luc.Charest" [color=grey style=dashed]
-	"Yolande.Contant" [label="Yolande
-Contant" color=pink shape=box style=filled]
-	"Luc.Charest" -> "Yolande.Contant" [color=grey style=dashed]
-	"André.Charest" [label="André
-Charest" color=lightblue shape=box style=filled]
-	511418 -> "André.Charest" [color=pink style=solid]
-	511417 -> "André.Charest" [color=lightblue style=solid]
-	"Lise.Métayer" -> "André.Charest" [color=grey style=dashed]
-	"Lise.Métayer" [label="Lise
-Métayer" color=pink shape=box style=filled]
-	"André.Charest" -> "Lise.Métayer" [color=grey style=dashed]
-	"Gilles.Charest" [label="Gilles
-Charest" color=lightblue shape=box style=filled]
-	511418 -> "Gilles.Charest" [color=pink style=solid]
-	511417 -> "Gilles.Charest" [color=lightblue style=solid]
-	"Denise.Deslauriers" -> "Gilles.Charest" [color=grey style=dashed]
-	"Denise.Deslauriers" [label="Denise
-Deslauriers" color=pink shape=box style=filled]
-	"Gilles.Charest" -> "Denise.Deslauriers" [color=grey style=dashed]
-	"Denis.Charest" [label="Denis
-Charest" color=lightblue shape=box style=filled]
-	511418 -> "Denis.Charest" [color=pink style=solid]
-	511417 -> "Denis.Charest" [color=lightblue style=solid]
-	"Réjeanne.Favreau" -> "Denis.Charest" [color=grey style=dashed]
-	"Odette.Greaschepe" -> "Denis.Charest" [color=grey style=dashed]
-	"Odette.Greaschepe" [label="Odette
-Greaschepe" color=pink shape=box style=filled]
-	"Denis.Charest" -> "Odette.Greaschepe" [color=grey style=dashed]
-	"Réjeanne.Favreau" [label="Réjeanne
-Favreau" color=pink shape=box style=filled]
-	"Denis.Charest" -> "Réjeanne.Favreau" [color=grey style=dashed]
-	"Henriette.Charest" [label="Henriette
-Charest" color=pink shape=box style=filled]
-	511418 -> "Henriette.Charest" [color=pink style=solid]
-	511417 -> "Henriette.Charest" [color=lightblue style=solid]
-	"Aurèle.Charette" -> "Henriette.Charest" [color=grey style=dashed]
-	"Aurèle.Charette" [label="Aurèle
-Charette" color=lightblue shape=box style=filled]
-	"Henriette.Charest" -> "Aurèle.Charette" [color=grey style=dashed]
-	"Francine.Charest" [label="Francine
-Charest" color=pink shape=box style=filled]
-	511418 -> "Francine.Charest" [color=pink style=solid]
-	511417 -> "Francine.Charest" [color=lightblue style=solid]
-	"Jacques.Monette" -> "Francine.Charest" [color=grey style=dashed]
-	"Jacques.Monette" [label="Jacques
-Monette" color=lightblue shape=box style=filled]
-	"Francine.Charest" -> "Jacques.Monette" [color=grey style=dashed]
-	511418 [label="Hélène
-Sigouin" color=pink shape=box style=filled]
-	"Malvina.Voisard" -> 511418 [color=pink style=solid]
-	"Alphonse.Sigouin" -> 511418 [color=lightblue style=solid]
-	511417 -> 511418 [color=grey style=dashed]
-	511417 [label="Delphis
-Charest" color=lightblue shape=box style=filled]
-	"Alma.Tanguay" -> 511417 [color=pink style=solid]
-	"Adélard.Charest" -> 511417 [color=lightblue style=solid]
-	511418 -> 511417 [color=grey style=dashed]
 	"Alma.Tanguay" [label="Alma
 Tanguay" color=pink shape=box style=filled]
 	"Adèle.Bédard" -> "Alma.Tanguay" [color=pink style=solid]
@@ -786,6 +323,74 @@ de Bourbon-Vendôme" color=deeppink shape=box style=filled]
 de Lorraine" color=deepskyblue shape=box style=filled]
 	"Filippa.van Gelre" [label="Filippa
 van Gelre" color=deeppink shape=box style=filled]
+	"Léopold.Chaurette Charest" [label="Léopold
+Chaurette Charest" color=lightblue shape=box style=filled]
+	"Alma.Tanguay" -> "Léopold.Chaurette Charest" [color=pink style=solid]
+	"Adélard.Charest" -> "Léopold.Chaurette Charest" [color=lightblue style=solid]
+	"Charles Émile.Charest Chaurette" [label="Charles Émile
+Charest Chaurette" color=lightblue shape=box style=filled]
+	"Alma.Tanguay" -> "Charles Émile.Charest Chaurette" [color=pink style=solid]
+	"Adélard.Charest" -> "Charles Émile.Charest Chaurette" [color=lightblue style=solid]
+	"Antonio.Charest Chaurette" [label="Antonio
+Charest Chaurette" color=lightblue shape=box style=filled]
+	"Alma.Tanguay" -> "Antonio.Charest Chaurette" [color=pink style=solid]
+	"Adélard.Charest" -> "Antonio.Charest Chaurette" [color=lightblue style=solid]
+	"Jeanne.Delisle" -> "Antonio.Charest Chaurette" [color=grey style=dashed]
+	"Jeanne.Delisle" [label="Jeanne
+Delisle" color=pink shape=box style=filled]
+	"Antonio.Charest Chaurette" -> "Jeanne.Delisle" [color=grey style=dashed]
+	"Anita Marguerite.Charest Chaurette" [label="Anita Marguerite
+Charest Chaurette" color=pink shape=box style=filled]
+	"Alma.Tanguay" -> "Anita Marguerite.Charest Chaurette" [color=pink style=solid]
+	"Adélard.Charest" -> "Anita Marguerite.Charest Chaurette" [color=lightblue style=solid]
+	"Hector.Charest Chaurette" [label="Hector
+Charest Chaurette" color=lightblue shape=box style=filled]
+	"Alma.Tanguay" -> "Hector.Charest Chaurette" [color=pink style=solid]
+	"Adélard.Charest" -> "Hector.Charest Chaurette" [color=lightblue style=solid]
+	"Clotilde.Charest Chaurette" [label="Clotilde
+Charest Chaurette" color=lightblue shape=box style=filled]
+	"Alma.Tanguay" -> "Clotilde.Charest Chaurette" [color=pink style=solid]
+	"Adélard.Charest" -> "Clotilde.Charest Chaurette" [color=lightblue style=solid]
+	"Louisa.Dion" [label="Louisa
+Dion" color=deeppink shape=box style=filled]
+	"Albert.Charette" -> "Louisa.Dion" [color=grey style=dashed]
+	"Albert.Charette" [label="Albert
+Charette" color=lightblue shape=box style=filled]
+	"Rose de Lima.Mondoux" -> "Albert.Charette" [color=pink style=solid]
+	"Servini.Charette" -> "Albert.Charette" [color=lightblue style=solid]
+	"Louisa.Dion" -> "Albert.Charette" [color=grey style=dashed]
+	"Rose de Lima.Mondoux" [label="Rose de Lima
+Mondoux" color=deeppink shape=box style=filled]
+	"Servini.Charette" -> "Rose de Lima.Mondoux" [color=grey style=dashed]
+	"Servini.Charette" [label="Servini (Sylvanie)
+Charette" color=lightblue shape=box style=filled]
+	"Angélina.Perpétue" -> "Servini.Charette" [color=pink style=solid]
+	"Servini2.Charette" -> "Servini.Charette" [color=lightblue style=solid]
+	"Rose de Lima.Mondoux" -> "Servini.Charette" [color=grey style=dashed]
+	"Angélina.Perpétue" [label="Angélina (Rose)
+Perpétue" color=deeppink shape=box style=filled]
+	"Servini2.Charette" -> "Angélina.Perpétue" [color=grey style=dashed]
+	"Servini2.Charette" [label="Servini (Sylvain Sévère)
+Charette" color=lightblue shape=box style=filled]
+	"Julie.Demers" -> "Servini2.Charette" [color=pink style=solid]
+	"Damase.Chauret" -> "Servini2.Charette" [color=lightblue style=solid]
+	"Angélina.Perpétue" -> "Servini2.Charette" [color=grey style=dashed]
+	"Damase.Chauret" [label="Damase
+Chauret" color=lightblue shape=box style=filled]
+	"Josephte.Valiquette" -> "Damase.Chauret" [color=pink style=solid]
+	"Théodore.Choret Chaurette" -> "Damase.Chauret" [color=lightblue style=solid]
+	"Julie.Demers" -> "Damase.Chauret" [color=grey style=dashed]
+	"Julie.Demers" [label="Julie
+Demers" color=deeppink shape=box style=filled]
+	"Damase.Chauret" -> "Julie.Demers" [color=grey style=dashed]
+	"Théodore.Choret Chaurette" [label="Théodore
+Choret Chaurette" color=lightblue shape=box style=filled]
+	"Geneviève.Giroux" -> "Théodore.Choret Chaurette" [color=pink style=solid]
+	"Jean-Baptiste3.Chorret Chaurette" -> "Théodore.Choret Chaurette" [color=lightblue style=solid]
+	"Josephte.Valiquette" -> "Théodore.Choret Chaurette" [color=grey style=dashed]
+	"Josephte.Valiquette" [label="Josephte
+Valiquette" color=deeppink shape=box style=filled]
+	"Théodore.Choret Chaurette" -> "Josephte.Valiquette" [color=grey style=dashed]
 	"Judith.Charest" [label="Judith
 Charest" color=pink shape=box style=filled]
 	"Johanne.Archambault" -> "Judith.Charest" [color=pink style=solid]
@@ -1244,34 +849,490 @@ Larose" color=lightblue shape=box style=filled]
 Larose" color=lightblue shape=box style=filled]
 	"Isabelle.Therrien" -> "Julien.Larose" [color=pink style=solid]
 	"Maxim.Larose" -> "Julien.Larose" [color=lightblue style=solid]
-	"Léopold.Chaurette Charest" [label="Léopold
-Chaurette Charest" color=lightblue shape=box style=filled]
-	"Alma.Tanguay" -> "Léopold.Chaurette Charest" [color=pink style=solid]
-	"Adélard.Charest" -> "Léopold.Chaurette Charest" [color=lightblue style=solid]
-	"Charles Émile.Charest Chaurette" [label="Charles Émile
-Charest Chaurette" color=lightblue shape=box style=filled]
-	"Alma.Tanguay" -> "Charles Émile.Charest Chaurette" [color=pink style=solid]
-	"Adélard.Charest" -> "Charles Émile.Charest Chaurette" [color=lightblue style=solid]
-	"Antonio.Charest Chaurette" [label="Antonio
-Charest Chaurette" color=lightblue shape=box style=filled]
-	"Alma.Tanguay" -> "Antonio.Charest Chaurette" [color=pink style=solid]
-	"Adélard.Charest" -> "Antonio.Charest Chaurette" [color=lightblue style=solid]
-	"Jeanne.Delisle" -> "Antonio.Charest Chaurette" [color=grey style=dashed]
-	"Jeanne.Delisle" [label="Jeanne
-Delisle" color=pink shape=box style=filled]
-	"Antonio.Charest Chaurette" -> "Jeanne.Delisle" [color=grey style=dashed]
-	"Anita Marguerite.Charest Chaurette" [label="Anita Marguerite
-Charest Chaurette" color=pink shape=box style=filled]
-	"Alma.Tanguay" -> "Anita Marguerite.Charest Chaurette" [color=pink style=solid]
-	"Adélard.Charest" -> "Anita Marguerite.Charest Chaurette" [color=lightblue style=solid]
-	"Hector.Charest Chaurette" [label="Hector
-Charest Chaurette" color=lightblue shape=box style=filled]
-	"Alma.Tanguay" -> "Hector.Charest Chaurette" [color=pink style=solid]
-	"Adélard.Charest" -> "Hector.Charest Chaurette" [color=lightblue style=solid]
-	"Clotilde.Charest Chaurette" [label="Clotilde
-Charest Chaurette" color=lightblue shape=box style=filled]
-	"Alma.Tanguay" -> "Clotilde.Charest Chaurette" [color=pink style=solid]
-	"Adélard.Charest" -> "Clotilde.Charest Chaurette" [color=lightblue style=solid]
+	"Alphonse.Tremblay" [label="Alphonse
+Tremblay" color=lightblue shape=box style=filled]
+	"Marie.Harvey" -> "Alphonse.Tremblay" [color=pink style=solid]
+	"Joseph.Tremblay" -> "Alphonse.Tremblay" [color=lightblue style=solid]
+	"Léotine.Turgeon" -> "Alphonse.Tremblay" [color=grey style=dashed]
+	"Léotine.Turgeon" [label="Léotine
+Turgeon" color=pink shape=box style=filled]
+	"Angeline.Truchon" -> "Léotine.Turgeon" [color=pink style=solid]
+	"Arsène.Turgeon" -> "Léotine.Turgeon" [color=lightblue style=solid]
+	"Alphonse.Tremblay" -> "Léotine.Turgeon" [color=grey style=dashed]
+	"Joseph.Tremblay" [label="Joseph
+Tremblay" color=lightblue shape=box style=filled]
+	"Luce.Boily" -> "Joseph.Tremblay" [color=pink style=solid]
+	"Louis.Tremblay" -> "Joseph.Tremblay" [color=lightblue style=solid]
+	"Marie.Harvey" -> "Joseph.Tremblay" [color=grey style=dashed]
+	"Marie.Harvey" [label="Marie
+Harvey" color=pink shape=box style=filled]
+	"Angeline.Perron" -> "Marie.Harvey" [color=pink style=solid]
+	"Désiré.Harvey" -> "Marie.Harvey" [color=lightblue style=solid]
+	"Joseph.Tremblay" -> "Marie.Harvey" [color=grey style=dashed]
+	"Arsène.Turgeon" [label="Arsène
+Turgeon" color=lightblue shape=box style=filled]
+	"Zoé.Larouche" -> "Arsène.Turgeon" [color=pink style=solid]
+	"François.Turgeon" -> "Arsène.Turgeon" [color=lightblue style=solid]
+	"Angeline.Truchon" -> "Arsène.Turgeon" [color=grey style=dashed]
+	"Angeline.Truchon" [label="Angeline
+Truchon" color=pink shape=box style=filled]
+	"Zoé.Pagé" -> "Angeline.Truchon" [color=pink style=solid]
+	"Lucien.Truchon" -> "Angeline.Truchon" [color=lightblue style=solid]
+	"Arsène.Turgeon" -> "Angeline.Truchon" [color=grey style=dashed]
+	"Louis.Tremblay" [label="Louis
+Tremblay" color=deepskyblue shape=box style=filled]
+	"Luce.Boily" -> "Louis.Tremblay" [color=grey style=dashed]
+	"Luce.Boily" [label="Luce
+Boily" color=deeppink shape=box style=filled]
+	"Louis.Tremblay" -> "Luce.Boily" [color=grey style=dashed]
+	"François.Turgeon" [label="François
+Turgeon" color=deepskyblue shape=box style=filled]
+	"Zoé.Larouche" -> "François.Turgeon" [color=grey style=dashed]
+	"Zoé.Larouche" [label="Zoé
+Larouche" color=deeppink shape=box style=filled]
+	"François.Turgeon" -> "Zoé.Larouche" [color=grey style=dashed]
+	"Lucien.Truchon" [label="Lucien
+Truchon" color=deepskyblue shape=box style=filled]
+	"Zoé.Pagé" -> "Lucien.Truchon" [color=grey style=dashed]
+	"Zoé.Pagé" [label="Zoé
+Pagé" color=deeppink shape=box style=filled]
+	"Lucien.Truchon" -> "Zoé.Pagé" [color=grey style=dashed]
+	"Désiré.Harvey" [label="Désiré
+Harvey" color=deepskyblue shape=box style=filled]
+	"Angeline.Perron" -> "Désiré.Harvey" [color=grey style=dashed]
+	"Angeline.Perron" [label="Angeline
+Perron" color=deeppink shape=box style=filled]
+	"Désiré.Harvey" -> "Angeline.Perron" [color=grey style=dashed]
+	"Marc.Charest" [label="Marc
+Charest" color=lightblue shape=box style=filled]
+	"Jocelyne.Dulude" -> "Marc.Charest" [color=pink style=solid]
+	"Gilles2.Charest" -> "Marc.Charest" [color=lightblue style=solid]
+	"Sandie.Poirier" -> "Marc.Charest" [color=grey style=dashed]
+	"Sandie.Poirier" [label="Sandie
+Poirier" color=pink shape=box style=filled]
+	"Marc.Charest" -> "Sandie.Poirier" [color=grey style=dashed]
+	"Annie.Charest" [label="Annie
+Charest" color=pink shape=box style=filled]
+	"Jocelyne.Dulude" -> "Annie.Charest" [color=pink style=solid]
+	"Gilles2.Charest" -> "Annie.Charest" [color=lightblue style=solid]
+	"Daniel.Marcil" [label="Daniel
+Marcil" color=lightblue shape=box style=filled]
+	"Ghislaine.Charest" -> "Daniel.Marcil" [color=pink style=solid]
+	"Serge.Marcil" -> "Daniel.Marcil" [color=lightblue style=solid]
+	"Sandra.Maluorni" -> "Daniel.Marcil" [color=grey style=dashed]
+	"Sandra.Maluorni" [label="Sandra
+Maluorni" color=lightblue shape=box style=filled]
+	"Daniel.Marcil" -> "Sandra.Maluorni" [color=grey style=dashed]
+	"Julie.Marcil" [label="Julie
+Marcil" color=pink shape=box style=filled]
+	"Ghislaine.Charest" -> "Julie.Marcil" [color=pink style=solid]
+	"Serge.Marcil" -> "Julie.Marcil" [color=lightblue style=solid]
+	"Laurence.Charest" [label="Laurence
+Charest" color=pink shape=box style=filled]
+	Christine -> "Laurence.Charest" [color=pink style=solid]
+	"Jean.Charest" -> "Laurence.Charest" [color=lightblue style=solid]
+	"Thomas.Charest" [label="Thomas
+Charest" color=lightblue shape=box style=filled]
+	"Danielle.Mayer" -> "Thomas.Charest" [color=pink style=solid]
+	"Jean.Charest" -> "Thomas.Charest" [color=lightblue style=solid]
+	"Eric.Charette" [label="Eric
+Charette" color=lightblue shape=box style=filled]
+	"Henriette.Charest" -> "Eric.Charette" [color=pink style=solid]
+	"Aurèle.Charette" -> "Eric.Charette" [color=lightblue style=solid]
+	"Sophie.Couture" -> "Eric.Charette" [color=grey style=dashed]
+	"Sophie.Couture" [label="Sophie
+Couture" color=pink shape=box style=filled]
+	"Eric.Charette" -> "Sophie.Couture" [color=grey style=dashed]
+	"Pauline.Charette" [label="Pauline
+Charette" color=pink shape=box style=filled]
+	"Henriette.Charest" -> "Pauline.Charette" [color=pink style=solid]
+	"Aurèle.Charette" -> "Pauline.Charette" [color=lightblue style=solid]
+	"Linda.Charette" [label="Linda
+Charette" color=pink shape=box style=filled]
+	"Henriette.Charest" -> "Linda.Charette" [color=pink style=solid]
+	"Aurèle.Charette" -> "Linda.Charette" [color=lightblue style=solid]
+	"Guy.Ménard" -> "Linda.Charette" [color=grey style=dashed]
+	"Guy.Ménard" [label="Guy
+Ménard" color=lightblue shape=box style=filled]
+	"Linda.Charette" -> "Guy.Ménard" [color=grey style=dashed]
+	"Lucie.Coderre" [label="Lucie
+Coderre" color=pink shape=box style=filled]
+	"Céline.Charest" -> "Lucie.Coderre" [color=pink style=solid]
+	"Gérald.Coderre" -> "Lucie.Coderre" [color=lightblue style=solid]
+	"Francois.Langlais" -> "Lucie.Coderre" [color=grey style=dashed]
+	"Francois.Langlais" [label="Francois
+Langlais" color=lightblue shape=box style=filled]
+	"Annette.Parent" -> "Francois.Langlais" [color=grey style=dashed]
+	"Lucie.Coderre" -> "Francois.Langlais" [color=grey style=dashed]
+	"Annette.Parent" [label="Annette
+Parent" color=pink shape=box style=filled]
+	"Francois.Langlais" -> "Annette.Parent" [color=grey style=dashed]
+	"Suzanne.Coderre" [label="Suzanne
+Coderre" color=pink shape=box style=filled]
+	"Céline.Charest" -> "Suzanne.Coderre" [color=pink style=solid]
+	"Gérald.Coderre" -> "Suzanne.Coderre" [color=lightblue style=solid]
+	"Gérald.Grandmaison" -> "Suzanne.Coderre" [color=grey style=dashed]
+	"Gérald.Grandmaison" [label="Gérald
+Grandmaison" color=lightblue shape=box style=filled]
+	"Suzanne.Coderre" -> "Gérald.Grandmaison" [color=grey style=dashed]
+	"Nicole.Coderre" [label="Nicole
+Coderre" color=pink shape=box style=filled]
+	"Céline.Charest" -> "Nicole.Coderre" [color=pink style=solid]
+	"Gérald.Coderre" -> "Nicole.Coderre" [color=lightblue style=solid]
+	"Benoît.Coderre" [label="Benoît
+Coderre" color=lightblue shape=box style=filled]
+	"Céline.Charest" -> "Benoît.Coderre" [color=pink style=solid]
+	"Gérald.Coderre" -> "Benoît.Coderre" [color=lightblue style=solid]
+	"Sylvie.Chaput" -> "Benoît.Coderre" [color=grey style=dashed]
+	"Sylvie.Chaput" [label="Sylvie
+Chaput" color=pink shape=box style=filled]
+	"Benoît.Coderre" -> "Sylvie.Chaput" [color=grey style=dashed]
+	"Johanne.Charest" [label="Johanne
+Charest" color=pink shape=box style=filled]
+	"Yolande.Contant" -> "Johanne.Charest" [color=pink style=solid]
+	"Luc.Charest" -> "Johanne.Charest" [color=lightblue style=solid]
+	"Michel.Bayard" -> "Johanne.Charest" [color=grey style=dashed]
+	"Guy.Therrien" -> "Johanne.Charest" [color=grey style=dashed]
+	"Michel.Bayard" [label="Michel
+Bayard" color=lightblue shape=box style=filled]
+	"Johanne.Charest" -> "Michel.Bayard" [color=grey style=dashed]
+	"Guy.Therrien" [label="Guy
+Therrien" color=lightblue shape=box style=filled]
+	"Johanne.Charest" -> "Guy.Therrien" [color=grey style=dashed]
+	"Danielle.Charest" [label="Danielle
+Charest" color=pink shape=box style=filled]
+	"Yolande.Contant" -> "Danielle.Charest" [color=pink style=solid]
+	"Luc.Charest" -> "Danielle.Charest" [color=lightblue style=solid]
+	"Robert.Lauzon" -> "Danielle.Charest" [color=grey style=dashed]
+	"Robert.Lauzon" [label="Robert
+Lauzon" color=lightblue shape=box style=filled]
+	"Danielle.Charest" -> "Robert.Lauzon" [color=lightblue style=solid]
+	"Sylvie.Charest" [label="Sylvie
+Charest" color=pink shape=box style=filled]
+	"Yolande.Contant" -> "Sylvie.Charest" [color=pink style=solid]
+	"Luc.Charest" -> "Sylvie.Charest" [color=lightblue style=solid]
+	"Gilles.Lahaie" -> "Sylvie.Charest" [color=grey style=dashed]
+	"Gilles.Lahaie" [label="Gilles
+Lahaie" color=lightblue shape=box style=filled]
+	"Sylvie.Charest" -> "Gilles.Lahaie" [color=grey style=dashed]
+	"Renée.Charest" [label="Renée
+Charest" color=pink shape=box style=filled]
+	"Yolande.Contant" -> "Renée.Charest" [color=pink style=solid]
+	"Luc.Charest" -> "Renée.Charest" [color=lightblue style=solid]
+	"Pierre.Thériault" -> "Renée.Charest" [color=grey style=dashed]
+	"Pierre.Thériault" [label="Pierre
+Thériault" color=lightblue shape=box style=filled]
+	"Renée.Charest" -> "Pierre.Thériault" [color=grey style=dashed]
+	"André2.Charest" [label="André
+Charest" color=lightblue shape=box style=filled]
+	"Denise.Deslauriers" -> "André2.Charest" [color=pink style=solid]
+	"Gilles.Charest" -> "André2.Charest" [color=lightblue style=solid]
+	"Johanne.Archambault" -> "André2.Charest" [color=grey style=dashed]
+	"Johanne.Archambault" [label="Johanne
+Archambault" color=pink shape=box style=filled]
+	"André2.Charest" -> "Johanne.Archambault" [color=grey style=dashed]
+	"Thérèse.Charest" [label="Thérèse
+Charest" color=pink shape=box style=filled]
+	"Denise.Deslauriers" -> "Thérèse.Charest" [color=pink style=solid]
+	"Gilles.Charest" -> "Thérèse.Charest" [color=lightblue style=solid]
+	"Daniel.Beauséjour" -> "Thérèse.Charest" [color=grey style=dashed]
+	"Daniel.Beauséjour" [label="Daniel
+Beauséjour" color=lightblue shape=box style=filled]
+	"Thérèse.Charest" -> "Daniel.Beauséjour" [color=grey style=dashed]
+	"Marcel.Charest" [label="Marcel
+Charest" color=lightblue shape=box style=filled]
+	"Denise.Deslauriers" -> "Marcel.Charest" [color=pink style=solid]
+	"Gilles.Charest" -> "Marcel.Charest" [color=lightblue style=solid]
+	"Hélène.Maurice" -> "Marcel.Charest" [color=grey style=dashed]
+	"Christiane.Larente" -> "Marcel.Charest" [color=grey style=dashed]
+	"Hélène.Maurice" [label="Hélène
+Maurice" color=pink shape=box style=filled]
+	"Marcel.Charest" -> "Hélène.Maurice" [color=grey style=dashed]
+	"Christiane.Larente" [label="Christiane
+Larente" color=pink shape=box style=filled]
+	"Marcel.Charest" -> "Christiane.Larente" [color=grey style=dashed]
+	"Paul.Charest" [label="Paul
+Charest" color=lightblue shape=box style=filled]
+	"Denise.Deslauriers" -> "Paul.Charest" [color=pink style=solid]
+	"Gilles.Charest" -> "Paul.Charest" [color=lightblue style=solid]
+	"Lise.Charest" [label="Lise
+Charest-Perron" color=pink shape=box style=filled]
+	"Denise.Deslauriers" -> "Lise.Charest" [color=pink style=solid]
+	"Gilles.Charest" -> "Lise.Charest" [color=lightblue style=solid]
+	"Marc.Perron" -> "Lise.Charest" [color=grey style=dashed]
+	"Marc.Perron" [label="Marc
+Perron" color=lightblue shape=box style=filled]
+	"Lise.Charest" -> "Marc.Perron" [color=grey style=dashed]
+	"Robert.Charest" [label="Robert
+Charest" color=lightblue shape=box style=filled]
+	"Réjeanne.Favreau" -> "Robert.Charest" [color=pink style=solid]
+	"Denis.Charest" -> "Robert.Charest" [color=lightblue style=solid]
+	"Guy.Charest" [label="Guy
+Charest" color=lightblue shape=box style=filled]
+	"Réjeanne.Favreau" -> "Guy.Charest" [color=pink style=solid]
+	"Denis.Charest" -> "Guy.Charest" [color=lightblue style=solid]
+	"Julie.Thériault" -> "Guy.Charest" [color=grey style=dashed]
+	"Julie.Thériault" [label="Julie
+Thériault" color=pink shape=box style=filled]
+	"Guy.Charest" -> "Julie.Thériault" [color=grey style=dashed]
+	"François.Charest" [label="François
+Charest" color=lightblue shape=box style=filled]
+	"Réjeanne.Favreau" -> "François.Charest" [color=pink style=solid]
+	"Denis.Charest" -> "François.Charest" [color=lightblue style=solid]
+	"Caroline.Paradis" -> "François.Charest" [color=grey style=dashed]
+	"Caroline.Paradis" [label="Caroline
+Paradis" color=pink shape=box style=filled]
+	"François.Charest" -> "Caroline.Paradis" [color=grey style=dashed]
+	"Louise.Charest" [label="Louise
+Charest" color=pink shape=box style=filled]
+	"Fleurette.Hébert" -> "Louise.Charest" [color=pink style=solid]
+	"Hubert.Charest" -> "Louise.Charest" [color=lightblue style=solid]
+	"Jean-Claude.Bigaouette" -> "Louise.Charest" [color=grey style=dashed]
+	"Jean-Claude.Bigaouette" [label="Jean-Claude
+Bigaouette" color=lightblue shape=box style=filled]
+	"Louise.Charest" -> "Jean-Claude.Bigaouette" [color=grey style=dashed]
+	"Pierre.Charest" [label="Pierre
+Charest" color=lightblue shape=box style=filled]
+	"Fleurette.Hébert" -> "Pierre.Charest" [color=pink style=solid]
+	"Hubert.Charest" -> "Pierre.Charest" [color=lightblue style=solid]
+	"Ginette.Gravel" -> "Pierre.Charest" [color=grey style=dashed]
+	"Chantal.Leblond" -> "Pierre.Charest" [color=grey style=dashed]
+	"Ginette.Gravel" [label="Ginette
+Gravel" color=pink shape=box style=filled]
+	"Pierre.Charest" -> "Ginette.Gravel" [color=grey style=dashed]
+	"Chantal.Leblond" [label="Chantal
+Leblond" color=pink shape=box style=filled]
+	"Pierre.Charest" -> "Chantal.Leblond" [color=grey style=dashed]
+	"Yves.Charest" [label="Yves
+Charest" color=lightblue shape=box style=filled]
+	"Fleurette.Hébert" -> "Yves.Charest" [color=pink style=solid]
+	"Hubert.Charest" -> "Yves.Charest" [color=lightblue style=solid]
+	"Rose.Monette" -> "Yves.Charest" [color=grey style=dashed]
+	"Rose.Monette" [label="Rose
+Monette" color=pink shape=box style=filled]
+	"Yves.Charest" -> "Rose.Monette" [color=grey style=dashed]
+	"BB.Charest" [label="BB
+Charest" color=pink shape=box style=filled]
+	"Fleurette.Hébert" -> "BB.Charest" [color=pink style=solid]
+	"Hubert.Charest" -> "BB.Charest" [color=lightblue style=solid]
+	"Monique.Charest" [label="Monique
+Charest" color=pink shape=box style=filled]
+	"Huguette.Lafrance" -> "Monique.Charest" [color=pink style=solid]
+	"René.Charest" -> "Monique.Charest" [color=lightblue style=solid]
+	"Michel.Hogue" -> "Monique.Charest" [color=grey style=dashed]
+	"Michel.Hogue" [label="Michel
+Hogue" color=lightblue shape=box style=filled]
+	"Monique.Charest" -> "Michel.Hogue" [color=grey style=dashed]
+	"Serge.Charest" [label="Serge
+Charest" color=lightblue shape=box style=filled]
+	"Huguette.Lafrance" -> "Serge.Charest" [color=pink style=solid]
+	"René.Charest" -> "Serge.Charest" [color=lightblue style=solid]
+	"Danielle.Paquette" -> "Serge.Charest" [color=grey style=dashed]
+	"Danielle.Paquette" [label="Danielle
+Paquette" color=pink shape=box style=filled]
+	"Serge.Charest" -> "Danielle.Paquette" [color=grey style=dashed]
+	"Yvon.Charest" [label="Yvon
+Charest" color=lightblue shape=box style=filled]
+	"Huguette.Lafrance" -> "Yvon.Charest" [color=pink style=solid]
+	"René.Charest" -> "Yvon.Charest" [color=lightblue style=solid]
+	"Michelle.Claude" -> "Yvon.Charest" [color=grey style=dashed]
+	"Carole.Lamothe" -> "Yvon.Charest" [color=grey style=dashed]
+	"Michelle.Claude" [label="Michelle
+Claude" color=pink shape=box style=filled]
+	"Yvon.Charest" -> "Michelle.Claude" [color=grey style=dashed]
+	"Carole.Lamothe" [label="Carole
+Lamothe" color=pink shape=box style=filled]
+	"Yvon.Charest" -> "Carole.Lamothe" [color=grey style=dashed]
+	"Diane.Charest" [label="Diane
+Charest" color=pink shape=box style=filled]
+	"Lise.Métayer" -> "Diane.Charest" [color=pink style=solid]
+	"André.Charest" -> "Diane.Charest" [color=lightblue style=solid]
+	"Georges.Lessard" -> "Diane.Charest" [color=grey style=dashed]
+	"Georges.Lessard" [label="Georges
+Lessard" color=lightblue shape=box style=filled]
+	"Diane.Charest" -> "Georges.Lessard" [color=grey style=dashed]
+	"Hélène.Charest" [label="Hélène
+Charest" color=pink shape=box style=filled]
+	"Lise.Métayer" -> "Hélène.Charest" [color=pink style=solid]
+	"André.Charest" -> "Hélène.Charest" [color=lightblue style=solid]
+	"Harvey.Young" -> "Hélène.Charest" [color=grey style=dashed]
+	"Harvey.Young" [label="Harvey
+Young" color=lightblue shape=box style=filled]
+	"Hélène.Charest" -> "Harvey.Young" [color=grey style=dashed]
+	"Sylvain.Monette" [label="Sylvain
+Monette" color=lightblue shape=box style=filled]
+	"Francine.Charest" -> "Sylvain.Monette" [color=pink style=solid]
+	"Jacques.Monette" -> "Sylvain.Monette" [color=lightblue style=solid]
+	"Rachel.Ladouceur" -> "Sylvain.Monette" [color=grey style=dashed]
+	"Rachel.Ladouceur" [label="Rachel
+Ladouceur" color=pink shape=box style=filled]
+	"Sylvain.Monette" -> "Rachel.Ladouceur" [color=grey style=dashed]
+	"Claude.Monette" [label="Claude
+Monette" color=lightblue shape=box style=filled]
+	"Francine.Charest" -> "Claude.Monette" [color=pink style=solid]
+	"Jacques.Monette" -> "Claude.Monette" [color=lightblue style=solid]
+	"Lise.Gagnon" -> "Claude.Monette" [color=grey style=dashed]
+	"Lise.Gagnon" [label="Lise
+Gagnon" color=pink shape=box style=filled]
+	"Claude.Monette" -> "Lise.Gagnon" [color=grey style=dashed]
+	"Gilles2.Charest" [label="Gilles
+Charest" color=lightblue shape=box style=filled]
+	511415 -> "Gilles2.Charest" [color=pink style=solid]
+	511416 -> "Gilles2.Charest" [color=lightblue style=solid]
+	"Jocelyne.Dulude" -> "Gilles2.Charest" [color=grey style=dashed]
+	"Jocelyne.Dulude" [label="Jocelyne
+Dulude" color=pink shape=box style=filled]
+	"Gilles2.Charest" -> "Jocelyne.Dulude" [color=grey style=dashed]
+	Solange [label="Solange
+(inconnu)" color=pink shape=box style=filled]
+	"Gilles2.Charest" -> Solange [color=grey style=dashed]
+	"Ghislaine.Charest" [label="Ghislaine
+Charest" color=pink shape=box style=filled]
+	511415 -> "Ghislaine.Charest" [color=pink style=solid]
+	511416 -> "Ghislaine.Charest" [color=lightblue style=solid]
+	"Serge.Marcil" -> "Ghislaine.Charest" [color=grey style=dashed]
+	"Serge.Marcil" [label="Serge
+Marcil" color=lightblue shape=box style=filled]
+	"Ghislaine.Charest" -> "Serge.Marcil" [color=grey style=dashed]
+	"Jean.Charest" [label="Jean
+Charest" color=lightblue shape=box style=filled]
+	511415 -> "Jean.Charest" [color=pink style=solid]
+	511416 -> "Jean.Charest" [color=lightblue style=solid]
+	Christine -> "Jean.Charest" [color=grey style=dashed]
+	"Danielle.Mayer" -> "Jean.Charest" [color=grey style=dashed]
+	Christine [label="Christine
+(inconnu)" color=pink shape=box style=filled]
+	"Jean.Charest" -> Christine [color=grey style=dashed]
+	"Danielle.Mayer" [label="Danielle
+Mayer" color=pink shape=box style=filled]
+	"Jean.Charest" -> "Danielle.Mayer" [color=grey style=dashed]
+	"Jacques.Charest" [label="Jacques
+Charest" color=lightblue shape=box style=filled]
+	511415 -> "Jacques.Charest" [color=pink style=solid]
+	511416 -> "Jacques.Charest" [color=lightblue style=solid]
+	"Françoise.Morin" -> "Jacques.Charest" [color=grey style=dashed]
+	"Hélène.LaManna" -> "Jacques.Charest" [color=grey style=dashed]
+	"Françoise.Morin" [label="Françoise
+Morin" color=pink shape=box style=filled]
+	"Jacques.Charest" -> "Françoise.Morin" [color=grey style=dashed]
+	"Hélène.LaManna" [label="Hélène
+LaManna" color=pink shape=box style=filled]
+	I610 -> "Hélène.LaManna" [color=grey style=dashed]
+	"Jacques.Charest" -> "Hélène.LaManna" [color=grey style=dashed]
+	"Michelle.Charest" [label="Michelle
+Charest" color=pink shape=box style=filled]
+	511418 -> "Michelle.Charest" [color=pink style=solid]
+	511417 -> "Michelle.Charest" [color=lightblue style=solid]
+	511415 [label="Rita
+Lacombe Tremblay" color=pink shape=box style=filled]
+	"Léotine.Turgeon" -> 511415 [color=pink style=solid]
+	"Alphonse.Tremblay" -> 511415 [color=lightblue style=solid]
+	Lacombe -> 511415 [color=grey style=dashed]
+	511416 -> 511415 [color=grey style=dashed]
+	Lacombe [label="(inconnu)
+Lacombe" color=lightblue shape=box style=filled]
+	511415 -> Lacombe [color=grey style=dashed]
+	511416 [label="Clément
+Charest" color=lightblue shape=box style=filled]
+	511418 -> 511416 [color=pink style=solid]
+	511417 -> 511416 [color=lightblue style=solid]
+	511415 -> 511416 [color=grey style=dashed]
+	"Hubert.Charest" [label="Hubert
+Charest" color=lightblue shape=box style=filled]
+	511418 -> "Hubert.Charest" [color=pink style=solid]
+	511417 -> "Hubert.Charest" [color=lightblue style=solid]
+	"Fleurette.Hébert" -> "Hubert.Charest" [color=grey style=dashed]
+	"Fleurette.Hébert" [label="Fleurette
+Hébert" color=pink shape=box style=filled]
+	"Hubert.Charest" -> "Fleurette.Hébert" [color=grey style=dashed]
+	"René.Charest" [label="René
+Charest" color=lightblue shape=box style=filled]
+	511418 -> "René.Charest" [color=pink style=solid]
+	511417 -> "René.Charest" [color=lightblue style=solid]
+	"Huguette.Lafrance" -> "René.Charest" [color=grey style=dashed]
+	"Huguette.Lafrance" [label="Huguette
+Lafrance" color=pink shape=box style=filled]
+	"René.Charest" -> "Huguette.Lafrance" [color=grey style=dashed]
+	"Céline.Charest" [label="Céline
+Charest" color=pink shape=box style=filled]
+	511418 -> "Céline.Charest" [color=pink style=solid]
+	511417 -> "Céline.Charest" [color=lightblue style=solid]
+	"Gérald.Coderre" -> "Céline.Charest" [color=grey style=dashed]
+	"Gérald.Coderre" [label="Gérald
+Coderre" color=lightblue shape=box style=filled]
+	"Céline.Charest" -> "Gérald.Coderre" [color=grey style=dashed]
+	"Claude.Charest" [label="Claude
+Charest" color=lightblue shape=box style=filled]
+	511418 -> "Claude.Charest" [color=pink style=solid]
+	511417 -> "Claude.Charest" [color=lightblue style=solid]
+	"Fleurette.Tardif" -> "Claude.Charest" [color=grey style=dashed]
+	"Fleurette.Tardif" [label="Fleurette
+Tardif" color=pink shape=box style=filled]
+	"Claude.Charest" -> "Fleurette.Tardif" [color=grey style=dashed]
+	"Luc.Charest" [label="Luc
+Charest" color=lightblue shape=box style=filled]
+	511418 -> "Luc.Charest" [color=pink style=solid]
+	511417 -> "Luc.Charest" [color=lightblue style=solid]
+	"Yolande.Contant" -> "Luc.Charest" [color=grey style=dashed]
+	"Yolande.Contant" [label="Yolande
+Contant" color=pink shape=box style=filled]
+	"Luc.Charest" -> "Yolande.Contant" [color=grey style=dashed]
+	"André.Charest" [label="André
+Charest" color=lightblue shape=box style=filled]
+	511418 -> "André.Charest" [color=pink style=solid]
+	511417 -> "André.Charest" [color=lightblue style=solid]
+	"Lise.Métayer" -> "André.Charest" [color=grey style=dashed]
+	"Lise.Métayer" [label="Lise
+Métayer" color=pink shape=box style=filled]
+	"André.Charest" -> "Lise.Métayer" [color=grey style=dashed]
+	"Gilles.Charest" [label="Gilles
+Charest" color=lightblue shape=box style=filled]
+	511418 -> "Gilles.Charest" [color=pink style=solid]
+	511417 -> "Gilles.Charest" [color=lightblue style=solid]
+	"Denise.Deslauriers" -> "Gilles.Charest" [color=grey style=dashed]
+	"Denise.Deslauriers" [label="Denise
+Deslauriers" color=pink shape=box style=filled]
+	"Gilles.Charest" -> "Denise.Deslauriers" [color=grey style=dashed]
+	"Denis.Charest" [label="Denis
+Charest" color=lightblue shape=box style=filled]
+	511418 -> "Denis.Charest" [color=pink style=solid]
+	511417 -> "Denis.Charest" [color=lightblue style=solid]
+	"Réjeanne.Favreau" -> "Denis.Charest" [color=grey style=dashed]
+	"Odette.Greaschepe" -> "Denis.Charest" [color=grey style=dashed]
+	"Odette.Greaschepe" [label="Odette
+Greaschepe" color=pink shape=box style=filled]
+	"Denis.Charest" -> "Odette.Greaschepe" [color=grey style=dashed]
+	"Réjeanne.Favreau" [label="Réjeanne
+Favreau" color=pink shape=box style=filled]
+	"Denis.Charest" -> "Réjeanne.Favreau" [color=grey style=dashed]
+	"Henriette.Charest" [label="Henriette
+Charest" color=pink shape=box style=filled]
+	511418 -> "Henriette.Charest" [color=pink style=solid]
+	511417 -> "Henriette.Charest" [color=lightblue style=solid]
+	"Aurèle.Charette" -> "Henriette.Charest" [color=grey style=dashed]
+	"Aurèle.Charette" [label="Aurèle
+Charette" color=lightblue shape=box style=filled]
+	"Louisa.Dion" -> "Aurèle.Charette" [color=pink style=solid]
+	"Albert.Charette" -> "Aurèle.Charette" [color=lightblue style=solid]
+	"Henriette.Charest" -> "Aurèle.Charette" [color=grey style=dashed]
+	"Francine.Charest" [label="Francine
+Charest" color=pink shape=box style=filled]
+	511418 -> "Francine.Charest" [color=pink style=solid]
+	511417 -> "Francine.Charest" [color=lightblue style=solid]
+	"Jacques.Monette" -> "Francine.Charest" [color=grey style=dashed]
+	"Jacques.Monette" [label="Jacques
+Monette" color=lightblue shape=box style=filled]
+	"Francine.Charest" -> "Jacques.Monette" [color=grey style=dashed]
+	511418 [label="Hélène
+Sigouin" color=pink shape=box style=filled]
+	"Malvina.Voisard" -> 511418 [color=pink style=solid]
+	"Alphonse.Sigouin" -> 511418 [color=lightblue style=solid]
+	511417 -> 511418 [color=grey style=dashed]
+	511417 [label="Delphis
+Charest" color=lightblue shape=box style=filled]
+	"Alma.Tanguay" -> 511417 [color=pink style=solid]
+	"Adélard.Charest" -> 511417 [color=lightblue style=solid]
+	511418 -> 511417 [color=grey style=dashed]
 	I612 [label="Jean-Sébastien
 Laguë" color=lightblue shape=box style=filled]
 	I606 -> I612 [color=pink style=solid]
@@ -1462,58 +1523,55 @@ Gradel" color=pink shape=box style=filled]
 Gradel" color=lightblue shape=box style=filled]
 	"Marie-Eve.LeBlanc" -> "Félix.Gradel" [color=pink style=solid]
 	I22 -> "Félix.Gradel" [color=lightblue style=solid]
-	"Alphonse.Tremblay" [label="Alphonse
-Tremblay" color=lightblue shape=box style=filled]
-	"Marie.Harvey" -> "Alphonse.Tremblay" [color=pink style=solid]
-	"Joseph.Tremblay" -> "Alphonse.Tremblay" [color=lightblue style=solid]
-	"Léotine.Turgeon" -> "Alphonse.Tremblay" [color=grey style=dashed]
-	"Léotine.Turgeon" [label="Léotine
-Turgeon" color=pink shape=box style=filled]
-	"Angeline.Truchon" -> "Léotine.Turgeon" [color=pink style=solid]
-	"Arsène.Turgeon" -> "Léotine.Turgeon" [color=lightblue style=solid]
-	"Alphonse.Tremblay" -> "Léotine.Turgeon" [color=grey style=dashed]
-	"Joseph.Tremblay" [label="Joseph
-Tremblay" color=lightblue shape=box style=filled]
-	"Luce.Boily" -> "Joseph.Tremblay" [color=pink style=solid]
-	"Louis.Tremblay" -> "Joseph.Tremblay" [color=lightblue style=solid]
-	"Marie.Harvey" -> "Joseph.Tremblay" [color=grey style=dashed]
-	"Marie.Harvey" [label="Marie
-Harvey" color=pink shape=box style=filled]
-	"Angeline.Perron" -> "Marie.Harvey" [color=pink style=solid]
-	"Désiré.Harvey" -> "Marie.Harvey" [color=lightblue style=solid]
-	"Joseph.Tremblay" -> "Marie.Harvey" [color=grey style=dashed]
-	"Arsène.Turgeon" [label="Arsène
-Turgeon" color=lightblue shape=box style=filled]
-	"Zoé.Larouche" -> "Arsène.Turgeon" [color=pink style=solid]
-	"François.Turgeon" -> "Arsène.Turgeon" [color=lightblue style=solid]
-	"Angeline.Truchon" -> "Arsène.Turgeon" [color=grey style=dashed]
-	"Angeline.Truchon" [label="Angeline
-Truchon" color=pink shape=box style=filled]
-	"Zoé.Pagé" -> "Angeline.Truchon" [color=pink style=solid]
-	"Lucien.Truchon" -> "Angeline.Truchon" [color=lightblue style=solid]
-	"Arsène.Turgeon" -> "Angeline.Truchon" [color=grey style=dashed]
-	"Louis.Tremblay" [label="Louis
-Tremblay" color=deepskyblue shape=box style=filled]
-	"Luce.Boily" -> "Louis.Tremblay" [color=grey style=dashed]
-	"Luce.Boily" [label="Luce
-Boily" color=deeppink shape=box style=filled]
-	"Louis.Tremblay" -> "Luce.Boily" [color=grey style=dashed]
-	"François.Turgeon" [label="François
-Turgeon" color=deepskyblue shape=box style=filled]
-	"Zoé.Larouche" -> "François.Turgeon" [color=grey style=dashed]
-	"Zoé.Larouche" [label="Zoé
-Larouche" color=deeppink shape=box style=filled]
-	"François.Turgeon" -> "Zoé.Larouche" [color=grey style=dashed]
-	"Lucien.Truchon" [label="Lucien
-Truchon" color=deepskyblue shape=box style=filled]
-	"Zoé.Pagé" -> "Lucien.Truchon" [color=grey style=dashed]
-	"Zoé.Pagé" [label="Zoé
-Pagé" color=deeppink shape=box style=filled]
-	"Lucien.Truchon" -> "Zoé.Pagé" [color=grey style=dashed]
-	"Désiré.Harvey" [label="Désiré
-Harvey" color=deepskyblue shape=box style=filled]
-	"Angeline.Perron" -> "Désiré.Harvey" [color=grey style=dashed]
-	"Angeline.Perron" [label="Angeline
-Perron" color=deeppink shape=box style=filled]
-	"Désiré.Harvey" -> "Angeline.Perron" [color=grey style=dashed]
+	"Simon.Charest" [label="Simon
+Charest" color=yellow shape=box style=filled]
+	I603 -> "Simon.Charest" [color=pink style=solid]
+	I610 -> "Simon.Charest" [color=lightblue style=solid]
+	"Julie.Emond" -> "Simon.Charest" [color=grey style=dashed]
+	"Julie.Emond" [label="Julie
+Emond" color=pink shape=box style=filled]
+	"Simon.Charest" -> "Julie.Emond" [color=grey style=dashed]
+	I620 [label="Catherine
+Charest" color=pink shape=box style=filled]
+	I603 -> I620 [color=pink style=solid]
+	I610 -> I620 [color=lightblue style=solid]
+	ML -> I620 [color=grey style=dashed]
+	ML [label="Marc
+Lecompte" color=lightblue shape=box style=filled]
+	I620 -> ML [color=grey style=dashed]
+	I610 [label="Michel
+Charest" color=lightblue shape=box style=filled]
+	511415 -> I610 [color=pink style=solid]
+	511416 -> I610 [color=lightblue style=solid]
+	I603 -> I610 [color=grey style=dashed]
+	"Hélène.LaManna" -> I610 [color=grey style=dashed]
+	"Jenny.Mastragostino" -> I610 [color=grey style=dashed]
+	"Jenny.Mastragostino" [label="Jenny
+Mastragostino" color=pink shape=box style=filled]
+	I610 -> "Jenny.Mastragostino" [color=grey style=dashed]
+	I603 [label="Suzanne
+Laguë" color=pink shape=box style=filled]
+	"Anne-Marie.Dubreuil" -> I603 [color=pink style=solid]
+	"Jean-Paul.Laguë" -> I603 [color=lightblue style=solid]
+	I610 -> I603 [color=grey style=dashed]
+	"Marcel.Lamirande" -> I603 [color=grey style=dashed]
+	"Marcel.Lamirande" [label="Marcel
+Lamirande" color=lightblue shape=box style=filled]
+	I603 -> "Marcel.Lamirande" [color=grey style=dashed]
+	Marcil [label="(inconnu)
+Marcil" color=lightblue shape=box style=filled]
+	"Sandra.Maluorni" -> Marcil [color=pink style=solid]
+	"Daniel.Marcil" -> Marcil [color=lightblue style=solid]
+	"Gabriel.Marcil" [label="Gabriel
+Marcil" color=lightblue shape=box style=filled]
+	"Sandra.Maluorni" -> "Gabriel.Marcil" [color=pink style=solid]
+	"Daniel.Marcil" -> "Gabriel.Marcil" [color=lightblue style=solid]
+	Charest [label="(inconnu)
+Charest" color=lightblue shape=box style=filled]
+	"Sandie.Poirier" -> Charest [color=pink style=solid]
+	"Marc.Charest" -> Charest [color=lightblue style=solid]
+	Charest2 [label="(inconnu)
+Charest" color=pink shape=box style=filled]
+	"Sandie.Poirier" -> Charest2 [color=pink style=solid]
+	"Marc.Charest" -> Charest2 [color=lightblue style=solid]
 }

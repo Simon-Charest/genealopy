@@ -1,32 +1,32 @@
 from common.constant import constant
 
+from graphviz import Digraph
 """
 Prerequisites:
     - Microsoft C++ Build Tools - https://visualstudio.microsoft.com/visual-cpp-build-tools/
     - Graphviz - https://graphviz.gitlab.io/_pages/Download/Download_windows.html
 """
-from graphviz import Digraph
 
 import glob
 import json
 
 RANK_DIRECTION = 'TB'  # TB, LR, BT or RL
 DATA = [
-    'data/0?_lague_charest.json',
-    'data/Charest/*.json',
-    'data/Charest/descendance/*.json'
-    'data/Charest/dion_charette_ascendance/*.json',  # Aurèle Charette (Charest-Charette)'s ascendance
     'data/Charest/far_ascendance/*.json',  # Delphis Charest's ascendance
+    'data/Charest/tanguay_charest_siblings/*.json',  # Delphis Charest's siblings
+    'data/Charest/dion_charette_ascendance/*.json',  # Aurèle Charette (Charest-Charette)'s ascendance
     'data/Charest/little_cousins/*.json',  # Clément Charest siblings' descendance
     'data/Charest/little_cousin_descendance/*.json',  # Clément Charest siblings' descendance
-    'data/Charest/tanguay_charest_siblings/*.json',  # Delphis Charest's siblings
-    'data/Laguë/*.json',  # Suzanne Laguë's ascendance
     'data/Tremblay/*.json',  # Rita Lacombe Tremblay's ascendance
+    'data/Charest/*.json',
+    'data/Laguë/*.json',  # Suzanne Laguë's ascendance
+    'data/0?_lague_charest.json',
+    'data/Charest/descendance/*.json'
 ]
 SHAPE = 'box'
 STYLE = 'filled'
 GENDER = ['M', 'F']
-RELATIONSHIP = ['father', 'mother', 'union']
+RELATIONSHIP = ['father', 'mother', 'union', 'child']
 FEMALE_COLOR = 'pink'
 FEMALE_INCOMPLETE_COLOR = 'deeppink'
 MALE_COLOR = 'lightblue'
@@ -36,7 +36,7 @@ PARENT_LINK_STYLE = 'solid'
 UNDEFINED_LINK_STYLE = 'dashed'
 NAME_UNKNOWN = '(inconnu)'
 HIGHLIGHT_INCOMPLETE = True
-DEBUG = True
+DEBUG = False
 SEARCH_COLOR = 'yellow'
 
 """
@@ -59,13 +59,21 @@ def run():
     filenames = get_filenames(DATA)
     json_objects = get_json_objects(filenames)
 
+    # Augment data with children
+    # print(json_objects['511416']['relationship'])
+    # children = get_children(json_objects)
+    # print(children['511416']['relationship'])
+    #
+    # add_children(json_objects, children)
+
     # Highlight shortest path(s)
     search = list()
+    search.append('Simon.Charest')
     # search.extend(get_shortest_path(json_objects, 'Aurèle.Charette', 'Jean-Baptiste3.Chorret Chaurette'))
     # search.extend(get_shortest_path(json_objects, 'Henriette.Charest', 'Jean-Baptiste3.Chorret Chaurette'))
     # search.extend(get_shortest_path(json_objects, 'Simon.Charest', '511417'))
     # search.extend(get_shortest_path(json_objects, 'Dominique.Charest', '511417'))
-    search.extend(get_shortest_path(json_objects, '511417', 'Simon.Charest'))  # Does not work
+    # search.extend(get_shortest_path(json_objects, '511417', 'Simon.Charest'))  # Does not work
     # search.extend(get_shortest_path(json_objects, 'Simon.Charest', 'Dominique.Charest'))  # Does not work
 
     if DEBUG:
@@ -115,15 +123,43 @@ def run():
 
                         relationship_count += 1
 
-    if DEBUG:
-        print(f"{person_count} {pluralize('family member')}")
-        print(f"{relationship_count} {pluralize('relationship')}")
+    print(f"{person_count} {pluralize('family member')}")
+    print(f"{relationship_count} {pluralize('relationship')}")
 
     graph.view()
 
 
+def add_children(json_objects, children):
+    for json_object in json_objects:
+        if exists_in(children, json_object):
+            json_objects[json_object]['relationship'].update(children[json_object]['relationship'])
+
+
 def count_edges(path):
     return len(path)
+
+
+def get_children(json_objects):
+    """ TODO: Fix this (only adds one child per parent) """
+
+    children = {}
+
+    for child in json_objects:
+        parents = json_objects[child]['relationship']
+
+        for parent in parents:
+            type_ = parents[parent]['type']
+
+            if type_ in ['father', 'mother']:
+                # Example:
+                # {'Michel.Charest': {'relationship':
+                #     {'Simon.Charest': {'type': 'child'}},
+                #     {'Catherine.Charest': {'type': 'child'}}
+                # }
+                dictionary = {parent: {'relationship': {child: {'type': 'child'}}}}
+                children.update(dictionary)
+
+    return children
 
 
 def exists_in(json_object, key, value=None):
@@ -250,7 +286,6 @@ def get_shortest_path(json_objects, start, end):
     """
         Dijkstra's shortest path algorithm
         Source: https://benalexkeen.com/implementing-djikstras-shortest-path-algorithm-with-python/
-        TODO: Fix this (does not go back down)
     """
 
     # Shortest paths is a dictionary of nodes whose values are tuples of (previous node, weight)
