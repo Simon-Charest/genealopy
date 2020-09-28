@@ -26,7 +26,7 @@ DATA = [
 SHAPE = 'box'
 STYLE = 'filled'
 GENDER = ['M', 'F']
-RELATIONSHIP = ['father', 'mother', 'union', 'child']
+RELATIONSHIP = ['father', 'mother', 'union']
 FEMALE_COLOR = 'pink'
 FEMALE_INCOMPLETE_COLOR = 'deeppink'
 MALE_COLOR = 'lightblue'
@@ -60,21 +60,17 @@ def run():
     json_objects = get_json_objects(filenames)
 
     # Augment data with children
-    # print(json_objects['511416']['relationship'])
-    # children = get_children(json_objects)
-    # print(children['511416']['relationship'])
-    #
-    # add_children(json_objects, children)
+    add_children(json_objects)
 
     # Highlight shortest path(s)
     search = list()
     search.append('Simon.Charest')
     # search.extend(get_shortest_path(json_objects, 'Aurèle.Charette', 'Jean-Baptiste3.Chorret Chaurette'))
     # search.extend(get_shortest_path(json_objects, 'Henriette.Charest', 'Jean-Baptiste3.Chorret Chaurette'))
-    # search.extend(get_shortest_path(json_objects, 'Simon.Charest', '511417'))
-    # search.extend(get_shortest_path(json_objects, 'Dominique.Charest', '511417'))
-    # search.extend(get_shortest_path(json_objects, '511417', 'Simon.Charest'))  # Does not work
-    # search.extend(get_shortest_path(json_objects, 'Simon.Charest', 'Dominique.Charest'))  # Does not work
+    # search.extend(get_shortest_path(json_objects, 'Simon.Charest', 'Delphis.Charest'))
+    # search.extend(get_shortest_path(json_objects, 'Dominique.Charest', 'Delphis.Charest'))
+    # search.extend(get_shortest_path(json_objects, 'Delphis.Charest', 'Simon.Charest'))
+    # search.extend(get_shortest_path(json_objects, 'Simon.Charest', 'Dominique.Charest'))
 
     if DEBUG:
         print(f'Search: {search}')
@@ -129,37 +125,25 @@ def run():
     graph.view()
 
 
-def add_children(json_objects, children):
-    for json_object in json_objects:
-        if exists_in(children, json_object):
-            json_objects[json_object]['relationship'].update(children[json_object]['relationship'])
+def add_children(json_objects):
+    # For each child...
+    for child in json_objects:
+        parents = json_objects[child]['relationship']
+
+        # For each of its parents...
+        for parent in parents:
+            type_ = json_objects[child]['relationship'][parent]['type']
+
+            # If the relationship is a parent...
+            if type_ in ['father', 'mother']:
+                # Create an inverted relationship from the parent to the child
+                string = f'{{"{child}": {{"type": "child"}}}}'
+                dictionary = json.loads(string)
+                json_objects[parent]['relationship'].update(dictionary)
 
 
 def count_edges(path):
     return len(path)
-
-
-def get_children(json_objects):
-    """ TODO: Fix this (only adds one child per parent) """
-
-    children = {}
-
-    for child in json_objects:
-        parents = json_objects[child]['relationship']
-
-        for parent in parents:
-            type_ = parents[parent]['type']
-
-            if type_ in ['father', 'mother']:
-                # Example:
-                # {'Michel.Charest': {'relationship':
-                #     {'Simon.Charest': {'type': 'child'}},
-                #     {'Catherine.Charest': {'type': 'child'}}
-                # }
-                dictionary = {parent: {'relationship': {child: {'type': 'child'}}}}
-                children.update(dictionary)
-
-    return children
 
 
 def exists_in(json_object, key, value=None):
