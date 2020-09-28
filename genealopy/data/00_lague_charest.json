@@ -22,8 +22,8 @@
       "phone": "5146849637"
     },
     "relationship": {
-      "I603": { "type": "mother" },
-      "I610": { "type": "father" },
+      "Suzanne.Laguë": { "type": "mother" },
+      "Michel.Charest": { "type": "father" },
       "Julie.Emond": { "type": "union", "start": "2012-02-19" }
     },
     "source" : "https://www.retronicdesign.com/genealogie/individual.php?ged=gradel&pid="
@@ -60,8 +60,8 @@
       "phone": "5146849637"
     },
     "relationship": {
-      "I603": { "type": "mother" },
-      "I610": { "type": "father" },
+      "Suzanne.Laguë": { "type": "mother" },
+      "Michel.Charest": { "type": "father" },
       "ML": { "type": "union" }
     },
     "source" : "https://www.retronicdesign.com/genealogie/individual.php?ged=gradel&pid="

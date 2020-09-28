@@ -1,16 +1,16 @@
 {
-  "511418": {
+  "Hélène.Sigouin": {
     "first_name": "Hélène",
     "last_name": "Sigouin",
     "gender": "F",
     "relationship": {
 	  "Malvina.Voisard": { "type": "mother" },
 	  "Alphonse.Sigouin": { "type": "father" },
-      "511417": { "type": "union" }
+      "Delphis.Charest": { "type": "union" }
     },
     "source": "http://www.genealogie.org/bcentrale/arbre.asp?code_owner=214&code_individu="
   },
-  "511417": {
+  "Delphis.Charest": {
     "first_name": "Delphis",
     "last_name": "Charest",
     "gender": "M",
@@ -41,7 +41,7 @@
     "relationship": {
 	  "Alma.Tanguay": { "type": "mother" },
 	  "Adélard.Charest": { "type": "father" },
-      "511418": { "type": "union", "start": "1923-09-03", "place": "Sault-au-Recollet (Montréal), Québec, Canada" }
+      "Hélène.Sigouin": { "type": "union", "start": "1923-09-03", "place": "Sault-au-Recollet (Montréal), Québec, Canada" }
     },
     "source": "http://www.genealogie.org/bcentrale/arbre.asp?code_owner=214&code_individu="
   }

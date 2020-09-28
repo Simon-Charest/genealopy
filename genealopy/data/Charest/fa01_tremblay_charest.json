@@ -4,8 +4,8 @@
     "last_name": "Charest",
     "gender": "M",
     "relationship": {
-      "511415": { "type": "mother" },
-      "511416": { "type": "father" },
+      "Rita.Tremblay": { "type": "mother" },
+      "Clément.Charest": { "type": "father" },
 	  "Jocelyne.Dulude": { "type": "union" }
     },
     "source" : "Famille Charest"
@@ -35,8 +35,8 @@
     "last_name": "Charest",
     "gender": "F",
     "relationship": {
-      "511415": { "type": "mother" },
-      "511416": { "type": "father" },
+      "Rita.Tremblay": { "type": "mother" },
+      "Clément.Charest": { "type": "father" },
 	  "Serge.Marcil": { "type": "union" }
     },
     "source" : "Famille Charest"
@@ -56,8 +56,8 @@
     "last_name": "Charest",
     "gender": "M",
     "relationship": {
-      "511415": { "type": "mother" },
-      "511416": { "type": "father" },
+      "Rita.Tremblay": { "type": "mother" },
+      "Clément.Charest": { "type": "father" },
 	  "Christine": { "type": "union" },
 	  "Danielle.Mayer": { "type": "union" }
     },
@@ -88,8 +88,8 @@
     "last_name": "Charest",
     "gender": "M",
     "relationship": {
-      "511415": { "type": "mother" },
-      "511416": { "type": "father" },
+      "Rita.Tremblay": { "type": "mother" },
+      "Clément.Charest": { "type": "father" },
 	  "Françoise.Morin": { "type": "union" },
 	  "Hélène.LaManna": { "type": "union" }
     },
@@ -111,7 +111,7 @@
     "gender": "F",
     "family": false,
     "relationship": {
-      "I610": { "type": "union" },
+      "Michel.Charest": { "type": "union" },
       "Jacques.Charest": { "type": "union" }
     },
     "source" : "Famille Charest"

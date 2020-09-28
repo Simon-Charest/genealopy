@@ -4,12 +4,12 @@
     "last_name": "Charest",
     "gender": "F",
     "relationship": {
-      "511418" : { "type":  "mother" },
-      "511417" : { "type":  "father" }
+      "Hélène.Sigouin" : { "type":  "mother" },
+      "Delphis.Charest" : { "type":  "father" }
     },
     "source": "Famille Charest"
   },
-  "511415": {
+  "Rita.Tremblay": {
     "first_name": "Rita",
     "last_name": "Lacombe Tremblay",
     "gender": "F",
@@ -24,7 +24,7 @@
 	  "Léotine.Turgeon": { "type": "mother" },
 	  "Alphonse.Tremblay": { "type": "father" },
       "Lacombe": { "type": "union" },
-      "511416": { "type": "union", "date": "1946-08-31" }
+      "Clément.Charest": { "type": "union", "date": "1946-08-31" }
     },
     "source": "http://www.genealogie.org/bcentrale/arbre.asp?code_owner=214&code_individu="
   },
@@ -34,11 +34,11 @@
     "gender": "M",
     "family": false,
     "relationship": {
-      "511415": { "type": "union" }
+      "Rita.Tremblay": { "type": "union" }
     },
     "source": "http://www.genealogie.org/bcentrale/arbre.asp?code_owner=214&code_individu="
   },
-  "511416": {
+  "Clément.Charest": {
     "first_name": "Clément",
     "last_name": "Charest",
     "gender": "M",
@@ -52,9 +52,9 @@
     },
     "job": ["ferblantier", "forgeron", "métallurgiste"],
     "relationship": {
-      "511418" : { "type":  "mother" },
-      "511417" : { "type":  "father" },
-      "511415": { "type": "union", "start": "1946-08-31", "place": "St-Enfant-Jésus (Montréal), Québec, Canada"}
+      "Hélène.Sigouin" : { "type":  "mother" },
+      "Delphis.Charest" : { "type":  "father" },
+      "Rita.Tremblay": { "type": "union", "start": "1946-08-31", "place": "St-Enfant-Jésus (Montréal), Québec, Canada"}
     },
     "source": "http://www.genealogie.org/bcentrale/arbre.asp?code_owner=214&code_individu="
   },
@@ -63,8 +63,8 @@
     "last_name": "Charest",
     "gender": "M",
     "relationship": {
-      "511418": { "type":  "mother" },
-      "511417": { "type":  "father" },
+      "Hélène.Sigouin": { "type":  "mother" },
+      "Delphis.Charest": { "type":  "father" },
       "Fleurette.Hébert": { "type":  "union" }
     },
     "source": "Famille Charest"
@@ -84,8 +84,8 @@
     "last_name": "Charest",
     "gender": "M",
     "relationship": {
-      "511418": { "type":  "mother" },
-      "511417": { "type":  "father" },
+      "Hélène.Sigouin": { "type":  "mother" },
+      "Delphis.Charest": { "type":  "father" },
 	  "Huguette.Lafrance" : { "type":  "union" }
     },
     "source": "Famille Charest"
@@ -105,8 +105,8 @@
     "last_name": "Charest",
     "gender": "F",
     "relationship": {
-      "511418" : { "type":  "mother" },
-      "511417" : { "type":  "father" },
+      "Hélène.Sigouin" : { "type":  "mother" },
+      "Delphis.Charest" : { "type":  "father" },
       "Gérald.Coderre" : { "type":  "union" }
     },
     "source": "Famille Charest"
@@ -126,8 +126,8 @@
     "last_name": "Charest",
     "gender": "M",
     "relationship": {
-      "511418" : { "type":  "mother" },
-      "511417" : { "type":  "father" },
+      "Hélène.Sigouin" : { "type":  "mother" },
+      "Delphis.Charest" : { "type":  "father" },
       "Fleurette.Tardif" : { "type":  "union" }
     },
     "source": "Famille Charest"
@@ -147,8 +147,8 @@
     "last_name": "Charest",
     "gender": "M",
     "relationship": {
-      "511418" : { "type":  "mother" },
-      "511417" : { "type":  "father" },
+      "Hélène.Sigouin" : { "type":  "mother" },
+      "Delphis.Charest" : { "type":  "father" },
       "Yolande.Contant" : { "type":  "union" }
     },
     "source": "Famille Charest"
@@ -168,8 +168,8 @@
     "last_name": "Charest",
     "gender": "M",
     "relationship": {
-      "511418" : { "type":  "mother" },
-      "511417" : { "type":  "father" },
+      "Hélène.Sigouin" : { "type":  "mother" },
+      "Delphis.Charest" : { "type":  "father" },
 	  "Lise.Métayer" : { "type":  "union" }
     },
     "source": "Famille Charest"
@@ -189,8 +189,8 @@
     "last_name": "Charest",
     "gender": "M",
     "relationship": {
-      "511418" : { "type":  "mother" },
-      "511417" : { "type":  "father" },
+      "Hélène.Sigouin" : { "type":  "mother" },
+      "Delphis.Charest" : { "type":  "father" },
 	  "Denise.Deslauriers" : { "type":  "union" }
     },
     "source": "Famille Charest"
@@ -210,8 +210,8 @@
     "last_name": "Charest",
     "gender": "M",
     "relationship": {
-      "511418" : { "type":  "mother" },
-      "511417" : { "type":  "father" },
+      "Hélène.Sigouin" : { "type":  "mother" },
+      "Delphis.Charest" : { "type":  "father" },
 	  "Réjeanne.Favreau" : { "type":  "union" },
       "Odette.Greaschepe": { "type":  "union" }
     },
@@ -242,8 +242,8 @@
     "last_name": "Charest",
     "gender": "F",
     "relationship": {
-      "511418" : { "type":  "mother" },
-      "511417" : { "type":  "father" },
+      "Hélène.Sigouin" : { "type":  "mother" },
+      "Delphis.Charest" : { "type":  "father" },
 	  "Aurèle.Charette" : { "type":  "union" }
     },
     "source": "Famille Charest"
@@ -264,8 +264,8 @@
     "last_name": "Charest",
     "gender": "F",
     "relationship": {
-      "511418" : { "type":  "mother" },
-      "511417" : { "type":  "father" },
+      "Hélène.Sigouin" : { "type":  "mother" },
+      "Delphis.Charest" : { "type":  "father" },
 	  "Jacques.Monette" : { "type":  "union" }
     },
     "source": "Famille Charest"
