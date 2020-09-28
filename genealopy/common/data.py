@@ -72,6 +72,15 @@ def get_relationship(node, type_):
     return None
 
 
+def get_relationship_count(json_objects):
+    relationship_count = 0
+
+    for key, value in json_objects.items():
+        relationship_count += len(value['relationship'])
+
+    return relationship_count
+
+
 def get_relationship_gender(json_objects, id_):
     for key in json_objects:
         value = json_objects[key]

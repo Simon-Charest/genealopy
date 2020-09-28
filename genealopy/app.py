@@ -1,6 +1,4 @@
-from common import analysis
 from common import data
-from common import file
 from common import text
 from common import visual
 from common.constant import constant
@@ -13,32 +11,15 @@ Prerequisites:
 """
 
 
-def run():
-    graph = Digraph(constant.__project__, filename=f'data/{constant.__project__.lower()}.gv', format='png')
-    graph.attr(rankdir=constant.RANK_DIRECTION)
-
-    # Get data from JSON files
-    filenames = file.get_filenames(constant.DATA)
-    json_objects = data.get_json_objects(filenames)
-
-    # Augment data with children
-    analysis.add_children(json_objects)
-
+def run(json_objects):
     # Highlight shortest path(s)
-    search = list()
-    search.append('Simon.Charest')
-    # search.extend(get_shortest_path(json_objects, 'Aurèle.Charette', 'Jean-Baptiste3.Chorret Chaurette'))
-    # search.extend(get_shortest_path(json_objects, 'Henriette.Charest', 'Jean-Baptiste3.Chorret Chaurette'))
-    # search.extend(get_shortest_path(json_objects, 'Simon.Charest', 'Delphis.Charest'))
-    # search.extend(get_shortest_path(json_objects, 'Dominique.Charest', 'Delphis.Charest'))
-    # search.extend(get_shortest_path(json_objects, 'Delphis.Charest', 'Simon.Charest'))
-    # search.extend(get_shortest_path(json_objects, 'Simon.Charest', 'Dominique.Charest'))
+    search = ['Simon.Charest']
 
     if constant.DEBUG:
         print(f'Search: {search}')
 
-    person_count = 0
-    relationship_count = 0
+    graph = Digraph(name=constant.__project__, filename=f'data/{constant.__project__.lower()}.gv', format='png')
+    graph.attr(rankdir=constant.RANK_DIRECTION)
 
     # Loop on every person
     for key1 in json_objects:
@@ -46,7 +27,6 @@ def run():
         value1 = json_objects[key1]
         name1 = data.get_name(value1)
         gender1 = value1['gender']
-        person_count += 1
 
         if gender1 in constant.GENDER:
             if 'search' in locals() and key1 in search:
@@ -79,7 +59,9 @@ def run():
                         # Draw relationship
                         graph.edge(key2, key1, color=edge_color, style=edge_style)
 
-                        relationship_count += 1
+    # Print statistics
+    person_count = len(json_objects)
+    relationship_count = data.get_relationship_count(json_objects)
+    text.print_statistics(person_count, relationship_count)
 
-    text.print_stats(person_count, relationship_count)
     graph.view()
