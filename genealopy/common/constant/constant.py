@@ -64,3 +64,42 @@ ABOUT = f'{__project__}\n' \
         f'This software is open-source and provided free of charge.\n' \
         f'\n' \
         f'This product is license under the {__license__} License Terms.'
+RANK_DIRECTION = 'TB'  # TB, LR, BT or RL
+DATA = [
+    'data/Charest/far_ascendance/*.json',  # Delphis Charest's ascendance
+    'data/Charest/tanguay_charest_siblings/*.json',  # Delphis Charest's siblings
+    'data/Charest/dion_charette_ascendance/*.json',  # Aurèle Charette (Charest-Charette)'s ascendance
+    'data/Charest/little_cousins/*.json',  # Clément Charest siblings' descendance
+    'data/Charest/little_cousin_descendance/*.json',  # Clément Charest siblings' descendance
+    'data/Tremblay/*.json',  # Rita Lacombe Tremblay's ascendance
+    'data/Charest/*.json',
+    'data/Laguë/*.json',  # Suzanne Laguë's ascendance
+    'data/0?_lague_charest.json',
+    'data/Charest/descendance/*.json'
+]
+SHAPE = 'box'
+STYLE = 'filled'
+GENDER = ['M', 'F']
+RELATIONSHIP = ['father', 'mother', 'union']
+FEMALE_COLOR = 'pink'
+FEMALE_INCOMPLETE_COLOR = 'deeppink'
+MALE_COLOR = 'lightblue'
+MALE_INCOMPLETE_COLOR = 'deepskyblue'
+UNDEFINED_COLOR = 'grey'
+PARENT_LINK_STYLE = 'solid'
+UNDEFINED_LINK_STYLE = 'dashed'
+NAME_UNKNOWN = '(inconnu)'
+HIGHLIGHT_INCOMPLETE = True
+DEBUG = False
+SEARCH_COLOR = 'yellow'
+
+"""
+Filenames examples:
+    ma01_dubreuil_lague.json   : first-degree (01) ascendant (a) of the mother's side (m) of the family
+    fa01_tremblay_charest.json : first-degree (01) ascendant (a) of the father's side (f) of the family
+    00_lague_charest.json      : Root (00) of both sides of the family
+    m00_dubreuil_lague.json    : Root (00) of the mother's side (m) of the family
+    f00_tremblay_charest.json  : Root (00) of the father's side (f) of the family
+    md01_dubreuil_lague.json   : first-degree (01) descendant (d) of the mother's side (m) of the family
+    fd01_charest_drouin.json   : first-degree (01) descendant (d) of the father's side (f) of the family
+"""
