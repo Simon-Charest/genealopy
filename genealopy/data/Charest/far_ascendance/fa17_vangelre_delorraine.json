@@ -4,14 +4,18 @@
     "last_name": "de Lorraine",
     "title": "duc de Lorraine",
     "gender": "M",
-    "relationship": {},
+    "relationship": {
+      "Filippa.van Gelre": { "type": "union" }
+    },
     "source": "https://www.geni.com/people/Ren%C3%A9-II-duc-de-Lorraine/6000000006444099365"
   },
   "Filippa.van Gelre": {
     "first_name": "Filippa",
     "last_name": "van Gelre",
     "gender": "F",
-    "relationship": {},
+    "relationship": {
+      "René II.de Lorraine": { "type": "union" }
+    },
     "source": "https://www.geni.com/people/Filippa-van-Gelre/6000000006727817857"
   }
 }

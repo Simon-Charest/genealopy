@@ -5,6 +5,7 @@
     "title": "Cardinal",
     "gender": "M",
     "relationship": {
+      "Antoinette.de Bourbon-Vendôme": { "type": "mother" },
       "Claude.de Lorraine": { "type": "father" }
     },
     "source": "https://www.geni.com/people/CARDINAL-LOUIS-Guise-I/6000000100886612941"

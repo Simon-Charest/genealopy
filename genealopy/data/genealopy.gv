@@ -309,7 +309,8 @@ Rousette" color=deeppink shape=box style=filled]
 Giguel" color=deeppink shape=box style=filled]
 	"Louis.Guise" -> "Françoise.Giguel" [color=lightblue style=solid]
 	"Louis.Guise" [label="Louis
-Guise" color=deepskyblue shape=box style=filled]
+Guise" color=lightblue shape=box style=filled]
+	"Antoinette.de Bourbon-Vendôme" -> "Louis.Guise" [color=pink style=solid]
 	"Claude.de Lorraine" -> "Louis.Guise" [color=lightblue style=solid]
 	"Claude.de Lorraine" [label="Claude
 de Lorraine" color=lightblue shape=box style=filled]
@@ -321,8 +322,10 @@ de Bourbon-Vendôme" color=deeppink shape=box style=filled]
 	"Claude.de Lorraine" -> "Antoinette.de Bourbon-Vendôme" [color=grey style=dashed]
 	"René II.de Lorraine" [label="René II
 de Lorraine" color=deepskyblue shape=box style=filled]
+	"Filippa.van Gelre" -> "René II.de Lorraine" [color=grey style=dashed]
 	"Filippa.van Gelre" [label="Filippa
 van Gelre" color=deeppink shape=box style=filled]
+	"René II.de Lorraine" -> "Filippa.van Gelre" [color=grey style=dashed]
 	"Léopold.Chaurette Charest" [label="Léopold
 Chaurette Charest" color=lightblue shape=box style=filled]
 	"Alma.Tanguay" -> "Léopold.Chaurette Charest" [color=pink style=solid]
