@@ -1,8 +1,8 @@
-from common.datetime_ import datetime
+from common.datetime_ import datetime_
 
 __author__ = 'SLCIT, Inc.'
 __email__ = 'simoncharest@gmail.com'
-__copyright__ = f'Copyright © {datetime.get_years(2020)} {__author__} <{__email__}>. All rights reserved.'
+__copyright__ = f'Copyright © {datetime_.get_years(2020)} {__author__} <{__email__}>. All rights reserved.'
 __project__ = 'Genealopy'
 __credits__ = {
     'Simon Charest': {
