@@ -20,5 +20,5 @@ def setup():
 
 if __name__ == '__main__':
     json_objects = setup()
-    app.run(json_objects)
     test.run(json_objects)
+    app.run(json_objects)
