@@ -10,12 +10,12 @@ import app
 def setup():
     # Get data from JSON files
     filenames = file.get_filenames(constant.DATA)
-    json_objects = data.get_json_objects(filenames)
+    persons = data.get_json_objects(filenames)
 
     # Augment data with children
-    analysis.add_children(json_objects)
+    persons = analysis.add_children(persons)
 
-    return json_objects
+    return persons
 
 
 if __name__ == '__main__':

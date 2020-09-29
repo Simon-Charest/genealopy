@@ -1,23 +1,28 @@
 from common import data
 
+import copy
 import json
 
 
 def add_children(json_objects):
+    children = copy.deepcopy(json_objects)
+
     # For each child...
-    for child in json_objects:
-        parents = json_objects[child]['relationship']
+    for child in children:
+        parents = children[child]['relationship']
 
         # For each of its parents...
         for parent in parents:
-            type_ = json_objects[child]['relationship'][parent]['type']
+            type_ = children[child]['relationship'][parent]['type']
 
             # If the relationship is a parent...
             if type_ in ['father', 'mother']:
                 # Create an inverted relationship from the parent to the child
                 string = f'{{"{child}": {{"type": "child"}}}}'
                 dictionary = json.loads(string)
-                json_objects[parent]['relationship'].update(dictionary)
+                children[parent]['relationship'].update(dictionary)
+
+    return children
 
 
 def get_shortest_path(json_objects, start, end):
