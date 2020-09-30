@@ -53,6 +53,11 @@ def get_name(value):
     return f"{first_name}\n{last_name}"
 
 
+def get_names():
+    # TODO: Get all last names and counts
+    return None
+
+
 def get_node(json_objects, id_):
     # Loop on every person
     for key in json_objects:

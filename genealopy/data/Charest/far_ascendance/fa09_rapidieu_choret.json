@@ -1,7 +1,7 @@
 {
   "Angélique.Rapidieu": {
     "first_name": "Angélique",
-    "last_name": "Rapidieu, Lamer",
+    "last_name": "Rapidieux, Lamer",
     "gender": "F",
     "relationship": {
       "Jean-Baptiste.Choret Chaurette": { "type": "union" }
@@ -10,7 +10,7 @@
   },
   "Jean-Baptiste.Choret Chaurette": {
     "first_name": "Jean-Baptiste",
-    "last_name": "Choret Chaurette",
+    "last_name": "Choret",
     "gender": "M",
     "relationship": {
 	  "Marie-Anne.Baugis": { "type": "mother" },

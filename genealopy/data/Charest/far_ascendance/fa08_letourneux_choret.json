@@ -1,7 +1,7 @@
 {
   "Marie-Catherine.Letourneux": {
     "first_name": "Marie-Catherine",
-    "last_name": "Letourneux",
+    "last_name": "Tourneux (Létourneux)",
     "gender": "F",
     "relationship": {
       "Jean-Baptiste2.Choret Chaurette": { "type": "union" }
@@ -10,7 +10,7 @@
   },
   "Jean-Baptiste2.Choret Chaurette": {
     "first_name": "Jean-Baptiste",
-    "last_name": "Choret Chaurette",
+    "last_name": "Choret",
     "gender": "M",
     "relationship": {
 	  "Angélique.Rapidieu": { "type": "mother" },
