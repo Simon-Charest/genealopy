@@ -1,0 +1,22 @@
+{
+  "Anne.Morin": {
+    "first_name": "Anne",
+    "last_name": "Morin",
+    "gender": "F",
+    "complete": false,
+    "relationship": {
+      "Jean.Tabault": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=5144"
+  },
+  "Jean.Tabault": {
+    "first_name": "Jean",
+    "last_name": "Tabault",
+    "gender": "M",
+    "complete": false,
+    "relationship": {
+      "Anne.Morin": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=5144"
+  }
+}

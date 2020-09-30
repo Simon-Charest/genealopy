@@ -4,8 +4,8 @@
     "last_name": "Girardin",
     "gender": "F",
     "relationship": {
-      "Charlotte-Catherine.Jolivet": { "type": "union" },
-      "Leonard.Girardin": { "type": "union" },
+      "Charlotte-Catherine.Jolivet": { "type": "mother" },
+      "Leonard.Girardin": { "type": "father" },
       "Hubert.Ranger": { "type": "union" }
     },
     "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=37079"

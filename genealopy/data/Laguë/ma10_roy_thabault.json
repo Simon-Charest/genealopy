@@ -1,0 +1,24 @@
+{
+  "Jeanne-Francoise.Roy": {
+    "first_name": "Jeanne-Francoise",
+    "last_name": "Roy",
+    "gender": "F",
+    "relationship": {
+      "Francoise.Bouet": { "type": "mother" },
+      "Jean.Roy": { "type": "father" },
+      "Pierre.Tabault": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=5145"
+  },
+  "Pierre.Tabault": {
+    "first_name": "Pierre",
+    "last_name": "Tabault",
+    "gender": "M",
+    "relationship": {
+      "Anne.Morin": { "type": "mother" },
+      "Jean.Tabault": { "type": "father" },
+      "Jeanne-Francoise.Roy": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=5144"
+  }
+}

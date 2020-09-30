@@ -1,0 +1,22 @@
+{
+  "Catherine.Brunet": {
+    "first_name": "Catherine",
+    "last_name": "Brune Bourbonnais",
+    "gender": "F",
+    "relationship": {
+      "Pierre2.Tabault": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=60233"
+  },
+  "Pierre2.Tabault": {
+    "first_name": "Pierre",
+    "last_name": "Tabault",
+    "gender": "M",
+    "relationship": {
+      "Jeanne-Francoise.Roy": { "type": "mother" },
+      "Pierre.Tabault": { "type": "father" },
+      "Catherine.Brunet": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=60232"
+  }
+}

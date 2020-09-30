@@ -1,0 +1,22 @@
+{
+  "Jeanne.Naudin": {
+    "first_name": "Jeanne",
+    "last_name": "Naudin",
+    "gender": "F",
+    "complete": false,
+    "relationship": {
+      "Louis.Dubois": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=17336"
+  },
+  "Louis.Dubois": {
+    "first_name": "Louis",
+    "last_name": "Dubois",
+    "gender": "M",
+    "complete": false,
+    "relationship": {
+      "Jeanne.Naudin": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=17336"
+  }
+}

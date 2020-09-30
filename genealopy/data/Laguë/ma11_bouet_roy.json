@@ -1,0 +1,24 @@
+{
+  "Francoise.Bouet": {
+    "first_name": "Francoise",
+    "last_name": "Bouet",
+    "gender": "F",
+    "relationship": {
+      "Catherine.Catelle": { "type": "mother" },
+      "Pierre.Bouet": { "type": "father" },
+      "Jean.Roy": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=60552"
+  },
+  "Jean.Roy": {
+    "first_name": "Jean",
+    "last_name": "Roy",
+    "gender": "M",
+    "relationship": {
+      "Marie.Dubois": { "type": "mother" },
+      "André.Roy": { "type": "father" },
+      "Francoise.Bouet": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=60551"
+  }
+}

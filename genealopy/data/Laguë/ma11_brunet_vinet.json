@@ -1,0 +1,22 @@
+{
+  "Denise.Brunet": {
+    "first_name": "Denise",
+    "last_name": "Brunet",
+    "gender": "F",
+    "complete": false,
+    "relationship": {
+      "Francois.Vinet": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=44990"
+  },
+  "Francois.Vinet": {
+    "first_name": "Francois",
+    "last_name": "Vinet",
+    "gender": "M",
+    "complete": false,
+    "relationship": {
+      "Denise.Brunet": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=44990"
+  }
+}

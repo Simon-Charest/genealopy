@@ -1,0 +1,22 @@
+{
+  "Catherine.Catelle": {
+    "first_name": "Catherine",
+    "last_name": "Catelle",
+    "gender": "F",
+    "complete": false,
+    "relationship": {
+      "Pierre.Bouet": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=60552"
+  },
+  "Pierre.Bouet": {
+    "first_name": "Pierre",
+    "last_name": "Bouet",
+    "gender": "M",
+    "complete": false,
+    "relationship": {
+      "Catherine.Catelle": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=60552"
+  }
+}

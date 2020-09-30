@@ -13,6 +13,8 @@
     "last_name": "Tabault",
     "gender": "M",
     "relationship": {
+      "Josephte.Sauve": { "type": "mother" },
+      "Joseph.Tabault": { "type": "father" },
       "Josephte.Brabant": { "type": "union" }
     },
     "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=260345"

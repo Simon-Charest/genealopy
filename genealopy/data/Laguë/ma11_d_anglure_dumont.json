@@ -1,0 +1,22 @@
+{
+  "Marie-Anne.D'Anglure": {
+    "first_name": "Marie-Anne",
+    "last_name": "D'Anglure",
+    "gender": "F",
+    "complete": false,
+    "relationship": {
+      "Samuel.Dumont": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=17337"
+  },
+  "Samuel.Dumont": {
+    "first_name": "Samuel",
+    "last_name": "Dumont",
+    "gender": "M",
+    "complete": false,
+    "relationship": {
+      "Marie-Anne.D'Anglure": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=17337"
+  }
+}

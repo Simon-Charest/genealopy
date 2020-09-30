@@ -4,6 +4,8 @@
     "last_name": "Brisebois",
     "gender": "F",
     "relationship": {
+      "Cunegonde.Vinet": { "type": "mother" },
+      "Francois.Dubois": { "type": "father" },
       "Pierre.Ranger2": { "type": "union" }
     },
     "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=54951"

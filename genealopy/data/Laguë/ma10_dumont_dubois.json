@@ -1,0 +1,24 @@
+{
+  "Anne-Julienne.Dumont": {
+    "first_name": "Anne-Julienne",
+    "last_name": "Dumont",
+    "gender": "F",
+    "relationship": {
+      "Marie-Anne.D'Anglure": { "type": "mother" },
+      "Samuel.Dumont": { "type": "father" },
+      "Rene.Dubois": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=17337"
+  },
+  "Rene.Dubois": {
+    "first_name": "Rene",
+    "last_name": "Dubois",
+    "gender": "M",
+    "relationship": {
+      "Jeanne.Naudin": { "type": "mother" },
+      "Louis.Dubois": { "type": "father" },
+      "Anne-Julienne.Dumont": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=17336"
+  }
+}

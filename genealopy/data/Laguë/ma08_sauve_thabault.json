@@ -1,0 +1,22 @@
+{
+  "Josephte.Sauve": {
+    "first_name": "Josephte",
+    "last_name": "Sauve",
+    "gender": "F",
+    "relationship": {
+      "Joseph.Tabault": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=265770"
+  },
+  "Joseph.Tabault": {
+    "first_name": "Joseph",
+    "last_name": "Tabault",
+    "gender": "M",
+    "relationship": {
+      "Catherine.Brunet": { "type": "mother" },
+      "Pierre2.Tabault": { "type": "father" },
+      "Josephte.Sauve": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=37510"
+  }
+}
