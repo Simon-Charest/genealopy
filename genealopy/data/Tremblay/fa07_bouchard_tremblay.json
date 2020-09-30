@@ -1,0 +1,22 @@
+{
+  "François.Tremblay": {
+    "first_name": "François",
+    "last_name": "Tremblay",
+    "gender": "M",
+    "relationship": {
+      "Marguerite.Lavoie": { "type": "mother" },
+      "Antoine.Tremblay": { "type": "father" },
+      "Madeleine.Bouchard": { "type": "union" }
+    },
+    "source": "data/Simon Charest.pdf"
+  },
+  "Madeleine.Bouchard": {
+    "first_name": "Madeleine",
+    "last_name": "Bouchard",
+    "gender": "F",
+    "relationship": {
+      "François.Tremblay": { "type": "union" }
+    },
+    "source": "data/Simon Charest.pdf"
+  }
+}

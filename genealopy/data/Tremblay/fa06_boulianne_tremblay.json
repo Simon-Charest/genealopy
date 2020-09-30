@@ -1,0 +1,22 @@
+{
+  "Joseph.Tremblay": {
+    "first_name": "Joseph",
+    "last_name": "Tremblay",
+    "gender": "M",
+    "relationship": {
+      "Madeleine.Bouchard": { "type": "mother" },
+      "François.Tremblay": { "type": "father" },
+      "Luce.Boily": { "type": "union" }
+    },
+    "source": "data/Simon Charest.pdf"
+  },
+  "Céleste.Boulianne": {
+    "first_name": "Céleste",
+    "last_name": "Boulianne",
+    "gender": "F",
+    "relationship": {
+      "Joseph.Tremblay": { "type": "union" }
+    },
+    "source": "data/Simon Charest.pdf"
+  }
+}

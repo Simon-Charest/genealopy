@@ -4,6 +4,8 @@
     "last_name": "Tremblay",
     "gender": "M",
     "relationship": {
+      "Céleste.Boulianne": { "type": "mother" },
+      "Joseph.Tremblay": { "type": "father" },
       "Luce.Boily": { "type": "union" }
     },
     "source": "data/Simon Charest.pdf"

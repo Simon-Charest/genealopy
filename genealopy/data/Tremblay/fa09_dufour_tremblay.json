@@ -1,0 +1,22 @@
+{
+  "François-Xavier.Tremblay": {
+    "first_name": "François-Xavier",
+    "last_name": "Tremblay",
+    "gender": "M",
+    "relationship": {
+      "Marie-Madeleine.Roussin": { "type": "mother" },
+      "Pierre2.Tremblay": { "type": "father" },
+      "Marie-Reine.Dufour": { "type": "union" }
+    },
+    "source": "data/Simon Charest.pdf"
+  },
+  "Marie-Reine.Dufour": {
+    "first_name": "Marie-Reine",
+    "last_name": "Dufour",
+    "gender": "F",
+    "relationship": {
+      "François-Xavier.Tremblay": { "type": "union" }
+    },
+    "source": "data/Simon Charest.pdf"
+  }
+}

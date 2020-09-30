@@ -1,0 +1,20 @@
+{
+  "Philippe-Gilbert.Tremblay": {
+    "first_name": "Philippe-Gilbert",
+    "last_name": "Tremblay",
+    "gender": "M",
+    "relationship": {
+      "Jeanne.Coignet": { "type": "union" }
+    },
+    "source": "data/Simon Charest.pdf"
+  },
+  "Jeanne.Coignet": {
+    "first_name": "Jeanne",
+    "last_name": "Coignet",
+    "gender": "F",
+    "relationship": {
+      "Philippe-Gilbert.Tremblay": { "type": "union" }
+    },
+    "source": "data/Simon Charest.pdf"
+  }
+}

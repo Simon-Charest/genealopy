@@ -1,0 +1,22 @@
+{
+  "Antoine.Tremblay": {
+    "first_name": "Antoine",
+    "last_name": "Tremblay",
+    "gender": "M",
+    "relationship": {
+      "Marie-Reine.Dufour": { "type": "mother" },
+      "François-Xavier.Tremblay": { "type": "father" },
+      "Marguerite.Lavoie": { "type": "union" }
+    },
+    "source": "data/Simon Charest.pdf"
+  },
+  "Marguerite.Lavoie": {
+    "first_name": "Marguerite",
+    "last_name": "Lavoie",
+    "gender": "F",
+    "relationship": {
+      "Antoine.Tremblay": { "type": "union" }
+    },
+    "source": "data/Simon Charest.pdf"
+  }
+}

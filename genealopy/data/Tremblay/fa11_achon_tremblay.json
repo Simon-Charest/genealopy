@@ -1,0 +1,22 @@
+{
+  "Pierre.Tremblay": {
+    "first_name": "Pierre",
+    "last_name": "Tremblay",
+    "gender": "M",
+    "relationship": {
+      "Jeanne.Coignet": { "type": "mother" },
+      "Philippe-Gilbert.Tremblay": { "type": "father" },
+      "Ozanne-Anne.Achon": { "type": "union" }
+    },
+    "source": "data/Simon Charest.pdf"
+  },
+  "Ozanne-Anne.Achon": {
+    "first_name": "Ozanne-Anne",
+    "last_name": "Achon",
+    "gender": "F",
+    "relationship": {
+      "Pierre.Tremblay": { "type": "union" }
+    },
+    "source": "data/Simon Charest.pdf"
+  }
+}

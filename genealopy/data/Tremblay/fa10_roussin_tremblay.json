@@ -1,0 +1,22 @@
+{
+  "Pierre2.Tremblay": {
+    "first_name": "Pierre",
+    "last_name": "Tremblay",
+    "gender": "M",
+    "relationship": {
+      "Ozanne-Anne.Achon": { "type": "mother" },
+      "Pierre.Tremblay": { "type": "father" },
+      "Marie-Madeleine.Roussin": { "type": "union" }
+    },
+    "source": "data/Simon Charest.pdf"
+  },
+  "Marie-Madeleine.Roussin": {
+    "first_name": "Marie-Madeleine",
+    "last_name": "Roussin",
+    "gender": "F",
+    "relationship": {
+      "Pierre2.Tremblay": { "type": "union" }
+    },
+    "source": "data/Simon Charest.pdf"
+  }
+}
