@@ -82,4 +82,4 @@ def run(json_objects):
     print(f"Last name frequencies: {data.get_count(json_objects, 'last_name')}")
 
     # Display graph
-    # graph.view()
+    graph.view()
