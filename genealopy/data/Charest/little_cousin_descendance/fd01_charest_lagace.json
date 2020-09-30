@@ -1,6 +1,6 @@
 {
-  "Lagacé": {
-    "first_name": "",
+  "Maïka.Lagacé": {
+    "first_name": "Maïka",
     "last_name": "Lagacé",
     "gender": "F",
     "relationship": {
@@ -9,8 +9,8 @@
 	},
     "source" : "data/Louise Bigaouette [Charest].pdf"
   },
-  "Lagacé2": {
-    "first_name": "",
+  "Maverick.Lagacé": {
+    "first_name": "Maverick",
     "last_name": "Lagacé",
     "gender": "M",
     "relationship": {
