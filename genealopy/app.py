@@ -79,6 +79,7 @@ def run(json_objects):
     person_count = len(json_objects)
     relationship_count = data.get_relationship_count(json_objects)
     text.print_statistics(person_count, relationship_count)
+    print(f"Last name frequencies: {data.get_count(json_objects, 'last_name')}")
 
     # Display graph
-    graph.view()
+    # graph.view()

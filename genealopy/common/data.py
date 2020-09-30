@@ -1,3 +1,4 @@
+from common import text
 from common.constant import constant
 
 import json
@@ -53,9 +54,23 @@ def get_name(value):
     return f"{first_name}\n{last_name}"
 
 
-def get_names():
-    # TODO: Get all last names and counts
-    return None
+def get_count(json_objects, field):
+    dictionary = {}
+
+    for json_object in json_objects:
+        if json_objects[json_object][field] in dictionary:
+            dictionary[json_objects[json_object][field]] += 1
+
+        else:
+            dictionary[json_objects[json_object][field]] = 1
+
+    # Sort values alphabetically
+    sorted_list = sorted(dictionary.items(), key=lambda values: text.is_none(values[0]))
+
+    # Sort values by descending frequency
+    sorted_list = sorted(sorted_list, key=lambda values: values[1], reverse=True)
+
+    return sorted_list
 
 
 def get_node(json_objects, id_):

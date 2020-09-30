@@ -1,3 +1,10 @@
+def is_none(string):
+    if string is None:
+        return ''
+
+    return str(string)
+
+
 def pluralize(word, count=2):
     return word if count <= 1 else f"{word}s"
 
