@@ -139,6 +139,13 @@ def has_parents(values):
     return mother and father
 
 
+def is_complete(value):
+    if 'complete' in value:
+        return value['complete'] == 'true'
+
+    return True
+
+
 def is_family(value):
     if 'family' in value:
         return value['family'] == 'true'

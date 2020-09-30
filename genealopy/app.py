@@ -39,7 +39,7 @@ def run(json_objects):
 
             else:
                 # Darken persons with missing parents but only if they are direct family
-                if constant.DARKEN_INCOMPLETE and data.is_family(value1):
+                if constant.DARKEN_INCOMPLETE and data.is_family(value1) and data.is_complete(value1):
                     complete1 = data.has_parents(value1['relationship'])
 
                 else:
