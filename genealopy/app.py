@@ -18,7 +18,7 @@ def run(json_objects):
     graph.attr(rankdir=constant.RANK_DIRECTION)
 
     # Highlight shortest path(s)
-    search = ['Simon.Charest']
+    # search = ['Simon.Charest']
     # search = analysis.get_shortest_path(json_objects, 'Simon.Charest', 'Delphis.Charest')
 
     if constant.DEBUG:

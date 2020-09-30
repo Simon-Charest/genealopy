@@ -1,22 +1,22 @@
 {
-  "Charest": {
-    "first_name": "",
+  "Elliot.Charest": {
+    "first_name": "Elliot",
     "last_name": "Charest",
     "gender": "M",
     "relationship": {
 	  "Sandie.Poirier": { "type": "mother" },
       "Marc.Charest": { "type": "father" }
     },
-    "source" : null
+    "source" : "data/CHAREST.pdf"
   },
-  "Charest2": {
-    "first_name": "",
+  "Mila.Charest": {
+    "first_name": "Mila",
     "last_name": "Charest",
     "gender": "F",
     "relationship": {
 	  "Sandie.Poirier": { "type": "mother" },
       "Marc.Charest": { "type": "father" }
     },
-    "source" : null
+    "source" : "data/CHAREST.pdf"
   }
 }

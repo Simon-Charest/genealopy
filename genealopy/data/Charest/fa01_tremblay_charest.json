@@ -6,7 +6,8 @@
     "relationship": {
       "Rita.Tremblay": { "type": "mother" },
       "Clément.Charest": { "type": "father" },
-	  "Jocelyne.Dulude": { "type": "union" }
+	  "Jocelyne.Dulude": { "type": "union" },
+      "Solange.Boyer": { "type": "union" }
     },
     "source" : "Famille Charest"
   },
@@ -20,9 +21,9 @@
     },
     "source" : "Famille Charest"
   },
-  "Solange": {
+  "Solange.Boyer": {
     "first_name": "Solange",
-    "last_name": null,
+    "last_name": "Boyer",
     "gender": "F",
     "family": false,
     "relationship": {

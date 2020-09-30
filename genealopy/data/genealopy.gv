@@ -918,6 +918,10 @@ Poirier" color=pink shape=box style=filled]
 Charest" color=pink shape=box style=filled]
 	"Jocelyne.Dulude" -> "Annie.Charest" [color=pink style=solid]
 	"Gilles2.Charest" -> "Annie.Charest" [color=lightblue style=solid]
+	"Gérald.Gédéon" -> "Annie.Charest" [color=grey style=dashed]
+	"Gérald.Gédéon" [label="Gérald
+Gédéon" color=lightblue shape=box style=filled]
+	"Annie.Charest" -> "Gérald.Gédéon" [color=grey style=dashed]
 	"Daniel.Marcil" [label="Daniel
 Marcil" color=lightblue shape=box style=filled]
 	"Ghislaine.Charest" -> "Daniel.Marcil" [color=pink style=solid]
@@ -938,6 +942,10 @@ Charest" color=pink shape=box style=filled]
 Charest" color=lightblue shape=box style=filled]
 	"Danielle.Mayer" -> "Thomas.Charest" [color=pink style=solid]
 	"Jean.Charest" -> "Thomas.Charest" [color=lightblue style=solid]
+	"Sarah.Charest" [label="Sarah
+Charest" color=pink shape=box style=filled]
+	"Danielle.Mayer" -> "Sarah.Charest" [color=pink style=solid]
+	"Jean.Charest" -> "Sarah.Charest" [color=lightblue style=solid]
 	"Eric.Charette" [label="Eric
 Charette" color=lightblue shape=box style=filled]
 	"Henriette.Charest" -> "Eric.Charette" [color=pink style=solid]
@@ -1182,12 +1190,13 @@ Charest" color=lightblue shape=box style=filled]
 	"Rita.Tremblay" -> "Gilles2.Charest" [color=pink style=solid]
 	"Clément.Charest" -> "Gilles2.Charest" [color=lightblue style=solid]
 	"Jocelyne.Dulude" -> "Gilles2.Charest" [color=grey style=dashed]
+	"Solange.Boyer" -> "Gilles2.Charest" [color=grey style=dashed]
 	"Jocelyne.Dulude" [label="Jocelyne
 Dulude" color=pink shape=box style=filled]
 	"Gilles2.Charest" -> "Jocelyne.Dulude" [color=grey style=dashed]
-	Solange [label="Solange
-(inconnu)" color=pink shape=box style=filled]
-	"Gilles2.Charest" -> Solange [color=grey style=dashed]
+	"Solange.Boyer" [label="Solange
+Boyer" color=pink shape=box style=filled]
+	"Gilles2.Charest" -> "Solange.Boyer" [color=grey style=dashed]
 	"Ghislaine.Charest" [label="Ghislaine
 Charest" color=pink shape=box style=filled]
 	"Rita.Tremblay" -> "Ghislaine.Charest" [color=pink style=solid]
@@ -1526,7 +1535,7 @@ Gradel" color=lightblue shape=box style=filled]
 	"Marie-Eve.LeBlanc" -> "Félix.Gradel" [color=pink style=solid]
 	I22 -> "Félix.Gradel" [color=lightblue style=solid]
 	"Simon.Charest" [label="Simon
-Charest" color=orange shape=box style=filled]
+Charest" color=lightblue shape=box style=filled]
 	"Suzanne.Laguë" -> "Simon.Charest" [color=pink style=solid]
 	"Michel.Charest" -> "Simon.Charest" [color=lightblue style=solid]
 	"Julie.Emond" -> "Simon.Charest" [color=grey style=dashed]
@@ -1560,6 +1569,14 @@ Laguë" color=pink shape=box style=filled]
 	"Marcel.Lamirande" [label="Marcel
 Lamirande" color=lightblue shape=box style=filled]
 	"Suzanne.Laguë" -> "Marcel.Lamirande" [color=grey style=dashed]
+	"Antoine.Gédéon" [label="Antoine
+Gédéon" color=lightblue shape=box style=filled]
+	"Annie.Charest" -> "Antoine.Gédéon" [color=pink style=solid]
+	"Gérald.Gédéon" -> "Antoine.Gédéon" [color=lightblue style=solid]
+	"Émile.Gédéon" [label="Émile
+Gédéon" color=lightblue shape=box style=filled]
+	"Annie.Charest" -> "Émile.Gédéon" [color=pink style=solid]
+	"Gérald.Gédéon" -> "Émile.Gédéon" [color=lightblue style=solid]
 	Marcil [label="(inconnu)
 Marcil" color=lightblue shape=box style=filled]
 	"Sandra.Maluorni" -> Marcil [color=pink style=solid]
@@ -1568,12 +1585,12 @@ Marcil" color=lightblue shape=box style=filled]
 Marcil" color=lightblue shape=box style=filled]
 	"Sandra.Maluorni" -> "Gabriel.Marcil" [color=pink style=solid]
 	"Daniel.Marcil" -> "Gabriel.Marcil" [color=lightblue style=solid]
-	Charest [label="(inconnu)
+	"Elliot.Charest" [label="Elliot
 Charest" color=lightblue shape=box style=filled]
-	"Sandie.Poirier" -> Charest [color=pink style=solid]
-	"Marc.Charest" -> Charest [color=lightblue style=solid]
-	Charest2 [label="(inconnu)
+	"Sandie.Poirier" -> "Elliot.Charest" [color=pink style=solid]
+	"Marc.Charest" -> "Elliot.Charest" [color=lightblue style=solid]
+	"Mila.Charest" [label="Mila
 Charest" color=pink shape=box style=filled]
-	"Sandie.Poirier" -> Charest2 [color=pink style=solid]
-	"Marc.Charest" -> Charest2 [color=lightblue style=solid]
+	"Sandie.Poirier" -> "Mila.Charest" [color=pink style=solid]
+	"Marc.Charest" -> "Mila.Charest" [color=lightblue style=solid]
 }

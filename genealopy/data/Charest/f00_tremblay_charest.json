@@ -26,7 +26,18 @@
     "gender": "F",
     "relationship": {
 	  "Jocelyne.Dulude": { "type": "mother" },
-      "Gilles2.Charest": { "type": "father" }
+      "Gilles2.Charest": { "type": "father" },
+      "Gérald.Gédéon": { "type": "union" }
+    },
+    "source" : null
+  },
+  "Gérald.Gédéon": {
+    "first_name": "Gérald",
+    "last_name": "Gédéon",
+    "gender": "M",
+    "family": false,
+    "relationship": {
+	  "Annie.Charest": { "type": "union" }
     },
     "source" : null
   },
@@ -81,5 +92,15 @@
       "Jean.Charest": { "type": "father" }
     },
     "source" : "data/Arsène Turgeon-Angeline Truchon.pdf"
+  },
+  "Sarah.Charest": {
+    "first_name": "Sarah",
+    "last_name": "Charest",
+    "gender": "F",
+    "relationship": {
+	  "Danielle.Mayer": { "type": "mother" },
+      "Jean.Charest": { "type": "father" }
+    },
+    "source" : "data/CHAREST.pdf"
   }
 }
