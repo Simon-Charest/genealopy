@@ -12,6 +12,25 @@ def exists_in(json_object, key, value=None):
         return key in json_object
 
 
+def get_count(json_objects, field):
+    dictionary = {}
+
+    for json_object in json_objects:
+        if json_objects[json_object][field] in dictionary:
+            dictionary[json_objects[json_object][field]] += 1
+
+        else:
+            dictionary[json_objects[json_object][field]] = 1
+
+    # Sort values alphabetically
+    sorted_list = sorted(dictionary.items(), key=lambda values: text.is_none(values[0]))
+
+    # Sort values by descending frequency
+    sorted_list = sorted(sorted_list, key=lambda values: values[1], reverse=True)
+
+    return sorted_list
+
+
 def get_gender(json_objects, id_):
     for key in json_objects:
         value = json_objects[key]
@@ -52,25 +71,6 @@ def get_name(value):
         last_name = constant.NAME_UNKNOWN
 
     return f"{first_name}\n{last_name}"
-
-
-def get_count(json_objects, field):
-    dictionary = {}
-
-    for json_object in json_objects:
-        if json_objects[json_object][field] in dictionary:
-            dictionary[json_objects[json_object][field]] += 1
-
-        else:
-            dictionary[json_objects[json_object][field]] = 1
-
-    # Sort values alphabetically
-    sorted_list = sorted(dictionary.items(), key=lambda values: text.is_none(values[0]))
-
-    # Sort values by descending frequency
-    sorted_list = sorted(sorted_list, key=lambda values: values[1], reverse=True)
-
-    return sorted_list
 
 
 def get_node(json_objects, id_):
