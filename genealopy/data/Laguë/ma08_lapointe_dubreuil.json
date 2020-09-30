@@ -1,0 +1,22 @@
+{
+  "Josephte.Lapointe": {
+    "first_name": "Josephte",
+    "last_name": "Lapointe",
+    "gender": "F",
+    "relationship": {
+      "Jean-Baptiste.Dubreuil": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=90971"
+  },
+  "Jean-Baptiste.Dubreuil": {
+    "first_name": "Jean-Baptiste",
+    "last_name": "Dubreuil",
+    "gender": "M",
+    "relationship": {
+      "Marie.Jurtonde": { "type": "mother" },
+      "Jacques.Dubreuil": { "type": "father" },
+      "Josephte.Lapointe": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=90970"
+  }
+}

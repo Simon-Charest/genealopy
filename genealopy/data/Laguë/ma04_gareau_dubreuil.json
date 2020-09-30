@@ -10,7 +10,7 @@
     "relationship": {
       "I585": { "type": "union" }
     },
-    "source" : "https://www.retronicdesign.com/genealogie/individual.php?ged=gradel&pid="
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=429562"
   },
   "I585": {
     "first_name": "Etienne-Marie",
@@ -23,8 +23,10 @@
       "date": "1886"
     },
     "relationship": {
+      "Julie.Sauve": { "type": "mother" },
+      "Claude.Dubreuil": { "type": "father" },
       "I561": { "type": "union" }
     },
-    "source" : "https://www.retronicdesign.com/genealogie/individual.php?ged=gradel&pid="
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=429563"
   }
 }

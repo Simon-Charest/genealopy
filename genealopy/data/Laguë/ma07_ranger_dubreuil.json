@@ -1,0 +1,22 @@
+{
+  "Genevieve.Ranger": {
+    "first_name": "Genevieve",
+    "last_name": "Ranger",
+    "gender": "F",
+    "relationship": {
+      "Joseph-Amable.Dubreuil": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=215705"
+  },
+  "Joseph-Amable.Dubreuil": {
+    "first_name": "Joseph-Amable",
+    "last_name": "Dubreuil",
+    "gender": "M",
+    "relationship": {
+      "Josephte.Lapointe": { "type": "mother" },
+      "Jean-Baptiste.Dubreuil": { "type": "father" },
+      "Genevieve.Ranger": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=215704"
+  }
+}

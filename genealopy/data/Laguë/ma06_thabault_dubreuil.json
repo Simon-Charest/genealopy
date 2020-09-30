@@ -1,0 +1,22 @@
+{
+  "Madeleine.Thabault": {
+    "first_name": "Madeleine",
+    "last_name": "Thabault",
+    "gender": "F",
+    "relationship": {
+      "Louis.Dubreuil": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=264092"
+  },
+  "Louis.Dubreuil": {
+    "first_name": "Louis",
+    "last_name": "Dubreuil",
+    "gender": "M",
+    "relationship": {
+      "Genevieve.Ranger": { "type": "mother" },
+      "Joseph-Amable.Dubreuil": { "type": "father" },
+      "Madeleine.Thabault": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=264091"
+  }
+}

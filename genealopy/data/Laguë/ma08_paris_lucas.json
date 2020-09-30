@@ -1,0 +1,20 @@
+{
+  "Marie-Catherine.Paris": {
+    "first_name": "Marie-Catherine",
+    "last_name": "Paris",
+    "gender": "F",
+    "relationship": {
+      "Martin.Lucas": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=231721"
+  },
+  "Martin.Lucas": {
+    "first_name": "Martin",
+    "last_name": "Lucas",
+    "gender": "M",
+    "relationship": {
+      "Marie-Catherine.Paris": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=231721"
+  }
+}

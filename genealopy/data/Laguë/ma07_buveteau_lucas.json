@@ -13,6 +13,8 @@
     "last_name": "Lucas",
     "gender": "M",
     "relationship": {
+      "Marie-Catherine Paris": { "type": "mother" },
+      "Martin.Lucas": { "type": "father" },
       "Catherine.Buveteau": { "type": "union" }
     },
     "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=231721"
