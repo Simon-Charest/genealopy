@@ -79,7 +79,18 @@
     "gender": "M",
     "relationship": {
 	  "Denise.Deslauriers": { "type": "mother" },
-      "Gilles.Charest": { "type": "father" }
+      "Gilles.Charest": { "type": "father" },
+      "Line.Ladouceur": { "type": "union" }
+    },
+    "source" : "Famille Charest"
+  },
+  "Line.Ladouceur": {
+    "first_name": "Line",
+    "last_name": "Ladouceur",
+    "gender": "F",
+    "family": false,
+    "relationship": {
+      "Paul.Charest": { "type": "union" }
     },
     "source" : "Famille Charest"
   },

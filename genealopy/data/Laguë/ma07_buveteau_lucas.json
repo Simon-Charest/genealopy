@@ -1,0 +1,20 @@
+{
+  "Catherine.Buveteau": {
+    "first_name": "Catherine",
+    "last_name": "Buveteau",
+    "gender": "F",
+    "relationship": {
+      "Louis.Lucas": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=231722"
+  },
+  "Louis.Lucas": {
+    "first_name": "Louis",
+    "last_name": "Lucas",
+    "gender": "M",
+    "relationship": {
+      "Catherine.Buveteau": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=231721"
+  }
+}

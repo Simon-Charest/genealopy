@@ -4,6 +4,7 @@
     "last_name": "Charest",
     "gender": "F",
     "relationship": {
+      "Line.Ladouceur": { "type": "mother" },
       "Paul.Charest": { "type": "father" },
       "Maxime.Lagacé": { "type": "union" }
     },
@@ -24,6 +25,7 @@
     "last_name": "Charest",
     "gender": "F",
     "relationship": {
+      "Line.Ladouceur": { "type": "mother" },
       "Paul.Charest": { "type": "father" }
     },
     "source" : "Famille Charest"

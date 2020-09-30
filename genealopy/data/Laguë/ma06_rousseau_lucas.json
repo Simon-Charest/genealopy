@@ -1,0 +1,22 @@
+{
+  "Marie-Anne.Rousseau": {
+    "first_name": "Marie-Anne",
+    "last_name": "Rousseau",
+    "gender": "F",
+    "relationship": {
+      "Francois.Lucas": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=231724"
+  },
+  "Francois.Lucas": {
+    "first_name": "Francois",
+    "last_name": "Lucas",
+    "gender": "M",
+    "relationship": {
+      "Catherine.Buveteau": { "type": "mother" },
+      "Louis.Lucas": { "type": "father" },
+      "Marie-Anne.Rousseau": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=231723"
+  }
+}
