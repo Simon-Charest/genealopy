@@ -20,7 +20,10 @@ def add_children(json_objects):
                 # Create an inverted relationship from the parent to the child
                 string = f'{{"{child}": {{"type": "child"}}}}'
                 dictionary = json.loads(string)
-                children[parent]['relationship'].update(dictionary)
+
+                # Only create child link if parent exists
+                if parent in children:
+                    children[parent]['relationship'].update(dictionary)
 
     return children
 
