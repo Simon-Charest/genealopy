@@ -25,8 +25,10 @@ __credits__ = {
         'AtariAge': 'https://atariage.com/forums/profile/37766-nitz1976/',
         'Famille Gradel': 'https://www.retronicdesign.com/genealogie/'
     },
-    'Michel Charest': {'email': 'mic6349@gmail.com'},
+    'Gilles Charest': {},
+    'Marc Charest': {'email': 'marc@lourobin.com'},
     'Louise Charest': {'email': 'charestl53@videotron.ca'},
+    'Michel Charest': {'email': 'mic6349@gmail.com'},
     'Pierre Charest': {'email': 'charestp@videotron.ca', 'organization': '9116-8872 Québec inc.', 'website': 'https://www.myheritage.fr/site-205814691/charest'},
     'Suzanne Coderre': {'email': 'suzanne1809@gmail.com'},
     'The Charest Family': {},
