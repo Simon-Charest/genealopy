@@ -5,7 +5,18 @@
     "gender": "M",
     "relationship": {
 	  "Réjeanne.Favreau": { "type": "mother" },
-      "Denis.Charest": { "type": "father" }
+      "Denis.Charest": { "type": "father" },
+      "Lise.Mercier": { "type": "union" }
+    },
+    "source" : "Famille Charest"
+  },
+  "Lise.Mercier": {
+    "first_name": "Lise",
+    "last_name": "Mercier",
+    "gender": "F",
+    "family": false,
+    "relationship": {
+	  "Robert.Charest": { "type": "union" }
     },
     "source" : "Famille Charest"
   },

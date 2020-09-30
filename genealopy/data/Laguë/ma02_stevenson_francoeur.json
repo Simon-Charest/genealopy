@@ -1,0 +1,12 @@
+{
+  "Benjamin.Francoeur": {
+    "first_name": "Benjamin",
+    "last_name": "Francoeur",
+    "gender": "M",
+    "relationship": {
+	  "Lucy Pearl.Stevenson": { "type": "mother" },
+      "Levis.Francoeur": { "type": "father" }
+    },
+    "source" : "https://www.retronicdesign.com/genealogie/individual.php?pid=I645"
+  }
+}

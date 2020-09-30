@@ -4,6 +4,7 @@
     "last_name": "Charest",
     "gender": "F",
     "relationship": {
+      "Lise.Mercier": { "type": "mother" },
 	  "Robert.Charest": { "type": "father" }
     },
     "source" : "Famille Charest"

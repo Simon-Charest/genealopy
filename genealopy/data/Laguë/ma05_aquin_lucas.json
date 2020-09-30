@@ -1,0 +1,20 @@
+{
+  "Angelique.Aquin": {
+    "first_name": "Angelique",
+    "last_name": "Aquin",
+    "gender": "F",
+    "relationship": {
+      "Louis.Lucas": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=232157"
+  },
+  "Louis.Lucas": {
+    "first_name": "Louis",
+    "last_name": "Lucas",
+    "gender": "M",
+    "relationship": {
+      "Angelique.Aquin": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?&pid=232156"
+  }
+}

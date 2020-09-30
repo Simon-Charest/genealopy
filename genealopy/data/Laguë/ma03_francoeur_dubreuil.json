@@ -10,9 +10,11 @@
       "date": "1986-05"
     },
     "relationship": {
+      "Olivine.Chantal": { "type": "mother" },
+      "Jean-Baptiste.Lucas": { "type": "father" },
       "I117": { "type": "union" }
     },
-    "source" : "https://www.retronicdesign.com/genealogie/individual.php?ged=gradel&pid="
+    "source" : "https://www.retronicdesign.com/genealogie/individual.php?pid=I118"
   },
   "I117": {
     "first_name": "Joseph",
@@ -35,5 +37,26 @@
       "I118": { "type": "union", "start": "1911-09-25", "place": "Sainte-Anne-de-Bellevue, Québec, Canada" }
     },
     "source" : "https://www.retronicdesign.com/genealogie/individual.php?ged=gradel&pid="
+  },
+  "Levis.Francoeur": {
+    "first_name": "Levis",
+    "last_name": "Francoeur",
+    "gender": "M",
+    "relationship": {
+      "Olivine.Chantal": { "type": "mother" },
+      "Jean-Baptiste.Lucas": { "type": "father" },
+      "Lucy Pearl.Stevenson": { "type": "union" }
+    },
+    "source" : "https://www.retronicdesign.com/genealogie/individual.php?pid=I643"
+  },
+  "Lucy Pearl.Stevenson": {
+    "first_name": "Lucy Pearl",
+    "last_name": "Stevenson",
+    "gender": "F",
+    "family": false,
+    "relationship": {
+      "Levis.Francoeur": { "type": "union" }
+    },
+    "source" : "https://www.retronicdesign.com/genealogie/individual.php?pid=I644"
   }
 }

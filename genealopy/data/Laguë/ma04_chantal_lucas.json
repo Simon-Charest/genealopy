@@ -1,0 +1,33 @@
+{
+  "Olivine.Chantal": {
+    "first_name": "Olivine",
+    "last_name": "Chantal",
+    "gender": "F",
+    "relationship": {
+      "Jean-Baptiste.Lucas": { "type": "union" },
+      "Michel-Jeremie.Boudrias": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=305942"
+  },
+  "Jean-Baptiste.Lucas": {
+    "first_name": "Jean-Baptiste",
+    "last_name": "Lucas",
+    "gender": "M",
+    "relationship": {
+      "Angelique.Aquin": { "type": "mother" },
+      "Louis.Lucas": { "type": "father" },
+      "Olivine.Chantal": { "type": "union" }
+    },
+    "source" : "https://www.retronicdesign.com/genealogie/individual.php?pid=I586"
+  },
+  "Michel-Jeremie.Boudrias": {
+    "first_name": "Michel-Jeremie",
+    "last_name": "Boudrias",
+    "gender": "M",
+    "family": false,
+    "relationship": {
+      "Olivine.Chantal": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?&pid=305947"
+  }
+}
