@@ -3,6 +3,7 @@
     "first_name": "Josephte",
     "last_name": "Lapointe",
     "gender": "F",
+    "complete": false,
     "relationship": {
       "Jean-Baptiste.Dubreuil": { "type": "union" }
     },

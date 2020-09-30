@@ -3,6 +3,7 @@
     "first_name": "Marie-Catherine",
     "last_name": "Paris",
     "gender": "F",
+    "complete": false,
     "relationship": {
       "Martin.Lucas": { "type": "union" }
     },
@@ -12,6 +13,7 @@
     "first_name": "Martin",
     "last_name": "Lucas",
     "gender": "M",
+    "complete": false,
     "relationship": {
       "Marie-Catherine.Paris": { "type": "union" }
     },

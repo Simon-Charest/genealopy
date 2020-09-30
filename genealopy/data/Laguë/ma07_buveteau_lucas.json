@@ -13,7 +13,7 @@
     "last_name": "Lucas",
     "gender": "M",
     "relationship": {
-      "Marie-Catherine Paris": { "type": "mother" },
+      "Marie-Catherine.Paris": { "type": "mother" },
       "Martin.Lucas": { "type": "father" },
       "Catherine.Buveteau": { "type": "union" }
     },

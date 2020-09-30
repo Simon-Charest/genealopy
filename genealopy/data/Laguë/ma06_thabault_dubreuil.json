@@ -4,6 +4,8 @@
     "last_name": "Thabault",
     "gender": "F",
     "relationship": {
+      "Josephte.Brabant": { "type": "mother" },
+      "Antoine-Amable.Tabault": { "type": "father" },
       "Louis.Dubreuil": { "type": "union" }
     },
     "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=264092"

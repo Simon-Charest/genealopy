@@ -4,6 +4,8 @@
     "last_name": "Ranger",
     "gender": "F",
     "relationship": {
+      "Genevieve.Brisebois": { "type": "mother" },
+      "Pierre2.Ranger": { "type": "father" },
       "Joseph-Amable.Dubreuil": { "type": "union" }
     },
     "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=215705"

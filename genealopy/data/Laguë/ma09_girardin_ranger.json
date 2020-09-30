@@ -1,0 +1,24 @@
+{
+  "Anne-Jeanne.Girardin": {
+    "first_name": "Anne-Jeanne",
+    "last_name": "Girardin",
+    "gender": "F",
+    "relationship": {
+      "Charlotte-Catherine.Jolivet": { "type": "union" },
+      "Leonard.Girardin": { "type": "union" },
+      "Hubert.Ranger": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=37079"
+  },
+  "Hubert.Ranger": {
+    "first_name": "Hubert",
+    "last_name": "Ranger",
+    "gender": "M",
+    "relationship": {
+      "Jeanne.Boutine": { "type": "mother" },
+      "Pierre.Ranger": { "type": "father" },
+      "Anne-Jeanne.Girardin": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=37078"
+  }
+}

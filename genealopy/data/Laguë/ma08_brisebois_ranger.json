@@ -1,0 +1,22 @@
+{
+  "Genevieve.Brisebois": {
+    "first_name": "Genevieve",
+    "last_name": "Brisebois",
+    "gender": "F",
+    "relationship": {
+      "Pierre.Ranger2": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=54951"
+  },
+  "Pierre2.Ranger": {
+    "first_name": "Pierre",
+    "last_name": "Ranger",
+    "gender": "M",
+    "relationship": {
+      "Anne-Jeanne.Girardin": { "type": "mother" },
+      "Hubert.Ranger": { "type": "father" },
+      "Genevieve.Brisebois": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=54950"
+  }
+}

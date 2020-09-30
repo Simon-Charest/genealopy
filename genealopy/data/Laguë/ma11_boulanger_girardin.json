@@ -1,0 +1,22 @@
+{
+  "Jeanne.Boulanger": {
+    "first_name": "Jeanne",
+    "last_name": "Boulanger",
+    "gender": "F",
+    "complete": false,
+    "relationship": {
+      "Joseph.Girardin": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=54363"
+  },
+  "Joseph.Girardin": {
+    "first_name": "Joseph",
+    "last_name": "Girardin",
+    "gender": "M",
+    "complete": false,
+    "relationship": {
+      "Jeanne.Boulanger": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=54363"
+  }
+}

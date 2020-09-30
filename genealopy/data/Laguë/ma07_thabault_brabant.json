@@ -1,0 +1,20 @@
+{
+  "Josephte.Brabant": {
+    "first_name": "Josephte",
+    "last_name": "Brabant",
+    "gender": "F",
+    "relationship": {
+      "Antoine-Amable.Tabault": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=260344"
+  },
+  "Antoine-Amable.Tabault": {
+    "first_name": "Antoine-Amable",
+    "last_name": "Tabault",
+    "gender": "M",
+    "relationship": {
+      "Josephte.Brabant": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=260345"
+  }
+}
