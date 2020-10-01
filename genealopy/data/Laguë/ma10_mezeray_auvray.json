@@ -1,0 +1,34 @@
+{
+  "Marie-Catherine.Mezeray": {
+    "first_name": "Marie-Catherine",
+    "last_name": "Mezeray",
+    "gender": "F",
+    "relationship": {
+      "Nicole.Gareman": { "type": "mother" },
+      "Rene.Mezeray": { "type": "father" },
+      "François.Darveau": { "type": "union" },
+      "Jacques.Auvray": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=26446"
+  },
+  "Jacques.Auvray": {
+    "first_name": "Jacques",
+    "last_name": "Auvray",
+    "gender": "M",
+    "complete": false,
+    "relationship": {
+      "Marie-Catherine.Mezeray": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=26447"
+  },
+  "François.Darveau": {
+    "first_name": "François",
+    "last_name": "Darveau",
+    "gender": "M",
+    "family": false,
+    "relationship": {
+      "Marie-Catherine.Mezeray": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=26446"
+  }
+}

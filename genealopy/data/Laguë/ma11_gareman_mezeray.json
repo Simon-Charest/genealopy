@@ -1,0 +1,26 @@
+{
+  "Nicole.Gareman": {
+    "first_name": "Nicole",
+    "last_name": "Gareman",
+    "gender": "F",
+    "relationship": {
+      "Madeleine.Charlot": { "type": "mother" },
+      "Pierre.Gareman": { "type": "father" },
+      "Rene.Mezeray": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=26435"
+  },
+  "Rene.Mezeray": {
+    "first_name": "Rene",
+    "last_name": "Mezeray",
+    "gender": "M",
+    "relationship": {
+      "Anne.Olivier": { "type": "mother" },
+      "Jean.Mezeray": { "type": "father" },
+      "Hélène.Chatel": { "type": "union" },
+      "Nicole.Gareman": { "type": "union" },
+      "Violette-Francoise.Millot": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=5354"
+  }
+}

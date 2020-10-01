@@ -1,0 +1,22 @@
+{
+  "Jeanne.Cornuelle": {
+    "first_name": "Jeanne",
+    "last_name": "Cornuelle",
+    "gender": "F",
+    "complete": false,
+    "relationship": {
+      "Jacques.Barbeau": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=7558"
+  },
+  "Jacques.Barbeau": {
+    "first_name": "Jacques",
+    "last_name": "Barbeau",
+    "gender": "M",
+    "complete": false,
+    "relationship": {
+      "Jeanne.Cornuelle": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=7558"
+  }
+}

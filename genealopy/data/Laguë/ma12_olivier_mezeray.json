@@ -1,0 +1,20 @@
+{
+  "Anne.Olivier": {
+    "first_name": "Anne",
+    "last_name": "Olivier",
+    "gender": "F",
+    "relationship": {
+      "Jean.Mezeray": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=5354"
+  },
+  "Jean.Mezeray": {
+    "first_name": "Jean",
+    "last_name": "Mezeray (Mazuret) dit Nopces",
+    "gender": "M",
+    "relationship": {
+      "Anne.Olivier": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=5354"
+  }
+}

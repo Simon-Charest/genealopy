@@ -1,0 +1,22 @@
+{
+  "Marie.Croniere": {
+    "first_name": "Marie",
+    "last_name": "Croniere",
+    "gender": "F",
+    "complete": false,
+    "relationship": {
+      "Gabriel.Beauvais": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=47147"
+  },
+  "Gabriel.Beauvais": {
+    "first_name": "Gabriel",
+    "last_name": "Beauvais",
+    "gender": "M",
+    "complete": false,
+    "relationship": {
+      "Marie.Croniere": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=47147"
+  }
+}
