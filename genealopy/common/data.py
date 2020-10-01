@@ -125,16 +125,22 @@ def get_relationship_type(value, id_):
     return value['relationship'][id_]['type']
 
 
-def has_parents(values):
+def has_parents(json_objects, key):
+    relationships = json_objects[key]['relationship']
     mother = False
     father = False
 
-    for id_ in values:
-        if 'mother' in values[id_]['type']:
+    # Check if both parents are present in relationships
+    for id_ in json_objects[key]['relationship']:
+        if 'mother' in relationships[id_]['type']:
             mother = True
 
-        if 'father' in values[id_]['type']:
+        if 'father' in relationships[id_]['type']:
             father = True
+
+        # Check if parent node is in graph
+        if id_ not in json_objects:
+            return False
 
     return mother and father
 
