@@ -1,0 +1,24 @@
+{
+  "Marie.Pelletier": {
+    "first_name": "Marie",
+    "last_name": "Pelletier",
+    "gender": "F",
+    "relationship": {
+      "Jeanne.DeVoisy": { "type": "mother" },
+      "Nicolas.Pelletier": { "type": "father" },
+      "Nicolas.Goupil": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=8610"
+  },
+  "Nicolas.Goupil": {
+    "first_name": "Nicolas",
+    "last_name": "Goupil",
+    "gender": "M",
+    "relationship": {
+      "Perrette.Melin": { "type": "mother" },
+      "Julien.Goupil": { "type": "father" },
+      "Marie.Pelletier": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=8609"
+  }
+}

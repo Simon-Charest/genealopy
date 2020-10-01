@@ -1,0 +1,22 @@
+{
+  "Elisabeth.Lafaye": {
+    "first_name": "Elisabeth",
+    "last_name": "Lafaye",
+    "gender": "F",
+    "relationship": {
+      "Michel.Brabant": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=59865"
+  },
+  "Michel.Brabant": {
+    "first_name": "Michel",
+    "last_name": "Brabant",
+    "gender": "M",
+    "relationship": {
+      "Anne.Goupil": { "type": "mother" },
+      "Pierre2.Brabant": { "type": "father" },
+      "Elisabeth.Lafaye": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=59864"
+  }
+}

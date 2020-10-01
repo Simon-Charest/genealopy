@@ -1,0 +1,22 @@
+{
+  "Perrette.Melin": {
+    "first_name": "Perrette",
+    "last_name": "Melin",
+    "gender": "F",
+    "complete": false,
+    "relationship": {
+      "Julien.Goupil": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=8609"
+  },
+  "Julien.Goupil": {
+    "first_name": "Julien",
+    "last_name": "Goupil",
+    "gender": "M",
+    "complete": false,
+    "relationship": {
+      "Perrette.Melin": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=8609"
+  }
+}

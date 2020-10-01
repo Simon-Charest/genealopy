@@ -1,0 +1,35 @@
+{
+  "Marie-Francoise.Abraham": {
+    "first_name": "Marie-Francoise",
+    "last_name": "Abraham Desmarais, Courville",
+    "gender": "F",
+    "relationship": {
+      "Marie-Francoise.Danis": { "type": "mother" },
+      "Jean-Baptiste.Abraham": { "type": "father" },
+      "Joseph.Brabant": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=78853"
+  },
+  "Joseph.Brabant": {
+    "first_name": "Joseph",
+    "last_name": "Brabant",
+    "gender": "M",
+    "relationship": {
+      "Elisabeth.Lafaye": { "type": "mother" },
+      "Michel.Brabant": { "type": "father" },
+      "Marie-Francoise.Renaud": { "type": "union" },
+      "Marie-Francoise.Abraham": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=9372"
+  },
+  "Marie-Francoise.Renaud": {
+    "first_name": "Marie-Francoise",
+    "last_name": "Renaud",
+    "gender": "F",
+    "family": false,
+    "relationship": {
+      "Joseph.Brabant": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=78853"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "Jeanne.DeVoisy": {
+    "first_name": "Jeanne",
+    "last_name": "DeVoisy",
+    "gender": "F",
+    "relationship": {
+      "Nicolas.Pelletier": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=8615"
+  },
+  "Nicolas.Pelletier": {
+    "first_name": "Nicolas",
+    "last_name": "Pelletier",
+    "gender": "M",
+    "relationship": {
+      "Simone.Pichereau": { "type": "mother" },
+      "Francois.Pelletier": { "type": "father" },
+      "Jeanne.DeVoisy": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=8614"
+  }
+}
