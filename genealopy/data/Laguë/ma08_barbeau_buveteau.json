@@ -15,7 +15,7 @@
     "last_name": "Buveteau St-Onge",
     "gender": "M",
     "relationship": {
-      "Marie Clergeau": { "type": "mother" },
+      "Marie.Clergeau": { "type": "mother" },
       "Jean.Buveteau": { "type": "father" },
       "Catherine.Barbeau": { "type": "union" }
     },

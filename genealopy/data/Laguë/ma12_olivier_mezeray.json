@@ -3,6 +3,7 @@
     "first_name": "Anne",
     "last_name": "Olivier",
     "gender": "F",
+    "complete": false,
     "relationship": {
       "Jean.Mezeray": { "type": "union" }
     },
@@ -12,6 +13,7 @@
     "first_name": "Jean",
     "last_name": "Mezeray (Mazuret) dit Nopces",
     "gender": "M",
+    "complete": false,
     "relationship": {
       "Anne.Olivier": { "type": "union" }
     },
