@@ -1,0 +1,22 @@
+{
+  "Marthe.LeNoir": {
+    "first_name": "Marthe",
+    "last_name": "LeNoir",
+    "gender": "F",
+    "complete": false,
+    "relationship": {
+      "Francois.Touraude-Toureau": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=106419"
+  },
+  "Francois.Touraude-Toureau": {
+    "first_name": "Francois",
+    "last_name": "Touraude-Toureau",
+    "gender": "M",
+    "complete": false,
+    "relationship": {
+      "Marthe.LeNoir": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=106419"
+  }
+}

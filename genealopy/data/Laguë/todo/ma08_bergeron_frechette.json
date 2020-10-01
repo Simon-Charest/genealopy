@@ -13,6 +13,8 @@
     "last_name": "Frechette",
     "gender": "M",
     "relationship": {
+      "Anne.L'Herault": { "type": "mother" },
+      "Francois.Frechette": { "type": "father" },
       "Marie-Marguerite.Bergeron": { "type": "union" },
       "Marie-Madeleine.Cochu": { "type": "union" }
     },
