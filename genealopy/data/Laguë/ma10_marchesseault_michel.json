@@ -1,0 +1,35 @@
+{
+  "Marie.Marchesseault": {
+    "first_name": "Marie",
+    "last_name": "Marchesseault",
+    "gender": "F",
+    "relationship": {
+      "Sebastienne.Lamoureux": { "type": "mother" },
+      "Etienne.Marchesseau": { "type": "father" },
+      "Jean.Michel": { "type": "union" },
+      "Pierre.Boutin": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=36941"
+  },
+  "Jean.Michel": {
+    "first_name": "Jean",
+    "last_name": "Michel",
+    "gender": "M",
+    "relationship": {
+      "Nicole.Revon": { "type": "mother" },
+      "Louis.Michel": { "type": "father" },
+      "Marie.Marchesseault": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=36940"
+  },
+  "Pierre.Boutin": {
+    "first_name": "Pierre",
+    "last_name": "Boutin",
+    "gender": "M",
+    "family": false,
+    "relationship": {
+      "Marie.Marchesseault": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=36940"
+  }
+}

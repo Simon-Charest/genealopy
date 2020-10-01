@@ -1,0 +1,24 @@
+{
+  "Marie-Renee.Michel": {
+    "first_name": "Marie-Renee",
+    "last_name": "Michel dit Michaud",
+    "gender": "F",
+    "relationship": {
+      "Marie.Marchesseault": { "type": "mother" },
+      "Jean.Michel": { "type": "father" },
+      "Pierre.Sauve": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=36930"
+  },
+  "Pierre.Sauve": {
+    "first_name": "Pierre",
+    "last_name": "Sauve",
+    "gender": "M",
+    "relationship": {
+      "Marie.Malleret": { "type": "mother" },
+      "Francois.Sauve": { "type": "father" },
+      "Marie-Renee.Michel": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=265701"
+  }
+}

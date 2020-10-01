@@ -1,9 +1,11 @@
 {
   "Catherine.Buveteau": {
     "first_name": "Catherine",
-    "last_name": "Buveteau",
+    "last_name": "Buveteau St-Onge",
     "gender": "F",
     "relationship": {
+      "Catherine.Barbeau": { "type": "mother" },
+      "Charles.Buveteau": { "type": "father" },
       "Louis.Lucas": { "type": "union" }
     },
     "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=231722"

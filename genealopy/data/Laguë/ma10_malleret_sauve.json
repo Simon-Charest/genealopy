@@ -1,0 +1,22 @@
+{
+  "Marie.Malleret": {
+    "first_name": "Marie",
+    "last_name": "Malleret",
+    "gender": "F",
+    "complete": false,
+    "relationship": {
+      "Francois.Sauve": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=265701"
+  },
+  "Francois.Sauve": {
+    "first_name": "Francois",
+    "last_name": "Sauve",
+    "gender": "M",
+    "complete": false,
+    "relationship": {
+      "Marie.Malleret": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=265701"
+  }
+}

@@ -4,6 +4,8 @@
     "last_name": "Sauve",
     "gender": "F",
     "relationship": {
+      "Marie-Renee.Michel": { "type": "mother" },
+      "Pierre.Sauve": { "type": "father" },
       "Joseph.Tabault": { "type": "union" }
     },
     "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=265770"
@@ -15,8 +17,18 @@
     "relationship": {
       "Catherine.Brunet": { "type": "mother" },
       "Pierre2.Tabault": { "type": "father" },
-      "Josephte.Sauve": { "type": "union" }
+      "Josephte.Sauve": { "type": "union" },
+      "Marie-Veronique.Robillard": { "type": "union" }
     },
     "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=37510"
+  },
+  "Marie-Veronique.Robillard": {
+    "first_name": "Marie-Veronique",
+    "last_name": "Robillard",
+    "gender": "F",
+    "relationship": {
+      "Joseph.Tabault": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=37511"
   }
 }

@@ -1,6 +1,6 @@
 {
   "Etiennette.Alton": {
-    "first_name": "Etiennette",
+    "first_name": "Etiennette (Tainette)",
     "last_name": "Alton",
     "gender": "F",
     "relationship": {
@@ -30,7 +30,10 @@
     "relationship": {
       "Etiennette.Alton": { "type": "union" }
     },
-    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=44991"
+    "source" : [
+      "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=44993",
+      "https://www.nosorigines.qc.ca/biography.aspx?id=44993"
+    ]
   },
   "Barthelemy.Vinet": {
     "first_name": "Barthelemy",

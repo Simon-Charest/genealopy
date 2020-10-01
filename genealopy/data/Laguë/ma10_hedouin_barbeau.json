@@ -1,0 +1,24 @@
+{
+  "Marie-Marguerite.Hedouin": {
+    "first_name": "Marie-Marguerite",
+    "last_name": "Hedouin",
+    "gender": "F",
+    "relationship": {
+      "Catherine.LeRoy": { "type": "mother" },
+      "François.Hedouin": { "type": "father" },
+      "Francois.Barbeau": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=7559"
+  },
+  "Francois.Barbeau": {
+    "first_name": "Francois",
+    "last_name": "Barbeau",
+    "gender": "M",
+    "relationship": {
+      "Jeanne.Cornuelle": { "type": "mother" },
+      "Jacques.Barbeau": { "type": "father" },
+      "Marie-Marguerite.Hedouin": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=7558"
+  }
+}

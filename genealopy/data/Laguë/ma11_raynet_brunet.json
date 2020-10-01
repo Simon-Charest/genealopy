@@ -1,0 +1,22 @@
+{
+  "Philippe.Raynet": {
+    "first_name": "Philippe",
+    "last_name": "Raynet",
+    "gender": "F",
+    "complete": false,
+    "relationship": {
+      "Antoine.Brunet": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=29794"
+  },
+  "Antoine.Brunet": {
+    "first_name": "Antoine",
+    "last_name": "Brunet",
+    "gender": "M",
+    "complete": false,
+    "relationship": {
+      "Philippe.Raynet": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=29794"
+  }
+}

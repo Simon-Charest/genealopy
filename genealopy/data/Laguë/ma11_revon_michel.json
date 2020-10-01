@@ -1,0 +1,22 @@
+{
+  "Nicole.Revon": {
+    "first_name": "Nicole",
+    "last_name": "Revon",
+    "gender": "F",
+    "complete": false,
+    "relationship": {
+      "Louis.Michel": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=36940"
+  },
+  "Louis.Michel": {
+    "first_name": "Louis",
+    "last_name": "Michel",
+    "gender": "M",
+    "complete": false,
+    "relationship": {
+      "Nicole.Revon": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=36940"
+  }
+}

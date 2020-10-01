@@ -1,0 +1,22 @@
+{
+  "Catherine.LeRoy": {
+    "first_name": "Catherine",
+    "last_name": "LeRoy",
+    "gender": "F",
+    "complete": false,
+    "relationship": {
+      "François.Hedouin": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=7559"
+  },
+  "François.Hedouin": {
+    "first_name": "François",
+    "last_name": "Hedouin",
+    "gender": "M",
+    "complete": false,
+    "relationship": {
+      "Catherine.LeRoy": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=7559"
+  }
+}

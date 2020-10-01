@@ -1,0 +1,22 @@
+{
+  "Julienne.Potier": {
+    "first_name": "Julienne",
+    "last_name": "Potier",
+    "gender": "F",
+    "complete": false,
+    "relationship": {
+      "Martin.Saulde": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=47148"
+  },
+  "Martin.Saulde": {
+    "first_name": "Martin (Mathurin)",
+    "last_name": "Saulde",
+    "gender": "M",
+    "complete": false,
+    "relationship": {
+      "Julienne.Potier": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=47148"
+  }
+}

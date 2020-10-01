@@ -1,0 +1,24 @@
+{
+  "Catherine.Auvray": {
+    "first_name": "Catherine",
+    "last_name": "Auvray",
+    "gender": "F",
+    "relationship": {
+      "Marie-Catherine.Mezeray": { "type": "mother" },
+      "Jacques.Auvray": { "type": "father" },
+      "Simon.Barbeau": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=7577"
+  },
+  "Simon.Barbeau": {
+    "first_name": "Simon",
+    "last_name": "Barbeau",
+    "gender": "M",
+    "relationship": {
+      "Marie-Marguerite.Hedouin": { "type": "mother" },
+      "Francois.Barbeau": { "type": "father" },
+      "Catherine.Auvray": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=7576"
+  }
+}

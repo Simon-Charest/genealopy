@@ -1,0 +1,24 @@
+{
+  "Catherine.Barbeau": {
+    "first_name": "Catherine",
+    "last_name": "Barbeau",
+    "gender": "F",
+    "relationship": {
+      "Catherine.Auvray": { "type": "mother" },
+      "Simon.Barbeau": { "type": "father" },
+      "Charles.Buveteau": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=231720"
+  },
+  "Charles.Buveteau": {
+    "first_name": "Charles",
+    "last_name": "Buveteau St-Onge",
+    "gender": "M",
+    "relationship": {
+      "Marie Clergeau": { "type": "mother" },
+      "Jean.Buveteau": { "type": "father" },
+      "Catherine.Barbeau": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=231719"
+  }
+}

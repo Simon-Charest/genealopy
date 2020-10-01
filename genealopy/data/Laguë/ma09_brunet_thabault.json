@@ -1,9 +1,11 @@
 {
   "Catherine.Brunet": {
     "first_name": "Catherine",
-    "last_name": "Brune Bourbonnais",
+    "last_name": "Brunet Bourbonnais",
     "gender": "F",
     "relationship": {
+      "Barbe.Beauvais": { "type": "mother" },
+      "Francois.Brunet": { "type": "father" },
       "Pierre2.Tabault": { "type": "union" }
     },
     "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=60233"
@@ -15,7 +17,18 @@
     "relationship": {
       "Jeanne-Francoise.Roy": { "type": "mother" },
       "Pierre.Tabault": { "type": "father" },
-      "Catherine.Brunet": { "type": "union" }
+      "Catherine.Brunet": { "type": "union" },
+      "Francoise-Cunegonde.Cardinal": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=60232"
+  },
+  "Francoise-Cunegonde.Cardinal": {
+    "first_name": "Francoise-Cunegonde",
+    "last_name": "Cardinal",
+    "gender": "M",
+    "family": false,
+    "relationship": {
+      "Pierre2.Tabault": { "type": "union" }
     },
     "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=60232"
   }

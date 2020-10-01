@@ -1,0 +1,22 @@
+{
+  "Marie.Clergeau": {
+    "first_name": "Marie",
+    "last_name": "Clergeau",
+    "gender": "F",
+    "complete": false,
+    "relationship": {
+      "Jean.Buveteau": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=231719"
+  },
+  "Jean.Buveteau": {
+    "first_name": "Charles",
+    "last_name": "Buveteau St-Onge",
+    "gender": "M",
+    "complete": false,
+    "relationship": {
+      "Marie.Clergeau": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=231719"
+  }
+}

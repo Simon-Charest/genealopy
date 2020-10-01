@@ -1,0 +1,24 @@
+{
+  "Fleurence.Canteau": {
+    "first_name": "Fleurence",
+    "last_name": "Canteau",
+    "gender": "F",
+    "relationship": {
+      "Louise.Roussel": { "type": "mother" },
+      "André.Canteau": { "type": "father" },
+      "Pierre.Doucinet": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=24947"
+  },
+  "Pierre.Doucinet": {
+    "first_name": "Pierre",
+    "last_name": "Doucinet",
+    "gender": "M",
+    "relationship": {
+      "Madeleine.Roy": { "type": "mother" },
+      "Jean.Doucinet": { "type": "father" },
+      "Fleurence.Canteau": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=24946"
+  }
+}

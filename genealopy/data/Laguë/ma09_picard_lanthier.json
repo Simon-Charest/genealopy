@@ -1,0 +1,22 @@
+{
+  "Catherine.Picard": {
+    "first_name": "Catherine",
+    "last_name": "Picard",
+    "gender": "F",
+    "complete": false,
+    "relationship": {
+      "Jacques.Lanthier": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=44994"
+  },
+  "Jacques.Lanthier": {
+    "first_name": "Jacques",
+    "last_name": "Lanthier",
+    "gender": "M",
+    "complete": false,
+    "relationship": {
+      "Catherine.Picard": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=44994"
+  }
+}
