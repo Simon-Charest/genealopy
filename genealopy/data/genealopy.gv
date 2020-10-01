@@ -12,22 +12,6 @@ Lucas" color=lightblue shape=box style=filled]
 	"Michel-Jeremie.Boudrias" [label="Michel-Jeremie
 Boudrias" color=lightblue shape=box style=filled]
 	"Olivine.Chantal" -> "Michel-Jeremie.Boudrias" [color=grey style=dashed]
-	I561 [label="Delphine
-Gareau" color=deeppink shape=box style=filled]
-	I585 -> I561 [color=grey style=dashed]
-	I585 [label="Etienne-Marie
-Dubreuil" color=lightblue shape=box style=filled]
-	"Julie.Sauve" -> I585 [color=pink style=solid]
-	"Claude.Dubreuil" -> I585 [color=lightblue style=solid]
-	I561 -> I585 [color=grey style=dashed]
-	"Angelique.Aquin" [label="Angelique
-Aquin" color=deeppink shape=box style=filled]
-	"Louis2.Lucas" -> "Angelique.Aquin" [color=grey style=dashed]
-	"Louis2.Lucas" [label="Louis
-Lucas" color=lightblue shape=box style=filled]
-	"Marie-Anne.Rousseau" -> "Louis2.Lucas" [color=pink style=solid]
-	"Francois.Lucas" -> "Louis2.Lucas" [color=lightblue style=solid]
-	"Angelique.Aquin" -> "Louis2.Lucas" [color=grey style=dashed]
 	"Julie.Sauve" [label="Julie
 Sauve" color=deeppink shape=box style=filled]
 	"Claude.Dubreuil" -> "Julie.Sauve" [color=grey style=dashed]
@@ -36,14 +20,6 @@ Dubreuil" color=lightblue shape=box style=filled]
 	"Madeleine.Thabault" -> "Claude.Dubreuil" [color=pink style=solid]
 	"Louis.Dubreuil" -> "Claude.Dubreuil" [color=lightblue style=solid]
 	"Julie.Sauve" -> "Claude.Dubreuil" [color=grey style=dashed]
-	"Angelique.Cote" [label="Angelique
-Cote" color=deeppink shape=box style=filled]
-	"Pierre-Francois.Rousseau" -> "Angelique.Cote" [color=grey style=dashed]
-	"Pierre-Francois.Rousseau" [label="Pierre-Francois
-Rousseau" color=lightblue shape=box style=filled]
-	"Charlotte.Frechette" -> "Pierre-Francois.Rousseau" [color=pink style=solid]
-	"Pierre2.Rousseau" -> "Pierre-Francois.Rousseau" [color=lightblue style=solid]
-	"Angelique.Cote" -> "Pierre-Francois.Rousseau" [color=grey style=dashed]
 	"Marie-Anne.Rousseau" [label="Marie-Anne
 Rousseau" color=pink shape=box style=filled]
 	"Angelique.Cote" -> "Marie-Anne.Rousseau" [color=pink style=solid]
@@ -74,18 +50,6 @@ Lucas" color=lightblue shape=box style=filled]
 	"Marie-Catherine.Paris" -> "Louis.Lucas" [color=pink style=solid]
 	"Martin.Lucas" -> "Louis.Lucas" [color=lightblue style=solid]
 	"Catherine.Buveteau" -> "Louis.Lucas" [color=grey style=dashed]
-	"Charlotte.Frechette" [label="Charlotte
-Frechette" color=deeppink shape=box style=filled]
-	"Pierre2.Rousseau" -> "Charlotte.Frechette" [color=grey style=dashed]
-	"Antoine.Nadeau" -> "Charlotte.Frechette" [color=grey style=dashed]
-	"Antoine.Nadeau" [label="Antoine
-Nadeau" color=pink shape=box style=filled]
-	"Charlotte.Frechette" -> "Antoine.Nadeau" [color=grey style=dashed]
-	"Pierre2.Rousseau" [label="Pierre
-Rousseau" color=lightblue shape=box style=filled]
-	"Marguerite.Guillebourg" -> "Pierre2.Rousseau" [color=pink style=solid]
-	"Jacques.Rousseau" -> "Pierre2.Rousseau" [color=lightblue style=solid]
-	"Charlotte.Frechette" -> "Pierre2.Rousseau" [color=grey style=dashed]
 	"Genevieve.Ranger" [label="Genevieve
 Ranger" color=pink shape=box style=filled]
 	"Genevieve.Brisebois" -> "Genevieve.Ranger" [color=pink style=solid]
@@ -812,6 +776,50 @@ Pichereau" color=pink shape=box style=filled]
 	"Francois.Pelletier" [label="Francois
 Pelletier" color=lightblue shape=box style=filled]
 	"Simone.Pichereau" -> "Francois.Pelletier" [color=grey style=dashed]
+	"Anne-Marie.Dubreuil" [label="Anne-Marie
+Dubreuil" color=pink shape=box style=filled]
+	I118 -> "Anne-Marie.Dubreuil" [color=pink style=solid]
+	I117 -> "Anne-Marie.Dubreuil" [color=lightblue style=solid]
+	"Jean-Paul.Laguë" -> "Anne-Marie.Dubreuil" [color=grey style=dashed]
+	"Jean-Paul.Laguë" [label="Jean-Paul
+Laguë" color=deepskyblue shape=box style=filled]
+	"Anne-Marie.Dubreuil" -> "Jean-Paul.Laguë" [color=grey style=dashed]
+	I561 [label="Delphine
+Gareau" color=deeppink shape=box style=filled]
+	I585 -> I561 [color=grey style=dashed]
+	I585 [label="Etienne-Marie
+Dubreuil" color=lightblue shape=box style=filled]
+	"Julie.Sauve" -> I585 [color=pink style=solid]
+	"Claude.Dubreuil" -> I585 [color=lightblue style=solid]
+	I561 -> I585 [color=grey style=dashed]
+	"Angelique.Aquin" [label="Angelique
+Aquin" color=deeppink shape=box style=filled]
+	"Louis2.Lucas" -> "Angelique.Aquin" [color=grey style=dashed]
+	"Louis2.Lucas" [label="Louis
+Lucas" color=lightblue shape=box style=filled]
+	"Marie-Anne.Rousseau" -> "Louis2.Lucas" [color=pink style=solid]
+	"Francois.Lucas" -> "Louis2.Lucas" [color=lightblue style=solid]
+	"Angelique.Aquin" -> "Louis2.Lucas" [color=grey style=dashed]
+	"Angelique.Cote" [label="Angelique
+Cote" color=deeppink shape=box style=filled]
+	"Pierre-Francois.Rousseau" -> "Angelique.Cote" [color=grey style=dashed]
+	"Pierre-Francois.Rousseau" [label="Pierre-Francois
+Rousseau" color=lightblue shape=box style=filled]
+	"Charlotte.Frechette" -> "Pierre-Francois.Rousseau" [color=pink style=solid]
+	"Pierre2.Rousseau" -> "Pierre-Francois.Rousseau" [color=lightblue style=solid]
+	"Angelique.Cote" -> "Pierre-Francois.Rousseau" [color=grey style=dashed]
+	"Charlotte.Frechette" [label="Charlotte
+Frechette" color=deeppink shape=box style=filled]
+	"Pierre2.Rousseau" -> "Charlotte.Frechette" [color=grey style=dashed]
+	"Antoine.Nadeau" -> "Charlotte.Frechette" [color=grey style=dashed]
+	"Antoine.Nadeau" [label="Antoine
+Nadeau" color=pink shape=box style=filled]
+	"Charlotte.Frechette" -> "Antoine.Nadeau" [color=grey style=dashed]
+	"Pierre2.Rousseau" [label="Pierre
+Rousseau" color=lightblue shape=box style=filled]
+	"Marguerite.Guillebourg" -> "Pierre2.Rousseau" [color=pink style=solid]
+	"Jacques.Rousseau" -> "Pierre2.Rousseau" [color=lightblue style=solid]
+	"Charlotte.Frechette" -> "Pierre2.Rousseau" [color=grey style=dashed]
 	I612 [label="Jean-Sébastien
 Laguë" color=lightblue shape=box style=filled]
 	I606 -> I612 [color=pink style=solid]
@@ -936,14 +944,6 @@ Giasson" color=lightblue shape=box style=filled]
 Laguë" color=lightblue shape=box style=filled]
 	"Anne-Marie.Dubreuil" -> I605 [color=pink style=solid]
 	"Jean-Paul.Laguë" -> I605 [color=lightblue style=solid]
-	"Anne-Marie.Dubreuil" [label="Anne-Marie
-Dubreuil" color=pink shape=box style=filled]
-	I118 -> "Anne-Marie.Dubreuil" [color=pink style=solid]
-	I117 -> "Anne-Marie.Dubreuil" [color=lightblue style=solid]
-	"Jean-Paul.Laguë" -> "Anne-Marie.Dubreuil" [color=grey style=dashed]
-	"Jean-Paul.Laguë" [label="Jean-Paul
-Laguë" color=deepskyblue shape=box style=filled]
-	"Anne-Marie.Dubreuil" -> "Jean-Paul.Laguë" [color=grey style=dashed]
 	"Benjamin.Francoeur" [label="Benjamin
 Francoeur" color=lightblue shape=box style=filled]
 	"Lucy Pearl.Stevenson" -> "Benjamin.Francoeur" [color=pink style=solid]
