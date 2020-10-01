@@ -1,5 +1,6 @@
 from common import analysis
 from common import data
+from common import file
 from common import text
 from common import visual
 from common.constant import constant
@@ -12,7 +13,14 @@ Prerequisites:
 """
 
 
-def run(json_objects):
+def run():
+    # Get data from JSON files
+    filenames = file.get_filenames(constant.DATA)
+    json_objects = data.get_json_objects(filenames)
+
+    # Augment data with children
+    json_objects = analysis.add_children(json_objects)
+
     # Initialize graph
     graph = Digraph(name=constant.__project__, filename=f'data/{constant.__project__.lower()}.gv', format='png')
     graph.attr(rankdir=constant.RANK_DIRECTION)

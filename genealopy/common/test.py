@@ -1,5 +1,6 @@
 from common import analysis
-from common import text
+from common import data
+from common import file
 from common.constant import constant
 from common.datetime_ import datetime_
 
@@ -8,7 +9,14 @@ import inspect
 import json
 
 
-def run(json_objects):
+def run():
+    # Get data from JSON files
+    filenames = file.get_filenames(constant.DATA_ALL)
+    json_objects = data.get_json_objects(filenames)
+
+    # Augment data with children
+    json_objects = analysis.add_children(json_objects)
+
     # Unit tests test_get_shortest_path function
     print('Unit tests:')
     start = datetime.datetime.now()
@@ -24,8 +32,24 @@ def run(json_objects):
     print('\n')
 
 
+def get_function_name():
+    function_name = inspect.currentframe().f_back.f_back.f_code.co_name
+
+    return function_name
+
+
+def print_result(result, actual, expected, parameters=''):
+    print(f"{result} ← {get_function_name()}({parameters})")
+
+    if result is False:
+        print(f'→ Actual: {actual}')
+        print(f'→ Expected: {expected}')
+
+    print('\n')
+
+
 def test_add_children():
-    dictionary = {
+    actual = {
         "a": {
             "relationship": {
                 "b": {"type": "mother"},
@@ -55,7 +79,7 @@ def test_add_children():
             }
         }
     }
-    dictionary = analysis.add_children(dictionary)
+    actual = analysis.add_children(actual)
     expected = {
         "a": {
             "relationship": {
@@ -90,17 +114,11 @@ def test_add_children():
             }
         }
     }
-    result = dictionary == expected
-    function_name = inspect.currentframe().f_code.co_name
-    print(f"{result} <= {function_name}([a, b, c, d, e])")
+    result = actual == expected
+    print_result(result, actual, expected, '[a, b, c, d, e]')
 
 
 def test_get_shortest_path(json_objects, start, end, expected):
-    shortest_path = analysis.get_shortest_path(json_objects, start, end)
-
-    if constant.DEBUG:
-        print(shortest_path)
-
-    result = shortest_path in expected
-    function_name = inspect.currentframe().f_code.co_name
-    print(f"{result} <= {function_name}('{start}', '{end}')")
+    actual = analysis.get_shortest_path(json_objects, start, end)
+    result = actual == expected
+    print_result(result, actual, expected, f"'{start}', '{end}'")

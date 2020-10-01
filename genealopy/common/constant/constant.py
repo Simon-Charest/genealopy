@@ -41,6 +41,7 @@ __status__ = 'Developement'
 __version__ = '2.0.0'
 
 # Data files
+DATA_ALL = ['data/**/*.json']
 DATA = [
     # Laguë
     'data/Laguë/far_ascendance/*.json',  # Marie-Anne Lucas dit Francoeur's ascendance
