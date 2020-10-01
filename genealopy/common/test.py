@@ -18,6 +18,7 @@ def run():
     json_objects = analysis.add_children(json_objects)
 
     # Unit tests test_get_shortest_path function
+    # TODO: Fix unit tests
     print('Unit tests:')
     start = datetime.datetime.now()
     test_add_children()
@@ -32,8 +33,15 @@ def run():
     print('\n')
 
 
-def get_function_name():
-    function_name = inspect.currentframe().f_back.f_back.f_code.co_name
+def get_function_name(back=2):
+    # Goes back to function, by default
+
+    frame = inspect.currentframe()
+
+    for x in range(0, back):
+        frame = frame.f_back
+
+    function_name = frame.f_code.co_name
 
     return function_name
 
