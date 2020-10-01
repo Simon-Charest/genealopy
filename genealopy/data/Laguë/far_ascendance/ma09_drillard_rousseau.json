@@ -1,0 +1,22 @@
+{
+  "Marie.Drillard": {
+    "first_name": "Marie",
+    "last_name": "Drillard",
+    "gender": "F",
+    "complete": false,
+    "relationship": {
+      "Pierre.Rousseau": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=37743"
+  },
+  "Pierre.Rousseau": {
+    "first_name": "Pierre",
+    "last_name": "Rousseau",
+    "gender": "M",
+    "complete": false,
+    "relationship": {
+      "Marie.Drillard": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=37743"
+  }
+}

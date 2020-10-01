@@ -26,6 +26,7 @@
     "first_name": "Marie-Veronique",
     "last_name": "Robillard",
     "gender": "F",
+    "family": false,
     "relationship": {
       "Joseph.Tabault": { "type": "union" }
     },

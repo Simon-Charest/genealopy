@@ -1,0 +1,22 @@
+{
+  "Jeanne.Brassard": {
+    "first_name": "Jeanne",
+    "last_name": "Brassard",
+    "gender": "F",
+    "complete": false,
+    "relationship": {
+      "Jean.Abraham": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=75237"
+  },
+  "Jean.Abraham": {
+    "first_name": "Jean",
+    "last_name": "Abraham",
+    "gender": "M",
+    "complete": false,
+    "relationship": {
+      "Jeanne.Brassard": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=75237"
+  }
+}

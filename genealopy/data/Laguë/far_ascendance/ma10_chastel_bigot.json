@@ -1,0 +1,22 @@
+{
+  "Thomine.Chastel": {
+    "first_name": "Thomine",
+    "last_name": "Chastel",
+    "gender": "F",
+    "complete": false,
+    "relationship": {
+      "Jean.Bigot": { "type": "other" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=32718"
+  },
+  "Jean.Bigot": {
+    "first_name": "Jean",
+    "last_name": "Bigot",
+    "gender": "M",
+    "complete": false,
+    "relationship": {
+      "Thomine.Chastel": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=32718"
+  }
+}

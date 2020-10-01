@@ -3,6 +3,7 @@
     "first_name": "Olivine",
     "last_name": "Chantal",
     "gender": "F",
+    "complete": false,
     "relationship": {
       "Jean-Baptiste.Lucas": { "type": "union" },
       "Michel-Jeremie.Boudrias": { "type": "union" }

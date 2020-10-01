@@ -1,0 +1,24 @@
+{
+  "Charlotte.Frechette": {
+    "first_name": "Charlotte",
+    "last_name": "Frechette",
+    "gender": "F",
+    "relationship": {
+      "Marie-Marguerite.Bergeron": { "type": "mother" },
+      "Francois.Frechette": { "type": "father" },
+      "Pierre2.Rousseau": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=91706"
+  },
+  "Pierre2.Rousseau": {
+    "first_name": "Pierre",
+    "last_name": "Rousseau",
+    "gender": "M",
+    "relationship": {
+      "Marguerite.Guillebourg": { "type": "mother" },
+      "Jacques.Rousseau": { "type": "father" },
+      "Charlotte.Frechette": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=37774"
+  }
+}

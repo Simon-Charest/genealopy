@@ -1,9 +1,11 @@
 {
   "Jeanne.DeVoisy": {
     "first_name": "Jeanne",
-    "last_name": "DeVoisy",
+    "last_name": "DeVoisy Roussy",
     "gender": "F",
     "relationship": {
+      "Jeanne.Gardony": { "type": "mother" },
+      "Barthelemy.De Voisy": { "type": "father" },
       "Nicolas.Pelletier": { "type": "union" }
     },
     "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=8615"

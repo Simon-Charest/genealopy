@@ -1,0 +1,46 @@
+{
+  "Madeleine.Auzou": {
+    "first_name": "Madeleine",
+    "last_name": "Auzou",
+    "gender": "F",
+    "relationship": {
+      "Elisabeth.Martin": { "type": "mother" },
+      "Jean.Auzou": { "type": "father" },
+      "Rene-Antoine.Lafaye": { "type": "union" },
+      "Antoine.Fournier": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=110279"
+  },
+  "Antoine.Fournier": {
+    "first_name": "Antoine",
+    "last_name": "Fournier",
+    "gender": "M",
+    "family": false,
+    "relationship": {
+      "Madeleine.Auzou": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=110279"
+  },
+  "Rene-Antoine.Lafaye": {
+    "first_name": "Rene-Antoine",
+    "last_name": "Lafaye",
+    "gender": "M",
+    "relationship": {
+      "Judith.Guyon": { "type": "mother" },
+      "Jacques.Lafaye": { "type": "father" },
+      "Madeleine.Auzou": { "type": "union" },
+      "Francoise.Courault": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=110278"
+  },
+  "Francoise.Courault": {
+    "first_name": "Francoise",
+    "last_name": "Courault",
+    "gender": "F",
+    "family": false,
+    "relationship": {
+      "Rene-Antoine.Lafaye": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=110278"
+  }
+}

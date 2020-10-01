@@ -1,0 +1,22 @@
+{
+  "Elisabeth.Martin": {
+    "first_name": "Elisabeth",
+    "last_name": "Martin",
+    "gender": "F",
+    "complete": false,
+    "relationship": {
+      "Jean.Auzou": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=59556"
+  },
+  "Jean.Auzou": {
+    "first_name": "Jean",
+    "last_name": "Auzou (Ozou)",
+    "gender": "M",
+    "complete": false,
+    "relationship": {
+      "Elisabeth.Martin": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=59555"
+  }
+}

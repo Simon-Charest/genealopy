@@ -4,6 +4,8 @@
     "last_name": "Lafaye",
     "gender": "F",
     "relationship": {
+      "Madeleine.Auzou": { "type": "mother" },
+      "Rene-Antoine.Lafaye": { "type": "father" },
       "Michel.Brabant": { "type": "union" }
     },
     "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=59865"

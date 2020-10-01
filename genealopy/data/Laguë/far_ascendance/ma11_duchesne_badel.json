@@ -1,0 +1,24 @@
+{
+  "Barbe.Duchesne": {
+    "first_name": "Barbe",
+    "last_name": "Duchesne",
+    "gender": "F",
+    "relationship": {
+      "Claude.Laval": { "type": "mother" },
+      "Claude.Duchesne": { "type": "father" },
+      "Andre.Badel": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=8491"
+  },
+  "Andre.Badel": {
+    "first_name": "Andre",
+    "last_name": "Badel",
+    "gender": "M",
+    "relationship": {
+      "Perette.Marmaute": { "type": "mother" },
+      "Etienne.Badel": { "type": "father" },
+      "Barbe.Duchesne": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=8490"
+  }
+}

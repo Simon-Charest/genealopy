@@ -1,0 +1,23 @@
+{
+  "Perette.Marmaute": {
+    "first_name": "Perette",
+    "last_name": "Marmaute Marmaut Mermoud",
+    "gender": "F",
+    "complete": false,
+    "relationship": {
+      "Etienne.Badel": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=8492"
+  },
+  "Etienne.Badel": {
+    "first_name": "Etienne",
+    "last_name": "Badel dit Lamarche",
+    "gender": "M",
+    "complete": false,
+    "relationship": {
+      "Julien.Badel": { "type": "father" },
+      "Perette.Marmaute": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=8493"
+  }
+}

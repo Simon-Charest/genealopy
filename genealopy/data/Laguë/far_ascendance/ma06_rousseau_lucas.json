@@ -4,6 +4,8 @@
     "last_name": "Rousseau",
     "gender": "F",
     "relationship": {
+      "Angelique.Cote": { "type": "mother" },
+      "Pierre-Francois.Rousseau": { "type": "father" },
       "Francois.Lucas": { "type": "union" }
     },
     "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=231724"

@@ -1,0 +1,22 @@
+{
+  "Jeanne.Hilleray": {
+    "first_name": "Jeanne",
+    "last_name": "Hilleray",
+    "gender": "F",
+    "complete": false,
+    "relationship": {
+      "Luc.Guillon": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=110284"
+  },
+  "Luc.Guillon": {
+    "first_name": "Luc",
+    "last_name": "Guillon",
+    "gender": "M",
+    "complete": false,
+    "relationship": {
+      "Jeanne.Hilleray": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=110284"
+  }
+}

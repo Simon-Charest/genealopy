@@ -1,0 +1,24 @@
+{
+  "Marguerite.Guillebourg": {
+    "first_name": "Marguerite",
+    "last_name": "Guillebourg",
+    "gender": "F",
+    "relationship": {
+      "Francoise.Bigot": { "type": "mother" },
+      "Charles.Guillebourg": { "type": "father" },
+      "Jacques.Rousseau": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=894310"
+  },
+  "Jacques.Rousseau": {
+    "first_name": "Jacques",
+    "last_name": "Rousseau",
+    "gender": "M",
+    "relationship": {
+      "Marie.Drillard": { "type": "mother" },
+      "Pierre.Rousseau": { "type": "father" },
+      "Marguerite.Guillebourg": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=37743"
+  }
+}
