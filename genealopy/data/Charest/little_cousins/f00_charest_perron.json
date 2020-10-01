@@ -5,9 +5,20 @@
     "gender": "M",
     "relationship": {
       "Lise.Charest": { "type": "mother" },
-      "Marc.Perron": { "type": "father" }
+      "Marc.Perron": { "type": "father" },
+      "(inconnue)": { "type": "union" }
     },
     "source" : "Famille Charest"
+  },
+  "(inconnue)": {
+    "first_name": "",
+    "last_name": "",
+    "gender": "F",
+    "family": false,
+    "relationship": {
+      "Luc.Perron": { "type": "union" }
+    },
+    "source" : "Valerie Charest"
   },
   "David.Perron": {
     "first_name": "David",

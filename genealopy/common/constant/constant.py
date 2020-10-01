@@ -42,6 +42,7 @@ __version__ = '2.0.0'
 
 # Data files
 DATA = [
+    # Charest
     'data/Charest/far_ascendance/*.json',  # Delphis Charest's ascendance
     'data/Charest/tanguay_charest_siblings/*.json',  # Delphis Charest's siblings
     'data/Charest/dion_charette_ascendance/*.json',  # Aurèle Charette (Charest-Charette)'s ascendance
@@ -49,9 +50,11 @@ DATA = [
     'data/Charest/little_cousin_descendance/*.json',  # Clément Charest siblings' descendance
     'data/Tremblay/*.json',  # Rita Lacombe Tremblay's ascendance
     'data/Charest/*.json',
+    'data/Charest/descendance/*.json',
+
+    # Laguë
     'data/Laguë/*.json',  # Suzanne Laguë's ascendance
-    'data/0?_lague_charest.json',
-    'data/Charest/descendance/*.json'
+    'data/0?_lague_charest.json'
 ]
 """
 Filenames examples:

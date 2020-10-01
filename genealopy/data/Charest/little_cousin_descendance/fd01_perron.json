@@ -1,0 +1,22 @@
+{
+  "Perron1": {
+    "first_name": "",
+    "last_name": "",
+    "gender": "M",
+    "relationship": {
+	  "(inconnue)": { "type": "mother" },
+	  "Luc.Perron": { "type": "father" }
+	},
+    "source" : "Valerie Charest"
+  },
+  "Perron2": {
+    "first_name": "",
+    "last_name": "",
+    "gender": "F",
+    "relationship": {
+	  "(inconnue)": { "type": "mother" },
+	  "Luc.Perron": { "type": "father" }
+	},
+    "source" : "Valerie Charest"
+  }
+}
