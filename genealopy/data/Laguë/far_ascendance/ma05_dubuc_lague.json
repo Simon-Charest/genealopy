@@ -1,0 +1,34 @@
+{
+  "Clémence.Dubuc": {
+    "first_name": "Clémence",
+    "last_name": "Dubuc",
+    "gender": "F",
+    "complete": false,
+    "relationship": {
+      "Edmond.Laguë": { "type": "union" }
+    },
+    "source" : "https://www.retronicdesign.com/genealogie/individual.php?pid=I661&ged=gradel&tab=0"
+  },
+  "Edmond.Laguë": {
+    "first_name": "Edmond",
+    "last_name": "Laguë",
+    "gender": "M",
+    "relationship": {
+      "Joséphine.Choinière": { "type": "mother" },
+      "Joseph.Laguë": { "type": "father" },
+      "Clémence.Dubuc": { "type": "union" },
+      "Henriette.Brossard": { "type": "union" }
+    },
+    "source" : "https://www.retronicdesign.com/genealogie/individual.php?pid=I660"
+  },
+  "Henriette.Brossard": {
+    "first_name": "Henriette",
+    "last_name": "Brossard",
+    "gender": "F",
+    "family": false,
+    "relationship": {
+      "Edmond.Laguë": { "type": "union" }
+    },
+    "source" : "https://www.retronicdesign.com/genealogie/individual.php?pid=I733"
+  }
+}

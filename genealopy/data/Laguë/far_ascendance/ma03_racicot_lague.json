@@ -1,0 +1,24 @@
+{
+  "Alice.Racicot": {
+    "first_name": "Alice",
+    "last_name": "Racicot",
+    "gender": "F",
+    "relationship": {
+      "Marie-Louise.Colette": { "type": "mother" },
+      "Albert Gustave.Racicot": { "type": "father" },
+      "Georges Henri.Laguë": { "type": "union" }
+    },
+    "source" : "https://www.retronicdesign.com/genealogie/individual.php?pid=I544"
+  },
+  "Georges Henri.Laguë": {
+    "first_name": "Georges Henri",
+    "last_name": "Laguë",
+    "gender": "M",
+    "relationship": {
+      "Marie-Louise.Baillargeon": { "type": "mother" },
+      "Alphonse.Laguë": { "type": "father" },
+      "Alice.Racicot": { "type": "union" }
+    },
+    "source" : "https://www.retronicdesign.com/genealogie/individual.php?pid=I543"
+  }
+}

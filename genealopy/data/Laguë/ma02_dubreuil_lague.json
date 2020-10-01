@@ -31,8 +31,13 @@
 	  "place": "Montréal, Québec, Canada"
     },
     "relationship": {
+      "Alice.Racicot": { "type": "mother" },
+      "Georges Henri.Laguë": { "type": "father" },
       "Anne-Marie.Dubreuil": { "type": "union", "start": null, "end": null }
     },
-    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=772926"
+    "source" : [
+      "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=772926",
+      "https://www.mesaieux.com/Avis-de-deces/Jean%2DPaul%2DLAGUE/275140"
+    ]
   }
 }

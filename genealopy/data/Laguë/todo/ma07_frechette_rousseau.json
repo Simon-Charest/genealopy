@@ -5,7 +5,7 @@
     "gender": "F",
     "relationship": {
       "Marie-Marguerite.Bergeron": { "type": "mother" },
-      "Francois.Frechette": { "type": "father" },
+      "Francois2.Frechette": { "type": "father" },
       "Pierre2.Rousseau": { "type": "union" },
       "Antoine.Nadeau": { "type": "union" }
     },

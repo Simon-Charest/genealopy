@@ -1,0 +1,22 @@
+{
+  "Marie-Louise.Colette": {
+    "first_name": "Marie-Louise",
+    "last_name": "Colette",
+    "gender": "F",
+    "complete": false,
+    "relationship": {
+      "Albert Gustave.Racicot": { "type": "union" }
+    },
+    "source" : "https://www.retronicdesign.com/genealogie/individual.php?pid=I595"
+  },
+  "Albert Gustave.Racicot": {
+    "first_name": "Albert Gustave",
+    "last_name": "Racicot",
+    "gender": "M",
+    "complete": false,
+    "relationship": {
+      "Marie-Louise.Colette": { "type": "union" }
+    },
+    "source" : "https://www.retronicdesign.com/genealogie/individual.php?pid=I593"
+  }
+}

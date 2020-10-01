@@ -1,0 +1,31 @@
+{
+  "Marie-Marguerite.Bergeron": {
+    "first_name": "Marie-Marguerite",
+    "last_name": "Bergeron",
+    "gender": "F",
+    "relationship": {
+      "Francois2.Frechette": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=1090950"
+  },
+  "Francois2.Frechette": {
+    "first_name": "Francois",
+    "last_name": "Frechette",
+    "gender": "M",
+    "relationship": {
+      "Marie-Marguerite.Bergeron": { "type": "union" },
+      "Marie-Madeleine.Cochu": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=1090951"
+  },
+  "Marie-Madeleine.Cochu": {
+    "first_name": "Marie-Madeleine",
+    "last_name": "Cochu",
+    "gender": "F",
+    "family": false,
+    "relationship": {
+      "Francois2.Frechette": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=37752"
+  }
+}
