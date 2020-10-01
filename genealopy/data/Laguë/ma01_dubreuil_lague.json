@@ -39,9 +39,11 @@
     "gender": "M",
     "family": false,
     "relationship": {
+      "Agnès.Joye": { "type": "mother" },
+      "Fernand.Gradel": { "type": "father" },
       "I19": { "type": "union", "start": null, "end": null }
     },
-    "source" : "https://www.retronicdesign.com/genealogie/individual.php?ged=gradel&pid="
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=772925"
   },
   "I601": {
     "first_name": "Richard",

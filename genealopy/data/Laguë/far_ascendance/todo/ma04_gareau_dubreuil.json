@@ -8,6 +8,8 @@
     },
 	"death": null,
     "relationship": {
+      "Christine.Brunet": { "type": "mother" },
+      "Toussaint.Gareau": { "type": "father" },
       "I585": { "type": "union" }
     },
     "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=429562"

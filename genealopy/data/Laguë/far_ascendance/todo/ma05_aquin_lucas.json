@@ -4,6 +4,8 @@
     "last_name": "Aquin",
     "gender": "F",
     "relationship": {
+      "Angelique.Legault": { "type": "mother" },
+      "Joseph.Aquin": { "type": "father" },
       "Louis2.Lucas": { "type": "union" }
     },
     "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=232157"

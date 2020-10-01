@@ -144,6 +144,13 @@ def has_parents(json_objects, key):
 
     return mother and father
 
+    # TODO: Simplify this algorithm
+    # relationships = json_objects[key]['relationship']
+    #
+    #     # Check if both parents are present in relationships
+    #     return 'mother' in json_objects[key]['relationship'] and 'father' in json_objects[key]['relationship']\
+    #            and id_ in json_objects  # Check if parent node is in graph
+
 
 def is_complete(value):
     if 'complete' in value:

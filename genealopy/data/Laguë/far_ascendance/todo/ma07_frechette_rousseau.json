@@ -6,7 +6,18 @@
     "relationship": {
       "Marie-Marguerite.Bergeron": { "type": "mother" },
       "Francois.Frechette": { "type": "father" },
-      "Pierre2.Rousseau": { "type": "union" }
+      "Pierre2.Rousseau": { "type": "union" },
+      "Antoine.Nadeau": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=91706"
+  },
+  "Antoine.Nadeau": {
+    "first_name": "Antoine",
+    "last_name": "Nadeau",
+    "gender": "F",
+    "family": false,
+    "relationship": {
+      "Charlotte.Frechette": { "type": "union" }
     },
     "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=91706"
   },
