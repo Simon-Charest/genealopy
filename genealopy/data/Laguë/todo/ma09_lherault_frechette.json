@@ -18,13 +18,24 @@
       "Marie.Bélin": { "type": "mother" },
       "Etienne.Frechet": { "type": "father" },
       "Anne.L'Herault": { "type": "union" },
-      "Catherine.Méliot": { "type": "union" }
+      "Catherine.Méliot": { "type": "union" },
+      "Suzanne.Métayer": { "type": "union" }
     },
     "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=37796"
   },
   "Catherine.Méliot": {
     "first_name": "Catherine",
     "last_name": "Méliot",
+    "gender": "F",
+    "family": false,
+    "relationship": {
+      "Francois.Frechette": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=37796"
+  },
+  "Suzanne.Métayer": {
+    "first_name": "Suzanne",
+    "last_name": "Métayer",
     "gender": "F",
     "family": false,
     "relationship": {

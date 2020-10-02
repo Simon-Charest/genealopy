@@ -1,0 +1,24 @@
+{
+  "Jeanne.Voidy": {
+    "first_name": "Jeanne",
+    "last_name": "Voidy Voidi",
+    "gender": "F",
+    "relationship": {
+      "Catherine.Dorbelle": { "type": "mother" },
+      "Michel.Vedie": { "type": "father" },
+      "Jean2.Dumais": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=21723"
+  },
+  "Jean2.Dumais": {
+    "first_name": "Jean",
+    "last_name": "Dumais Dumets",
+    "gender": "M",
+    "relationship": {
+      "Barbe.Maugis": { "type": "mother" },
+      "Jean.Dumais": { "type": "father" },
+      "Jeanne.Voidy": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=21722"
+  }
+}

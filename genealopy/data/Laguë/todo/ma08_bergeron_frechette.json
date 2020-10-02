@@ -4,6 +4,8 @@
     "last_name": "Bergeron",
     "gender": "F",
     "relationship": {
+      "Marguerite.Dumais": { "type": "mother" },
+      "Andre.Bergeron": { "type": "father" },
       "Francois2.Frechette": { "type": "union" }
     },
     "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=1090950"

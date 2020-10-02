@@ -1,0 +1,22 @@
+{
+  "Marie.Bélin": {
+    "first_name": "Marie",
+    "last_name": "Bélin",
+    "gender": "F",
+    "complete": false,
+    "relationship": {
+      "Etienne.Frechet": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=37796"
+  },
+  "Etienne.Frechet": {
+    "first_name": "Etienne",
+    "last_name": "Frechet",
+    "gender": "M",
+    "complete": false,
+    "relationship": {
+      "Marie.Bélin": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=37796"
+  }
+}

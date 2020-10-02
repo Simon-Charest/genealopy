@@ -1,0 +1,22 @@
+{
+  "Catherine.Dorbelle": {
+    "first_name": "Catherine",
+    "last_name": "Dorbelle",
+    "gender": "F",
+    "complete": false,
+    "relationship": {
+      "Michel.Vedie": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=21723"
+  },
+  "Michel.Vedie": {
+    "first_name": "Michel",
+    "last_name": "Vedie",
+    "gender": "M",
+    "complete": false,
+    "relationship": {
+      "Catherine.Dorbelle": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=21723"
+  }
+}
