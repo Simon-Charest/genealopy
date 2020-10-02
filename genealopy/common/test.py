@@ -37,7 +37,7 @@ def get_function_name(back=2):
 
     frame = inspect.currentframe()
 
-    for x in range(0, back):
+    for _ in range(0, back):
         frame = frame.f_back
 
     function_name = frame.f_code.co_name
