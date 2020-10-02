@@ -1,0 +1,22 @@
+{
+  "Marie-Jacqueline.Frerot": {
+    "first_name": "Marie-Jacqueline",
+    "last_name": "Frerot",
+    "gender": "F",
+    "complete": false,
+    "relationship": {
+      "Jacques.Allard": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=779871"
+  },
+  "Jacques.Allard": {
+    "first_name": "Jacques",
+    "last_name": "Allard",
+    "gender": "M",
+    "complete": false,
+    "relationship": {
+      "Marie-Jacqueline.Frerot": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?&pid=779871"
+  }
+}

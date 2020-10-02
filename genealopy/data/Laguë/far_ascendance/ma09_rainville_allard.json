@@ -1,0 +1,35 @@
+{
+  "Genevieve.Rainville": {
+    "first_name": "Genevieve",
+    "last_name": "Rainville",
+    "gender": "F",
+    "relationship": {
+      "Marie-Anne-Louise.Roberge": { "type": "mother" },
+      "Paul.Rainville": { "type": "father" },
+      "Jean-Baptiste2.Allard": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=1062957"
+  },
+  "Jean-Baptiste2.Allard": {
+    "first_name": "Jean-Baptiste",
+    "last_name": "Allard",
+    "gender": "M",
+    "relationship": {
+      "Anne-Elisabeth.Pageau": { "type": "mother" },
+      "Jean-Baptiste.Allard": { "type": "father" },
+      "Genevieve.Rainville": { "type": "union" },
+      "Marie-Clothilde.Plante": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?&pid=1062956"
+  },
+  "Marie-Clothilde.Plante": {
+    "first_name": "Marie-Clothilde",
+    "last_name": "Plante",
+    "gender": "F",
+    "family": false,
+    "relationship": {
+      "Jean-Baptiste2.Allard": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=1062956"
+  }
+}

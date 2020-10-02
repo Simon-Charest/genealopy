@@ -1,0 +1,24 @@
+{
+  "Anne-Elisabeth.Pageau": {
+    "first_name": "Anne-Elisabeth",
+    "last_name": "Pageau",
+    "gender": "F",
+    "relationship": {
+      "Marie-Catherine.Roy": { "type": "mother" },
+      "Thomas.Pageau": { "type": "father" },
+      "Jean-Baptiste.Allard": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=420141"
+  },
+  "Jean-Baptiste.Allard": {
+    "first_name": "Jean-Baptiste",
+    "last_name": "Allard",
+    "gender": "M",
+    "relationship": {
+      "Marie-Jeanne.Languille": { "type": "mother" },
+      "Francois.Allard": { "type": "father" },
+      "Anne-Elisabeth.Pageau": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?&pid=420696"
+  }
+}

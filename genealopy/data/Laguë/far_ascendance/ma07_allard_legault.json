@@ -1,0 +1,24 @@
+{
+  "Archange.Allard": {
+    "first_name": "Archange",
+    "last_name": "Allard",
+    "gender": "F",
+    "relationship": {
+      "Marguerite.Legault": { "type": "mother" },
+      "Michel.Allard": { "type": "father" },
+      "Toussaint.Legault": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=78049"
+  },
+  "Toussaint.Legault": {
+    "first_name": "Toussaint",
+    "last_name": "Legault",
+    "gender": "M",
+    "relationship": {
+      "Clemence.Brisebois": { "type": "mother" },
+      "Pierre.Legault": { "type": "father" },
+      "Archange.Allard": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?&pid=78048"
+  }
+}

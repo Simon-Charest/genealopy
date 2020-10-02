@@ -1,0 +1,27 @@
+{
+  "Marie-Jeanne.Languille": {
+    "first_name": "Marie-Jeanne",
+    "last_name": "Languille Anguille",
+    "gender": "F",
+    "relationship": {
+      "Etiennette.Toucherain": { "type": "mother" },
+      "Michel.Languille": { "type": "father" },
+      "Jean-Baptiste.Allard": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=779872"
+  },
+  "Francois.Allard": {
+    "first_name": "Francois",
+    "last_name": "Allard",
+    "gender": "M",
+    "relationship": {
+      "Marie-Jacqueline.Frerot": { "type": "mother" },
+      "Jacques.Allard": { "type": "father" },
+      "Marie-Jeanne.Languille": { "type": "union" }
+    },
+    "source" : [
+      "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?&pid=779871",
+      "https://www.nosorigines.qc.ca/biography.aspx?id=779871"
+    ]
+  }
+}
