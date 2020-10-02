@@ -1,0 +1,22 @@
+{
+  "Claude.Fayenne": {
+    "first_name": "Claude",
+    "last_name": "Fayenne",
+    "gender": "F",
+    "complete": false,
+    "relationship": {
+      "Francois3.Dubois": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=1671"
+  },
+  "Francois3.Dubois": {
+    "first_name": "Francois",
+    "last_name": "Dubois",
+    "gender": "M",
+    "complete": false,
+    "relationship": {
+      "Claude.Fayenne": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=1671"
+  }
+}

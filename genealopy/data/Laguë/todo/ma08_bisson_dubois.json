@@ -1,0 +1,24 @@
+{
+  "Marie.Bisson": {
+    "first_name": "Marie-Angélique",
+    "last_name": "Bisson Buisson",
+    "gender": "F",
+    "relationship": {
+      "Ursule.Trut": { "type": "mother" },
+      "Antoine.Bisson": { "type": "father" },
+      "Jean-Baptiste.Dubois": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=54125"
+  },
+  "Jean-Baptiste.Dubois": {
+    "first_name": "Jean-Baptiste",
+    "last_name": "Dubois dit Lafrance",
+    "gender": "M",
+    "relationship": {
+      "Anne.Guillaume": { "type": "mother" },
+      "Francois4.Dubois": { "type": "father" },
+      "Marie.Bisson": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=54126"
+  }
+}

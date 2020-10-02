@@ -1,0 +1,22 @@
+{
+  "Marguerite.Guillin": {
+    "first_name": "Marguerite",
+    "last_name": "Guillin",
+    "gender": "F",
+    "complete": false,
+    "relationship": {
+      "René.L'Herault": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=20216"
+  },
+  "René.L'Herault": {
+    "first_name": "René",
+    "last_name": "L'Herault",
+    "gender": "M",
+    "complete": false,
+    "relationship": {
+      "Marguerite.Guillin": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=20216"
+  }
+}

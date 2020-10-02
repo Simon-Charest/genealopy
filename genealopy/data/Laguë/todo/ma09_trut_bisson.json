@@ -1,0 +1,24 @@
+{
+  "Ursule.Trut": {
+    "first_name": "Ursule",
+    "last_name": "Trut Tru",
+    "gender": "F",
+    "relationship": {
+      "Marguerite.Gareman": { "type": "mother" },
+      "Mathurin.Trut": { "type": "father" },
+      "Antoine.Bisson": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=18295"
+  },
+  "Antoine.Bisson": {
+    "first_name": "Antoine",
+    "last_name": "Bisson Buisson",
+    "gender": "M",
+    "relationship": {
+      "Marie.L'Herault": { "type": "mother" },
+      "Gervais.Bisson": { "type": "father" },
+      "Ursule.Trut": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=18294"
+  }
+}

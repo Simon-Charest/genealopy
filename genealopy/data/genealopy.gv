@@ -861,7 +861,9 @@ Rousseau" color=lightblue shape=box style=filled]
 	"Pierre2.Rousseau" -> "Pierre-Francois.Rousseau" [color=lightblue style=solid]
 	"Angelique.Cote" -> "Pierre-Francois.Rousseau" [color=grey style=dashed]
 	"Marie-Angelique.Dubois" [label="Marie-Angelique
-Dubois" color=deeppink shape=box style=filled]
+Dubois" color=pink shape=box style=filled]
+	"Marie.Bisson" -> "Marie-Angelique.Dubois" [color=pink style=solid]
+	"Jean-Baptiste.Dubois" -> "Marie-Angelique.Dubois" [color=lightblue style=solid]
 	"Jean-Baptiste.Cote" -> "Marie-Angelique.Dubois" [color=grey style=dashed]
 	"Jean-Baptiste.Cote" [label="Jean-Baptiste
 Cote" color=lightblue shape=box style=filled]
@@ -896,6 +898,16 @@ Frechette" color=lightblue shape=box style=filled]
 	"Marie-Madeleine.Cochu" [label="Marie-Madeleine
 Cochu" color=pink shape=box style=filled]
 	"Francois2.Frechette" -> "Marie-Madeleine.Cochu" [color=grey style=dashed]
+	"Marie.Bisson" [label="Marie-Angélique
+Bisson Buisson" color=pink shape=box style=filled]
+	"Ursule.Trut" -> "Marie.Bisson" [color=pink style=solid]
+	"Antoine.Bisson" -> "Marie.Bisson" [color=lightblue style=solid]
+	"Jean-Baptiste.Dubois" -> "Marie.Bisson" [color=grey style=dashed]
+	"Jean-Baptiste.Dubois" [label="Jean-Baptiste
+Dubois dit Lafrance" color=lightblue shape=box style=filled]
+	"Anne.Guillaume" -> "Jean-Baptiste.Dubois" [color=pink style=solid]
+	"Francois4.Dubois" -> "Jean-Baptiste.Dubois" [color=lightblue style=solid]
+	"Marie.Bisson" -> "Jean-Baptiste.Dubois" [color=grey style=dashed]
 	"Marie-Madeleine.Rondeau" [label="Marie-Madeleine
 Rondeau" color=pink shape=box style=filled]
 	"Andree.Remondiere" -> "Marie-Madeleine.Rondeau" [color=pink style=solid]
@@ -934,6 +946,16 @@ Cote" color=lightblue shape=box style=filled]
 	"Anne.Martin" -> "Noel.Cote" [color=pink style=solid]
 	"Jean.Cote" -> "Noel.Cote" [color=lightblue style=solid]
 	"Helene.Gratton" -> "Noel.Cote" [color=grey style=dashed]
+	"Anne.Guillaume" [label="Anne
+Guillaume" color=pink shape=box style=filled]
+	"Germaine.Ermolin" -> "Anne.Guillaume" [color=pink style=solid]
+	"Michel.Guillaume" -> "Anne.Guillaume" [color=lightblue style=solid]
+	"Francois4.Dubois" -> "Anne.Guillaume" [color=grey style=dashed]
+	"Francois4.Dubois" [label="Francois
+Lafrance-Dubois" color=lightblue shape=box style=filled]
+	"Claude.Fayenne" -> "Francois4.Dubois" [color=pink style=solid]
+	"Francois3.Dubois" -> "Francois4.Dubois" [color=lightblue style=solid]
+	"Anne.Guillaume" -> "Francois4.Dubois" [color=grey style=dashed]
 	"Anne.L'Herault" [label="Anne
 L'Herault Lereau" color=pink shape=box style=filled]
 	"Suzanne.Jaroussel" -> "Anne.L'Herault" [color=pink style=solid]
@@ -962,18 +984,50 @@ Rondeau" color=lightblue shape=box style=filled]
 	"Marie.Forestier" -> "Thomas.Rondeau" [color=pink style=solid]
 	"Jean.Rondeau" -> "Thomas.Rondeau" [color=lightblue style=solid]
 	"Andree.Remondiere" -> "Thomas.Rondeau" [color=grey style=dashed]
+	"Ursule.Trut" [label="Ursule
+Trut Tru" color=pink shape=box style=filled]
+	"Marguerite.Gareman" -> "Ursule.Trut" [color=pink style=solid]
+	"Mathurin.Trut" -> "Ursule.Trut" [color=lightblue style=solid]
+	"Antoine.Bisson" -> "Ursule.Trut" [color=grey style=dashed]
+	"Antoine.Bisson" [label="Antoine
+Bisson Buisson" color=lightblue shape=box style=filled]
+	"Marie.L'Herault" -> "Antoine.Bisson" [color=pink style=solid]
+	"Gervais.Bisson" -> "Antoine.Bisson" [color=lightblue style=solid]
+	"Ursule.Trut" -> "Antoine.Bisson" [color=grey style=dashed]
 	"Marie.Bélin" [label="Marie
 Bélin" color=pink shape=box style=filled]
 	"Etienne.Frechet" -> "Marie.Bélin" [color=grey style=dashed]
 	"Etienne.Frechet" [label="Etienne
 Frechet" color=lightblue shape=box style=filled]
 	"Marie.Bélin" -> "Etienne.Frechet" [color=grey style=dashed]
+	"Germaine.Ermolin" [label="Germaine
+Ermolin" color=pink shape=box style=filled]
+	"Michel.Guillaume" -> "Germaine.Ermolin" [color=grey style=dashed]
+	"Michel.Guillaume" [label="Michel
+Guillaume" color=lightblue shape=box style=filled]
+	"Germaine.Ermolin" -> "Michel.Guillaume" [color=grey style=dashed]
+	"Claude.Fayenne" [label="Claude
+Fayenne" color=pink shape=box style=filled]
+	"Francois3.Dubois" -> "Claude.Fayenne" [color=grey style=dashed]
+	"Francois3.Dubois" [label="Francois
+Dubois" color=lightblue shape=box style=filled]
+	"Claude.Fayenne" -> "Francois3.Dubois" [color=grey style=dashed]
 	"Marie.Forestier" [label="Marie
 Forestier" color=pink shape=box style=filled]
 	"Jean.Rondeau" -> "Marie.Forestier" [color=grey style=dashed]
 	"Jean.Rondeau" [label="Jean
 Rondeau" color=lightblue shape=box style=filled]
 	"Marie.Forestier" -> "Jean.Rondeau" [color=grey style=dashed]
+	"Marguerite.Gareman" [label="Marguerite
+Gareman" color=pink shape=box style=filled]
+	"Madeleine.Charlot" -> "Marguerite.Gareman" [color=pink style=solid]
+	"Pierre.Gareman" -> "Marguerite.Gareman" [color=lightblue style=solid]
+	"Mathurin.Trut" -> "Marguerite.Gareman" [color=grey style=dashed]
+	"Mathurin.Trut" [label="Mathurin
+Trut" color=lightblue shape=box style=filled]
+	"Simone.Grossin" -> "Mathurin.Trut" [color=pink style=solid]
+	"Jean.Trut" -> "Mathurin.Trut" [color=lightblue style=solid]
+	"Marguerite.Gareman" -> "Mathurin.Trut" [color=grey style=dashed]
 	"Suzanne.Jaroussel" [label="Suzanne
 Jaroussel Jarousseau" color=pink shape=box style=filled]
 	"Jacquette.Touraude" -> "Suzanne.Jaroussel" [color=pink style=solid]
@@ -994,6 +1048,13 @@ Remondiere" color=lightblue shape=box style=filled]
 	"Mathurin.Croiset" [label="Mathurin
 Croiset" color=lightblue shape=box style=filled]
 	"Renee.Lariviere" -> "Mathurin.Croiset" [color=grey style=dashed]
+	"Marie.L'Herault" [label="Marie
+L'Herault Lereau" color=pink shape=box style=filled]
+	"Marguerite.Guillin" -> "Marie.L'Herault" [color=pink style=solid]
+	"René.L'Herault" -> "Marie.L'Herault" [color=lightblue style=solid]
+	"Gervais.Bisson" [label="Gervais
+Bisson dit Saint-Come" color=lightblue shape=box style=filled]
+	"Marie.L'Herault" -> "Gervais.Bisson" [color=grey style=dashed]
 	"Catherine.Marchand" [label="Catherine
 Marchand" color=pink shape=box style=filled]
 	"Pierre.Bergeron" -> "Catherine.Marchand" [color=grey style=dashed]
@@ -1032,12 +1093,21 @@ Dorbelle" color=pink shape=box style=filled]
 	"Michel.Vedie" [label="Michel
 Vedie" color=lightblue shape=box style=filled]
 	"Catherine.Dorbelle" -> "Michel.Vedie" [color=grey style=dashed]
+	"Simone.Grossin" [label="Simone
+Grossin" color=pink shape=box style=filled]
+	"Jean.Trut" -> "Simone.Grossin" [color=grey style=dashed]
+	"Jean.Trut" [label="Jean
+Trut" color=lightblue shape=box style=filled]
+	"Simone.Grossin" -> "Jean.Trut" [color=grey style=dashed]
 	"Marguerite.Guillin" [label="Marguerite
 Guillin" color=pink shape=box style=filled]
-	"René.Lereau" -> "Marguerite.Guillin" [color=grey style=dashed]
+	"René.L'Herault" -> "Marguerite.Guillin" [color=grey style=dashed]
 	"René.Lereau" [label="René
 Lereau Leureau" color=lightblue shape=box style=filled]
 	"Marguerite.Guillin" -> "René.Lereau" [color=grey style=dashed]
+	"René.L'Herault" [label="René
+L'Herault" color=lightblue shape=box style=filled]
+	"Marguerite.Guillin" -> "René.L'Herault" [color=grey style=dashed]
 	"Marie.Loiselle" [label="Marie
 Loiselle" color=pink shape=box style=filled]
 	"Abraham.Cote" -> "Marie.Loiselle" [color=grey style=dashed]
