@@ -13,4 +13,3 @@ def print_statistics(node_count, edge_count, node_label='family member', edge_la
     print('Statistics:')
     print(f'{node_count} {pluralize(node_label)}')
     print(f'{edge_count} {pluralize(edge_label)}')
-    print('\n')

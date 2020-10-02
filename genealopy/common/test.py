@@ -29,7 +29,6 @@ def run():
     test_get_shortest_path(json_objects, 'Simon.Charest', 'Delphis.Charest', ['Simon.Charest', 'Michel.Charest', 'Clément.Charest', 'Delphis.Charest'])
     test_get_shortest_path(json_objects, 'Henriette.Charest', 'Jean-Baptiste3.Chorret Chaurette', ['Henriette.Charest', 'Delphis.Charest', 'Adélard.Charest', 'Joseph.Charette', 'Joseph.Chorret Chaurette', 'Jean-Baptiste3.Chorret Chaurette'])
     datetime_.print_execution_time(start)
-    print('\n')
 
 
 def get_function_name(back=2):
@@ -51,8 +50,6 @@ def print_result(result, actual, expected, parameters=''):
     if result is False:
         print(f'→ Actual: {actual}')
         print(f'→ Expected: {expected}')
-
-    print('\n')
 
 
 def test_add_children():
