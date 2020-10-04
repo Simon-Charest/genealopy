@@ -44,10 +44,10 @@ __version__ = '2.0.0'
 DATA_ALL = ['data/**/*.json']
 DATA = [
     # Laguë
-    'data/Laguë/far_ascendance/*.json',  # Marie-Anne Lucas dit Francoeur's ascendance
-    'data/Laguë/todo/*.json',  # Temporary
-    'data/Laguë/*.json',  # Suzanne Laguë's ascendance
-    'data/Laguë/descendance/*.json',
+    # 'data/Laguë/far_ascendance/*.json',  # Marie-Anne Lucas dit Francoeur's ascendance
+    # 'data/Laguë/todo/*.json',  # Temporary
+    # 'data/Laguë/*.json',  # Suzanne Laguë's ascendance
+    # 'data/Laguë/descendance/*.json',
 
     # Charest
     'data/Charest/far_ascendance/*.json',  # Delphis Charest's ascendance
