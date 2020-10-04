@@ -5,7 +5,7 @@
     "gender": "M",
     "relationship": {
 	  "Marie.Harvey": { "type": "mother" },
-	  "Joseph.Tremblay": { "type": "father" },
+	  "Joseph2.Tremblay": { "type": "father" },
       "Léotine.Turgeon": { "type": "union" }
     },
     "source": "data/Simon Charest.pdf"

@@ -1,5 +1,5 @@
 {
-  "Joseph.Tremblay": {
+  "Joseph2.Tremblay": {
     "first_name": "Joseph",
     "last_name": "Tremblay",
     "gender": "M",
@@ -17,7 +17,7 @@
     "relationship": {
 	  "Angeline.Perron": { "type": "mother" },
 	  "Désiré.Harvey": { "type": "father" },
-      "Joseph.Tremblay": { "type": "union" }
+      "Joseph2.Tremblay": { "type": "union" }
     },
     "source": "data/Simon Charest.pdf"
   }

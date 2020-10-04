@@ -6,7 +6,7 @@
     "relationship": {
       "Madeleine.Bouchard": { "type": "mother" },
       "François.Tremblay": { "type": "father" },
-      "Luce.Boily": { "type": "union" }
+      "Céleste.Boulianne": { "type": "union" }
     },
     "source": "data/Simon Charest.pdf"
   },

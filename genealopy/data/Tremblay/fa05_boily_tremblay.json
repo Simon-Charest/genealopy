@@ -8,7 +8,7 @@
       "Joseph.Tremblay": { "type": "father" },
       "Luce.Boily": { "type": "union" }
     },
-    "source": "data/Simon Charest.pdf"
+    "source": "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=1823107"
   },
   "Luce.Boily": {
     "first_name": "Luce",
@@ -17,6 +17,6 @@
     "relationship": {
       "Louis.Tremblay": { "type": "union" }
     },
-    "source": "data/Simon Charest.pdf"
+    "source": "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=1823108"
   }
 }
