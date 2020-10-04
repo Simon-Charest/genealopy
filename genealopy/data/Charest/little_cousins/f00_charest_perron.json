@@ -6,13 +6,13 @@
     "relationship": {
       "Lise.Charest": { "type": "mother" },
       "Marc.Perron": { "type": "father" },
-      "(inconnue)": { "type": "union" }
+      "Veronique.Lalande": { "type": "union" }
     },
     "source" : "Famille Charest"
   },
-  "(inconnue)": {
-    "first_name": "",
-    "last_name": "",
+  "Veronique.Lalande": {
+    "first_name": "Veronique",
+    "last_name": "Lalande",
     "gender": "F",
     "family": false,
     "relationship": {

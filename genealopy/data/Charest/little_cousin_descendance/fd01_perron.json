@@ -1,20 +1,30 @@
 {
-  "Perron1": {
-    "first_name": "",
-    "last_name": "",
+  "Cédrik.Perron": {
+    "first_name": "Cédrik",
+    "last_name": "Perron",
     "gender": "M",
     "relationship": {
-	  "(inconnue)": { "type": "mother" },
+	  "Veronique.Lalande": { "type": "mother" },
 	  "Luc.Perron": { "type": "father" }
 	},
     "source" : "Valerie Charest"
   },
-  "Perron2": {
-    "first_name": "",
-    "last_name": "",
+  "Leanne.Perron": {
+    "first_name": "Leanne",
+    "last_name": "Perron",
     "gender": "F",
     "relationship": {
-	  "(inconnue)": { "type": "mother" },
+	  "Veronique.Lalande": { "type": "mother" },
+	  "Luc.Perron": { "type": "father" }
+	},
+    "source" : "Valerie Charest"
+  },
+  "Elodie.Perron": {
+    "first_name": "Elodie",
+    "last_name": "Perron",
+    "gender": "F",
+    "relationship": {
+	  "Veronique.Lalande": { "type": "mother" },
 	  "Luc.Perron": { "type": "father" }
 	},
     "source" : "Valerie Charest"
