@@ -147,13 +147,13 @@ def has_parents(json_objects, key):
 
 def is_complete(value):
     if 'complete' in value:
-        return value['complete'] == 'true'
+        return value['complete']
 
     return True
 
 
 def is_family(value):
     if 'family' in value:
-        return value['family'] == 'true'
+        return value['family']
 
     return True
