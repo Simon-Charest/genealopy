@@ -1,0 +1,22 @@
+{
+  "Jean.Giguere": {
+    "first_name": "Jean",
+    "last_name": "Giguere",
+    "gender": "M",
+    "complete": false,
+    "relationship": {
+      "Madeleine.Viette": { "type": "union" }
+    },
+    "source": "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=4879"
+  },
+  "Madeleine.Viette": {
+    "first_name": "Madeleine",
+    "last_name": "Viette",
+    "gender": "F",
+    "complete": false,
+    "relationship": {
+      "Jean.Giguere": { "type": "union" }
+    },
+    "source": "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=4879"
+  }
+}

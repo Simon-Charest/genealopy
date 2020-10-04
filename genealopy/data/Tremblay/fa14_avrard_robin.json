@@ -1,0 +1,22 @@
+{
+  "Eustache.Robin": {
+    "first_name": "Eustache",
+    "last_name": "Robin",
+    "gender": "M",
+    "complete": false,
+    "relationship": {
+      "Mathurine.Avrard": { "type": "union" }
+    },
+    "source": "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=3545"
+  },
+  "Mathurine.Avrard": {
+    "first_name": "Mathurine",
+    "last_name": "Avrard",
+    "gender": "F",
+    "complete": false,
+    "relationship": {
+      "Eustache.Robin": { "type": "union" }
+    },
+    "source": "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=3545"
+  }
+}

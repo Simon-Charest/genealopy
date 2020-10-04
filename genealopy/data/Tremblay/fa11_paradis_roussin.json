@@ -1,0 +1,36 @@
+{
+  "Nicolas.Roussin": {
+    "first_name": "Nicolas",
+    "last_name": "Roussin",
+    "gender": "M",
+    "relationship": {
+      "Madeleine.Giguere": { "type": "mother" },
+      "Jean.Roussin": { "type": "father" },
+      "Madeleine.Paradis": { "type": "union" },
+      "Madeleine.Tremblay": { "type": "union" }
+    },
+    "source": "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=1333"
+  },
+  "Madeleine.Paradis": {
+    "first_name": "Madeleine",
+    "last_name": "Paradis",
+    "gender": "F",
+    "relationship": {
+      "Barbe.Guyon": { "type": "mother" },
+      "Pierre.Paradis": { "type": "father" },
+      "Nicolas.Roussin": { "type": "union" }
+    },
+    "source": "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=5809"
+  },
+  "Madeleine.Tremblay": {
+    "first_name": "Madeleine",
+    "last_name": "Tremblay",
+    "gender": "F",
+    "relationship": {
+      "Ozanne-Anne.Achon": { "type": "mother" },
+      "Pierre.Tremblay": { "type": "father" },
+      "Nicolas.Roussin": { "type": "union" }
+    },
+    "source": "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=1333"
+  }
+}

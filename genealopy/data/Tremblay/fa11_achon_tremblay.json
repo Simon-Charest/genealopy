@@ -8,15 +8,23 @@
       "Philippe-Gilbert.Tremblay": { "type": "father" },
       "Ozanne-Anne.Achon": { "type": "union" }
     },
-    "source": "data/Simon Charest.pdf"
+    "source": [
+      "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=1214",
+      "https://www.nosorigines.qc.ca/biography.aspx?id=1214"
+    ]
   },
   "Ozanne-Anne.Achon": {
     "first_name": "Ozanne-Anne",
     "last_name": "Achon",
     "gender": "F",
     "relationship": {
+      "Helene.Regnaud": { "type": "mother" },
+      "Jean.Achon": { "type": "father" },
       "Pierre.Tremblay": { "type": "union" }
     },
-    "source": "data/Simon Charest.pdf"
+    "source": [
+      "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=1215",
+      "https://www.nosorigines.qc.ca/biography.aspx?id=1215"
+    ]
   }
 }

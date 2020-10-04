@@ -1,0 +1,24 @@
+{
+  "Pierre.Paradis": {
+    "first_name": "Pierre",
+    "last_name": "Paradis",
+    "gender": "M",
+    "relationship": {
+      "Michelle.LePelle": { "type": "mother" },
+      "Jacques.Paradis": { "type": "father" },
+      "Barbe.Guyon": { "type": "union" }
+    },
+    "source": "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=3542"
+  },
+  "Barbe.Guyon": {
+    "first_name": "Barbe",
+    "last_name": "Guyon",
+    "gender": "F",
+    "relationship": {
+      "Mathurine.Robin": { "type": "mother" },
+      "Jean.Guyon": { "type": "father" },
+      "Pierre.Paradis": { "type": "union" }
+    },
+    "source": "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=3543"
+  }
+}

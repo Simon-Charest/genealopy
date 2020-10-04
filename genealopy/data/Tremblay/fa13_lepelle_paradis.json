@@ -1,0 +1,22 @@
+{
+  "Jacques.Paradis": {
+    "first_name": "Jacques",
+    "last_name": "Paradis",
+    "gender": "M",
+    "complete": false,
+    "relationship": {
+      "Michelle.LePelle": { "type": "union" }
+    },
+    "source": "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=3542"
+  },
+  "Michelle.LePelle": {
+    "first_name": "Michelle",
+    "last_name": "LePelle",
+    "gender": "F",
+    "complete": false,
+    "relationship": {
+      "Jacques.Paradis": { "type": "union" }
+    },
+    "source": "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=3542"
+  }
+}

@@ -6,17 +6,30 @@
     "relationship": {
       "Ozanne-Anne.Achon": { "type": "mother" },
       "Pierre.Tremblay": { "type": "father" },
-      "Marie-Madeleine.Roussin": { "type": "union" }
+      "Marie-Madeleine.Roussin": { "type": "union" },
+      "Marie-Madeleine.Simard": { "type": "union" }
     },
-    "source": "data/Simon Charest.pdf"
+    "source": "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=1334"
   },
   "Marie-Madeleine.Roussin": {
     "first_name": "Marie-Madeleine",
     "last_name": "Roussin",
     "gender": "F",
     "relationship": {
+      "Madeleine.Paradis": { "type": "mother" },
+      "Nicolas.Roussin": { "type": "father" },
       "Pierre2.Tremblay": { "type": "union" }
     },
-    "source": "data/Simon Charest.pdf"
+    "source": "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=1335"
+  },
+  "Marie-Madeleine.Simard": {
+    "first_name": "Marie-Madeleine",
+    "last_name": "Simard",
+    "gender": "F",
+    "family": false,
+    "relationship": {
+      "Pierre2.Tremblay": { "type": "union" }
+    },
+    "source": "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=1334"
   }
 }

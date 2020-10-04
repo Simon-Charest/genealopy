@@ -1,0 +1,38 @@
+{
+  "Jean.Roussin": {
+    "first_name": "Jean",
+    "last_name": "Roussin",
+    "gender": "M",
+    "relationship": {
+      "Pierre.Roussin": { "type": "mother" },
+      "Jeanne.Nyeulle": { "type": "father" },
+      "Madeleine.Giguere": { "type": "union" },
+      "Marie.Letard": { "type": "union" }
+    },
+    "source": "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=4878"
+  },
+  "Madeleine.Giguere": {
+    "first_name": "Madeleine",
+    "last_name": "Giguere",
+    "gender": "F",
+    "relationship": {
+      "Madeleine.Viette": { "type": "mother" },
+      "Jean.Giguere": { "type": "father" },
+      "Jean.Roussin": { "type": "union" }
+    },
+    "source": [
+      "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=4879",
+      "https://www.nosorigines.qc.ca/biography.aspx?id=4879"
+    ]
+  },
+  "Marie.Letard": {
+    "first_name": "Marie",
+    "last_name": "Letard",
+    "gender": "F",
+    "family": false,
+    "relationship": {
+      "Jean.Roussin": { "type": "union" }
+    },
+    "source": "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=4878"
+  }
+}

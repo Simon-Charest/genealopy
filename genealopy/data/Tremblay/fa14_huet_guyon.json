@@ -1,0 +1,22 @@
+{
+  "Jacques.Guyon": {
+    "first_name": "Jacques",
+    "last_name": "Guyon",
+    "gender": "M",
+    "complete": false,
+    "relationship": {
+      "Marie.Huet": { "type": "union" }
+    },
+    "source": "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=3544"
+  },
+  "Marie.Huet": {
+    "first_name": "Marie",
+    "last_name": "Huet",
+    "gender": "F",
+    "complete": false,
+    "relationship": {
+      "Jacques.Guyon": { "type": "union" }
+    },
+    "source": "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=3544"
+  }
+}

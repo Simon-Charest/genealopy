@@ -1,0 +1,24 @@
+{
+  "Jean.Guyon": {
+    "first_name": "Jean",
+    "last_name": "Guyon",
+    "gender": "M",
+    "relationship": {
+      "Marie.Huet": { "type": "mother" },
+      "Jacques.Guyon": { "type": "father" },
+      "Mathurine.Robin": { "type": "union" }
+    },
+    "source": "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=3544"
+  },
+  "Mathurine.Robin": {
+    "first_name": "Mathurine-Madeleine",
+    "last_name": "Robin dite Boule",
+    "gender": "F",
+    "relationship": {
+      "Mathurine.Avrard": { "type": "mother" },
+      "Eustache.Robin": { "type": "father" },
+      "Jean.Guyon": { "type": "union" }
+    },
+    "source": "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=3545"
+  }
+}

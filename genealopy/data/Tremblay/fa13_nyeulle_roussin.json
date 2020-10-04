@@ -1,0 +1,23 @@
+{
+  "Pierre.Roussin": {
+    "first_name": "Pierre",
+    "last_name": "Roussin",
+    "gender": "M",
+    "complete": false,
+    "relationship": {
+      "Jeanne.Nyeulle": { "type": "union" }
+    },
+    "source": "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=4878"
+  },
+  "Jeanne.Nyeulle": {
+    "first_name": "Jeanne",
+    "last_name": "Nyeulle",
+    "gender": "F",
+    "complete": false,
+    "relationship": {
+      "Marin.Nyeullé": { "type": "father" },
+      "Pierre.Roussin": { "type": "union" }
+    },
+    "source": "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=4878"
+  }
+}
