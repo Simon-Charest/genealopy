@@ -3,18 +3,21 @@
     "first_name": "Philippe-Gilbert",
     "last_name": "Tremblay",
     "gender": "M",
+    "complete": false,
     "relationship": {
       "Jeanne.Coignet": { "type": "union" }
     },
-    "source": "data/Simon Charest.pdf"
+    "source": "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=1214"
   },
   "Jeanne.Coignet": {
     "first_name": "Jeanne",
     "last_name": "Coignet",
     "gender": "F",
     "relationship": {
+      "Jean.Coignet": { "type": "father" },
+      "Barge": { "type": "mother" },
       "Philippe-Gilbert.Tremblay": { "type": "union" }
     },
-    "source": "data/Simon Charest.pdf"
+    "source": "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=1214"
   }
 }

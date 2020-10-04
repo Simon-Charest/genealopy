@@ -1,0 +1,22 @@
+{
+  "Barge": {
+    "first_name": "Barge",
+    "last_name": "",
+    "gender": "F",
+    "complete": false,
+    "relationship": {
+      "Jean.Coignet": { "type": "union" }
+    },
+    "source": "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=1214"
+  },
+  "Jean.Coignet": {
+    "first_name": "Jean",
+    "last_name": "Coignet",
+    "gender": "M",
+    "complete": false,
+    "relationship": {
+      "Barge": { "type": "union" }
+    },
+    "source": "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=1214"
+  }
+}
