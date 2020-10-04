@@ -126,30 +126,23 @@ def get_relationship_type(value, id_):
 
 
 def has_parents(json_objects, key):
-    # TODO: Simplify this algorithm
-
     relationships = json_objects[key]['relationship']
     mother = False
     father = False
 
     # Check if both parents are present in relationships
-    for id_ in json_objects[key]['relationship']:
-        if 'mother' in relationships[id_]['type']:
-            mother = True
-
-        if 'father' in relationships[id_]['type']:
-            father = True
-
+    for id_ in relationships:
         # Check if parent node is in graph
         if id_ not in json_objects:
             return False
 
-    return mother and father
+        if 'mother' in relationships[id_]['type']:
+            mother = True
 
-    # relationships = json_objects[key]['relationship']
-    #
-    # # Check if both parents are present in relationships and if parent node is in graph
-    # return 'mother' in relationships and 'father' in relationships and id_ in json_objects
+        elif 'father' in relationships[id_]['type']:
+            father = True
+
+    return mother and father
 
 
 def is_complete(value):
