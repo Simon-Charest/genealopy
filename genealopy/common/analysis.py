@@ -13,7 +13,7 @@ def add_children(json_objects):
 
         # For each of its parents...
         for parent in parents:
-            type_ = children[child]['relationship'][parent]['type']
+            type_ = parents[parent]['type']
 
             # If the relationship is a parent...
             if type_ in ['father', 'mother']:
