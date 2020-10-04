@@ -249,11 +249,31 @@ Choret" color=lightblue shape=box style=filled]
 	"Mathieu2.Choret" -> "Pierre.Choret" [color=lightblue style=solid]
 	"Marie-Anne.Baugis" -> "Pierre.Choret" [color=grey style=dashed]
 	"Marie Rosalie.Rodrigue" [label="Marie Rosalie
-Rodrigue" color=deeppink shape=box style=filled]
+Rodrigue" color=pink shape=box style=filled]
+	"Anne.Roy" -> "Marie Rosalie.Rodrigue" [color=pink style=solid]
+	"Jean.Rodrigue" -> "Marie Rosalie.Rodrigue" [color=lightblue style=solid]
 	"Jean Baptiste.Moreau" -> "Marie Rosalie.Rodrigue" [color=grey style=dashed]
 	"Jean Baptiste.Moreau" [label="Jean Baptiste
-Moreau" color=deepskyblue shape=box style=filled]
+Moreau" color=lightblue shape=box style=filled]
+	"Catherine.Leroux" -> "Jean Baptiste.Moreau" [color=pink style=solid]
+	"Jean.Moreau" -> "Jean Baptiste.Moreau" [color=lightblue style=solid]
 	"Marie Rosalie.Rodrigue" -> "Jean Baptiste.Moreau" [color=grey style=dashed]
+	"Catherine.Leroux" [label="Catherine
+Leroux" color=pink shape=box style=filled]
+	"Jean.Moreau" -> "Catherine.Leroux" [color=grey style=dashed]
+	"Jean.Moreau" [label="Jean
+Moreau" color=lightblue shape=box style=filled]
+	"Catherine.Leroux" -> "Jean.Moreau" [color=grey style=dashed]
+	"Anne.Roy" [label="Anne
+Roy" color=pink shape=box style=filled]
+	"Anne.Bourdais" -> "Anne.Roy" [color=pink style=solid]
+	"Francois.Leroy" -> "Anne.Roy" [color=lightblue style=solid]
+	"Jean.Rodrigue" -> "Anne.Roy" [color=grey style=dashed]
+	"Jean.Rodrigue" [label="Jean
+Rodrigue" color=lightblue shape=box style=filled]
+	"Susanna.Da Cruz" -> "Jean.Rodrigue" [color=pink style=solid]
+	"João.Rodrigues" -> "Jean.Rodrigue" [color=lightblue style=solid]
+	"Anne.Roy" -> "Jean.Rodrigue" [color=grey style=dashed]
 	"Sébatienne.Veillon" [label="Sébatienne
 Veillon" color=pink shape=box style=filled]
 	"Bernarde.Venet" -> "Sébatienne.Veillon" [color=pink style=solid]
@@ -268,6 +288,18 @@ Choret-Chourel" color=lightblue shape=box style=filled]
 	"Pierre.Aufroy" [label="Pierre
 Aufroy" color=deepskyblue shape=box style=filled]
 	"Sébatienne.Veillon" -> "Pierre.Aufroy" [color=grey style=dashed]
+	"Anne.Bourdais" [label="Anne
+Bourdais Bourdois" color=pink shape=box style=filled]
+	"Francois.Leroy" -> "Anne.Bourdais" [color=grey style=dashed]
+	"Francois.Leroy" [label="Francois
+Leroy" color=lightblue shape=box style=filled]
+	"Anne.Bourdais" -> "Francois.Leroy" [color=grey style=dashed]
+	"Susanna.Da Cruz" [label="Susanna (Suzanne)
+Da Cruz (Lacroix)" color=pink shape=box style=filled]
+	"João.Rodrigues" -> "Susanna.Da Cruz" [color=grey style=dashed]
+	"João.Rodrigues" [label="João (Jean)
+Rodrigues (Rodrigue)" color=lightblue shape=box style=filled]
+	"Susanna.Da Cruz" -> "João.Rodrigues" [color=grey style=dashed]
 	"Jeanne.Serre" [label="Jeanne
 Serre" color=pink shape=box style=filled]
 	"Marie.Rault" -> "Jeanne.Serre" [color=pink style=solid]

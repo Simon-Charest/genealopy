@@ -1,0 +1,24 @@
+{
+  "Susanna.Da Cruz": {
+    "first_name": "Susanna (Suzanne)",
+    "last_name": "Da Cruz (Lacroix)",
+    "gender": "F",
+    "complete": false,
+    "origin": "Portugal",
+    "relationship": {
+      "João.Rodrigues": { "type": "union" }
+    },
+    "source": "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=13667"
+  },
+  "João.Rodrigues": {
+    "first_name": "João (Jean)",
+    "last_name": "Rodrigues (Rodrigue)",
+    "gender": "M",
+    "complete": false,
+    "origin": "Portugal",
+    "relationship": {
+      "Susanna.Da Cruz": { "type": "union" }
+    },
+    "source": "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=13667"
+  }
+}

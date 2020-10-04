@@ -4,17 +4,21 @@
     "last_name": "Rodrigue",
     "gender": "F",
     "relationship": {
+      "Anne.Roy": { "type": "mother" },
+      "Jean.Rodrigue": { "type": "father" },
       "Jean Baptiste.Moreau": { "type": "union" }
     },
-    "source": "https://www.geni.com/people/Marie-Moreau/6000000078456091924"
+    "source": "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=13664"
   },
   "Jean Baptiste.Moreau": {
     "first_name": "Jean Baptiste",
     "last_name": "Moreau",
     "gender": "M",
     "relationship": {
+      "Catherine.Leroux": { "type": "mother" },
+      "Jean.Moreau": { "type": "father" },
       "Marie Rosalie.Rodrigue": { "type": "union" }
     },
-    "source": "https://www.geni.com/people/Jean-Moreau/6000000078456265848"
+    "source": "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=13663"
   }
 }

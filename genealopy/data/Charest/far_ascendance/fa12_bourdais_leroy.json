@@ -1,0 +1,22 @@
+{
+  "Anne.Bourdais": {
+    "first_name": "Anne",
+    "last_name": "Bourdais Bourdois",
+    "gender": "F",
+    "complete": false,
+    "relationship": {
+      "Francois.Leroy": { "type": "union" }
+    },
+    "source": "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=13668"
+  },
+  "Francois.Leroy": {
+    "first_name": "Francois",
+    "last_name": "Leroy",
+    "gender": "M",
+    "complete": false,
+    "relationship": {
+      "Anne.Bourdais": { "type": "union" }
+    },
+    "source": "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=13668"
+  }
+}
