@@ -3,6 +3,7 @@
     "first_name": "Bernarde",
     "last_name": "Venet",
     "gender": "F",
+    "complete": false,
     "birth": {
 	  "date": "1592",
 	  "place": "Saintes, Saintonge, France"
@@ -22,6 +23,7 @@
     "first_name": "Maxient",
     "last_name": "Veillon",
     "gender": "M",
+    "complete": false,
     "birth": {
 	  "date": "1595",
 	  "place": "Verdille, Angoumois, France"

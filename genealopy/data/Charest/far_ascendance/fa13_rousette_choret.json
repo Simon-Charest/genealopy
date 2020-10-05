@@ -3,6 +3,7 @@
     "first_name": "Thomas",
     "last_name": "Choret",
     "gender": "M",
+    "complete": false,
     "birth": {
 	  "date": "1560",
 	  "place": "La Rochelle, Aunis, France"
@@ -25,6 +26,8 @@
 	  "place": "France"
 	},
     "relationship": {
+      "Madeleine.Bernardeau": { "type": "mother" },
+      "Mathieu.Rousette": { "type": "father" },
       "Thomas.Choret": { "type": "union" }
     },
     "source": "https://www.geni.com/people/Marie-Rousette/6000000006581591534"

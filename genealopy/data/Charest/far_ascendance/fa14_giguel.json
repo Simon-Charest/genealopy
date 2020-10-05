@@ -3,8 +3,9 @@
     "first_name": "Françoise",
     "last_name": "Giguel",
     "gender": "F",
+    "complete": false,
     "relationship": {
-      "Louis.Guise": { "type": "father" }
+      "Louis.de Guise": { "type": "father" }
     },
     "source": "https://www.geni.com/people/FRANCOISE-GIGUEL/6000000100887198859"
   }

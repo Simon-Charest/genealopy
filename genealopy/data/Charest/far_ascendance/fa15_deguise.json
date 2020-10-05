@@ -1,0 +1,16 @@
+{
+  "Louis.de Guise": {
+    "first_name": "Louis",
+    "last_name": "de Guise",
+    "title": "Cardinal",
+    "gender": "M",
+    "relationship": {
+      "Antoinette.de Bourbon-Vendôme": { "type": "mother" },
+      "Claude.de Lorraine": { "type": "father" }
+    },
+    "source": [
+      "https://fr.wikipedia.org/wiki/Louis_de_Lorraine_(1527-1578)",
+      "https://www.geni.com/people/CARDINAL-LOUIS-Guise-I/6000000100886612941"
+    ]
+  }
+}

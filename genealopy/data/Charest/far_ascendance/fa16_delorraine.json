@@ -8,7 +8,8 @@
       "Filippa.van Gelre": { "type": "mother" },
       "René II.de Lorraine": { "type": "father" },
       "Antoinette.de Bourbon-Vendôme": { "type": "union" }
-    }
+    },
+    "source": "https://fr.wikipedia.org/wiki/Claude_de_Lorraine"
   },
   "Antoinette.de Bourbon-Vendôme": {
     "first_name": "Antoinette",
@@ -16,6 +17,7 @@
     "gender": "F",
     "relationship": {
       "Claude.de Lorraine": { "type": "union" }
-    }
+    },
+    "source": "https://fr.wikipedia.org/wiki/Antoinette_de_Bourbon"
   }
 }

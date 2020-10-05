@@ -3,19 +3,21 @@
     "first_name": "Marie",
     "last_name": "Rault",
     "gender": "F",
+    "complete": false,
     "relationship": {
       "Françoise.Giguel": { "type": "mother" },
-      "Serre": { "type": "union" }
+      "Andre.Serre": { "type": "union" }
     },
     "source": "data/Simon Charest.pdf"
   },
-  "Serre": {
-    "first_name": null,
-    "last_name": "Serre",
+  "Andre.Serre": {
+    "first_name": "Andre",
+    "last_name": "Suire Serre",
     "gender": "M",
+    "complete": false,
     "relationship": {
       "Marie.Rault": { "type": "union" }
     },
-    "source": "https://www.geni.com/people/Marie-RAULT/6000000100887126838"
+    "source": "https://www.myheritage.com/names/andre_serre"
   }
 }

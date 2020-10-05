@@ -37,8 +37,9 @@
   },
   "Pierre.Aufroy": {
     "first_name": "Pierre",
-    "last_name": "Aufroy",
+    "last_name": "Aufroy Offroy",
     "gender": "M",
+    "family": false,
     "relationship": {
       "Sébatienne.Veillon": { "type": "union", "start": "1664-08-25", "place": "Québec" }
     },

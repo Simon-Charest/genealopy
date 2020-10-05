@@ -5,17 +5,24 @@
     "title": "duc de Lorraine",
     "gender": "M",
     "relationship": {
+      "Yolande d'Anjou": { "type": "mother" },
+      "Ferry II de Vaudémont": { "type": "father" },
       "Filippa.van Gelre": { "type": "union" }
     },
     "source": "https://www.geni.com/people/Ren%C3%A9-II-duc-de-Lorraine/6000000006444099365"
   },
   "Filippa.van Gelre": {
-    "first_name": "Filippa",
-    "last_name": "van Gelre",
+    "first_name": "Filippa Philippe",
+    "last_name": "van Gelre de Gueldre",
     "gender": "F",
     "relationship": {
+      "Catherine de Bourbon": { "type": "mother" },
+      "Adolphe d'Egmont": { "type": "father" },
       "René II.de Lorraine": { "type": "union" }
     },
-    "source": "https://www.geni.com/people/Filippa-van-Gelre/6000000006727817857"
+    "source": [
+      "https://www.geni.com/people/Filippa-van-Gelre/6000000006727817857",
+      "https://fr.wikipedia.org/wiki/Philippe_de_Gueldre"
+    ]
   }
 }

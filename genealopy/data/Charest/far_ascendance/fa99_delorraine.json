@@ -1,0 +1,146 @@
+{
+  "Antoine.de Lorraine": {
+    "first_name": "Antoine",
+    "last_name": "de Lorraine",
+    "gender": "M",
+    "relationship": {
+      "Ferry Ier.de Vaudémont": { "type": "father" }
+    }
+  },
+  "Ferry Ier.de Vaudémont": {
+    "first_name": "Ferry Ier",
+    "last_name": "de Vaudémont",
+    "gender": "M",
+    "relationship": {
+      "Jean Ier.de Lorraine": { "type": "father" }
+    }
+  },
+  "Jean Ier.de Lorraine": {
+    "first_name": "Jean Ier",
+    "last_name": "de Lorraine",
+    "gender": "M",
+    "relationship": {
+      "Raoul.de Lorraine": { "type": "father" }
+    }
+  },
+  "Raoul.de Lorraine": {
+    "first_name": "Raoul (ou Rodolphe)",
+    "last_name": "de Lorraine",
+    "gender": "M",
+    "relationship": {
+      "Ferry IV.de Lorraine": { "type": "father" }
+    }
+  },
+  "Ferry IV.de Lorraine": {
+    "first_name": "Ferry IV",
+    "last_name": "de Lorraine",
+    "gender": "M",
+    "relationship": {
+      "Thiébaud II.de Lorraine": { "type": "father" }
+    }
+  },
+  "Thiébaud II.de Lorraine": {
+    "first_name": "Thiébaud II",
+    "last_name": "de Lorraine",
+    "gender": "M",
+    "relationship": {
+      "Ferry III.de Lorraine": { "type": "father" }
+    }
+  },
+  "Ferry III.de Lorraine": {
+    "first_name": "Ferry III",
+    "last_name": "de Lorraine",
+    "gender": "M",
+    "relationship": {
+      "Mathieu II.de Lorraine": { "type": "father" }
+    }
+  },
+  "Mathieu II.de Lorraine": {
+    "first_name": "Mathieu II",
+    "last_name": "de Lorraine",
+    "gender": "M",
+    "relationship": {
+      "Ferry II.de Lorraine": { "type": "father" }
+    }
+  },
+  "Ferry II.de Lorraine": {
+    "first_name": "Ferry II",
+    "last_name": "de Lorraine",
+    "gender": "M",
+    "relationship": {
+      "Ferry Ier.de Lorraine": { "type": "father" }
+    }
+  },
+  "Ferry Ier.de Lorraine": {
+    "first_name": "Ferry Ier",
+    "last_name": "de Lorraine",
+    "gender": "M",
+    "relationship": {
+      "Mathieu Ier.de Lorraine": { "type": "father" }
+    }
+  },
+  "Mathieu Ier.de Lorraine": {
+    "first_name": "Mathieu Ier",
+    "last_name": "de Lorraine",
+    "gender": "M",
+    "relationship": {
+      "Simon Ier.de Lorraine": { "type": "father" }
+    }
+  },
+  "Simon Ier.de Lorraine": {
+    "first_name": "Simon Ier",
+    "last_name": "de Lorraine",
+    "gender": "M",
+    "relationship": {
+      "Thierry II.de Lorraine": { "type": "father" }
+    }
+  },
+  "Thierry II.de Lorraine": {
+    "first_name": "Thierry II",
+    "last_name": "de Lorraine",
+    "gender": "M",
+    "relationship": {
+      "Gérard Ier.de Lorraine": { "type": "father" }
+    }
+  },
+  "Gérard Ier.de Lorraine": {
+    "first_name": "Gérard Ier",
+    "last_name": "de Lorraine",
+    "gender": "M",
+    "relationship": {
+      "Gérard IV.de Metz": { "type": "father" }
+    }
+  },
+  "Gérard IV.de Metz": {
+    "first_name": "Gérard IV",
+    "last_name": "de Metz",
+    "gender": "M",
+    "relationship": {
+      "Judith.von Öhningen": { "type": "mother" },
+      "Adalbert II.de Metz": { "type": "father" }
+    }
+  },
+  "Adalbert II.de Metz": {
+    "first_name": "Adalbert II",
+    "last_name": "de Metz",
+    "gender": "M",
+    "relationship": {
+      "Judith.von Öhningen": { "type": "union" }
+    }
+  },
+  "Judith.von Öhningen": {
+    "first_name": "Judith",
+    "last_name": "von Öhningen",
+    "gender": "M",
+    "relationship": {
+      "Liudolf.de Saxe": { "type": "grandfather" },
+      "Adalbert II.de Metz": { "type": "union" }
+    }
+  },
+  "Liudolf.de Saxe": {
+    "first_name": "Liudolf",
+    "last_name": "de Saxe",
+    "gender": "M",
+    "relationship": {}
+  }
+}

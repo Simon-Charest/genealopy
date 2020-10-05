@@ -5,10 +5,10 @@
     "gender": "F",
     "relationship": {
       "Marie.Rault": { "type": "mother" },
-      "Serre": { "type": "father" },
+      "Andre.Serre": { "type": "father" },
       "Mathieu.Choret": { "type": "union" }
     },
-    "source": "https://www.geni.com/people/Jeanne-Serre/6000000003148599832"
+    "source": "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=26378"
   },
   "Mathieu.Choret": {
     "first_name": "Mathieu",
@@ -19,6 +19,6 @@
       "Thomas.Choret": { "type": "father" },
       "Jeanne.Serre": { "type": "union" }
     },
-    "source": "data/Simon Charest.pdf"
+    "source": "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=26378"
   }
 }
