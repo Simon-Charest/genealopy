@@ -6,11 +6,11 @@
     "relationship": {
       "Marie.d'Harcourt": { "type": "union" },
       "Antoine.de Lorraine": { "type": "father" },
-      "Yolande d'Anjou": { "type": "union" }
+      "Yolande.d'Anjou": { "type": "union" }
     },
     "source": "https://fr.wikipedia.org/wiki/Ferry_II_de_Vaud%C3%A9mont"
   },
-  "Yolande d'Anjou": {
+  "Yolande.d'Anjou": {
     "first_name": "Yolande",
     "last_name": "d'Anjou",
     "gender": "F",
