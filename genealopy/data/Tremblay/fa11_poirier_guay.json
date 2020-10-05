@@ -1,0 +1,42 @@
+{
+  "Mathieu2.Guay": {
+    "first_name": "Mathieu",
+    "last_name": "Guay",
+    "gender": "M",
+    "relationship": {
+      "Jeanne.Prevost": { "type": "mother" },
+      "Gaston.Guay": { "type": "father" },
+      "Therese.Poirier": { "type": "union" }
+    },
+    "source": "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=10553"
+  },
+  "Therese.Poirier": {
+    "first_name": "Therese",
+    "last_name": "Poirier",
+    "gender": "F",
+    "relationship": {
+      "Mathieu2.Guay": { "type": "union" }
+    },
+    "source": "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=10554"
+  },
+  "Marguerite.Balan": {
+    "first_name": "Marguerite",
+    "last_name": "Balan",
+    "gender": "F",
+    "family": false,
+    "relationship": {
+      "Mathieu2.Guay": { "type": "union" }
+    },
+    "source": "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=10553"
+  },
+  "Anne.Brisson": {
+    "first_name": "Anne",
+    "last_name": "Brisson",
+    "gender": "F",
+    "family": false,
+    "relationship": {
+      "Mathieu2.Guay": { "type": "union" }
+    },
+    "source": "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=10553"
+  }
+}

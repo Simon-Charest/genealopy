@@ -1,0 +1,22 @@
+{
+  "Mathieu.Guay": {
+    "first_name": "Mathieu",
+    "last_name": "Guay",
+    "gender": "M",
+    "complete": false,
+    "relationship": {
+      "Nicole.Adam": { "type": "union" }
+    },
+    "source": "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=10547"
+  },
+  "Nicole.Adam": {
+    "first_name": "Nicole",
+    "last_name": "Adam",
+    "gender": "F",
+    "complete": false,
+    "relationship": {
+      "Mathieu.Guay": { "type": "union" }
+    },
+    "source": "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=10547"
+  }
+}

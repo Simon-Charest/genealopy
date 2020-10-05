@@ -1,0 +1,24 @@
+{
+  "Noel.Castonguay": {
+    "first_name": "Noel",
+    "last_name": "Castonguay",
+    "gender": "M",
+    "relationship": {
+      "Therese.Poirier": { "type": "mother" },
+      "Mathieu2.Guay": { "type": "father" },
+      "Catherine.Simard": { "type": "union" }
+    },
+    "source": "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=1856"
+  },
+  "Catherine.Simard": {
+    "first_name": "Catherine",
+    "last_name": "Simard",
+    "gender": "F",
+    "relationship": {
+      "Madeleine.Racine": { "type": "mother" },
+      "Noel.Simard": { "type": "father" },
+      "Noel.Castonguay": { "type": "union" }
+    },
+    "source": "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=1855"
+  }
+}

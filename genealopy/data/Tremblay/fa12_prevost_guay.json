@@ -1,0 +1,25 @@
+{
+  "Gaston.Guay": {
+    "first_name": "Gaston",
+    "last_name": "Guay",
+    "gender": "M",
+    "relationship": {
+      "Nicole.Adam": { "type": "mother" },
+      "Mathieu.Guay": { "type": "father" },
+      "Jeanne.Prevost": { "type": "union" }
+    },
+    "source": [
+      "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=10547",
+      "https://www.nosorigines.qc.ca/biography.aspx?id=10547"
+    ]
+  },
+  "Jeanne.Prevost": {
+    "first_name": "Jeanne",
+    "last_name": "Prevost",
+    "gender": "F",
+    "relationship": {
+      "Gaston.Guay": { "type": "union" }
+    },
+    "source": "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=10548"
+  }
+}
