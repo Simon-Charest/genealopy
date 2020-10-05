@@ -1,0 +1,24 @@
+{
+  "Michel.Tremblay": {
+    "first_name": "Michel",
+    "last_name": "Tremblay",
+    "gender": "M",
+    "relationship": {
+      "Ozanne-Anne.Achon": { "type": "mother" },
+      "Pierre.Tremblay": { "type": "father" },
+      "Genevieve.Bouchard": { "type": "union" }
+    },
+    "source": "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=1336"
+  },
+  "Genevieve.Bouchard": {
+    "first_name": "Genevieve",
+    "last_name": "Bouchard",
+    "gender": "F",
+    "relationship": {
+      "Louise.Gagne": { "type": "mother" },
+      "Claude.Bouchard": { "type": "father" },
+      "Michel.Tremblay": { "type": "union" }
+    },
+    "source": "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=1337"
+  }
+}

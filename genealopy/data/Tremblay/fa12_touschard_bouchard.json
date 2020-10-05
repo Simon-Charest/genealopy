@@ -1,0 +1,22 @@
+{
+  "Jacques.Bouchard": {
+    "first_name": "Jacques",
+    "last_name": "Bouchard",
+    "gender": "M",
+    "complete": false,
+    "relationship": {
+      "Noelle.Touschard": { "type": "union" }
+    },
+    "source": "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=1537"
+  },
+  "Noelle.Touschard": {
+    "first_name": "Noelle",
+    "last_name": "Touschard",
+    "gender": "F",
+    "complete": false,
+    "relationship": {
+      "Jacques.Bouchard": { "type": "union" }
+    },
+    "source": "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=1537"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "Jean-Baptiste.Tremblay": {
+    "first_name": "Jean-Baptiste",
+    "last_name": "Tremblay",
+    "gender": "M",
+    "relationship": {
+      "Genevieve.Bouchard": { "type": "mother" },
+      "Michel.Tremblay": { "type": "father" },
+      "Catherine.Guay": { "type": "union" }
+    },
+    "source": "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=23417"
+  },
+  "Catherine.Guay": {
+    "first_name": "Catherine",
+    "last_name": "Guay",
+    "gender": "F",
+    "relationship": {
+      "Catherine.Simard": { "type": "mother" },
+      "Noel.Castonguay": { "type": "father" },
+      "Jean-Baptiste.Tremblay": { "type": "union" }
+    },
+    "source": "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=23418"
+  }
+}

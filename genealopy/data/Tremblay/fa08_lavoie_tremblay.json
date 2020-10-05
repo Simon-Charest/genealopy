@@ -6,9 +6,10 @@
     "relationship": {
       "Marie-Reine.Dufour": { "type": "mother" },
       "François-Xavier.Tremblay": { "type": "father" },
-      "Marguerite.Lavoie": { "type": "union" }
+      "Marguerite.Lavoie": { "type": "union" },
+      "Angelique.Tremblay": { "type": "union" }
     },
-    "source": "data/Simon Charest.pdf"
+    "source": "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=25851"
   },
   "Marguerite.Lavoie": {
     "first_name": "Marguerite",
@@ -17,6 +18,17 @@
     "relationship": {
       "Antoine.Tremblay": { "type": "union" }
     },
-    "source": "data/Simon Charest.pdf"
+    "source": "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=9574"
+  },
+  "Angelique.Tremblay": {
+    "first_name": "Angelique",
+    "last_name": "Tremblay",
+    "gender": "F",
+    "relationship": {
+      "Catherine.Guay": { "type": "mother" },
+      "Jean-Baptiste.Tremblay": { "type": "father" },
+      "Antoine.Tremblay": { "type": "union" }
+    },
+    "source": "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=41622"
   }
 }

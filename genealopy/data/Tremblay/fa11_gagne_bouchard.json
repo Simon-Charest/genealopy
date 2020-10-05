@@ -1,0 +1,24 @@
+{
+  "Claude.Bouchard": {
+    "first_name": "Claude",
+    "last_name": "Bouchard",
+    "gender": "M",
+    "relationship": {
+      "Noelle.Touschard": { "type": "mother" },
+      "Jacques.Bouchard": { "type": "father" },
+      "Louise.Gagne": { "type": "union" }
+    },
+    "source": "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=1537"
+  },
+  "Louise.Gagne": {
+    "first_name": "Louise",
+    "last_name": "Gagne",
+    "gender": "F",
+    "relationship": {
+      "Louis2.Gagne": { "type": "father" },
+      "Marie.Michel": { "type": "mother" },
+      "Claude.Bouchard": { "type": "union" }
+    },
+    "source": "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=1538"
+  }
+}

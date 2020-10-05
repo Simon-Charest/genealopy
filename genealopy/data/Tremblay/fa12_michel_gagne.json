@@ -1,0 +1,38 @@
+{
+  "Marie.Michel": {
+    "first_name": "Marie",
+    "last_name": "Michel",
+    "gender": "F",
+    "relationship": {
+      "Louise.Gory": { "type": "mother" },
+      "Pierre.Michel": { "type": "father" },
+      "Louis2.Gagne": { "type": "union" },
+      "Paul.Rainville": { "type": "union" }
+    },
+    "source": "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=1552"
+  },
+  "Louis2.Gagne": {
+    "first_name": "Louis",
+    "last_name": "Gagne",
+    "gender": "M",
+    "relationship": {
+      "Marie.Launay": { "type": "mother" },
+      "Louis.Gagne": { "type": "father" },
+      "Marie.Michel": { "type": "union" }
+    },
+    "source": [
+      "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=1551",
+      "https://www.nosorigines.qc.ca/biography.aspx?id=1551"
+    ]
+  },
+  "Paul.Rainville": {
+    "first_name": "Paul",
+    "last_name": "Rainville, De Rainville, Derainville",
+    "gender": "M",
+    "family": false,
+    "relationship": {
+      "Marie.Michel": { "type": "union" }
+    },
+    "source": "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=34622"
+  }
+}

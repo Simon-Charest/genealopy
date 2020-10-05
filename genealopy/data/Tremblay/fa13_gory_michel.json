@@ -1,0 +1,22 @@
+{
+  "Louise.Gory": {
+    "first_name": "Louise",
+    "last_name": "Gory",
+    "gender": "F",
+    "complete": false,
+    "relationship": {
+      "Pierre.Michel": { "type": "union" }
+    },
+    "source": "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=1552"
+  },
+  "Pierre.Michel": {
+    "first_name": "Pierre",
+    "last_name": "Michel",
+    "gender": "M",
+    "complete": false,
+    "relationship": {
+      "Louise.Gory": { "type": "union" }
+    },
+    "source": "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=1552"
+  }
+}

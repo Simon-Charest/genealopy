@@ -1,0 +1,22 @@
+{
+  "Marie.Launay": {
+    "first_name": "Marie",
+    "last_name": "Launay",
+    "gender": "F",
+    "complete": false,
+    "relationship": {
+      "Louis.Gagne": { "type": "union" }
+    },
+    "source": "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=3745"
+  },
+  "Louis2.Gagne": {
+    "first_name": "Louis",
+    "last_name": "Gagne Gasnier",
+    "gender": "M",
+    "complete": false,
+    "relationship": {
+      "Marie.Launay": { "type": "union" }
+    },
+    "source": "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=3744"
+  }
+}
