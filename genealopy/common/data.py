@@ -1,8 +1,6 @@
 from common import text
 from common.constant import constant
 
-import json
-
 
 def exists_in(json_object, key, value=None):
     if value:
@@ -39,25 +37,6 @@ def get_gender(json_objects, id_):
             return value['gender']
 
     return None
-
-
-def get_json_objects(filenames, encoding='utf-8'):
-    json_objects = {}
-
-    for filename in filenames:
-        if constant.DEBUG:
-            print(f'Filename: {filename}')
-
-        # Read JSON data
-        with open(filename, encoding=encoding) as stream:
-            json_document = json.load(stream)
-
-            if constant.DEBUG:
-                print(f'JSON Document: {json_document}')
-
-            json_objects.update(json_document)
-
-    return json_objects
 
 
 def get_name(value):

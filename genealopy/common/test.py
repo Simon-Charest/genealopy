@@ -1,18 +1,17 @@
 from common import analysis
-from common import data
 from common import file
+from common import pycrypt
 from common.constant import constant
 from common.datetime_ import datetime_
 
 import datetime
 import inspect
-import json
 
 
 def run():
     # Get data from JSON files
     filenames = file.get_filenames(constant.DATA_ALL)
-    json_objects = data.get_json_objects(filenames)
+    json_objects = file.load_json_objects(filenames)
 
     # Augment data with children
     json_objects = analysis.add_children(json_objects)
@@ -28,6 +27,7 @@ def run():
     test_get_shortest_path(json_objects, 'Dominique.Charest', 'Delphis.Charest', ['Dominique.Charest', 'Robert.Charest', 'Denis.Charest', 'Delphis.Charest'])
     test_get_shortest_path(json_objects, 'Simon.Charest', 'Delphis.Charest', ['Simon.Charest', 'Michel.Charest', 'Clément.Charest', 'Delphis.Charest'])
     test_get_shortest_path(json_objects, 'Henriette.Charest', 'Jean-Baptiste3.Chorret Chaurette', ['Henriette.Charest', 'Delphis.Charest', 'Adélard.Charest', 'Joseph.Charette', 'Joseph.Chorret Chaurette', 'Jean-Baptiste3.Chorret Chaurette'])
+    test_pycrypt()
     datetime_.print_execution_time(start)
 
 
@@ -126,3 +126,15 @@ def test_get_shortest_path(json_objects, start, end, expected):
     actual = analysis.get_shortest_path(json_objects, start, end)
     result = actual == expected
     print_result(result, actual, expected, f"'{start}', '{end}'")
+
+
+def test_pycrypt():
+    expected = 'Secret message'
+    keys = ['Th1s 1s an 3ncrypt10n k3y.']
+    salt = 'Why so salty?'
+
+    encrypted = pycrypt.decrypt(pycrypt.encrypt(expected, keys, salt))
+    actual = pycrypt.decrypt(encrypted, keys, salt)
+
+    result = actual == expected
+    print_result(result, actual, expected)

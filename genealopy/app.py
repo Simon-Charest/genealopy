@@ -16,7 +16,7 @@ Prerequisites:
 def run():
     # Get data from JSON files
     filenames = file.get_filenames(constant.DATA)
-    json_objects = data.get_json_objects(filenames)
+    json_objects = file.load_json_objects(filenames)
 
     # Augment data with children
     json_objects = analysis.add_children(json_objects)
@@ -29,7 +29,7 @@ def run():
     # search = ['Simon.Charest']
     # search = analysis.get_shortest_path(json_objects, 'Simon.Charest', 'Delphis.Charest')
 
-    if constant.DEBUG:
+    if constant.DEBUG and 'search' in locals():
         print(f'Search: {search}')
 
     # Loop on every person
