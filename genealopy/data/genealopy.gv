@@ -286,7 +286,7 @@ Choret-Chourel" color=lightblue shape=box style=filled]
 	"Mathieu.Choret" -> "Mathieu2.Choret" [color=lightblue style=solid]
 	"Sébatienne.Veillon" -> "Mathieu2.Choret" [color=grey style=dashed]
 	"Pierre.Aufroy" [label="Pierre
-Aufroy" color=deepskyblue shape=box style=filled]
+Aufroy Offroy" color=lightblue shape=box style=filled]
 	"Sébatienne.Veillon" -> "Pierre.Aufroy" [color=grey style=dashed]
 	"Anne.Bourdais" [label="Anne
 Bourdais Bourdois" color=pink shape=box style=filled]
@@ -303,7 +303,7 @@ Rodrigues (Rodrigue)" color=lightblue shape=box style=filled]
 	"Jeanne.Serre" [label="Jeanne
 Serre" color=pink shape=box style=filled]
 	"Marie.Rault" -> "Jeanne.Serre" [color=pink style=solid]
-	Serre -> "Jeanne.Serre" [color=lightblue style=solid]
+	"Andre.Serre" -> "Jeanne.Serre" [color=lightblue style=solid]
 	"Mathieu.Choret" -> "Jeanne.Serre" [color=grey style=dashed]
 	"Mathieu.Choret" [label="Mathieu
 Choret" color=lightblue shape=box style=filled]
@@ -316,7 +316,7 @@ Venet" color=pink shape=box style=filled]
 	Venet -> "Bernarde.Venet" [color=lightblue style=solid]
 	"Maxient.Veillon" -> "Bernarde.Venet" [color=grey style=dashed]
 	"Maxient.Veillon" [label="Maxient
-Veillon" color=deepskyblue shape=box style=filled]
+Veillon" color=lightblue shape=box style=filled]
 	"Bernarde.Venet" -> "Maxient.Veillon" [color=grey style=dashed]
 	"Lallement Peinuet" [label="(inconnu)
 Lallement Peinuet" color=deeppink shape=box style=filled]
@@ -325,25 +325,32 @@ Lallement Peinuet" color=deeppink shape=box style=filled]
 Venet" color=deepskyblue shape=box style=filled]
 	"Lallement Peinuet" -> Venet [color=grey style=dashed]
 	"Marie.Rault" [label="Marie
-Rault" color=deeppink shape=box style=filled]
+Rault" color=pink shape=box style=filled]
 	"Françoise.Giguel" -> "Marie.Rault" [color=pink style=solid]
-	Serre -> "Marie.Rault" [color=grey style=dashed]
-	Serre [label="(inconnu)
-Serre" color=deepskyblue shape=box style=filled]
-	"Marie.Rault" -> Serre [color=grey style=dashed]
+	"Andre.Serre" -> "Marie.Rault" [color=grey style=dashed]
+	"Andre.Serre" [label="Andre
+Suire Serre" color=lightblue shape=box style=filled]
+	"Marie.Rault" -> "Andre.Serre" [color=grey style=dashed]
 	"Thomas.Choret" [label="Thomas
-Choret" color=deepskyblue shape=box style=filled]
+Choret" color=lightblue shape=box style=filled]
 	"Marie.Rousette" -> "Thomas.Choret" [color=grey style=dashed]
 	"Marie.Rousette" [label="Marie
-Rousette" color=deeppink shape=box style=filled]
+Rousette" color=pink shape=box style=filled]
+	"Madeleine.Bernardeau" -> "Marie.Rousette" [color=pink style=solid]
+	"Mathieu.Rousette" -> "Marie.Rousette" [color=lightblue style=solid]
 	"Thomas.Choret" -> "Marie.Rousette" [color=grey style=dashed]
+	"Madeleine.Bernardeau" [label="Madeleine
+Bernardeau" color=pink shape=box style=filled]
+	"Mathieu.Rousette" [label="Mathieu
+Rousette" color=lightblue shape=box style=filled]
+	"Madeleine.Bernardeau" -> "Mathieu.Rousette" [color=grey style=dashed]
 	"Françoise.Giguel" [label="Françoise
-Giguel" color=deeppink shape=box style=filled]
-	"Louis.Guise" -> "Françoise.Giguel" [color=lightblue style=solid]
-	"Louis.Guise" [label="Louis
-Guise" color=lightblue shape=box style=filled]
-	"Antoinette.de Bourbon-Vendôme" -> "Louis.Guise" [color=pink style=solid]
-	"Claude.de Lorraine" -> "Louis.Guise" [color=lightblue style=solid]
+Giguel" color=pink shape=box style=filled]
+	"Louis.de Guise" -> "Françoise.Giguel" [color=lightblue style=solid]
+	"Louis.de Guise" [label="Louis
+de Guise" color=lightblue shape=box style=filled]
+	"Antoinette.de Bourbon-Vendôme" -> "Louis.de Guise" [color=pink style=solid]
+	"Claude.de Lorraine" -> "Louis.de Guise" [color=lightblue style=solid]
 	"Claude.de Lorraine" [label="Claude
 de Lorraine" color=lightblue shape=box style=filled]
 	"Filippa.van Gelre" -> "Claude.de Lorraine" [color=pink style=solid]
@@ -354,10 +361,73 @@ de Bourbon-Vendôme" color=deeppink shape=box style=filled]
 	"Claude.de Lorraine" -> "Antoinette.de Bourbon-Vendôme" [color=grey style=dashed]
 	"René II.de Lorraine" [label="René II
 de Lorraine" color=deepskyblue shape=box style=filled]
+	"Yolande d'Anjou" -> "René II.de Lorraine" [color=pink style=solid]
 	"Filippa.van Gelre" -> "René II.de Lorraine" [color=grey style=dashed]
-	"Filippa.van Gelre" [label="Filippa
-van Gelre" color=deeppink shape=box style=filled]
+	"Filippa.van Gelre" [label="Filippa Philippe
+van Gelre de Gueldre" color=deeppink shape=box style=filled]
 	"René II.de Lorraine" -> "Filippa.van Gelre" [color=grey style=dashed]
+	"Ferry II.de Vaudémont" [label="Ferry II
+de Vaudémont" color=deepskyblue shape=box style=filled]
+	"Antoine.de Lorraine" -> "Ferry II.de Vaudémont" [color=lightblue style=solid]
+	"Yolande d'Anjou" -> "Ferry II.de Vaudémont" [color=grey style=dashed]
+	"Yolande d'Anjou" [label="Yolande
+d'Anjou" color=deeppink shape=box style=filled]
+	"Ferry II.de Vaudémont" -> "Yolande d'Anjou" [color=grey style=dashed]
+	"Antoine.de Lorraine" [label="Antoine
+de Lorraine" color=deepskyblue shape=box style=filled]
+	"Ferry Ier.de Vaudémont" -> "Antoine.de Lorraine" [color=lightblue style=solid]
+	"Ferry Ier.de Vaudémont" [label="Ferry Ier
+de Vaudémont" color=deepskyblue shape=box style=filled]
+	"Jean Ier.de Lorraine" -> "Ferry Ier.de Vaudémont" [color=lightblue style=solid]
+	"Jean Ier.de Lorraine" [label="Jean Ier
+de Lorraine" color=deepskyblue shape=box style=filled]
+	"Raoul.de Lorraine" -> "Jean Ier.de Lorraine" [color=lightblue style=solid]
+	"Raoul.de Lorraine" [label="Raoul (ou Rodolphe)
+de Lorraine" color=deepskyblue shape=box style=filled]
+	"Ferry IV.de Lorraine" -> "Raoul.de Lorraine" [color=lightblue style=solid]
+	"Ferry IV.de Lorraine" [label="Ferry IV
+de Lorraine" color=deepskyblue shape=box style=filled]
+	"Thiébaud II.de Lorraine" -> "Ferry IV.de Lorraine" [color=lightblue style=solid]
+	"Thiébaud II.de Lorraine" [label="Thiébaud II
+de Lorraine" color=deepskyblue shape=box style=filled]
+	"Ferry III.de Lorraine" -> "Thiébaud II.de Lorraine" [color=lightblue style=solid]
+	"Ferry III.de Lorraine" [label="Ferry III
+de Lorraine" color=deepskyblue shape=box style=filled]
+	"Mathieu II.de Lorraine" -> "Ferry III.de Lorraine" [color=lightblue style=solid]
+	"Mathieu II.de Lorraine" [label="Mathieu II
+de Lorraine" color=deepskyblue shape=box style=filled]
+	"Ferry II.de Lorraine" -> "Mathieu II.de Lorraine" [color=lightblue style=solid]
+	"Ferry II.de Lorraine" [label="Ferry II
+de Lorraine" color=deepskyblue shape=box style=filled]
+	"Ferry Ier.de Lorraine" -> "Ferry II.de Lorraine" [color=lightblue style=solid]
+	"Ferry Ier.de Lorraine" [label="Ferry Ier
+de Lorraine" color=deepskyblue shape=box style=filled]
+	"Mathieu Ier.de Lorraine" -> "Ferry Ier.de Lorraine" [color=lightblue style=solid]
+	"Mathieu Ier.de Lorraine" [label="Mathieu Ier
+de Lorraine" color=deepskyblue shape=box style=filled]
+	"Simon Ier.de Lorraine" -> "Mathieu Ier.de Lorraine" [color=lightblue style=solid]
+	"Simon Ier.de Lorraine" [label="Simon Ier
+de Lorraine" color=deepskyblue shape=box style=filled]
+	"Thierry II.de Lorraine" -> "Simon Ier.de Lorraine" [color=lightblue style=solid]
+	"Thierry II.de Lorraine" [label="Thierry II
+de Lorraine" color=deepskyblue shape=box style=filled]
+	"Gérard Ier.de Lorraine" -> "Thierry II.de Lorraine" [color=lightblue style=solid]
+	"Gérard Ier.de Lorraine" [label="Gérard Ier
+de Lorraine" color=deepskyblue shape=box style=filled]
+	"Gérard IV.de Metz" -> "Gérard Ier.de Lorraine" [color=lightblue style=solid]
+	"Gérard IV.de Metz" [label="Gérard IV
+de Metz" color=lightblue shape=box style=filled]
+	"Judith.von Öhningen" -> "Gérard IV.de Metz" [color=pink style=solid]
+	"Adalbert II.de Metz" -> "Gérard IV.de Metz" [color=lightblue style=solid]
+	"Adalbert II.de Metz" [label="Adalbert II
+de Metz" color=deepskyblue shape=box style=filled]
+	"Judith.von Öhningen" -> "Adalbert II.de Metz" [color=grey style=dashed]
+	"Judith.von Öhningen" [label="Judith
+von Öhningen" color=deepskyblue shape=box style=filled]
+	"Liudolf.de Saxe" -> "Judith.von Öhningen" [color=lightblue style=solid]
+	"Adalbert II.de Metz" -> "Judith.von Öhningen" [color=grey style=dashed]
+	"Liudolf.de Saxe" [label="Liudolf
+de Saxe" color=deepskyblue shape=box style=filled]
 	"Léopold.Chaurette Charest" [label="Léopold
 Chaurette Charest" color=lightblue shape=box style=filled]
 	"Alma.Tanguay" -> "Léopold.Chaurette Charest" [color=pink style=solid]
