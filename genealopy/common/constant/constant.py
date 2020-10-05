@@ -81,7 +81,7 @@ NAME_UNKNOWN = '(inconnu)'
 
 # Filters
 GENDER = ['M', 'F']
-RELATIONSHIP = ['father', 'mother', 'union']
+RELATIONSHIP = ['grandfather', 'father', 'grandmother', 'mother', 'union']
 
 # Colors
 DARKEN_INCOMPLETE = True

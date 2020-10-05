@@ -2,14 +2,14 @@ from common.constant import constant
 
 
 def get_color(gender, complete=True):
-    if gender in ['F', 'mother']:
+    if gender in ['F', 'mother', 'grandmother']:
         if complete:
             color = constant.FEMALE_COLOR
 
         else:
             color = constant.FEMALE_INCOMPLETE_COLOR
 
-    elif gender in ['M', 'father']:
+    elif gender in ['M', 'father', 'grandfather']:
         if complete:
             color = constant.MALE_COLOR
 
@@ -23,7 +23,7 @@ def get_color(gender, complete=True):
 
 
 def get_style(type_):
-    if type_ in ['F', 'mother', 'M', 'father']:
+    if type_ in ['F', 'mother', 'grandmother', 'M', 'father', 'grandfather']:
         style = constant.PARENT_LINK_STYLE
 
     else:
