@@ -11,7 +11,7 @@
   },
   "Rita.Tremblay": {
     "first_name": "Rita",
-    "last_name": "Lacombe Tremblay",
+    "last_name": "Tremblay",
     "gender": "F",
     "birth": {
       "date": "1923"
@@ -21,7 +21,7 @@
 	  "place": "St-Lambert, Québec, Canada"
     },
     "relationship": {
-	  "Léotine.Turgeon": { "type": "mother" },
+	  "Léontine.Turgeon": { "type": "mother" },
 	  "Alphonse.Tremblay": { "type": "father" },
       "Lacombe": { "type": "union" },
       "Clément.Charest": { "type": "union", "date": "1946-08-31" }

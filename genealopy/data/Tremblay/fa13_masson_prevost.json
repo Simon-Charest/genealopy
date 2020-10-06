@@ -1,0 +1,24 @@
+{
+  "Nicolas.Prévost": {
+    "first_name": "Nicolas",
+    "last_name": "Prévost",
+    "gender": "M",
+    "relationship": {
+      "Charlotte.Vié": { "type": "mother" },
+      "Pierre.Prévost": { "type": "father" },
+      "Claude.Masson": { "type": "union" }
+    },
+    "source": "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=1015552"
+  },
+  "Claude.Masson": {
+    "first_name": "Claude",
+    "last_name": "Masson",
+    "gender": "F",
+    "relationship": {
+      "Claude.Guerin": { "type": "mother" },
+      "Robert.Masson": { "type": "father" },
+      "Nicolas.Prévost": { "type": "union" }
+    },
+    "source": "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=1015553"
+  }
+}

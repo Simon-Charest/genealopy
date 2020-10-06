@@ -15,6 +15,8 @@
     "last_name": "Poirier",
     "gender": "F",
     "relationship": {
+      "Francoise.Pinguet": { "type": "mother" },
+      "Vincent.Poirier": { "type": "father" },
       "Mathieu2.Guay": { "type": "union" }
     },
     "source": "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=10554"

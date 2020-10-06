@@ -1,0 +1,23 @@
+{
+  "Pierre.Prévost": {
+    "first_name": "Pierre",
+    "last_name": "Prévost",
+    "gender": "M",
+    "relationship": {
+      "Blanche.Adet": { "type": "mother" },
+      "Martin.Prévost": { "type": "father" },
+      "Charlotte.Vié": { "type": "union" }
+    },
+    "source": "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=1015554"
+  },
+  "Charlotte.Vié": {
+    "first_name": "Charlotte",
+    "last_name": "Vié",
+    "gender": "F",
+    "complete": false,
+    "relationship": {
+      "Pierre.Prévost": { "type": "union" }
+    },
+    "source": "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=1015555"
+  }
+}

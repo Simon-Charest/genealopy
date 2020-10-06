@@ -1,0 +1,22 @@
+{
+  "Martin.Prévost": {
+    "first_name": "Martin",
+    "last_name": "Prévost",
+    "gender": "M",
+    "complete": false,
+    "relationship": {
+      "Blanche.Adet": { "type": "union" }
+    },
+    "source": "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=1015554"
+  },
+  "Blanche.Adet": {
+    "first_name": "Blanche",
+    "last_name": "Adet",
+    "gender": "F",
+    "complete": false,
+    "relationship": {
+      "Martin.Prévost": { "type": "union" }
+    },
+    "source": "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=1015554"
+  }
+}

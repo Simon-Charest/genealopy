@@ -18,6 +18,8 @@
     "last_name": "Prevost",
     "gender": "F",
     "relationship": {
+      "Claude.Masson": { "type": "mother" },
+      "Nicolas.Prévost": { "type": "father" },
       "Gaston.Guay": { "type": "union" }
     },
     "source": "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=10548"

@@ -236,7 +236,9 @@ Guay" color=lightblue shape=box style=filled]
 	"Mathieu.Guay" -> "Gaston.Guay" [color=lightblue style=solid]
 	"Jeanne.Prevost" -> "Gaston.Guay" [color=grey style=dashed]
 	"Jeanne.Prevost" [label="Jeanne
-Prevost" color=deeppink shape=box style=filled]
+Prevost" color=pink shape=box style=filled]
+	"Claude.Masson" -> "Jeanne.Prevost" [color=pink style=solid]
+	"Nicolas.Prévost" -> "Jeanne.Prevost" [color=lightblue style=solid]
 	"Gaston.Guay" -> "Jeanne.Prevost" [color=grey style=dashed]
 	"Jean.Achon" [label="Jean
 Achon" color=lightblue shape=box style=filled]
@@ -276,6 +278,16 @@ Paradis" color=lightblue shape=box style=filled]
 	"Michelle.LePelle" [label="Michelle
 LePelle" color=pink shape=box style=filled]
 	"Jacques.Paradis" -> "Michelle.LePelle" [color=grey style=dashed]
+	"Nicolas.Prévost" [label="Nicolas
+Prévost" color=lightblue shape=box style=filled]
+	"Charlotte.Vié" -> "Nicolas.Prévost" [color=pink style=solid]
+	"Pierre.Prévost" -> "Nicolas.Prévost" [color=lightblue style=solid]
+	"Claude.Masson" -> "Nicolas.Prévost" [color=grey style=dashed]
+	"Claude.Masson" [label="Claude
+Masson" color=pink shape=box style=filled]
+	"Claude.Guerin" -> "Claude.Masson" [color=pink style=solid]
+	"Robert.Masson" -> "Claude.Masson" [color=lightblue style=solid]
+	"Nicolas.Prévost" -> "Claude.Masson" [color=grey style=dashed]
 	"Pierre.Roussin" [label="Pierre
 Roussin" color=lightblue shape=box style=filled]
 	"Jeanne.Nyeulle" -> "Pierre.Roussin" [color=grey style=dashed]
@@ -305,6 +317,12 @@ Robin" color=lightblue shape=box style=filled]
 	"Mathurine.Avrard" [label="Mathurine
 Avrard" color=pink shape=box style=filled]
 	"Eustache.Robin" -> "Mathurine.Avrard" [color=grey style=dashed]
+	"Robert.Masson" [label="Robert
+Masson" color=lightblue shape=box style=filled]
+	"Claude.Guerin" -> "Robert.Masson" [color=grey style=dashed]
+	"Claude.Guerin" [label="Claude
+Guerin" color=pink shape=box style=filled]
+	"Robert.Masson" -> "Claude.Guerin" [color=grey style=dashed]
 	"Jacques.Guyon" [label="Jacques
 Guyon" color=lightblue shape=box style=filled]
 	"Marie.Huet" -> "Jacques.Guyon" [color=grey style=dashed]
@@ -313,6 +331,20 @@ Huet" color=pink shape=box style=filled]
 	"Jacques.Guyon" -> "Marie.Huet" [color=grey style=dashed]
 	"Marin.Nyeullé" [label="Marin
 Nyeullé" color=lightblue shape=box style=filled]
+	"Pierre.Prévost" [label="Pierre
+Prévost" color=lightblue shape=box style=filled]
+	"Blanche.Adet" -> "Pierre.Prévost" [color=pink style=solid]
+	"Martin.Prévost" -> "Pierre.Prévost" [color=lightblue style=solid]
+	"Charlotte.Vié" -> "Pierre.Prévost" [color=grey style=dashed]
+	"Charlotte.Vié" [label="Charlotte
+Vié" color=pink shape=box style=filled]
+	"Pierre.Prévost" -> "Charlotte.Vié" [color=grey style=dashed]
+	"Martin.Prévost" [label="Martin
+Prévost" color=lightblue shape=box style=filled]
+	"Blanche.Adet" -> "Martin.Prévost" [color=grey style=dashed]
+	"Blanche.Adet" [label="Blanche
+Adet" color=pink shape=box style=filled]
+	"Martin.Prévost" -> "Blanche.Adet" [color=grey style=dashed]
 	"Marc.Charest" [label="Marc
 Charest" color=lightblue shape=box style=filled]
 	"Jocelyne.Dulude" -> "Marc.Charest" [color=pink style=solid]
@@ -650,7 +682,7 @@ Charest" color=pink shape=box style=filled]
 	"Hélène.Sigouin" -> "Michelle.Charest" [color=pink style=solid]
 	"Delphis.Charest" -> "Michelle.Charest" [color=lightblue style=solid]
 	"Rita.Tremblay" [label="Rita
-Lacombe Tremblay" color=pink shape=box style=filled]
+Tremblay" color=pink shape=box style=filled]
 	"Léotine.Turgeon" -> "Rita.Tremblay" [color=pink style=solid]
 	"Alphonse.Tremblay" -> "Rita.Tremblay" [color=lightblue style=solid]
 	Lacombe -> "Rita.Tremblay" [color=grey style=dashed]
