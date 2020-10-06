@@ -204,17 +204,17 @@ class AESCipher:
         return string
 
 
-def encrypt(string, keys=[], salt=''):
+def encrypt(string, key='', salt=''):
     """ Simple encryption function """
-    ciphers = get_ciphers(keys)
+    ciphers = get_ciphers([key])
     string, mac_tags = encrypt_recursively(ciphers, string, salt, AES.MODE_ECB)
 
     return string
 
 
-def decrypt(string, keys=[], salt=''):
+def decrypt(string, key='', salt=''):
     """ Simple decryption function """
-    ciphers = get_ciphers(keys)
+    ciphers = get_ciphers([key])
     string = decrypt_recursively(ciphers, string, salt, AES.MODE_ECB)
 
     return string

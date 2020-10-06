@@ -23,6 +23,12 @@ def get_filenames(paths, recursive=True):
     return list_
 
 
+def loads(string):
+    json_objects = json.loads(string)
+
+    return json_objects
+
+
 def load_json_objects(filenames, encoding='utf-8'):
     json_objects = {}
 

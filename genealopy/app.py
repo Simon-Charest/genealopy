@@ -1,6 +1,7 @@
 from common import analysis
 from common import data
 from common import file
+from common import pycrypt
 from common import text
 from common import visual
 from common.constant import constant
@@ -17,6 +18,14 @@ def run():
     # Get data from JSON files
     filenames = file.get_filenames(constant.DATA)
     json_objects = file.load_json_objects(filenames)
+
+    # Write an encrypted copy of the entire data
+    string = file.dumps(json_objects)
+    encrypted = pycrypt.encrypt(string, constant.FILE_KEY, constant.FILE_SALT)
+    file.write(constant.DATA_ENCRYPTED, encrypted)
+    encrypted = file.read(constant.DATA_ENCRYPTED)
+    string = pycrypt.decrypt(encrypted, constant.FILE_KEY, constant.FILE_SALT)
+    json_objects = file.loads(string)
 
     # Augment data with children
     json_objects = analysis.add_children(json_objects)

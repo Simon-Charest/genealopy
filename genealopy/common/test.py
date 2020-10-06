@@ -130,11 +130,8 @@ def test_get_shortest_path(json_objects, start, end, expected):
 
 def test_pycrypt():
     expected = 'Secret message'
-    keys = ['Th1s 1s an 3ncrypt10n k3y.']
+    key = 'Th1s 1s an 3ncrypt10n k3y.'
     salt = 'Why so salty?'
-
-    encrypted = pycrypt.decrypt(pycrypt.encrypt(expected, keys, salt))
-    actual = pycrypt.decrypt(encrypted, keys, salt)
-
+    actual = pycrypt.decrypt(pycrypt.encrypt(expected, key, salt), key, salt)
     result = actual == expected
     print_result(result, actual, expected)
