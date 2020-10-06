@@ -16,22 +16,24 @@ Prerequisites:
 
 def run():
     # Get data from JSON files
-    filenames = file.get_filenames(constant.DATA)
+    filenames = file.get_filenames(constant.INPUT_FILENAMES)
     json_objects = file.load_json_objects(filenames)
 
-    # Write an encrypted copy of the entire data
+    # Write a formatted and encrypted copy of the entire data
     string = file.dumps(json_objects)
-    encrypted = pycrypt.encrypt(string, constant.FILE_KEY, constant.FILE_SALT)
-    file.write(constant.DATA_ENCRYPTED, encrypted)
-    encrypted = file.read(constant.DATA_ENCRYPTED)
-    string = pycrypt.decrypt(encrypted, constant.FILE_KEY, constant.FILE_SALT)
-    json_objects = file.loads(string)
+    string = pycrypt.encrypt(string, constant.KEY_FILENAME, constant.SALT_FILENAME)
+    file.write(constant.OUTPUT_FILENAME, string)
+
+    # Read the formatted and encrypted copy of the entire data
+    # string = file.read(constant.DATA_OUTPUT)
+    # string = pycrypt.decrypt(string, constant.FILE_KEY, constant.FILE_SALT)
+    # json_objects = file.loads(string)
 
     # Augment data with children
     json_objects = analysis.add_children(json_objects)
 
     # Initialize graph
-    graph = Digraph(name=constant.__project__, filename=f'data/{constant.__project__.lower()}.gv', format='png')
+    graph = Digraph(name=constant.__project__, filename=constant.GRAPH_FILENAME, format=constant.GRAPH_FORMAT)
     graph.attr(rankdir=constant.RANK_DIRECTION)
 
     # Highlight shortest path(s)
@@ -93,12 +95,13 @@ def run():
                         # Draw relationship
                         graph.edge(key2, key1, color=edge_color, style=edge_style)
 
+    print(f"First name frequencies: {data.get_count(json_objects, 'first_name')}")
+    print(f"Last name frequencies: {data.get_count(json_objects, 'last_name')}")
+
     # Print statistics
     person_count = len(json_objects)
     relationship_count = data.get_relationship_count(json_objects)
     text.print_statistics(person_count, relationship_count)
-    print(f"First name frequencies: {data.get_count(json_objects, 'first_name')}")
-    print(f"Last name frequencies: {data.get_count(json_objects, 'last_name')}")
 
     # Display graph
     graph.view()

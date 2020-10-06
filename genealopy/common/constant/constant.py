@@ -26,42 +26,20 @@ __credits__ = {
         'Famille Gradel': 'https://www.retronicdesign.com/genealogie/'
     },
     'Gilles Charest': {},
-    'Marc Charest': {'email': 'marc@lourobin.com'},
+    'Gilles Deguire': {'email': 'deguire@mesancetres.ca', 'organization': 'Mes ancêtres', 'website': 'http://www.mesancetres.ca/'},
     'Louise Charest': {'email': 'charestl53@videotron.ca'},
+    'Marc Charest': {'email': 'marc@lourobin.com'},
     'Michel Charest': {'email': 'mic6349@gmail.com'},
     'Pierre Charest': {'email': 'charestp@videotron.ca', 'organization': '9116-8872 Québec inc.', 'website': 'https://www.myheritage.fr/site-205814691/charest'},
+    'Richard Côté': {'email': 'richardcoste@sogetel.net', 'organization': "Le Centre de généalogie francophone d'Amérique", 'website': 'http://www.genealogie.org/login/'},
     'Suzanne Coderre': {'email': 'suzanne1809@gmail.com'},
-    'The Charest Family': {},
-    'Gilles Deguire': {'email': 'deguire@mesancetres.ca', 'organization': 'Mes ancêtres', 'website': 'http://www.mesancetres.ca/'},
-    'Richard Côté': {'email': 'richardcoste@sogetel.net', 'organization': "Le Centre de généalogie francophone d'Amérique", 'website': 'http://www.genealogie.org/login/'}
+    'The Charest Family': {}
 }
 __license__ = 'GNU'
 __maintainer__ = 'Simon Charest'
 __status__ = 'Developement'
 __version__ = '2.0.0'
 
-# Data files
-DATA_ENCRYPTED = 'data/encrypted.txt'
-DATA_ALL = ['data/**/*.json']
-DATA = [
-    # Laguë
-    # 'data/Laguë/far_ascendance/*.json',  # Marie-Anne Lucas dit Francoeur's ascendance
-    # 'data/Laguë/*.json',  # Suzanne Laguë's ascendance
-    # 'data/Laguë/descendance/*.json',
-
-    # Charest
-    # 'data/Charest/far_ascendance/*.json',  # Delphis Charest's ascendance
-    # 'data/Charest/tanguay_charest_siblings/*.json',  # Delphis Charest's siblings
-    # 'data/Charest/dion_charette_ascendance/*.json',  # Aurèle Charette (Charest-Charette)'s ascendance
-    # 'data/Charest/little_cousins/*.json',  # Clément Charest siblings' descendance
-    # 'data/Charest/little_cousin_descendance/*.json',  # Clément Charest siblings' descendance
-    'data/Tremblay/*.json',  # Rita Lacombe Tremblay's ascendance
-    'data/Charest/*.json',
-    # 'data/Charest/descendance/*.json',
-
-    # Laguë-Charest
-    'data/0?_lague_charest.json'
-]
 """
 Filenames examples:
     ma01_dubreuil_lague.json   : first-degree (01) ascendant (a) of the mother's side (m) of the family
@@ -73,11 +51,42 @@ Filenames examples:
     fd01_charest_drouin.json   : first-degree (01) descendant (d) of the father's side (f) of the family
 """
 
+# Data files
+DATA_DIRECTORY = 'data/'
+INPUT_DIRECTORY = f'{DATA_DIRECTORY}input/'
+OUTPUT_DIRECTORY = f'{DATA_DIRECTORY}output/'
+TEST_FILENAMES = [f'{INPUT_DIRECTORY}**/*.json']
+INPUT_FILENAMES = map(lambda filename: INPUT_DIRECTORY + str(filename), [
+        # Laguë
+        'Laguë/far_ascendance/*.json',  # Marie-Anne Lucas dit Francoeur's ascendance
+        'Laguë/*.json',  # Suzanne Laguë's ascendance
+        'Laguë/descendance/*.json',
+
+        # Charest
+        'Charest/far_ascendance/*.json',  # Delphis Charest's ascendance
+        'Charest/tanguay_charest_siblings/*.json',  # Delphis Charest's siblings
+        'Charest/dion_charette_ascendance/*.json',  # Aurèle Charette (Charest-Charette)'s ascendance
+        'Charest/little_cousins/*.json',  # Clément Charest siblings' descendance
+        'Charest/little_cousin_descendance/*.json',  # Clément Charest siblings' descendance
+        'Tremblay/*.json',  # Rita Lacombe Tremblay's ascendance
+        'Charest/*.json',
+        'Charest/descendance/*.json',
+
+        # Laguë-Charest
+        '0?_lague_charest.json'
+    ]
+)
+OUTPUT_FILENAME = f'{OUTPUT_DIRECTORY}data.txt'
+
 # Encryption
-FILE_KEY = 'key.txt'
-FILE_SALT = 'salt.txt'
+SECURITY_DIRECTORY = f'{DATA_DIRECTORY}security/'
+KEY_FILENAME = f'{SECURITY_DIRECTORY}key.txt'
+SALT_FILENAME = f'{SECURITY_DIRECTORY}salt.txt'
 
 # Visuals
+GRAPH_DIRECTORY = f'{DATA_DIRECTORY}graph/'
+GRAPH_FILENAME = f'{GRAPH_DIRECTORY}{__project__.lower()}.gv'
+GRAPH_FORMAT = 'png'
 RANK_DIRECTION = 'TB'  # TB, LR, BT or RL
 SHAPE = 'box'
 STYLE = 'filled'

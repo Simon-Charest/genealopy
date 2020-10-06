@@ -2,15 +2,13 @@ from common import analysis
 from common import file
 from common import pycrypt
 from common.constant import constant
-from common.datetime_ import datetime_
 
-import datetime
 import inspect
 
 
 def run():
     # Get data from JSON files
-    filenames = file.get_filenames(constant.DATA_ALL)
+    filenames = file.get_filenames(constant.TEST_FILENAMES)
     json_objects = file.load_json_objects(filenames)
 
     # Augment data with children
@@ -18,7 +16,6 @@ def run():
 
     # Unit tests test_get_shortest_path function
     print('Unit tests:')
-    start = datetime.datetime.now()
     test_add_children()
     test_get_shortest_path(json_objects, 'Simon.Charest', 'Dominique.Charest', ['Simon.Charest', 'Michel.Charest', 'Clément.Charest', 'Hélène.Sigouin', 'Denis.Charest', 'Robert.Charest', 'Dominique.Charest'])
     test_get_shortest_path(json_objects, 'Aurèle.Charette', 'Jean-Baptiste3.Chorret Chaurette', ['Aurèle.Charette', 'Albert.Charette', 'Servini.Charette', 'Servini2.Charette', 'Damase.Chauret', 'Théodore.Choret Chaurette', 'Jean-Baptiste3.Chorret Chaurette'])
@@ -28,7 +25,6 @@ def run():
     test_get_shortest_path(json_objects, 'Simon.Charest', 'Delphis.Charest', ['Simon.Charest', 'Michel.Charest', 'Clément.Charest', 'Delphis.Charest'])
     test_get_shortest_path(json_objects, 'Henriette.Charest', 'Jean-Baptiste3.Chorret Chaurette', ['Henriette.Charest', 'Delphis.Charest', 'Adélard.Charest', 'Joseph.Charette', 'Joseph.Chorret Chaurette', 'Jean-Baptiste3.Chorret Chaurette'])
     test_pycrypt()
-    datetime_.print_execution_time(start)
 
 
 def get_function_name(back=2):

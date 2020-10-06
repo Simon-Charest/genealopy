@@ -4,17 +4,17 @@ import glob
 import json
 
 
-def dump_json_objects(filename, json_objects, encoding='utf-8', ensure_ascii=False):
+def dump_json_objects(filename, json_objects, encoding='utf-8', ensure_ascii=False, indent=2):
     """ Write a JSON dictionary object to a file """
 
     with open(filename, 'w', encoding=encoding) as stream:
-        json.dump(json_objects, stream, ensure_ascii=ensure_ascii)
+        json.dump(json_objects, stream, ensure_ascii=ensure_ascii, indent=indent)
 
 
-def dumps(json_objects, ensure_ascii=False):
+def dumps(json_objects, ensure_ascii=False, indent=2):
     """ Serialize JSON dictionary object and return it as a JSON formatted string """
 
-    return json.dumps(json_objects, ensure_ascii=ensure_ascii)
+    return json.dumps(json_objects, ensure_ascii=ensure_ascii, indent=indent)
 
 
 def get_filenames(paths, recursive=True):
