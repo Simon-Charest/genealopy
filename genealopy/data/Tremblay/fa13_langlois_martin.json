@@ -1,0 +1,36 @@
+{
+  "Abraham.Martin": {
+    "first_name": "Abraham",
+    "last_name": "Martin dit l'Ecossais",
+    "gender": "M",
+    "complete": false,
+    "relationship": {
+      "Marguerite.Langlois": { "type": "union" }
+    },
+    "source": [
+      "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=4290",
+      "https://www.nosorigines.qc.ca/biography.aspx?id=4290"
+    ]
+  },
+  "Marguerite.Langlois": {
+    "first_name": "Catherine-Marguerite",
+    "last_name": "Langlois",
+    "gender": "F",
+    "complete": false,
+    "relationship": {
+      "Abraham.Martin": { "type": "union" },
+      "Rene.Branche": { "type": "union" }
+    },
+    "source": "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=4291"
+  },
+  "Rene.Branche": {
+    "first_name": "Rene",
+    "last_name": "Branche",
+    "gender": "M",
+    "family": false,
+    "relationship": {
+      "Marguerite.Langlois": { "type": "union" }
+    },
+    "source": "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=4292"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "Charles.Turgeon": {
+    "first_name": "Charles",
+    "last_name": "Turgeon",
+    "gender": "M",
+    "complete": false,
+    "relationship": {
+      "Sébastienne.Léger": { "type": "mother" },
+      "Jean.Turgeon": { "type": "father" },
+      "Pacquière.Lefèbvre": { "type": "union" }
+    },
+    "source": "data/src/FAMILLE TURGEON.pdf"
+  },
+  "Pacquière.Lefèbvre": {
+    "first_name": "Pacquière",
+    "last_name": "Lefèbvre",
+    "gender": "F",
+    "complete": false,
+    "relationship": {
+      "Charles.Turgeon": { "type": "union" }
+    },
+    "source": "data/src/FAMILLE TURGEON.pdf"
+  }
+}

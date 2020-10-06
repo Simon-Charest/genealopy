@@ -1,20 +1,23 @@
 {
-  "François.Turgeon": {
+  "François4.Turgeon": {
     "first_name": "François",
     "last_name": "Turgeon",
     "gender": "M",
     "relationship": {
+      "Marie-Judith.Simard": { "type": "mother" },
+      "François3.Turgeon": { "type": "father" },
       "Zoé.Larouche": { "type": "union" }
     },
-    "source": "data/Simon Charest.pdf"
+    "source": "data/src/FAMILLE TURGEON.pdf"
   },
   "Zoé.Larouche": {
     "first_name": "Zoé",
-    "last_name": "Larouche",
+    "last_name": "Gauthier-Larouche",
     "gender": "F",
+    "complete": false,
     "relationship": {
-      "François.Turgeon": { "type": "union" }
+      "François4.Turgeon": { "type": "union" }
     },
-    "source": "data/Simon Charest.pdf"
+    "source": "data/src/FAMILLE TURGEON.pdf"
   }
 }

@@ -1,0 +1,22 @@
+{
+  "Jean.Lousche": {
+    "first_name": "Jean",
+    "last_name": "Lousche",
+    "gender": "M",
+    "complete": false,
+    "relationship": {
+      "Jeanne.Lemoyne": { "type": "union" }
+    },
+    "source": "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=475655"
+  },
+  "Jeanne.Lemoyne": {
+    "first_name": "Jeanne",
+    "last_name": "Lemoyne",
+    "gender": "F",
+    "complete": false,
+    "relationship": {
+      "Jean.Lousche": { "type": "union" }
+    },
+    "source": "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=475655"
+  }
+}

@@ -3,6 +3,7 @@
     "first_name": "Désiré",
     "last_name": "Harvey",
     "gender": "M",
+    "complete": false,
     "relationship": {
       "Angeline.Perron": { "type": "union" }
     },
@@ -12,6 +13,7 @@
     "first_name": "Angeline",
     "last_name": "Perron",
     "gender": "F",
+    "complete": false,
     "relationship": {
       "Désiré.Harvey": { "type": "union" }
     },

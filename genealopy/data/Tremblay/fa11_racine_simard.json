@@ -1,0 +1,24 @@
+{
+  "Noel.Simard": {
+    "first_name": "Noel",
+    "last_name": "Simard dit Lombrette",
+    "gender": "M",
+    "relationship": {
+      "Suzanne.Durand": { "type": "mother" },
+      "Pierre.Simard": { "type": "father" },
+      "Madeleine.Racine": { "type": "union" }
+    },
+    "source": "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=1810"
+  },
+  "Madeleine.Racine": {
+    "first_name": "Madeleine",
+    "last_name": "Racine",
+    "gender": "F",
+    "relationship": {
+      "Marguerite.Martin": { "type": "mother" },
+      "Etienne.Racine": { "type": "father" },
+      "Noel.Simard": { "type": "union" }
+    },
+    "source": "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=1811"
+  }
+}

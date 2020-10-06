@@ -1,0 +1,22 @@
+{
+  "François3.Turgeon": {
+    "first_name": "François",
+    "last_name": "Turgeon",
+    "gender": "M",
+    "relationship": {
+      "Madeleine2.Tremblay": { "type": "mother" },
+      "François2.Turgeon": { "type": "father" },
+      "Marie-Judith.Simard": { "type": "union" }
+    },
+    "source": "data/src/FAMILLE TURGEON.pdf"
+  },
+  "Marie-Judith.Simard": {
+    "first_name": "Marie-Judith",
+    "last_name": "Simard",
+    "gender": "F",
+    "relationship": {
+      "François3.Turgeon": { "type": "union" }
+    },
+    "source": "data/src/FAMILLE TURGEON.pdf"
+  }
+}

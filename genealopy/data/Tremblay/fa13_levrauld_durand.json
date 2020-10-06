@@ -1,0 +1,22 @@
+{
+  "Louis.Durand": {
+    "first_name": "Louis",
+    "last_name": "Durand",
+    "gender": "M",
+    "complete": false,
+    "relationship": {
+      "Francoise.Levrauld": { "type": "union" }
+    },
+    "source": "https://www.nosorigines.qc.ca/biography.aspx?id=1808"
+  },
+  "Francoise.Levrauld": {
+    "first_name": "Francoise",
+    "last_name": "Levrauld",
+    "gender": "F",
+    "complete": false,
+    "relationship": {
+      "Louis.Durand": { "type": "union" }
+    },
+    "source": "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=1808"
+  }
+}

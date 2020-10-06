@@ -1,0 +1,22 @@
+{
+  "Rene.Racine": {
+    "first_name": "Rene",
+    "last_name": "Racine",
+    "gender": "M",
+    "complete": false,
+    "relationship": {
+      "Marie.Loiselle": { "type": "union" }
+    },
+    "source": "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=3934"
+  },
+  "Marie.Loiselle": {
+    "first_name": "Marie",
+    "last_name": "Loiselle",
+    "gender": "F",
+    "complete": false,
+    "relationship": {
+      "Rene.Racine": { "type": "union" }
+    },
+    "source": "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=3934"
+  }
+}

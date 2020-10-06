@@ -1,0 +1,24 @@
+{
+  "Henri.Pinguet": {
+    "first_name": "Henri",
+    "last_name": "Pinguet",
+    "gender": "M",
+    "relationship": {
+      "Louise.Lambert": { "type": "mother" },
+      "Noel.Pinguet": { "type": "father" },
+      "Louise.Lousche": { "type": "union" }
+    },
+    "source": "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=475654"
+  },
+  "Louise.Lousche": {
+    "first_name": "Louise",
+    "last_name": "Lousche",
+    "gender": "F",
+    "relationship": {
+      "Jeanne.Lemoyne": { "type": "mother" },
+      "Jean.Lousche": { "type": "father" },
+      "Henri.Pinguet": { "type": "union" }
+    },
+    "source": "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=475655"
+  }
+}

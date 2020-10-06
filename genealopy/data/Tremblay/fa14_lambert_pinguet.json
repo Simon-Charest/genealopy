@@ -1,0 +1,22 @@
+{
+  "Noel.Pinguet": {
+    "first_name": "Noel",
+    "last_name": "Pinguet",
+    "gender": "M",
+    "complete": false,
+    "relationship": {
+      "Louise.Lambert": { "type": "union" }
+    },
+    "source": "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=475654"
+  },
+  "Louise.Lambert": {
+    "first_name": "Louise",
+    "last_name": "Lambert",
+    "gender": "F",
+    "complete": false,
+    "relationship": {
+      "Noel.Pinguet": { "type": "union" }
+    },
+    "source": "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=475654"
+  }
+}

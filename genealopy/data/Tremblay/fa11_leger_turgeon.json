@@ -1,0 +1,22 @@
+{
+  "Jean.Turgeon": {
+    "first_name": "Jean",
+    "last_name": "Turgeon",
+    "gender": "M",
+    "complete": false,
+    "relationship": {
+      "Sébastienne.Léger": { "type": "union" }
+    },
+    "source": "data/src/FAMILLE TURGEON.pdf"
+  },
+  "Sébastienne.Léger": {
+    "first_name": "Sébastienne",
+    "last_name": "Léger Liger",
+    "gender": "F",
+    "complete": false,
+    "relationship": {
+      "Jean.Turgeon": { "type": "union" }
+    },
+    "source": "data/src/FAMILLE TURGEON.pdf"
+  }
+}

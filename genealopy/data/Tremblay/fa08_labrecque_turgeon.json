@@ -1,0 +1,22 @@
+{
+  "François.Turgeon": {
+    "first_name": "François",
+    "last_name": "Turgeon",
+    "gender": "M",
+    "relationship": {
+      "Cécile.Lecour": { "type": "mother" },
+      "Alexandre.Turgeon": { "type": "father" },
+      "Marguerite.Labrecque": { "type": "union" }
+    },
+    "source": "data/src/FAMILLE TURGEON.pdf"
+  },
+  "Marguerite.Labrecque": {
+    "first_name": "Marguerite",
+    "last_name": "Labrecque",
+    "gender": "F",
+    "relationship": {
+      "François.Turgeon": { "type": "union" }
+    },
+    "source": "data/src/FAMILLE TURGEON.pdf"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "Etienne.Racine": {
+    "first_name": "Etienne",
+    "last_name": "Racine",
+    "gender": "M",
+    "relationship": {
+      "Marie.Loiselle": { "type": "mother" },
+      "Rene.Racine": { "type": "father" },
+      "Marguerite.Martin": { "type": "union" }
+    },
+    "source": "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=3934"
+  },
+  "Marguerite.Martin": {
+    "first_name": "Marguerite",
+    "last_name": "Martin",
+    "gender": "F",
+    "relationship": {
+      "Marguerite.Langlois": { "type": "mother" },
+      "Abraham.Martin": { "type": "father" },
+      "Etienne.Racine": { "type": "union" }
+    },
+    "source": "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=3935"
+  }
+}

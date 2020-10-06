@@ -1,0 +1,22 @@
+{
+  "François2.Turgeon": {
+    "first_name": "François",
+    "last_name": "Turgeon",
+    "gender": "M",
+    "relationship": {
+      "Marguerite.Labrecque": { "type": "mother" },
+      "François.Turgeon": { "type": "father" },
+      "Madeleine2.Tremblay": { "type": "union" }
+    },
+    "source": "data/src/FAMILLE TURGEON.pdf"
+  },
+  "Madeleine2.Tremblay": {
+    "first_name": "Madeleine",
+    "last_name": "Tremblay",
+    "gender": "F",
+    "relationship": {
+      "François2.Turgeon": { "type": "union" }
+    },
+    "source": "data/src/FAMILLE TURGEON.pdf"
+  }
+}

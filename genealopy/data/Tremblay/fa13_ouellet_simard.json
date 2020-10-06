@@ -1,0 +1,22 @@
+{
+  "Marsault.Simard": {
+    "first_name": "Marsault",
+    "last_name": "Simarde",
+    "gender": "M",
+    "complete": false,
+    "relationship": {
+      "Ozanne.Ouellet": { "type": "union" }
+    },
+    "source": "https://www.nosorigines.qc.ca/biography.aspx?id=1807"
+  },
+  "Ozanne.Ouellet": {
+    "first_name": "Ozanne",
+    "last_name": "Ouellet",
+    "gender": "F",
+    "complete": false,
+    "relationship": {
+      "Marsault.Simard": { "type": "union" }
+    },
+    "source": "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=1807"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "Zacharie.Turgeon": {
+    "first_name": "Zacharie",
+    "last_name": "Turgeon",
+    "gender": "M",
+    "relationship": {
+      "Pacquière.Lefèbvre": { "type": "mother" },
+      "Charles.Turgeon": { "type": "father" },
+      "Élisabeth.Leroy": { "type": "union" }
+    },
+    "source": "data/src/FAMILLE TURGEON.pdf"
+  },
+  "Élisabeth.Leroy": {
+    "first_name": "Élisabeth",
+    "last_name": "Leroy Roy",
+    "gender": "F",
+    "relationship": {
+      "Zacharie.Turgeon": { "type": "union" }
+    },
+    "source": "data/src/FAMILLE TURGEON.pdf"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "François.Poirier": {
+    "first_name": "François",
+    "last_name": "Poirier",
+    "gender": "M",
+    "complete": false,
+    "relationship": {
+      "Michèle.Bonard": { "type": "union" }
+    },
+    "source": "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=32933"
+  },
+  "Michèle.Bonard": {
+    "first_name": "Michèle",
+    "last_name": "Bonard",
+    "gender": "F",
+    "complete": false,
+    "relationship": {
+      "François.Poirier": { "type": "union" }
+    },
+    "source": "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=32933"
+  }
+}

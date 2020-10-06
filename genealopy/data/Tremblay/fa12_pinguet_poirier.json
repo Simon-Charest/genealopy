@@ -1,0 +1,46 @@
+{
+  "Vincent.Poirier": {
+    "first_name": "Vincent",
+    "last_name": "Poirier",
+    "gender": "M",
+    "relationship": {
+      "Michèle.Bonard": { "type": "mother" },
+      "François.Poirier": { "type": "father" },
+      "Francoise.Pinguet": { "type": "union" },
+      "Judith-Catherine.Renaudeau": { "type": "union" }
+    },
+    "source": "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=32933"
+  },
+  "Judith-Catherine.Renaudeau": {
+    "first_name": "Judith-Catherine",
+    "last_name": "Renaudeau",
+    "gender": "F",
+    "family": false,
+    "relationship": {
+      "Vincent.Poirier": { "type": "union" }
+    },
+    "source": "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=32933"
+  },
+  "Francoise.Pinguet": {
+    "first_name": "Francoise",
+    "last_name": "Pinguet",
+    "gender": "F",
+    "relationship": {
+      "Louise.Lousche": { "type": "mother" },
+      "Henri.Pinguet": { "type": "father" },
+      "Vincent.Poirier": { "type": "union" },
+      "Pierre.Delaunay": { "type": "union" }
+    },
+    "source": "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=23742"
+  },
+  "Pierre.Delaunay": {
+    "first_name": "Pierre",
+    "last_name": "Delaunay",
+    "gender": "F",
+    "family": false,
+    "relationship": {
+      "Francoise.Pinguet": { "type": "union" }
+    },
+    "source": "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=23742"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "Pierre.Simard": {
+    "first_name": "Pierre",
+    "last_name": "Simard dit Lombrette",
+    "gender": "M",
+    "relationship": {
+      "Ozanne.Ouellet": { "type": "mother" },
+      "Marsault.Simard": { "type": "father" },
+      "Suzanne.Durand": { "type": "union" }
+    },
+    "source": [
+      "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=1807",
+      "https://www.nosorigines.qc.ca/biography.aspx?id=1807"
+      ]
+  },
+  "Suzanne.Durand": {
+    "first_name": "Suzanne",
+    "last_name": "Durand",
+    "gender": "F",
+    "relationship": {
+      "Francoise.Levrauld": { "type": "mother" },
+      "Louis.Durand": { "type": "father" },
+      "Pierre.Simard": { "type": "union" }
+    },
+    "source": "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=1808"
+  },
+  "Catherine.Boudier": {
+    "first_name": "Catherine",
+    "last_name": "Boudier",
+    "gender": "F",
+    "family": false,
+    "relationship": {
+      "Pierre.Simard": { "type": "union" }
+    },
+    "source": "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=1808"
+  }
+}

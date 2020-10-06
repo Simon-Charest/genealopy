@@ -1,0 +1,22 @@
+{
+  "Alexandre.Turgeon": {
+    "first_name": "Alexandre",
+    "last_name": "Turgeon",
+    "gender": "M",
+    "relationship": {
+      "Élisabeth.Leroy": { "type": "mother" },
+      "Zacharie.Turgeon": { "type": "father" },
+      "Cécile.Lecour": { "type": "union" }
+    },
+    "source": "data/src/FAMILLE TURGEON.pdf"
+  },
+  "Cécile.Lecour": {
+    "first_name": "Cécile",
+    "last_name": "Lecour Lecours",
+    "gender": "F",
+    "relationship": {
+      "Alexandre.Turgeon": { "type": "union" }
+    },
+    "source": "data/src/FAMILLE TURGEON.pdf"
+  }
+}

@@ -35,8 +35,9 @@ def run():
     graph.attr(rankdir=constant.RANK_DIRECTION)
 
     # Highlight shortest path(s)
-    # search = ['Simon.Charest']
-    # search = analysis.get_shortest_path(json_objects, 'Simon.Charest', 'Delphis.Charest')
+    search = ['Cécile.Lecour', 'Céleste.Boulianne', 'Élisabeth.Leroy', 'Luce.Boily', 'Lucien.Truchon',
+              'Madeleine.Bouchard', 'Madeleine2.Tremblay', 'Marguerite.Labrecque', 'Marguerite.Lavoie',
+              'Marie-Judith.Simard', 'Marie-Reine.Dufour', 'Zoé.Pagé']  # TODO
 
     if constant.DEBUG and 'search' in locals():
         print(f'Search: {search}')
