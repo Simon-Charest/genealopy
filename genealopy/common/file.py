@@ -48,7 +48,15 @@ def load_json_objects(filenames, encoding='utf-8'):
 
         # Read JSON data
         with open(filename, encoding=encoding) as stream:
-            json_document = json.load(stream)
+            try:
+                json_document = json.load(stream)
+
+            except json.decoder.JSONDecodeError as jsonDecodeError:
+                print(f'Exception: JSON Decode Error'
+                      f'\nMessage: {jsonDecodeError.msg}'
+                      f'\nLine Number: {jsonDecodeError.lineno}'
+                      f'\nFilename: {filename}')
+                exit()
 
             if constant.DEBUG:
                 print(f'JSON Document: {json_document}')
