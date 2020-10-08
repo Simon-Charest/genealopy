@@ -15,8 +15,8 @@ Prerequisites:
 
 
 def run():
-    # Get data from JSON files
-    filenames = file.get_filenames(constant.INPUT_FILENAMES)
+    # Get all data from JSON files
+    filenames = file.get_filenames(constant.ALL_FILENAMES)
     json_objects = file.load_json_objects(filenames)
 
     # Write a formatted and encrypted copy of the entire data
@@ -25,9 +25,13 @@ def run():
     file.write(constant.OUTPUT_FILENAME, string)
 
     # Read the formatted and encrypted copy of the entire data
-    # string = file.read(constant.DATA_OUTPUT)
+    # string = file.read(constant.OUTPUT_FILENAME)
     # string = pycrypt.decrypt(string, constant.FILE_KEY, constant.FILE_SALT)
     # json_objects = file.loads(string)
+
+    # Get data from JSON files
+    filenames = file.get_filenames(constant.INPUT_FILENAMES)
+    json_objects = file.load_json_objects(filenames)
 
     # Augment data with children
     json_objects = analysis.add_children(json_objects)

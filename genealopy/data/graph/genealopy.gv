@@ -973,7 +973,9 @@ Lamoureux" color=pink shape=box style=filled]
 Marchesseau" color=lightblue shape=box style=filled]
 	"Sebastienne.Lamoureux" -> "Etienne.Marchesseau" [color=grey style=dashed]
 	"Marie-Jeanne.Languille" [label="Marie-Jeanne
-Languille Anguille" color=deeppink shape=box style=filled]
+Languille Anguille" color=pink shape=box style=filled]
+	"Etiennette.Toucherain" -> "Marie-Jeanne.Languille" [color=pink style=solid]
+	"Michel.Languille" -> "Marie-Jeanne.Languille" [color=lightblue style=solid]
 	"Francois.Allard" [label="Francois
 Allard" color=lightblue shape=box style=filled]
 	"Marie-Jacqueline.Frerot" -> "Francois.Allard" [color=pink style=solid]
@@ -1188,6 +1190,16 @@ Pougnye" color=pink shape=box style=filled]
 	"Adrien.Dumoys" [label="Adrien
 Dumoys" color=lightblue shape=box style=filled]
 	"Catherine.Pougnye" -> "Adrien.Dumoys" [color=grey style=dashed]
+	"Etiennette.Toucherain" [label="Etiennette
+Toucherain" color=pink shape=box style=filled]
+	"Catherine.Munat" -> "Etiennette.Toucherain" [color=pink style=solid]
+	"Etienne.Toucherain" -> "Etiennette.Toucherain" [color=lightblue style=solid]
+	"Michel.Languille" -> "Etiennette.Toucherain" [color=grey style=dashed]
+	"Michel.Languille" [label="Michel
+Languille Anguille" color=lightblue shape=box style=filled]
+	"Catherine.Baulger" -> "Michel.Languille" [color=pink style=solid]
+	"Catherin.Anguille" -> "Michel.Languille" [color=lightblue style=solid]
+	"Etiennette.Toucherain" -> "Michel.Languille" [color=grey style=dashed]
 	"Julien.Badel" [label="Julien
 Badel" color=lightblue shape=box style=filled]
 	"Etiennette.Badouille" [label="Etiennette
@@ -1196,6 +1208,12 @@ Badouille" color=pink shape=box style=filled]
 	"Martin.Dany" [label="Martin
 Dany" color=lightblue shape=box style=filled]
 	"Etiennette.Badouille" -> "Martin.Dany" [color=grey style=dashed]
+	"Catherine.Baulger" [label="Catherine
+Baulger, Bauger" color=pink shape=box style=filled]
+	"Catherin.Anguille" -> "Catherine.Baulger" [color=grey style=dashed]
+	"Catherin.Anguille" [label="Catherin
+Anguille" color=lightblue shape=box style=filled]
+	"Catherine.Baulger" -> "Catherin.Anguille" [color=grey style=dashed]
 	"Jeanne.Gardony" [label="Jeanne
 Gardony" color=pink shape=box style=filled]
 	"Barthelemy.De Voisy" -> "Jeanne.Gardony" [color=grey style=dashed]
@@ -1208,6 +1226,12 @@ Lapierre" color=pink shape=box style=filled]
 	"Pierre.Lapierre" [label="Pierre
 Lapierre" color=lightblue shape=box style=filled]
 	"Claude.Leclerc" -> "Pierre.Lapierre" [color=grey style=dashed]
+	"Catherine.Munat" [label="Catherine
+Munat" color=pink shape=box style=filled]
+	"Etienne.Toucherain" -> "Catherine.Munat" [color=grey style=dashed]
+	"Etienne.Toucherain" [label="Etienne
+Toucherain" color=lightblue shape=box style=filled]
+	"Catherine.Munat" -> "Etienne.Toucherain" [color=grey style=dashed]
 	"Simone.Pichereau" [label="Simone
 Pichereau" color=pink shape=box style=filled]
 	"Francois.Pelletier" -> "Simone.Pichereau" [color=grey style=dashed]

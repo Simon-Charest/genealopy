@@ -8,7 +8,7 @@ import inspect
 
 def run():
     # Get data from JSON files
-    filenames = file.get_filenames(constant.TEST_FILENAMES)
+    filenames = file.get_filenames(constant.ALL_FILENAMES)
     json_objects = file.load_json_objects(filenames)
 
     # Augment data with children

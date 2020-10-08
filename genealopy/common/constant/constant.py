@@ -55,7 +55,7 @@ Filenames examples:
 DATA_DIRECTORY = 'data/'
 INPUT_DIRECTORY = f'{DATA_DIRECTORY}input/'
 OUTPUT_DIRECTORY = f'{DATA_DIRECTORY}output/'
-TEST_FILENAMES = [f'{INPUT_DIRECTORY}**/*.json']
+ALL_FILENAMES = [f'{INPUT_DIRECTORY}**/*.json']
 INPUT_FILENAMES = map(lambda filename: INPUT_DIRECTORY + str(filename), [
         # Laguë
         'Laguë/far_ascendance/*.json',  # Marie-Anne Lucas dit Francoeur's ascendance
