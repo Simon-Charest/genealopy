@@ -1,0 +1,24 @@
+{
+  "Etiennette.Toucherain": {
+    "first_name": "Etiennette",
+    "last_name": "Toucherain",
+    "gender": "F",
+    "relationship": {
+      "Catherine.Munat": { "type": "mother" },
+      "Etienne.Toucherain": { "type": "father" },
+      "Michel.Languille": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=1520826"
+  },
+  "Michel.Languille": {
+    "first_name": "Michel",
+    "last_name": "Languille Anguille",
+    "gender": "M",
+    "relationship": {
+      "Catherine.Baulger": { "type": "mother" },
+      "Catherin.Anguille": { "type": "father" },
+      "Etiennette.Toucherain": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?&pid=1520825"
+  }
+}

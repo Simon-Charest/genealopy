@@ -1,0 +1,22 @@
+{
+  "Catherine.Baulger": {
+    "first_name": "Catherine",
+    "last_name": "Baulger, Bauger",
+    "gender": "F",
+    "complete": false,
+    "relationship": {
+      "Catherin.Anguille": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=1520825"
+  },
+  "Catherin.Anguille": {
+    "first_name": "Catherin",
+    "last_name": "Anguille",
+    "gender": "M",
+    "complete": false,
+    "relationship": {
+      "Catherine.Baulger": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?&pid=1520825"
+  }
+}
