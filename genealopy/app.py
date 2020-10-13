@@ -15,6 +15,33 @@ Prerequisites:
 
 
 def run():
+    # Highlight selected nodes
+    search = ['Cécile.Lecour', 'Céleste.Boulianne', 'Élisabeth.Leroy', 'Luce.Boily', 'Lucien.Truchon',
+              'Madeleine.Bouchard', 'Madeleine2.Tremblay', 'Marguerite.Labrecque', 'Marguerite.Lavoie',
+              'Marie-Judith.Simard', 'Marie-Reine.Dufour', 'Zoé.Pagé']
+
+    # Main execution
+    backup_all_data()
+    json_objects = load_data()
+    graph = initialize_graph()
+    process_data(json_objects, graph, search)
+    print_frequencies(json_objects)
+    print_statistics(json_objects)
+
+    # Display graph
+    graph.view()
+
+
+def decrypt_all_data():
+    # Read the formatted and encrypted copy of the entire data
+    string = file.read(constant.OUTPUT_FILENAME)
+    string = pycrypt.decrypt(string, constant.KEY_FILENAME, constant.SALT_FILENAME)
+    json_objects = file.loads(string)
+
+    return json_objects
+
+
+def backup_all_data():
     # Get all data from JSON files
     filenames = file.get_filenames(constant.ALL_FILENAMES)
     json_objects = file.load_json_objects(filenames)
@@ -24,11 +51,16 @@ def run():
     string = pycrypt.encrypt(string, constant.KEY_FILENAME, constant.SALT_FILENAME)
     file.write(constant.OUTPUT_FILENAME, string)
 
-    # Read the formatted and encrypted copy of the entire data
-    # string = file.read(constant.OUTPUT_FILENAME)
-    # string = pycrypt.decrypt(string, constant.FILE_KEY, constant.FILE_SALT)
-    # json_objects = file.loads(string)
 
+def initialize_graph():
+    # Initialize graph
+    graph = Digraph(name=constant.__project__, filename=constant.GRAPH_FILENAME, format=constant.GRAPH_FORMAT)
+    graph.attr(rankdir=constant.RANK_DIRECTION)
+
+    return graph
+
+
+def load_data():
     # Get data from JSON files
     filenames = file.get_filenames(constant.INPUT_FILENAMES)
     json_objects = file.load_json_objects(filenames)
@@ -36,14 +68,24 @@ def run():
     # Augment data with children
     json_objects = analysis.add_children(json_objects)
 
-    # Initialize graph
-    graph = Digraph(name=constant.__project__, filename=constant.GRAPH_FILENAME, format=constant.GRAPH_FORMAT)
-    graph.attr(rankdir=constant.RANK_DIRECTION)
+    return json_objects
 
-    # Highlight shortest path(s)
-    search = ['Cécile.Lecour', 'Céleste.Boulianne', 'Élisabeth.Leroy', 'Luce.Boily', 'Lucien.Truchon',
-              'Madeleine.Bouchard', 'Madeleine2.Tremblay', 'Marguerite.Labrecque', 'Marguerite.Lavoie',
-              'Marie-Judith.Simard', 'Marie-Reine.Dufour', 'Zoé.Pagé']  # TODO
+
+def print_frequencies(json_objects):
+    print(f"First name frequencies: {data.get_count(json_objects, 'first_name')}")
+    print(f"Last name frequencies: {data.get_count(json_objects, 'last_name')}")
+
+
+def print_statistics(json_objects):
+    # Print statistics
+    person_count = len(json_objects)
+    relationship_count = data.get_relationship_count(json_objects)
+    text.print_statistics(person_count, relationship_count)
+
+
+def process_data(json_objects, graph, search=None):
+    if search is None:
+        search = []
 
     if constant.DEBUG and 'search' in locals():
         print(f'Search: {search}')
@@ -98,14 +140,3 @@ def run():
 
                         # Draw relationship
                         graph.edge(key2, key1, color=edge_color, style=edge_style)
-
-    print(f"First name frequencies: {data.get_count(json_objects, 'first_name')}")
-    print(f"Last name frequencies: {data.get_count(json_objects, 'last_name')}")
-
-    # Print statistics
-    person_count = len(json_objects)
-    relationship_count = data.get_relationship_count(json_objects)
-    text.print_statistics(person_count, relationship_count)
-
-    # Display graph
-    graph.view()
