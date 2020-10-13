@@ -10,7 +10,7 @@ def exists_in(json_object, key, value=None):
         return key in json_object
 
 
-def get_count(json_objects, field):
+def get_count(json_objects, field, minimum=1):
     dictionary = {}
 
     for json_object in json_objects:
@@ -19,6 +19,10 @@ def get_count(json_objects, field):
 
         else:
             dictionary[json_objects[json_object][field]] = 1
+
+    # Filter values by minimal frequency
+    if minimum > 1:
+        dictionary = dict(filter(lambda values: values[1] >= minimum, dictionary.items()))
 
     # Sort values alphabetically
     sorted_list = sorted(dictionary.items(), key=lambda values: text.is_none(values[0]))
