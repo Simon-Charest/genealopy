@@ -5,12 +5,12 @@
     "gender": "F",
     "relationship": {
       "Marie-Anne-Louise.Roberge": { "type": "mother" },
-      "Paul.Rainville": { "type": "father" },
+      "Paul2.Rainville": { "type": "father" },
       "Jean-Baptiste2.Allard": { "type": "union" }
     },
     "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=1062957"
   },
-  "Jean-Baptiste2.Allard": {
+  "Jean-Baptiste.Allard": {
     "first_name": "Jean-Baptiste",
     "last_name": "Allard",
     "gender": "M",
