@@ -15,15 +15,18 @@ Prerequisites:
 
 
 def run():
+    """ Main execution """
+
+    backup_all_data()
+    json_objects = load_data()
+    graph = initialize_graph()
+
     # Highlight selected nodes
     search = ['Cécile.Lecour', 'Céleste.Boulianne', 'Élisabeth.Leroy', 'Luce.Boily', 'Lucien.Truchon',
               'Madeleine.Bouchard', 'Madeleine2.Tremblay', 'Marguerite.Labrecque', 'Marguerite.Lavoie',
               'Marie-Judith.Simard', 'Marie-Reine.Dufour', 'Zoé.Pagé']
+    # search = analysis.get_shortest_path(json_objects, 'Catherine.Charest', 'Catherine.Lecompte')
 
-    # Main execution
-    backup_all_data()
-    json_objects = load_data()
-    graph = initialize_graph()
     process_data(json_objects, graph, search)
     print_frequencies(json_objects)
     print_statistics(json_objects)

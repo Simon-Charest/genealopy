@@ -41,7 +41,7 @@
       "Simon.Charest": { "type": "union", "start": "2012-02-19" }
     }
   },
-  "I620": {
+  "Catherine.Charest": {
     "first_name": "Catherine",
     "middle_name": "Ghislaine",
     "last_name": "Charest",
@@ -62,17 +62,17 @@
     "relationship": {
       "Suzanne.Laguë": { "type": "mother" },
       "Michel.Charest": { "type": "father" },
-      "ML": { "type": "union" }
+      "Marc.Lecompte": { "type": "union" }
     },
     "source" : "https://www.retronicdesign.com/genealogie/individual.php?ged=gradel&pid="
   },
-  "ML": {
+  "Marc.Lecompte": {
     "first_name": "Marc",
     "last_name": "Lecompte",
     "gender": "M",
     "family": false,
     "relationship": {
-      "I620": { "type": "union" }
+      "Catherine.Charest": { "type": "union" }
     }
   }
 }

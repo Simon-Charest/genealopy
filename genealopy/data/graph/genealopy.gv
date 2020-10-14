@@ -402,7 +402,9 @@ Brazeau" color=pink shape=box style=filled]
 	"Paul.Brazeau" -> "Rose.Brazeau" [color=lightblue style=solid]
 	"Francois.Legault" -> "Rose.Brazeau" [color=grey style=dashed]
 	"Francois.Legault" [label="Francois
-Legault" color=deepskyblue shape=box style=filled]
+Legault" color=lightblue shape=box style=filled]
+	"Marie.Benard" -> "Francois.Legault" [color=pink style=solid]
+	"Noel.Legault" -> "Francois.Legault" [color=lightblue style=solid]
 	"Rose.Brazeau" -> "Francois.Legault" [color=grey style=dashed]
 	"Catherine.Brunet" [label="Catherine
 Brunet Bourbonnais" color=pink shape=box style=filled]
@@ -625,6 +627,19 @@ Bélin" color=pink shape=box style=filled]
 	"Etienne.Frechet" [label="Etienne
 Frechet" color=lightblue shape=box style=filled]
 	"Marie.Bélin" -> "Etienne.Frechet" [color=grey style=dashed]
+	"Marie.Benard" [label="Marie
+Benard" color=pink shape=box style=filled]
+	"Marguerite.Viard" -> "Marie.Benard" [color=pink style=solid]
+	"Mathurin.Benard" -> "Marie.Benard" [color=lightblue style=solid]
+	"Noel.Legault" -> "Marie.Benard" [color=grey style=dashed]
+	"Noel.Legault" [label="Noel
+Legault dit Deslauriers" color=lightblue shape=box style=filled]
+	"Marie.Gallion" -> "Noel.Legault" [color=pink style=solid]
+	"Roch.Legoff" -> "Noel.Legault" [color=lightblue style=solid]
+	"Marie.Benard" -> "Noel.Legault" [color=grey style=dashed]
+	"Francois.Gloria" [label="Francois
+Gloria" color=lightblue shape=box style=filled]
+	"Marie.Benard" -> "Francois.Gloria" [color=grey style=dashed]
 	"Jeanne.Boutine" [label="Jeanne
 Boutine" color=pink shape=box style=filled]
 	"Pierre.Ranger" -> "Jeanne.Boutine" [color=grey style=dashed]
@@ -967,6 +982,12 @@ Badel" color=lightblue shape=box style=filled]
 	"Perette.Marmaute" -> "Andre.Badel" [color=pink style=solid]
 	"Etienne.Badel" -> "Andre.Badel" [color=lightblue style=solid]
 	"Barbe.Duchesne" -> "Andre.Badel" [color=grey style=dashed]
+	"Marie.Gallion" [label="Marie
+Gallion" color=pink shape=box style=filled]
+	"Roch.Legoff" -> "Marie.Gallion" [color=grey style=dashed]
+	"Roch.Legoff" [label="Roch
+Legoff" color=lightblue shape=box style=filled]
+	"Marie.Gallion" -> "Roch.Legoff" [color=grey style=dashed]
 	"Nicole.Gareman" [label="Nicole
 Gareman" color=pink shape=box style=filled]
 	"Madeleine.Charlot" -> "Nicole.Gareman" [color=pink style=solid]
@@ -1160,6 +1181,16 @@ Vaslet" color=pink shape=box style=filled]
 	"Antoine.De Lafaye" [label="Antoine
 De Lafaye" color=lightblue shape=box style=filled]
 	"Judith.Guyon" -> "Antoine.De Lafaye" [color=grey style=dashed]
+	"Marguerite.Viard" [label="Marguerite
+Viard" color=pink shape=box style=filled]
+	"Catherine.Lecompte" -> "Marguerite.Viard" [color=pink style=solid]
+	"Pierre.Viard" -> "Marguerite.Viard" [color=lightblue style=solid]
+	"Mathurin.Benard" -> "Marguerite.Viard" [color=grey style=dashed]
+	"Mathurin.Benard" [label="Mathurin
+Benard, Besnard, dit Lajeunesse" color=lightblue shape=box style=filled]
+	"Mathurine.Chevay" -> "Mathurin.Benard" [color=pink style=solid]
+	"Louis.Benard" -> "Mathurin.Benard" [color=lightblue style=solid]
+	"Marguerite.Viard" -> "Mathurin.Benard" [color=grey style=dashed]
 	"Perrette.Billard" [label="Genevieve
 Quenneville" color=pink shape=box style=filled]
 	"Hélène.Guillet" -> "Perrette.Billard" [color=pink style=solid]
@@ -1200,6 +1231,11 @@ Charlot" color=pink shape=box style=filled]
 	"Pierre.Gareman" [label="Pierre
 Gareman" color=lightblue shape=box style=filled]
 	"Madeleine.Charlot" -> "Pierre.Gareman" [color=grey style=dashed]
+	"Mathurine.Chevay" [label="Mathurine
+Chevay" color=pink shape=box style=filled]
+	"Louis.Benard" [label="Louis
+Benard" color=lightblue shape=box style=filled]
+	"Mathurine.Chevay" -> "Louis.Benard" [color=grey style=dashed]
 	"Marie.Croniere" [label="Marie
 Croniere" color=pink shape=box style=filled]
 	"Gabriel.Beauvais" -> "Marie.Croniere" [color=grey style=dashed]
@@ -1252,6 +1288,12 @@ Laval" color=pink shape=box style=filled]
 	"Claude.Duchesne" [label="Claude
 Duchesne" color=lightblue shape=box style=filled]
 	"Claude.Laval" -> "Claude.Duchesne" [color=grey style=dashed]
+	"Catherine.Lecompte" [label="Catherine
+Lecompte" color=pink shape=box style=filled]
+	"Pierre.Viard" -> "Catherine.Lecompte" [color=grey style=dashed]
+	"Pierre.Viard" [label="Pierre
+Viard" color=lightblue shape=box style=filled]
+	"Catherine.Lecompte" -> "Pierre.Viard" [color=grey style=dashed]
 	"Marthe.LeNoir" [label="Marthe
 LeNoir" color=pink shape=box style=filled]
 	"Francois.Touraude-Toureau" -> "Marthe.LeNoir" [color=grey style=dashed]
@@ -1510,4 +1552,192 @@ Richard" color=pink shape=box style=filled]
 	"Andre-Berthome.Forestier" [label="Andre-Berthome
 Forestier" color=lightblue shape=box style=filled]
 	"Francoise.Richard" -> "Andre-Berthome.Forestier" [color=grey style=dashed]
+	I612 [label="Jean-Sébastien
+Laguë" color=lightblue shape=box style=filled]
+	I606 -> I612 [color=pink style=solid]
+	I600 -> I612 [color=lightblue style=solid]
+	I613 [label="Frédéric
+Laguë" color=lightblue shape=box style=filled]
+	I606 -> I613 [color=pink style=solid]
+	I600 -> I613 [color=lightblue style=solid]
+	I614 [label="Jean-François
+Laguë" color=lightblue shape=box style=filled]
+	I606 -> I614 [color=pink style=solid]
+	I600 -> I614 [color=lightblue style=solid]
+	I20 [label="Francis-Olivier
+Gradel" color=lightblue shape=box style=filled]
+	I19 -> I20 [color=pink style=solid]
+	I17 -> I20 [color=lightblue style=solid]
+	"Josée.Laniel" -> I20 [color=grey style=dashed]
+	"Josée.Laniel" [label="Josée
+Laniel" color=pink shape=box style=filled]
+	I20 -> "Josée.Laniel" [color=grey style=dashed]
+	I21 [label="Chantal
+Gradel" color=pink shape=box style=filled]
+	I19 -> I21 [color=pink style=solid]
+	I17 -> I21 [color=lightblue style=solid]
+	"Larry.McDowell" -> I21 [color=grey style=dashed]
+	"Larry.McDowell" [label="Larry
+McDowell" color=lightblue shape=box style=filled]
+	I21 -> "Larry.McDowell" [color=grey style=dashed]
+	I22 [label="Alexandre
+Gradel" color=lightblue shape=box style=filled]
+	I19 -> I22 [color=pink style=solid]
+	I17 -> I22 [color=lightblue style=solid]
+	"Marie-Eve.LeBlanc" -> I22 [color=grey style=dashed]
+	"Marie-Eve.LeBlanc" [label="Marie-Eve
+LeBlanc" color=pink shape=box style=filled]
+	I22 -> "Marie-Eve.LeBlanc" [color=grey style=dashed]
+	I618 [label="Jacinthe
+Giasson" color=pink shape=box style=filled]
+	I604 -> I618 [color=pink style=solid]
+	I611 -> I618 [color=lightblue style=solid]
+	"Mario F.Bernier" -> I618 [color=grey style=dashed]
+	"Mario F.Bernier" [label="Mario F.
+ Bernier" color=lightblue shape=box style=filled]
+	I618 -> "Mario F.Bernier" [color=grey style=dashed]
+	I617 [label="Antoine
+Giasson" color=lightblue shape=box style=filled]
+	I604 -> I617 [color=pink style=solid]
+	I611 -> I617 [color=lightblue style=solid]
+	"Mélanie.Boucher" -> I617 [color=grey style=dashed]
+	"Mary Eve" -> I617 [color=grey style=dashed]
+	"Mélanie.Boucher" [label="Mélanie
+Boucher" color=pink shape=box style=filled]
+	I617 -> "Mélanie.Boucher" [color=grey style=dashed]
+	"Mary Eve" [label="Mary Eve
+(inconnu)" color=pink shape=box style=filled]
+	I617 -> "Mary Eve" [color=grey style=dashed]
+	I608 [label="Julien
+Laguë" color=lightblue shape=box style=filled]
+	I607 -> I608 [color=pink style=solid]
+	I602 -> I608 [color=lightblue style=solid]
+	"Karina.Labelle" -> I608 [color=grey style=dashed]
+	"Karina.Labelle" [label="Karina
+Labelle" color=pink shape=box style=filled]
+	I608 -> "Karina.Labelle" [color=grey style=dashed]
+	I609 [label="Laurence
+Laguë" color=pink shape=box style=filled]
+	I607 -> I609 [color=pink style=solid]
+	I602 -> I609 [color=lightblue style=solid]
+	FH -> I609 [color=grey style=dashed]
+	FH [label="Frederick
+Hardy" color=lightblue shape=box style=filled]
+	I609 -> FH [color=grey style=dashed]
+	I616 [label="Isabelle
+Laguë" color=pink shape=box style=filled]
+	I615 -> I616 [color=pink style=solid]
+	I601 -> I616 [color=lightblue style=solid]
+	"Louis.Véronneau" -> I616 [color=grey style=dashed]
+	"Louis.Véronneau" [label="Louis
+Véronneau" color=lightblue shape=box style=filled]
+	I616 -> "Louis.Véronneau" [color=grey style=dashed]
+	I600 [label="André
+Laguë" color=lightblue shape=box style=filled]
+	"Anne-Marie.Dubreuil" -> I600 [color=pink style=solid]
+	"Jean-Paul.Laguë" -> I600 [color=lightblue style=solid]
+	I606 -> I600 [color=grey style=dashed]
+	I606 [label="Nicole
+Imbeault" color=pink shape=box style=filled]
+	I600 -> I606 [color=grey style=dashed]
+	I19 [label="Monique
+Laguë" color=pink shape=box style=filled]
+	"Anne-Marie.Dubreuil" -> I19 [color=pink style=solid]
+	"Jean-Paul.Laguë" -> I19 [color=lightblue style=solid]
+	I17 -> I19 [color=grey style=dashed]
+	I17 [label="Daniel
+Gradel" color=lightblue shape=box style=filled]
+	I19 -> I17 [color=grey style=dashed]
+	I601 [label="Richard
+Laguë" color=lightblue shape=box style=filled]
+	"Anne-Marie.Dubreuil" -> I601 [color=pink style=solid]
+	"Jean-Paul.Laguë" -> I601 [color=lightblue style=solid]
+	I615 -> I601 [color=grey style=dashed]
+	I615 [label="Collette
+Doyle" color=pink shape=box style=filled]
+	I601 -> I615 [color=grey style=dashed]
+	I602 [label="Raymond
+Laguë" color=lightblue shape=box style=filled]
+	"Anne-Marie.Dubreuil" -> I602 [color=pink style=solid]
+	"Jean-Paul.Laguë" -> I602 [color=lightblue style=solid]
+	I607 -> I602 [color=grey style=dashed]
+	I607 [label="Jacqueline
+Jodoin" color=pink shape=box style=filled]
+	I602 -> I607 [color=grey style=dashed]
+	I604 [label="Marjolaine
+Laguë" color=pink shape=box style=filled]
+	"Anne-Marie.Dubreuil" -> I604 [color=pink style=solid]
+	"Jean-Paul.Laguë" -> I604 [color=lightblue style=solid]
+	I611 -> I604 [color=grey style=dashed]
+	I611 [label="Normand
+Giasson" color=lightblue shape=box style=filled]
+	I604 -> I611 [color=grey style=dashed]
+	I605 [label="Denis
+Laguë" color=lightblue shape=box style=filled]
+	"Anne-Marie.Dubreuil" -> I605 [color=pink style=solid]
+	"Jean-Paul.Laguë" -> I605 [color=lightblue style=solid]
+	"Anne-Marie.Dubreuil" [label="Anne-Marie
+Dubreuil" color=pink shape=box style=filled]
+	I118 -> "Anne-Marie.Dubreuil" [color=pink style=solid]
+	I117 -> "Anne-Marie.Dubreuil" [color=lightblue style=solid]
+	"Jean-Paul.Laguë" -> "Anne-Marie.Dubreuil" [color=grey style=dashed]
+	"Jean-Paul.Laguë" [label="Jean-Paul
+Laguë" color=lightblue shape=box style=filled]
+	"Alice.Racicot" -> "Jean-Paul.Laguë" [color=pink style=solid]
+	"Georges Henri.Laguë" -> "Jean-Paul.Laguë" [color=lightblue style=solid]
+	"Anne-Marie.Dubreuil" -> "Jean-Paul.Laguë" [color=grey style=dashed]
+	"Benjamin.Francoeur" [label="Benjamin
+Francoeur" color=lightblue shape=box style=filled]
+	"Lucy Pearl.Stevenson" -> "Benjamin.Francoeur" [color=pink style=solid]
+	"Levis.Francoeur" -> "Benjamin.Francoeur" [color=lightblue style=solid]
+	I118 [label="Marie-Anne
+Lucas dit Francoeur" color=pink shape=box style=filled]
+	"Olivine.Chantal" -> I118 [color=pink style=solid]
+	"Jean-Baptiste.Lucas" -> I118 [color=lightblue style=solid]
+	I117 -> I118 [color=grey style=dashed]
+	I117 [label="Joseph
+Dubreuil" color=lightblue shape=box style=filled]
+	I561 -> I117 [color=pink style=solid]
+	I585 -> I117 [color=lightblue style=solid]
+	I118 -> I117 [color=grey style=dashed]
+	"Levis.Francoeur" [label="Levis
+Francoeur" color=lightblue shape=box style=filled]
+	"Olivine.Chantal" -> "Levis.Francoeur" [color=pink style=solid]
+	"Jean-Baptiste.Lucas" -> "Levis.Francoeur" [color=lightblue style=solid]
+	"Lucy Pearl.Stevenson" -> "Levis.Francoeur" [color=grey style=dashed]
+	"Lucy Pearl.Stevenson" [label="Lucy Pearl
+Stevenson" color=pink shape=box style=filled]
+	"Levis.Francoeur" -> "Lucy Pearl.Stevenson" [color=grey style=dashed]
+	"Simon.Charest" [label="Simon
+Charest" color=lightblue shape=box style=filled]
+	"Suzanne.Laguë" -> "Simon.Charest" [color=pink style=solid]
+	"Michel.Charest" -> "Simon.Charest" [color=lightblue style=solid]
+	"Julie.Emond" -> "Simon.Charest" [color=grey style=dashed]
+	"Julie.Emond" [label="Julie
+Emond" color=pink shape=box style=filled]
+	"Simon.Charest" -> "Julie.Emond" [color=grey style=dashed]
+	"Catherine.Charest" [label="Catherine
+Charest" color=pink shape=box style=filled]
+	"Suzanne.Laguë" -> "Catherine.Charest" [color=pink style=solid]
+	"Michel.Charest" -> "Catherine.Charest" [color=lightblue style=solid]
+	"Marc.Lecompte" -> "Catherine.Charest" [color=grey style=dashed]
+	"Marc.Lecompte" [label="Marc
+Lecompte" color=lightblue shape=box style=filled]
+	"Catherine.Charest" -> "Marc.Lecompte" [color=grey style=dashed]
+	"Michel.Charest" [label="Michel
+Charest" color=deepskyblue shape=box style=filled]
+	"Suzanne.Laguë" -> "Michel.Charest" [color=grey style=dashed]
+	"Jenny.Mastragostino" -> "Michel.Charest" [color=grey style=dashed]
+	"Jenny.Mastragostino" [label="Jenny
+Mastragostino" color=pink shape=box style=filled]
+	"Michel.Charest" -> "Jenny.Mastragostino" [color=grey style=dashed]
+	"Suzanne.Laguë" [label="Suzanne
+Laguë" color=pink shape=box style=filled]
+	"Anne-Marie.Dubreuil" -> "Suzanne.Laguë" [color=pink style=solid]
+	"Jean-Paul.Laguë" -> "Suzanne.Laguë" [color=lightblue style=solid]
+	"Michel.Charest" -> "Suzanne.Laguë" [color=grey style=dashed]
+	"Marcel.Lamirande" -> "Suzanne.Laguë" [color=grey style=dashed]
+	"Marcel.Lamirande" [label="Marcel
+Lamirande" color=lightblue shape=box style=filled]
+	"Suzanne.Laguë" -> "Marcel.Lamirande" [color=grey style=dashed]
 }
