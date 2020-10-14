@@ -5,7 +5,7 @@
     "gender": "F",
     "relationship": {
       "Marie-Catherine.Roy": { "type": "mother" },
-      "Thomas.Pageau": { "type": "father" },
+      "Thomas2.Pageau": { "type": "father" },
       "Jean-Baptiste.Allard": { "type": "union" }
     },
     "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=420141"

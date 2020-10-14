@@ -543,16 +543,19 @@ Picard" color=pink shape=box style=filled]
 Lanthier" color=lightblue shape=box style=filled]
 	"Catherine.Picard" -> "Jacques.Lanthier" [color=grey style=dashed]
 	"Genevieve.Rainville" [label="Genevieve
-Rainville" color=deeppink shape=box style=filled]
+Rainville" color=pink shape=box style=filled]
 	"Marie-Anne-Louise.Roberge" -> "Genevieve.Rainville" [color=pink style=solid]
 	"Paul2.Rainville" -> "Genevieve.Rainville" [color=lightblue style=solid]
-	"Jean-Baptiste.Allard" [label="Jean-Baptiste
+	"Jean-Baptiste2.Allard" -> "Genevieve.Rainville" [color=grey style=dashed]
+	"Jean-Baptiste2.Allard" [label="Jean-Baptiste
 Allard" color=lightblue shape=box style=filled]
-	"Marie-Jeanne.Languille" -> "Jean-Baptiste.Allard" [color=pink style=solid]
-	"Francois.Allard" -> "Jean-Baptiste.Allard" [color=lightblue style=solid]
-	"Anne-Elisabeth.Pageau" -> "Jean-Baptiste.Allard" [color=grey style=dashed]
+	"Anne-Elisabeth.Pageau" -> "Jean-Baptiste2.Allard" [color=pink style=solid]
+	"Jean-Baptiste.Allard" -> "Jean-Baptiste2.Allard" [color=lightblue style=solid]
+	"Genevieve.Rainville" -> "Jean-Baptiste2.Allard" [color=grey style=dashed]
+	"Marie-Clothilde.Plante" -> "Jean-Baptiste2.Allard" [color=grey style=dashed]
 	"Marie-Clothilde.Plante" [label="Marie-Clothilde
 Plante" color=pink shape=box style=filled]
+	"Jean-Baptiste2.Allard" -> "Marie-Clothilde.Plante" [color=grey style=dashed]
 	"Andree.Remondiere" [label="Andree
 Remondiere" color=pink shape=box style=filled]
 	"Renee.Lariviere" -> "Andree.Remondiere" [color=pink style=solid]
@@ -849,8 +852,15 @@ Auvray" color=lightblue shape=box style=filled]
 Darveau" color=lightblue shape=box style=filled]
 	"Marie-Catherine.Mezeray" -> "François.Darveau" [color=grey style=dashed]
 	"Anne-Elisabeth.Pageau" [label="Anne-Elisabeth
-Pageau" color=deeppink shape=box style=filled]
+Pageau" color=pink shape=box style=filled]
+	"Marie-Catherine.Roy" -> "Anne-Elisabeth.Pageau" [color=pink style=solid]
+	"Thomas2.Pageau" -> "Anne-Elisabeth.Pageau" [color=lightblue style=solid]
 	"Jean-Baptiste.Allard" -> "Anne-Elisabeth.Pageau" [color=grey style=dashed]
+	"Jean-Baptiste.Allard" [label="Jean-Baptiste
+Allard" color=lightblue shape=box style=filled]
+	"Marie-Jeanne.Languille" -> "Jean-Baptiste.Allard" [color=pink style=solid]
+	"Francois.Allard" -> "Jean-Baptiste.Allard" [color=lightblue style=solid]
+	"Anne-Elisabeth.Pageau" -> "Jean-Baptiste.Allard" [color=grey style=dashed]
 	"Marie-Anne-Louise.Roberge" [label="Marie-Anne-Louise
 Roberge" color=pink shape=box style=filled]
 	"Marie.Lefrancois" -> "Marie-Anne-Louise.Roberge" [color=pink style=solid]
@@ -1149,6 +1159,16 @@ Roussel" color=pink shape=box style=filled]
 	"André.Canteau" [label="André
 Canteau" color=lightblue shape=box style=filled]
 	"Louise.Roussel" -> "André.Canteau" [color=grey style=dashed]
+	"Marie-Catherine.Roy" [label="Marie-Catherine
+Roy" color=pink shape=box style=filled]
+	"Marguerite.Bire" -> "Marie-Catherine.Roy" [color=pink style=solid]
+	"Mathurin.Roy" -> "Marie-Catherine.Roy" [color=lightblue style=solid]
+	"Thomas2.Pageau" -> "Marie-Catherine.Roy" [color=grey style=dashed]
+	"Thomas2.Pageau" [label="Thomas
+Pageau" color=lightblue shape=box style=filled]
+	"Catherine.Rouault" -> "Thomas2.Pageau" [color=pink style=solid]
+	"Thomas.Pageau" -> "Thomas2.Pageau" [color=lightblue style=solid]
+	"Marie-Catherine.Roy" -> "Thomas2.Pageau" [color=grey style=dashed]
 	"Jeanne.Solde" [label="Jeanne
 Solde" color=pink shape=box style=filled]
 	"Julienne.Potier" -> "Jeanne.Solde" [color=pink style=solid]
@@ -1201,6 +1221,14 @@ Brazeau" color=lightblue shape=box style=filled]
 	"Marie.Regnard" -> "Nicolas2.Brazeau" [color=pink style=solid]
 	"Nicolas.Brazeau" -> "Nicolas2.Brazeau" [color=lightblue style=solid]
 	"Perrette.Billard" -> "Nicolas2.Brazeau" [color=grey style=dashed]
+	"Marguerite.Bire" [label="Marguerite
+Bire" color=pink shape=box style=filled]
+	"Marie.Davignan" -> "Marguerite.Bire" [color=pink style=solid]
+	"Francois.Biré" -> "Marguerite.Bire" [color=lightblue style=solid]
+	"Mathurin.Roy" -> "Marguerite.Bire" [color=grey style=dashed]
+	"Mathurin.Roy" [label="Mathurin
+Roy" color=lightblue shape=box style=filled]
+	"Marguerite.Bire" -> "Mathurin.Roy" [color=grey style=dashed]
 	"Gabrielle.Bouteiller" [label="Gabrielle
 Bouteiller" color=pink shape=box style=filled]
 	"Jean.Lagueripiere" -> "Gabrielle.Bouteiller" [color=grey style=dashed]
@@ -1362,6 +1390,14 @@ Pougnye" color=pink shape=box style=filled]
 	"Adrien.Dumoys" [label="Adrien
 Dumoys" color=lightblue shape=box style=filled]
 	"Catherine.Pougnye" -> "Adrien.Dumoys" [color=grey style=dashed]
+	"Catherine.Rouault" [label="Catherine
+Rouault, Renault, Regnault" color=pink shape=box style=filled]
+	"Mathurine.P" -> "Catherine.Rouault" [color=pink style=solid]
+	"Pierre.Regnault" -> "Catherine.Rouault" [color=lightblue style=solid]
+	"Thomas.Pageau" -> "Catherine.Rouault" [color=grey style=dashed]
+	"Thomas.Pageau" [label="Thomas
+Pageau, Pageault, Pageaux" color=lightblue shape=box style=filled]
+	"Catherine.Rouault" -> "Thomas.Pageau" [color=grey style=dashed]
 	"Etiennette.Toucherain" [label="Etiennette
 Toucherain" color=pink shape=box style=filled]
 	"Catherine.Munat" -> "Etiennette.Toucherain" [color=pink style=solid]
@@ -1430,6 +1466,12 @@ Valade" color=lightblue shape=box style=filled]
 	"Samuel.Bertrand" [label="Samuel
 Bertrand" color=lightblue shape=box style=filled]
 	"Sarah.Cousseau" -> "Samuel.Bertrand" [color=grey style=dashed]
+	"Marie.Davignan" [label="Marie
+Davignan" color=pink shape=box style=filled]
+	"Francois.Biré" -> "Marie.Davignan" [color=grey style=dashed]
+	"Francois.Biré" [label="Francois
+Biré" color=lightblue shape=box style=filled]
+	"Marie.Davignan" -> "Francois.Biré" [color=grey style=dashed]
 	"Catherine.Forestier" [label="Catherine
 Forestier" color=pink shape=box style=filled]
 	"Julienne.Coiffe" -> "Catherine.Forestier" [color=pink style=solid]
@@ -1500,6 +1542,12 @@ Pichereau" color=pink shape=box style=filled]
 	"Francois.Pelletier" [label="Francois
 Pelletier" color=lightblue shape=box style=filled]
 	"Simone.Pichereau" -> "Francois.Pelletier" [color=grey style=dashed]
+	"Mathurine.P" [label="Mathurine
+P" color=pink shape=box style=filled]
+	"Pierre.Regnault" -> "Mathurine.P" [color=grey style=dashed]
+	"Pierre.Regnault" [label="Pierre
+Regnault" color=lightblue shape=box style=filled]
+	"Mathurine.P" -> "Pierre.Regnault" [color=grey style=dashed]
 	"Marie.Regnard" [label="Marie
 Regnard" color=pink shape=box style=filled]
 	"Nicolas.Brazeau" -> "Marie.Regnard" [color=grey style=dashed]
