@@ -1,7 +1,7 @@
 from common import analysis
 from common import file
-from common import pycrypt
 from common.constant import constant
+from pycrypt import pycrypt
 
 import inspect
 

@@ -1,10 +1,10 @@
 from common import analysis
 from common import data
 from common import file
-from common import pycrypt
 from common import text
 from common import visual
 from common.constant import constant
+from pycrypt import pycrypt
 
 from graphviz import Digraph
 """

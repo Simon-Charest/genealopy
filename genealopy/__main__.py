@@ -1,4 +1,4 @@
-from common import test
+from test import test
 from common.datetime_ import datetime_
 
 import app
