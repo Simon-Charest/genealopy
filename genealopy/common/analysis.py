@@ -28,6 +28,30 @@ def add_children(json_objects):
     return children
 
 
+def get_parents(relationships):
+    """ Filter out relationships which are not parents """
+
+    parents = dict([(relationship, relationships[relationship]) for relationship in relationships
+                    if relationships[relationship]['type'] in ['mother', 'father']])
+
+    return parents
+
+
+def get_paths(json_objects, start, path=[]):
+    path = path + [start]
+
+    yield path
+
+    if start not in json_objects:
+        return
+
+    parents = get_parents(json_objects[start]['relationship'])
+
+    for node in parents:
+        if node not in path:
+            yield from get_paths(json_objects, node, path)
+
+
 def get_shortest_path(json_objects, start, end):
     """
         Dijkstra's shortest path algorithm
