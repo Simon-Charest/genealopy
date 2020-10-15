@@ -36,14 +36,14 @@ Colette" color=pink shape=box style=filled]
 	"Albert Gustave.Racicot" [label="Albert Gustave
 Racicot" color=lightblue shape=box style=filled]
 	"Marie-Louise.Colette" -> "Albert Gustave.Racicot" [color=grey style=dashed]
-	I561 [label="Delphine
+	"Delphine.Gareau" [label="Delphine
 Gareau" color=deeppink shape=box style=filled]
-	I585 -> I561 [color=grey style=dashed]
-	I585 [label="Etienne-Marie
+	"Etienne-Marie.Dubreuil" -> "Delphine.Gareau" [color=grey style=dashed]
+	"Etienne-Marie.Dubreuil" [label="Etienne-Marie
 Dubreuil" color=lightblue shape=box style=filled]
-	"Julie.Sauve" -> I585 [color=pink style=solid]
-	"Claude.Dubreuil" -> I585 [color=lightblue style=solid]
-	I561 -> I585 [color=grey style=dashed]
+	"Julie.Sauve" -> "Etienne-Marie.Dubreuil" [color=pink style=solid]
+	"Claude.Dubreuil" -> "Etienne-Marie.Dubreuil" [color=lightblue style=solid]
+	"Delphine.Gareau" -> "Etienne-Marie.Dubreuil" [color=grey style=dashed]
 	"Angelique.Aquin" [label="Angelique
 Aquin" color=pink shape=box style=filled]
 	"Angelique.Legault" -> "Angelique.Aquin" [color=pink style=solid]
@@ -1774,8 +1774,8 @@ Laguë" color=lightblue shape=box style=filled]
 	"Jean-Paul.Laguë" -> I605 [color=lightblue style=solid]
 	"Anne-Marie.Dubreuil" [label="Anne-Marie
 Dubreuil" color=pink shape=box style=filled]
-	I118 -> "Anne-Marie.Dubreuil" [color=pink style=solid]
-	I117 -> "Anne-Marie.Dubreuil" [color=lightblue style=solid]
+	"Marie-Anne.Lucas" -> "Anne-Marie.Dubreuil" [color=pink style=solid]
+	"Joseph.Dubreuil" -> "Anne-Marie.Dubreuil" [color=lightblue style=solid]
 	"Jean-Paul.Laguë" -> "Anne-Marie.Dubreuil" [color=grey style=dashed]
 	"Jean-Paul.Laguë" [label="Jean-Paul
 Laguë" color=lightblue shape=box style=filled]
@@ -1786,16 +1786,16 @@ Laguë" color=lightblue shape=box style=filled]
 Francoeur" color=lightblue shape=box style=filled]
 	"Lucy Pearl.Stevenson" -> "Benjamin.Francoeur" [color=pink style=solid]
 	"Levis.Francoeur" -> "Benjamin.Francoeur" [color=lightblue style=solid]
-	I118 [label="Marie-Anne
+	"Marie-Anne.Lucas" [label="Marie-Anne
 Lucas dit Francoeur" color=pink shape=box style=filled]
-	"Olivine.Chantal" -> I118 [color=pink style=solid]
-	"Jean-Baptiste.Lucas" -> I118 [color=lightblue style=solid]
-	I117 -> I118 [color=grey style=dashed]
-	I117 [label="Joseph
+	"Olivine.Chantal" -> "Marie-Anne.Lucas" [color=pink style=solid]
+	"Jean-Baptiste.Lucas" -> "Marie-Anne.Lucas" [color=lightblue style=solid]
+	"Joseph.Dubreuil" -> "Marie-Anne.Lucas" [color=grey style=dashed]
+	"Joseph.Dubreuil" [label="Joseph
 Dubreuil" color=lightblue shape=box style=filled]
-	I561 -> I117 [color=pink style=solid]
-	I585 -> I117 [color=lightblue style=solid]
-	I118 -> I117 [color=grey style=dashed]
+	"Delphine.Gareau" -> "Joseph.Dubreuil" [color=pink style=solid]
+	"Etienne-Marie.Dubreuil" -> "Joseph.Dubreuil" [color=lightblue style=solid]
+	"Marie-Anne.Lucas" -> "Joseph.Dubreuil" [color=grey style=dashed]
 	"Levis.Francoeur" [label="Levis
 Francoeur" color=lightblue shape=box style=filled]
 	"Olivine.Chantal" -> "Levis.Francoeur" [color=pink style=solid]

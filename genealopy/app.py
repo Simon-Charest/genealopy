@@ -30,6 +30,7 @@ def run():
     process_data(json_objects, graph, search)
     print_frequencies(json_objects)
     print_statistics(json_objects)
+    print_genetics(json_objects, 'Simon.Charest', 3)
 
     # Display graph
     graph.view()
@@ -72,6 +73,12 @@ def load_data():
     json_objects = analysis.add_children(json_objects)
 
     return json_objects
+
+
+def print_genetics(json_objects, id_, generation_maximum=None):
+    paths = analysis.get_paths(json_objects, id_)
+    genetics = analysis.get_genetics(paths)
+    analysis.print_genetics(json_objects, genetics, generation_maximum)
 
 
 def print_frequencies(json_objects):

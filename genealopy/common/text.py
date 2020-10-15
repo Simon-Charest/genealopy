@@ -1,3 +1,16 @@
+def get_full_name(json_object, last_name_first=False):
+    first_name = json_object['first_name']
+    last_name = json_object['last_name']
+
+    if last_name_first:
+        full_name = f'{last_name}, {first_name}'
+
+    else:
+        full_name = f'{first_name} {last_name}'
+
+    return full_name
+
+
 def is_none(string):
     if string is None:
         return ''
