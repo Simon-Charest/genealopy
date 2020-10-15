@@ -12,8 +12,8 @@
 	  "place": "Pincourt, Québec, Canada"
     },
     "relationship": {
-      "I118": { "type": "mother" },
-      "I117": { "type": "father" },
+      "Marie-Anne.Lucas": { "type": "mother" },
+      "Joseph.Dubreuil": { "type": "father" },
       "Jean-Paul.Laguë": { "type": "union", "start": null, "end": null }
     },
     "source" : "https://www.retronicdesign.com/genealogie/individual.php?ged=gradel&pid="

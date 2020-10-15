@@ -1,5 +1,5 @@
 {
-  "I561": {
+  "Delphine.Gareau": {
     "first_name": "Delphine",
     "last_name": "Gareau",
     "gender": "F",
@@ -10,11 +10,11 @@
     "relationship": {
       "Christine.Brunet": { "type": "mother" },
       "Toussaint.Gareau": { "type": "father" },
-      "I585": { "type": "union" }
+      "Etienne-Marie.Dubreuil": { "type": "union" }
     },
     "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=429562"
   },
-  "I585": {
+  "Etienne-Marie.Dubreuil": {
     "first_name": "Etienne-Marie",
     "last_name": "Dubreuil",
     "gender": "M",
@@ -27,7 +27,7 @@
     "relationship": {
       "Julie.Sauve": { "type": "mother" },
       "Claude.Dubreuil": { "type": "father" },
-      "I561": { "type": "union" }
+      "Delphine.Gareau": { "type": "union" }
     },
     "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=429563"
   }

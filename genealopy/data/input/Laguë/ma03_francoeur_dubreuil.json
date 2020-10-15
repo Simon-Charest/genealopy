@@ -1,5 +1,5 @@
 {
-  "I118": {
+  "Marie-Anne.Lucas": {
     "first_name": "Marie-Anne",
     "last_name": "Lucas dit Francoeur",
     "gender": "F",
@@ -12,11 +12,11 @@
     "relationship": {
       "Olivine.Chantal": { "type": "mother" },
       "Jean-Baptiste.Lucas": { "type": "father" },
-      "I117": { "type": "union" }
+      "Joseph.Dubreuil": { "type": "union" }
     },
     "source" : "https://www.retronicdesign.com/genealogie/individual.php?pid=I118"
   },
-  "I117": {
+  "Joseph.Dubreuil": {
     "first_name": "Joseph",
     "last_name": "Dubreuil",
     "gender": "M",
@@ -32,11 +32,11 @@
 		"place": "Montréal, Québec, Canada"
 	},
     "relationship": {
-	  "I561": { "type": "mother" },
-      "I585": { "type": "father" },
-      "I118": { "type": "union", "start": "1911-09-25", "place": "Sainte-Anne-de-Bellevue, Québec, Canada" }
+	  "Delphine.Gareau": { "type": "mother" },
+      "Etienne-Marie.Dubreuil": { "type": "father" },
+      "Marie-Anne.Lucas": { "type": "union", "start": "1911-09-25", "place": "Sainte-Anne-de-Bellevue, Québec, Canada" }
     },
-    "source" : "https://www.retronicdesign.com/genealogie/individual.php?ged=gradel&pid="
+    "source" : "https://www.retronicdesign.com/genealogie/individual.php?pid=I117"
   },
   "Levis.Francoeur": {
     "first_name": "Levis",
