@@ -1,8 +1,10 @@
-from common import analysis
 from common import data
 from common import file
 from common import text
 from common import visual
+from common.analysis import analysis
+from common.analysis import family
+from common.analysis import genetic
 from common.constant import constant
 from pycrypt import pycrypt
 
@@ -31,6 +33,7 @@ def run():
     print_frequencies(json_objects)
     print_statistics(json_objects)
     print_genetics(json_objects, 'Simon.Charest', 3)
+    print_families(json_objects, 'Simon.Charest', 3)
 
     # Display graph
     graph.view()
@@ -75,10 +78,18 @@ def load_data():
     return json_objects
 
 
+def print_families(json_objects, id_, generation_maximum=None):
+    families = family.get_families(json_objects, id_)
+    families = family.generate(families)
+    families = family.get_unique(families)
+    families = family.process_families(families)
+    family.print_families(json_objects, families, generation_maximum)
+
+
 def print_genetics(json_objects, id_, generation_maximum=None):
     paths = analysis.get_paths(json_objects, id_)
-    genetics = analysis.get_genetics(paths)
-    analysis.print_genetics(json_objects, genetics, generation_maximum)
+    genetics = genetic.get_genetics(paths)
+    genetic.print_genetics(json_objects, genetics, generation_maximum)
 
 
 def print_frequencies(json_objects):

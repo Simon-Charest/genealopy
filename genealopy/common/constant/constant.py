@@ -60,17 +60,17 @@ INPUT_FILENAMES = map(lambda filename: INPUT_DIRECTORY + str(filename), [
         # Laguë
         'Laguë/far_ascendance/*.json',  # Marie-Anne Lucas dit Francoeur's ascendance
         'Laguë/*.json',  # Suzanne Laguë's ascendance
-        # 'Laguë/descendance/*.json',
+        'Laguë/descendance/*.json',
 
         # Charest
-        # 'Charest/far_ascendance/*.json',  # Delphis Charest's ascendance
-        # 'Charest/tanguay_charest_siblings/*.json',  # Delphis Charest's siblings
-        # 'Charest/dion_charette_ascendance/*.json',  # Aurèle Charette (Charest-Charette)'s ascendance
-        # 'Charest/little_cousins/*.json',  # Clément Charest siblings' descendance
-        # 'Charest/little_cousin_descendance/*.json',  # Clément Charest siblings' descendance
-        # 'Tremblay/*.json',  # Rita Lacombe Tremblay's ascendance
-        # 'Charest/*.json',
-        # 'Charest/descendance/*.json',
+        'Charest/far_ascendance/*.json',  # Delphis Charest's ascendance
+        'Charest/tanguay_charest_siblings/*.json',  # Delphis Charest's siblings
+        'Charest/dion_charette_ascendance/*.json',  # Aurèle Charette (Charest-Charette)'s ascendance
+        'Charest/little_cousins/*.json',  # Clément Charest siblings' descendance
+        'Charest/little_cousin_descendance/*.json',  # Clément Charest siblings' descendance
+        'Tremblay/*.json',  # Rita Lacombe Tremblay's ascendance
+        'Charest/*.json',
+        'Charest/descendance/*.json',
 
         # Laguë-Charest
         '0?_lague_charest.json'

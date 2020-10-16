@@ -1,5 +1,4 @@
 from common import data
-from common import text
 
 import copy
 import json
@@ -27,24 +26,6 @@ def add_children(json_objects):
                     children[parent]['relationship'].update(dictionary)
 
     return children
-
-
-def get_genetics(paths):
-    genetics = list()
-
-    for path in paths:
-        end = path[-1]
-        ratio = 1 / pow(2, len(path) - 1)
-        generation = len(path) - 1
-        genetics.append([end, ratio, generation])
-
-    # Sort values alphabetically
-    genetics = sorted(genetics, key=lambda values: values[0])
-
-    # Sort values by descending proportion
-    genetics = sorted(genetics, key=lambda values: values[1], reverse=True)
-
-    return genetics
 
 
 def get_parents(relationships):
@@ -123,25 +104,3 @@ def get_shortest_path(json_objects, start, end):
     shortest_path = shortest_path[::-1]
 
     return shortest_path
-
-
-def print_genetics(json_objects, genetics, generation_maximum=None):
-    first_node = genetics[0][0]
-    full_name = text.get_full_name(json_objects[first_node])
-
-    print('Genetics:')
-    print(f'{full_name} is...')
-
-    for genetic in genetics:
-        if genetic[1] < 1 and (generation_maximum is None or genetic[2] <= generation_maximum):
-            if genetic[0] in json_objects:
-                full_name = text.get_full_name(json_objects[genetic[0]])
-
-            else:
-                full_name = genetic[0]
-
-            integer_ratio = genetic[1].as_integer_ratio()
-            integer_ratio_string = f'{integer_ratio[0]}/{integer_ratio[1]}'
-            percentage_string = f'{round(100 * genetic[1], 1)}%'
-
-            print(f'{integer_ratio_string} ({percentage_string}) {full_name} (g={genetic[2]})')

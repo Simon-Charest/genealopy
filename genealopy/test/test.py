@@ -1,5 +1,5 @@
-from common import analysis
 from common import file
+from common.analysis import analysis
 from common.constant import constant
 from pycrypt import pycrypt
 
