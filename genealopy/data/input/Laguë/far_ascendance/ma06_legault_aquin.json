@@ -16,7 +16,7 @@
     "gender": "M",
     "relationship": {
       "Rosalie.Ranger": { "type": "mother" },
-      "Jacques.Aquin": { "type": "father" },
+      "Jacques3.Aquin": { "type": "father" },
       "Angelique.Legault": { "type": "union" }
     },
     "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?&pid=78050"
