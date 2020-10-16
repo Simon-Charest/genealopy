@@ -66,9 +66,9 @@ def get_paths(json_objects, start, path=[]):
 
     parents = get_parents(json_objects[start]['relationship'])
 
-    for node in parents:
-        if node not in path:
-            yield from get_paths(json_objects, node, path)
+    for parent in parents:
+        if parent not in path:
+            yield from get_paths(json_objects, parent, path)
 
 
 def get_shortest_path(json_objects, start, end):
