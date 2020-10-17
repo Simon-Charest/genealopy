@@ -81,8 +81,6 @@ def load_data():
 def print_families(json_objects, id_, generation_maximum=None):
     families = family.get_families(json_objects, id_)
     families = family.generate(families)
-    families = family.get_unique(families)
-    families = family.process_families(families)
     family.print_families(json_objects, families, generation_maximum)
 
 

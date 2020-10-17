@@ -21,8 +21,8 @@ def get_genetics(paths):
 
 
 def print_genetics(json_objects, genetics, generation_maximum=None):
-    first_node = genetics[0][0]
-    full_name = text.get_full_name(json_objects[first_node])
+    id_ = genetics[0][0]
+    full_name = text.get_full_name(json_objects[id_])
 
     print('Genetics:')
     print(f'{full_name} is...')

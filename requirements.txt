@@ -1,5 +1,4 @@
 graphviz
-numpy
 pip
 pycryptodome
 setuptools
