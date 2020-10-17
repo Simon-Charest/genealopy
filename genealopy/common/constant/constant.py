@@ -58,9 +58,9 @@ OUTPUT_DIRECTORY = f'{DATA_DIRECTORY}output/'
 ALL_FILENAMES = [f'{INPUT_DIRECTORY}**/*.json']
 INPUT_FILENAMES = map(lambda filename: INPUT_DIRECTORY + str(filename), [
         # Laguë
-        'Laguë/far_ascendance/*.json',  # Marie-Anne Lucas dit Francoeur's ascendance
-        'Laguë/*.json',  # Suzanne Laguë's ascendance
-        'Laguë/descendance/*.json',
+        # 'Laguë/far_ascendance/*.json',  # Marie-Anne Lucas dit Francoeur's ascendance
+        # 'Laguë/*.json',  # Suzanne Laguë's ascendance
+        # 'Laguë/descendance/*.json',
 
         # Charest
         'Charest/far_ascendance/*.json',  # Delphis Charest's ascendance
