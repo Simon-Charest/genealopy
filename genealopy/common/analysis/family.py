@@ -33,38 +33,24 @@ def get_families(json_objects, start, path=[], family=[]):
             yield from get_families(json_objects, parent, path, family)
 
 
-def process_families(json_objects, families):
-    id_ = families[0][0]
-    full_name = text.get_full_name(json_objects[id_])
+def process_families(families):
     list_ = list()
-
-    print('Families:')
-    print(f'{full_name} is...')
 
     for family in families:
         generation = len(family) - 1
 
         if generation > 0:
-            last_name = family[-1]
             ratio = 1 / pow(2, generation)
             integer_ratio = ratio.as_integer_ratio()
             integer_ratio_string = f'{integer_ratio[0]}/{integer_ratio[1]}'
             percentage_string = f'{round(100 * ratio, 1)}%'
+            last_name = family[-1]
 
             if not any(last_name in element for element in list_):
                 element = [integer_ratio_string, percentage_string, last_name, generation]
                 list_.append(element)
 
-    # Sort values alphabetically
-    list_ = sorted(list_, key=lambda values: values[2])
-
-    # Sort values by generation
-    list_ = sorted(list_, key=lambda values: values[3])
+    # Sort values by generation, then alphabetically
+    list_ = sorted(list_, key=lambda values: (values[3], values[2]))
 
     return list_
-
-
-def print_families(families, generation_maximum=None):
-    for family in families:
-        if generation_maximum is None or family[3] <= generation_maximum:
-            print(f'{family[0]} ({family[1]}) {family[2]} (g={family[3]})')

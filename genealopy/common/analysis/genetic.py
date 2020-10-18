@@ -1,44 +1,29 @@
 from common import text
 
 
-def get_genetics(paths):
-    genetics = list()
-
-    for path in paths:
-        end = path[-1]
-        generation = len(path) - 1
-        ratio = 1 / pow(2, generation)
-
-        genetics.append([end, ratio, generation])
-
-    # Sort values alphabetically
-    genetics = sorted(genetics, key=lambda values: values[0])
-
-    # Sort values by descending ratio
-    genetics = sorted(genetics, key=lambda values: values[1], reverse=True)
-
-    return genetics
-
-
-def print_genetics(json_objects, genetics, generation_maximum=None):
-    id_ = genetics[0][0]
-    full_name = text.get_full_name(json_objects[id_])
-
-    print('Genetics:')
-    print(f'{full_name} is...')
+def process_genetics(json_objects, genetics):
+    list_ = list()
 
     for genetic in genetics:
-        if genetic[1] < 1 and (generation_maximum is None or genetic[2] <= generation_maximum):
-            integer_ratio = genetic[1].as_integer_ratio()
-            integer_ratio_string = f'{integer_ratio[0]}/{integer_ratio[1]}'
-            percentage_string = f'{round(100 * genetic[1], 1)}%'
+        generation = len(genetic) - 1
 
-            if genetic[0] in json_objects:
-                full_name = text.get_full_name(json_objects[genetic[0]])
+        if generation > 0:
+            ratio = 1 / pow(2, generation)
+            integer_ratio = ratio.as_integer_ratio()
+            integer_ratio_string = f'{integer_ratio[0]}/{integer_ratio[1]}'
+            percentage_string = f'{round(100 * ratio, 1)}%'
+            id_ = genetic[-1]
+
+            if id_ in json_objects:
+                full_name = text.get_full_name(json_objects[id_])
 
             else:
-                full_name = genetic[0]
+                full_name = id_
 
-            generation = genetic[2]
+            element = [integer_ratio_string, percentage_string, full_name, generation]
+            list_.append(element)
 
-            print(f'{integer_ratio_string} ({percentage_string}) {full_name} (g={generation})')
+    # Sort values by generation, then alphabetically
+    list_ = sorted(list_, key=lambda values: (values[3], values[2]))
+
+    return list_

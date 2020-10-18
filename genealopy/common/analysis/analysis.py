@@ -1,4 +1,5 @@
 from common import data
+from common import text
 
 import copy
 import json
@@ -104,3 +105,17 @@ def get_shortest_path(json_objects, start, end):
     shortest_path = shortest_path[::-1]
 
     return shortest_path
+
+
+def print_details(list_, json_objects, id_, maximum=None):
+    if id_ in json_objects:
+        full_name = text.get_full_name(json_objects[id_])
+
+    else:
+        full_name = id_
+
+    print(f'{full_name} is...')
+
+    for element in list_:
+        if maximum is None or element[3] <= maximum:
+            print(f'{element[0]} ({element[1]}) {element[2]} (g={element[3]})')

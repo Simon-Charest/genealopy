@@ -38,7 +38,7 @@ def run():
     print_families(json_objects, 'Simon.Charest', 3)
 
     # Display graph
-    graph.view()
+    # graph.view()
 
 
 def decrypt_all_data():
@@ -83,14 +83,15 @@ def load_data():
 def print_families(json_objects, id_, generation_maximum=None):
     families = family.get_families(json_objects, id_)
     families = family.generate(families)
-    families = family.process_families(json_objects, families)
-    family.print_families(families, generation_maximum)
+    families = family.process_families(families)
+    analysis.print_details(families, json_objects, id_, generation_maximum)
 
 
 def print_genetics(json_objects, id_, generation_maximum=None):
     paths = analysis.get_paths(json_objects, id_)
-    genetics = genetic.get_genetics(paths)
-    genetic.print_genetics(json_objects, genetics, generation_maximum)
+    paths = family.generate(paths)
+    genetics = genetic.process_genetics(json_objects, paths)
+    analysis.print_details(genetics, json_objects, id_, generation_maximum)
 
 
 def print_frequencies(json_objects):
@@ -99,7 +100,6 @@ def print_frequencies(json_objects):
 
 
 def print_statistics(json_objects):
-    # Print statistics
     person_count = len(json_objects)
     relationship_count = data.get_relationship_count(json_objects)
     text.print_statistics(person_count, relationship_count)
