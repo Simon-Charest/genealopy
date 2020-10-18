@@ -24,10 +24,12 @@ def run():
     graph = initialize_graph()
 
     # Highlight selected nodes
-    search = ['Cécile.Lecour', 'Céleste.Boulianne', 'Élisabeth.Leroy', 'Luce.Boily', 'Lucien.Truchon',
-              'Madeleine.Bouchard', 'Madeleine2.Tremblay', 'Marguerite.Labrecque', 'Marguerite.Lavoie',
-              'Marie-Judith.Simard', 'Marie-Reine.Dufour', 'Zoé.Pagé']
-    # search = analysis.get_shortest_path(json_objects, 'Catherine.Charest', 'Catherine.Lecompte')
+    search = []
+
+    # TODO
+    # search = ['Cécile.Lecour', 'Céleste.Boulianne', 'Élisabeth.Leroy', 'Luce.Boily', 'Lucien.Truchon',
+    #           'Madeleine.Bouchard', 'Madeleine2.Tremblay', 'Marguerite.Labrecque', 'Marguerite.Lavoie',
+    #           'Marie-Judith.Simard', 'Marie-Reine.Dufour', 'Zoé.Pagé']
 
     process_data(json_objects, graph, search)
     print_frequencies(json_objects)
@@ -81,7 +83,8 @@ def load_data():
 def print_families(json_objects, id_, generation_maximum=None):
     families = family.get_families(json_objects, id_)
     families = family.generate(families)
-    family.print_families(json_objects, families, generation_maximum)
+    families = family.process_families(json_objects, families)
+    family.print_families(families, generation_maximum)
 
 
 def print_genetics(json_objects, id_, generation_maximum=None):

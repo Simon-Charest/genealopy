@@ -33,7 +33,7 @@ def get_families(json_objects, start, path=[], family=[]):
             yield from get_families(json_objects, parent, path, family)
 
 
-def print_families(json_objects, families, generation_maximum=None):
+def process_families(json_objects, families):
     id_ = families[0][0]
     full_name = text.get_full_name(json_objects[id_])
     list_ = list()
@@ -61,7 +61,10 @@ def print_families(json_objects, families, generation_maximum=None):
     # Sort values by generation
     list_ = sorted(list_, key=lambda values: values[3])
 
-    # Print
-    for element in list_:
-        if generation_maximum is None or element[3] <= generation_maximum:
-            print(f'{element[0]} ({element[1]}) {element[2]} (g={element[3]})')
+    return list_
+
+
+def print_families(families, generation_maximum=None):
+    for family in families:
+        if generation_maximum is None or family[3] <= generation_maximum:
+            print(f'{family[0]} ({family[1]}) {family[2]} (g={family[3]})')
