@@ -14,18 +14,11 @@ def get_details(json_objects, start, field, default=None, path=[], details=[]):
     path = path + [start]
 
     if start in json_objects:
-        if not details:
-            if default:
-                details = [default]
-
-            else:
-                details = [start]
-
-        elif field not in json_objects[start]:
-            details = details + [default]
+        if field in json_objects[start]:
+            details = details + [json_objects[start][field]]
 
         else:
-            details = details + [json_objects[start][field]]
+            details = details + [default]
 
     yield details
 
