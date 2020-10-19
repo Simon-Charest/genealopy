@@ -32,6 +32,8 @@ def run():
     #           'Marie-Judith.Simard', 'Marie-Reine.Dufour', 'Zoé.Pagé']
 
     process_data(json_objects, graph, search)
+
+    # Information display in console
     print_frequencies(json_objects)
     print_statistics(json_objects)
     print_genetics(json_objects, 'Simon.Charest', 3)
