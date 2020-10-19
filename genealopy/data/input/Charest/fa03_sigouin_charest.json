@@ -14,6 +14,7 @@
     "first_name": "Delphis",
     "last_name": "Charest",
     "gender": "M",
+    "origin": "États-Unis",
 	"birth": {
 	  "date": "1894-11-08",
 	  "place": "Amesbury, Co. Essex, Massachusets, USA"

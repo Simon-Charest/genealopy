@@ -27,7 +27,8 @@
 	"death": {
       "date": "1947"
     },
-	"occupation": {
+    "occupation": "Conducteur de tramway",
+	"job": {
 		"title": "Conducteur de tramway",
 		"place": "Montréal, Québec, Canada"
 	},

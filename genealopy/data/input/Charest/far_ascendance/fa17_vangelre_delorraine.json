@@ -15,6 +15,7 @@
     "first_name": "Philippe (Filippa)",
     "last_name": "de Gueldre (van Gelre)",
     "gender": "F",
+    "origin": "Pays-Bas",
     "relationship": {
       "Catherine de Bourbon": { "type": "mother" },
       "Adolphe d'Egmont": { "type": "father" },

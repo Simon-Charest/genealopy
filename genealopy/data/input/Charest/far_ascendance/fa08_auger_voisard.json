@@ -12,6 +12,7 @@
     "first_name": "Henri Joseph",
     "last_name": "Voisard dit Vadeboncoeur",
     "gender": "M",
+    "origin": "Suisse",
     "birth": { "date": "1729-04-11", "place": "Fontenais, Suisse" },
     "death": { "date": "1801-03-31", "place": "Louiseville, Maskinongé, Québec, Canada" },
     "relationship": {

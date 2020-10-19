@@ -3,6 +3,7 @@
     "first_name": "Perrine",
     "last_name": "Lapierre",
     "gender": "F",
+    "occupation": "Fille du Roi",
     "relationship": {
       "Claude.Leclerc": { "type": "mother" },
       "Pierre.Lapierre": { "type": "father" },
@@ -16,8 +17,12 @@
     "last_name": "Lucas dit St-Venan",
     "gender": "M",
     "family": false,
+    "origine": "Bretagne",
     "relationship": {
-      "Perrine.Lapierre": { "type": "union" }
+      "Marguerite.Selève": { "type": "mother" },
+      "François.Lucas": { "type": "father" },
+      "Perrine.Lapierre": { "type": "union" },
+      "Marie Blanchard": { "type": "union" }
     },
     "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=46283"
   },
@@ -42,5 +47,16 @@
       "Honore.Danis": { "type": "union" }
     },
     "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=46284"
+  },
+  "Marie.Blanchard": {
+    "first_name": "Marie",
+    "last_name": "Blanchard",
+    "gender": "F",
+    "family": false,
+    "occupation": "Fille du Roi",
+    "relationship": {
+      "Yves.Lucas": { "type": "union" }
+    },
+    "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=8532"
   }
 }

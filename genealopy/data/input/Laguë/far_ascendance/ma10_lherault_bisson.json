@@ -5,7 +5,7 @@
     "gender": "F",
     "relationship": {
       "Marguerite.Guillin": { "type": "mother" },
-      "René.L'Herault": { "type": "father" },
+      "René.Lereau": { "type": "father" },
       "Antoine.Bisson": { "type": "union" }
     },
     "source" : "https://www.nosorigines.qc.ca/GenealogieQuebec.aspx?pid=20216"

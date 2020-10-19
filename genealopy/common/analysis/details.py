@@ -1,4 +1,3 @@
-from common import text
 from common.analysis import analysis
 
 
@@ -11,15 +10,22 @@ def generate(generator_object):
     return list_
 
 
-def get_families(json_objects, start, path=[], family=[]):
+def get_details(json_objects, start, field, default=None, path=[], family=[]):
     path = path + [start]
 
     if start in json_objects:
         if not family:
-            family = [start]
+            if default:
+                family = [default]
+
+            else:
+                family = [start]
+
+        elif field not in json_objects[start]:
+            family = family + [default]
 
         else:
-            family = family + [json_objects[start]['last_name']]
+            family = family + [json_objects[start][field]]
 
     yield family
 
@@ -30,16 +36,16 @@ def get_families(json_objects, start, path=[], family=[]):
 
     for parent in parents:
         if parent not in path:
-            yield from get_families(json_objects, parent, path, family)
+            yield from get_details(json_objects, parent, field, default, path, family)
 
 
-def process_families(families):
+def process_details(families, minimum=1):
     list_ = list()
 
     for family in families:
         generation = len(family) - 1
 
-        if generation > 0:
+        if generation >= minimum:
             ratio = 1 / pow(2, generation)
             integer_ratio = ratio.as_integer_ratio()
             integer_ratio_string = f'{integer_ratio[0]}/{integer_ratio[1]}'

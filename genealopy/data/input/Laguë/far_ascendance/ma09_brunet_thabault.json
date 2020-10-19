@@ -25,7 +25,7 @@
   "Francoise-Cunegonde.Cardinal": {
     "first_name": "Francoise-Cunegonde",
     "last_name": "Cardinal",
-    "gender": "M",
+    "gender": "F",
     "family": false,
     "relationship": {
       "Pierre2.Tabault": { "type": "union" }

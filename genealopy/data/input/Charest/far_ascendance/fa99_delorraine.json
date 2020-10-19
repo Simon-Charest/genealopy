@@ -115,6 +115,7 @@
     "first_name": "Gérard IV",
     "last_name": "de Metz",
     "gender": "M",
+    "origin": "Ashkénaze",
     "relationship": {
       "Judith.von Öhningen": { "type": "mother" },
       "Adalbert II.de Metz": { "type": "father" }
@@ -123,6 +124,7 @@
   "Adalbert II.de Metz": {
     "first_name": "Adalbert II",
     "last_name": "de Metz",
+    "origin": "Ashkénaze",
     "gender": "M",
     "relationship": {
       "Judith.von Öhningen": { "type": "union" }
@@ -132,6 +134,7 @@
     "first_name": "Judith",
     "last_name": "von Öhningen",
     "gender": "M",
+    "origin": "Allemagne",
     "relationship": {
       "Liudolf.de Saxe": { "type": "grandfather" },
       "Adalbert II.de Metz": { "type": "union" }
@@ -141,6 +144,7 @@
     "first_name": "Liudolf",
     "last_name": "de Saxe",
     "gender": "M",
+    "origin": "Allemagne",
     "relationship": {}
   }
 }

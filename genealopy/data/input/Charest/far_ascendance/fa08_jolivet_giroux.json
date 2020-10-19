@@ -13,6 +13,8 @@
     "last_name": "Giroux",
     "gender": "M",
     "relationship": {
+      "Angélique.Bouteiller": { "type": "mother" },
+      "Vincent.Giroux": { "type": "father" },
       "Thérèse.Jolivet": { "type": "union" }
     },
     "source": "data/Simon Charest.pdf"

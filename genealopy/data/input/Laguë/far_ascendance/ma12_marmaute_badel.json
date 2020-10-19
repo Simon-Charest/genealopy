@@ -4,6 +4,7 @@
     "last_name": "Marmaute Marmaut Mermoud",
     "gender": "F",
     "complete": false,
+    "origin": "Suisse",
     "relationship": {
       "Etienne.Badel": { "type": "union" }
     },
@@ -14,6 +15,7 @@
     "last_name": "Badel dit Lamarche",
     "gender": "M",
     "complete": false,
+    "origin": "Suisse",
     "relationship": {
       "Julien.Badel": { "type": "father" },
       "Perette.Marmaute": { "type": "union" }

@@ -3,7 +3,7 @@ from common import file
 from common import text
 from common import visual
 from common.analysis import analysis
-from common.analysis import family
+from common.analysis import details
 from common.analysis import genetic
 from common.constant import constant
 from pycrypt import pycrypt
@@ -35,10 +35,12 @@ def run():
     print_frequencies(json_objects)
     print_statistics(json_objects)
     print_genetics(json_objects, 'Simon.Charest', 3)
-    print_families(json_objects, 'Simon.Charest', 3)
+    print_details(json_objects, 'Simon.Charest', 'last_name', minimum=1, maximum=3)
+    print_details(json_objects, 'Simon.Charest', 'origin', 'France', 0)
+    print_details(json_objects, 'Simon.Charest', 'occupation', 'Inconnu', 0)
 
     # Display graph
-    # graph.view()
+    graph.view()
 
 
 def decrypt_all_data():
@@ -80,18 +82,18 @@ def load_data():
     return json_objects
 
 
-def print_families(json_objects, id_, generation_maximum=None):
-    families = family.get_families(json_objects, id_)
-    families = family.generate(families)
-    families = family.process_families(families)
-    analysis.print_details(families, json_objects, id_, generation_maximum)
+def print_details(json_objects, id_, field, default=None, minimum=1, maximum=None):
+    list_ = details.get_details(json_objects, id_, field, default)
+    list_ = details.generate(list_)
+    list_ = details.process_details(list_, minimum)
+    analysis.print_details(list_, json_objects, id_, maximum)
 
 
-def print_genetics(json_objects, id_, generation_maximum=None):
+def print_genetics(json_objects, id_, maximum=None):
     paths = analysis.get_paths(json_objects, id_)
-    paths = family.generate(paths)
+    paths = details.generate(paths)
     genetics = genetic.process_genetics(json_objects, paths)
-    analysis.print_details(genetics, json_objects, id_, generation_maximum)
+    analysis.print_details(genetics, json_objects, id_, maximum)
 
 
 def print_frequencies(json_objects):
