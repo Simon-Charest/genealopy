@@ -10,24 +10,24 @@ def generate(generator_object):
     return list_
 
 
-def get_details(json_objects, start, field, default=None, path=[], family=[]):
+def get_details(json_objects, start, field, default=None, path=[], details=[]):
     path = path + [start]
 
     if start in json_objects:
-        if not family:
+        if not details:
             if default:
-                family = [default]
+                details = [default]
 
             else:
-                family = [start]
+                details = [start]
 
         elif field not in json_objects[start]:
-            family = family + [default]
+            details = details + [default]
 
         else:
-            family = family + [json_objects[start][field]]
+            details = details + [json_objects[start][field]]
 
-    yield family
+    yield details
 
     if start not in json_objects:
         return
@@ -36,7 +36,7 @@ def get_details(json_objects, start, field, default=None, path=[], family=[]):
 
     for parent in parents:
         if parent not in path:
-            yield from get_details(json_objects, parent, field, default, path, family)
+            yield from get_details(json_objects, parent, field, default, path, details)
 
 
 def process_details(families, minimum=1):

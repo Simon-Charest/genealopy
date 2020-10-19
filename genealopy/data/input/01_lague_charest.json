@@ -4,6 +4,7 @@
     "middle_name": "Hubert",
     "last_name": "Charest",
     "gender": "M",
+    "occupation": "Dessinateur industriel",
     "job": [
       "Dessinateur industriel",
       "Agent négociateur"
@@ -37,6 +38,7 @@
     "first_name": "Suzanne",
     "last_name": "Laguë",
     "gender": "F",
+    "occupation": "Préposée aux bénificiaires",
     "birth": {
       "date": "1950-05-16"
     },
