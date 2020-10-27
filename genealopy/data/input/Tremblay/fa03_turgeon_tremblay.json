@@ -17,8 +17,41 @@
     "relationship": {
 	  "Angeline.Truchon": { "type": "mother" },
 	  "Arsène.Turgeon": { "type": "father" },
-      "Alphonse.Tremblay": { "type": "union" }
+      "Alphonse.Tremblay": { "type": "union" },
+      "Lacombe": { "type": "union" }
     },
     "source": "data/Simon Charest.pdf"
+  },
+  "Lacombe": {
+    "first_name": null,
+    "last_name": "Lacombe",
+    "gender": "M",
+    "family": false,
+    "relationship": {
+      "Léontine.Turgeon": { "type": "union" }
+    },
+    "source": "Michel Charest"
+  },
+  "Anne.Turgeon": {
+    "first_name": "Anne",
+    "last_name": "Turgeon",
+    "gender": "F",
+    "relationship": {
+	  "Angeline.Truchon": { "type": "mother" },
+	  "Arsène.Turgeon": { "type": "father" },
+      "Émile.Morin": { "type": "union" }
+    },
+    "source": "Michel Charest"
+  },
+  "Émile.Morin": {
+    "first_name": "Émile",
+    "last_name": "Morin",
+    "gender": "M",
+    "family": false,
+    "job": "Chauffeur d'autobus (retraité)",
+    "relationship": {
+      "Anne.Turgeon": { "type": "union" }
+    },
+    "source": "Michel Charest"
   }
 }

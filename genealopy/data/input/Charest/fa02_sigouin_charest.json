@@ -23,18 +23,9 @@
     "relationship": {
 	  "Léontine.Turgeon": { "type": "mother" },
 	  "Alphonse.Tremblay": { "type": "father" },
-      "Lacombe": { "type": "union" },
+      "Anne.Turgeon": { "type": "mother" },
+      "Émile.Morin": { "type": "father" },
       "Clément.Charest": { "type": "union", "date": "1946-08-31" }
-    },
-    "source": "http://www.genealogie.org/bcentrale/arbre.asp?code_owner=214&code_individu="
-  },
-  "Lacombe": {
-    "first_name": null,
-    "last_name": "Lacombe",
-    "gender": "M",
-    "family": false,
-    "relationship": {
-      "Rita.Tremblay": { "type": "union" }
     },
     "source": "http://www.genealogie.org/bcentrale/arbre.asp?code_owner=214&code_individu="
   },
