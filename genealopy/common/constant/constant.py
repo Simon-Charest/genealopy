@@ -63,15 +63,15 @@ INPUT_FILENAMES = map(lambda filename: INPUT_DIRECTORY + str(filename), [
         # 'Laguë/descendance/*.json',
 
         # Charest
-        "Charest/far_ascendance/fa99_delorraine.json",  # Charest noble ascendance
-        'Charest/far_ascendance/*.json',  # Delphis Charest's ascendance
+        "Charest/far_ascendence/fa99_delorraine.json",  # Charest noble ascendence
+        'Charest/far_ascendence/*.json',  # Delphis Charest's ascendence
         'Charest/tanguay_charest_siblings/*.json',  # Delphis Charest's siblings
-        'Charest/dion_charette_ascendance/*.json',  # Aurèle Charette (Charest-Charette)'s ascendance
-        'Charest/little_cousins/*.json',  # Clément Charest siblings' descendance
-        'Charest/little_cousin_descendance/*.json',  # Clément Charest siblings' descendance
-        'Tremblay/*.json',  # Rita Lacombe Tremblay's ascendance
+        'Charest/dion_charette_ascendence/*.json',  # Aurèle Charette (Charest-Charette)'s ascendence
+        'Charest/little_cousins/*.json',  # Clément Charest siblings' descendence
+        'Charest/little_cousin_descendence/*.json',  # Clément Charest siblings' descendence
+        'Tremblay/*.json',  # Rita Lacombe Tremblay's ascendence
         'Charest/*.json',
-        'Charest/descendance/*.json',
+        'Charest/descendence/*.json',
 
         # Laguë-Charest
         '0?_lague_charest.json'
