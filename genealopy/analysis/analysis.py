@@ -1,61 +1,84 @@
-from common import data
-from common import text
+from copy import deepcopy
+from genealopy.data import exists_in
+from genealopy.text import get_full_name
+from json import loads
 
-import copy
-import json
 
-
-def add_children(json_objects):
-    children = copy.deepcopy(json_objects)
+def add_children(collection: dict) -> dict:
+    children: dict = deepcopy(collection)
+    child: dict
+    type: str
 
     # For each child...
     for child in children:
-        parents = children[child]['relationship']
+        parents = children[child]["relationship"]
 
         # For each of its parents...
         for parent in parents:
-            type_ = parents[parent]['type']
+            type = parents[parent]["type"]
 
             # If the relationship is a parent...
-            if type_ in ['father', 'mother']:
+            if type in ["father", "mother"]:
                 # Create an inverted relationship from the parent to the child
                 string = f'{{"{child}": {{"type": "child"}}}}'
-                dictionary = json.loads(string)
+                dictionary = loads(string)
 
                 # Only create child link if parent exists
                 if parent in children:
-                    children[parent]['relationship'].update(dictionary)
+                    children[parent]["relationship"].update(dictionary)
 
     return children
+
+
+def get_details(collection, start, field, default=None, path=[], details=[]):
+    path = path + [start]
+
+    if start in collection:
+        if field in collection[start]:
+            details = details + [collection[start][field]]
+
+        else:
+            details = details + [default]
+
+    yield details
+
+    if start not in collection:
+        return
+
+    parents = get_parents(collection[start]["relationship"])
+
+    for parent in parents:
+        if parent not in path:
+            yield from get_details(collection, parent, field, default, path, details)
 
 
 def get_parents(relationships):
     """ Filter out relationships which are not parents """
 
     parents = dict([(relationship, relationships[relationship]) for relationship in relationships
-                    if relationships[relationship]['type'] in ['mother', 'father']])
+                    if relationships[relationship]["type"] in ["mother", "father"]])
 
     return parents
 
 
-def get_paths(json_objects, start, path=[]):
+def get_paths(collection, start, path=[]):
     path = path + [start]
 
     yield path
 
-    if start not in json_objects:
+    if start not in collection:
         return
 
-    parents = get_parents(json_objects[start]['relationship'])
+    parents = get_parents(collection[start]["relationship"])
 
     for parent in parents:
         if parent not in path:
-            yield from get_paths(json_objects, parent, path)
+            yield from get_paths(collection, parent, path)
 
 
-def get_shortest_path(json_objects, start, end):
+def get_shortest_path(collection, start, end):
     """
-        Dijkstra's shortest path algorithm
+        Dijkstra"s shortest path algorithm
         Source: https://benalexkeen.com/implementing-djikstras-shortest-path-algorithm-with-python/
     """
 
@@ -68,8 +91,8 @@ def get_shortest_path(json_objects, start, end):
         visited.add(current_node)
         destinations = {}
 
-        if data.exists_in(json_objects, current_node):
-            destinations = json_objects[current_node]['relationship']
+        if exists_in(collection, current_node):
+            destinations = collection[current_node]["relationship"]
 
         weight_to_current_node = shortest_paths[current_node][1]
 
@@ -107,15 +130,15 @@ def get_shortest_path(json_objects, start, end):
     return shortest_path
 
 
-def print_details(list_, json_objects, id_, maximum=None):
-    if id_ in json_objects:
-        full_name = text.get_full_name(json_objects[id_])
+def print_details(list_, collection, id, maximum=None):
+    if id in collection:
+        full_name = get_full_name(collection[id])
 
     else:
-        full_name = id_
+        full_name = id
 
-    print(f'{full_name} is...')
+    print(f"{full_name} is...")
 
     for element in list_:
         if maximum is None or element[3] <= maximum:
-            print(f'{element[0]} ({element[1]}) {element[2]} (g={element[3]})')
+            print(f"{element[0]} ({element[1]}) {element[2]} (g={element[3]})")

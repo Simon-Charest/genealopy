@@ -1,10 +1,9 @@
-from test import test
-from common.datetime_ import datetime_
+from datetime import datetime
+from genealopy.datetime_ import get_start_time, print_execution_time
+from genealopy.app import run
 
-import app
 
-if __name__ == '__main__':
-    start = datetime_.get_start_time()
-    test.run()
-    app.run()
-    datetime_.print_execution_time(start)
+if __name__ == "__main__":
+    start: datetime = get_start_time()
+    run()
+    print_execution_time(start)

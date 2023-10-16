@@ -1,9 +1,7 @@
 .idea/
+.pytest_cache/
+.venv/
 __pycache__/
-data/input/
-data/security/
-venv/
-*.json
-*.pyc
+data/input/**/*.json
 key.txt
 salt.txt

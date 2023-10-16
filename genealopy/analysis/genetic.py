@@ -1,8 +1,8 @@
-from common import text
+from genealopy.text import get_full_name
 
 
-def process_genetics(json_objects, genetics):
-    list_ = list()
+def process_genetics(collection, genetics):
+    list_: list = []
 
     for genetic in genetics:
         generation = len(genetic) - 1
@@ -12,13 +12,13 @@ def process_genetics(json_objects, genetics):
             integer_ratio = ratio.as_integer_ratio()
             integer_ratio_string = f'{integer_ratio[0]}/{integer_ratio[1]}'
             percentage_string = f'{round(100 * ratio, 1)}%'
-            id_ = genetic[-1]
+            id = genetic[-1]
 
-            if id_ in json_objects:
-                full_name = text.get_full_name(json_objects[id_])
+            if id in collection:
+                full_name = get_full_name(collection[id])
 
             else:
-                full_name = id_
+                full_name = id
 
             element = [integer_ratio_string, percentage_string, full_name, generation]
             list_.append(element)

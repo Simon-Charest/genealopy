@@ -1,27 +1,27 @@
-from common import file
-from common.analysis import analysis
-from common.constant import constant
-from pycrypt import pycrypt
+from genealopy.constant import ALL_FILENAMES
+from genealopy.file import get_filenames
 
-import inspect
+
+class TestGenealopy:
+    def test_get_filenames(self) -> None:
+        # Act
+        actual: list = get_filenames(ALL_FILENAMES)
+
+        # Assert
+        assert isinstance(actual, list)
+        assert len(actual) > 0
+
+"""
+from genealopy.common import file
+from genealopy.common.analysis import analysis
+from genealopy.common.constant import constant
+from pycrypt import pycrypt
+from genealopy.common import constant, file
 
 
 def run():
     json_objects = load_data()
     run_tests(json_objects)
-
-
-def get_function_name(back=2):
-    # Goes back to function, by default
-
-    frame = inspect.currentframe()
-
-    for _ in range(0, back):
-        frame = frame.f_back
-
-    function_name = frame.f_code.co_name
-
-    return function_name
 
 
 def load_data():
@@ -150,3 +150,4 @@ def test_pycrypt():
     actual = pycrypt.decrypt(pycrypt.encrypt(expected, key, salt), key, salt)
     result = actual == expected
     print_result(result, actual, expected)
+"""

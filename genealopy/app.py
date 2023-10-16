@@ -1,45 +1,47 @@
-from common import data
-from common import file
-from common import text
-from common import visual
-from common.analysis import analysis
-from common.analysis import details
-from common.analysis import genetic
-from common.constant import constant
-from pycrypt import pycrypt
-
+from genealopy.data import (
+    get_count, get_name, get_relationship_count, get_relationship_gender,
+    get_relationship_type, has_parents, is_complete, is_family
+)
+from genealopy.file import dump_collection, get_filenames, load_collection, loads, read, write
+from genealopy.text import print_statistics
+from genealopy.visual import get_color, get_style
+from genealopy.analysis.analysis import add_children, get_details, get_paths, print_details
+from genealopy.analysis.details import generate, process_details
+from genealopy.analysis.genetic import process_genetics
+from genealopy.constant import (
+    __project__, ALL_FILENAMES, DARKEN_INCOMPLETE, DEBUG, KEY_FILENAME, GENDER,
+    GRAPH_FILENAME, GRAPH_FORMAT, INPUT_FILENAMES, OUTPUT_FILENAME,
+    RANK_DIRECTION, RELATIONSHIP, SALT_FILENAME, SEARCH_COLOR, SHAPE, STYLE
+)
+from genealopy.pycrypt import encrypt, decrypt
 from graphviz import Digraph
-"""
-Prerequisites:
-    - Microsoft C++ Build Tools - https://visualstudio.microsoft.com/visual-cpp-build-tools/
-    - Graphviz - https://graphviz.gitlab.io/_pages/Download/Download_windows.html
-"""
+from typing import Any
 
 
 def run():
     """ Main execution """
 
     backup_all_data()
-    json_objects = load_data()
+    collection: dict = load_data()
     graph = initialize_graph()
 
     # Highlight selected nodes
     search = []
 
     # TODO
-    # search = ['Cécile.Lecour', 'Céleste.Boulianne', 'Élisabeth.Leroy', 'Luce.Boily', 'Lucien.Truchon',
-    #           'Madeleine.Bouchard', 'Madeleine2.Tremblay', 'Marguerite.Labrecque', 'Marguerite.Lavoie',
-    #           'Marie-Judith.Simard', 'Marie-Reine.Dufour', 'Zoé.Pagé']
+    # search = ["Cécile.Lecour", "Céleste.Boulianne", "Élisabeth.Leroy", "Luce.Boily", "Lucien.Truchon",
+    #           "Madeleine.Bouchard", "Madeleine2.Tremblay", "Marguerite.Labrecque", "Marguerite.Lavoie",
+    #           "Marie-Judith.Simard", "Marie-Reine.Dufour", "Zoé.Pagé"]
 
-    process_data(json_objects, graph, search)
+    process_data(collection, graph, search)
 
     # Information display in console
-    print_frequencies(json_objects)
-    print_statistics(json_objects)
-    print_genetics(json_objects, 'Simon.Charest', 3)
-    print_details(json_objects, 'Simon.Charest', 'last_name', minimum=1, maximum=3)
-    print_details(json_objects, 'Simon.Charest', 'origin', 'France', 0)
-    print_details(json_objects, 'Simon.Charest', 'occupation', 'Inconnu', 0)
+    print_frequencies(collection)
+    print_all_statistics(collection)
+    print_genetics(collection, "Simon.Charest", 3)
+    print_all_details(collection, "Simon.Charest", "last_name", minimum=1, maximum=3)
+    print_all_details(collection, "Simon.Charest", "origin", "France", 0)
+    print_all_details(collection, "Simon.Charest", "occupation", "Inconnu", 0)
 
     # Display graph
     graph.view()
@@ -47,122 +49,122 @@ def run():
 
 def decrypt_all_data():
     # Read the formatted and encrypted copy of the entire data
-    string = file.read(constant.OUTPUT_FILENAME)
-    string = pycrypt.decrypt(string, constant.KEY_FILENAME, constant.SALT_FILENAME)
-    json_objects = file.loads(string)
+    string = read(OUTPUT_FILENAME)
+    string = decrypt(string, KEY_FILENAME, SALT_FILENAME)
+    collection = loads(string)
 
-    return json_objects
+    return collection
 
 
-def backup_all_data():
+def backup_all_data() -> None:
     # Get all data from JSON files
-    filenames = file.get_filenames(constant.ALL_FILENAMES)
-    json_objects = file.load_json_objects(filenames)
+    filenames: list = get_filenames(ALL_FILENAMES)
+    collection: dict = load_collection(filenames)
 
     # Write a formatted and encrypted copy of the entire data
-    string = file.dumps(json_objects)
-    string = pycrypt.encrypt(string, constant.KEY_FILENAME, constant.SALT_FILENAME)
-    file.write(constant.OUTPUT_FILENAME, string)
+    string: str = dump_collection(collection)
+    string: str = encrypt(string, open(KEY_FILENAME).read(), open(SALT_FILENAME).read())
+    write(OUTPUT_FILENAME, string)
 
 
-def initialize_graph():
+def initialize_graph() -> Digraph:
     # Initialize graph
-    graph = Digraph(name=constant.__project__, filename=constant.GRAPH_FILENAME, format=constant.GRAPH_FORMAT)
-    graph.attr(rankdir=constant.RANK_DIRECTION)
+    graph: Digraph = Digraph(name=__project__, filename=GRAPH_FILENAME, format=GRAPH_FORMAT)
+    graph.attr(rankdir=RANK_DIRECTION)
 
     return graph
 
 
-def load_data():
+def load_data() -> dict:
     # Get data from JSON files
-    filenames = file.get_filenames(constant.INPUT_FILENAMES)
-    json_objects = file.load_json_objects(filenames)
+    filenames: str = get_filenames(INPUT_FILENAMES)
+    collection: dict = load_collection(filenames)
 
     # Augment data with children
-    json_objects = analysis.add_children(json_objects)
+    collection = add_children(collection)
 
-    return json_objects
-
-
-def print_details(json_objects, id_, field, default=None, minimum=1, maximum=None):
-    list_ = details.get_details(json_objects, id_, field, default)
-    list_ = details.generate(list_)
-    list_ = details.process_details(list_, minimum)
-    analysis.print_details(list_, json_objects, id_, maximum)
+    return collection
 
 
-def print_genetics(json_objects, id_, maximum=None):
-    paths = analysis.get_paths(json_objects, id_)
-    paths = details.generate(paths)
-    genetics = genetic.process_genetics(json_objects, paths)
-    analysis.print_details(genetics, json_objects, id_, maximum)
+def print_all_details(collection: dict, id: str, field: str, default: Any = None, minimum: int = 1, maximum: int = None) -> None:
+    collection: list = get_details(collection, id, field, default)
+    collection = generate(collection)
+    collection = process_details(collection, minimum)
+    print_details(collection, collection, id, maximum)
 
 
-def print_frequencies(json_objects):
-    print(f"First name frequencies: {data.get_count(json_objects, 'first_name')}")
-    print(f"Last name frequencies: {data.get_count(json_objects, 'last_name')}")
+def print_genetics(collection, id, maximum=None) -> None:
+    paths: list = get_paths(collection, id)
+    paths = generate(paths)
+    genetics: list = process_genetics(collection, paths)
+    print_details(genetics, collection, id, maximum)
 
 
-def print_statistics(json_objects):
-    person_count = len(json_objects)
-    relationship_count = data.get_relationship_count(json_objects)
-    text.print_statistics(person_count, relationship_count)
+def print_frequencies(collection):
+    print(f"First name frequencies: {get_count(collection, 'first_name')}")
+    print(f"Last name frequencies: {get_count(collection, 'last_name')}")
 
 
-def process_data(json_objects, graph, search=None):
+def print_all_statistics(collection):
+    person_count = len(collection)
+    relationship_count = get_relationship_count(collection)
+    print_statistics(person_count, relationship_count)
+
+
+def process_data(collection: dict, graph, search=None):
     if search is None:
         search = []
 
-    if constant.DEBUG and 'search' in locals():
-        print(f'Search: {search}')
+    if DEBUG and "search" in locals():
+        print(f"Search: {search}")
 
     # Loop on every person
-    for key1 in json_objects:
+    for key1 in collection:
         # Get first person properties
-        value1 = json_objects[key1]
-        name1 = data.get_name(value1)
-        gender1 = value1['gender']
+        value1 = collection[key1]
+        name1 = get_name(value1)
+        gender1 = value1["gender"]
 
         # Display nodes of certain genders only...
-        if gender1 in constant.GENDER:
+        if gender1 in GENDER:
             # Highlight selected persons
-            if 'search' in locals() and key1 in search:
-                color1 = constant.SEARCH_COLOR
+            if "search" in locals() and key1 in search:
+                color1 = SEARCH_COLOR
 
             else:
                 # Darken persons with missing parents but only if they are direct family
-                if constant.DARKEN_INCOMPLETE and data.is_family(value1) and data.is_complete(value1):
-                    complete1 = data.has_parents(json_objects, key1)
+                if DARKEN_INCOMPLETE and is_family(value1) and is_complete(value1):
+                    complete1 = has_parents(collection, key1)
 
                 else:
                     complete1 = True
 
-                color1 = visual.get_color(gender1, complete1)
+                color1 = get_color(gender1, complete1)
 
             # Draw first person
-            graph.node(key1, label=name1, color=color1, shape=constant.SHAPE, style=constant.STYLE)
+            graph.node(key1, label=name1, color=color1, shape=SHAPE, style=STYLE)
 
             # Loop on every relationship
-            for key2 in value1['relationship']:
+            for key2 in value1["relationship"]:
                 # Get second person properties
-                gender2 = data.get_relationship_gender(json_objects, key2)
+                gender2 = get_relationship_gender(collection, key2)
 
                 # Display edges of certain genders only...
-                if gender2 in constant.GENDER:
+                if gender2 in GENDER:
                     # Get relationship properties
-                    relationship = data.get_relationship_type(value1, key2)
+                    relationship = get_relationship_type(value1, key2)
 
                     # Display edges of certain relationship types only...
-                    if relationship in constant.RELATIONSHIP:
+                    if relationship in RELATIONSHIP:
 
                         # Highlight relationships between selected persons
-                        if 'search' in locals() and key1 in search and key2 in search:
-                            edge_color = constant.SEARCH_COLOR
+                        if "search" in locals() and key1 in search and key2 in search:
+                            edge_color = SEARCH_COLOR
 
                         else:
-                            edge_color = visual.get_color(relationship)
+                            edge_color = get_color(relationship)
 
-                        edge_style = visual.get_style(relationship)
+                        edge_style = get_style(relationship)
 
                         # Draw relationship
                         graph.edge(key2, key1, color=edge_color, style=edge_style)
