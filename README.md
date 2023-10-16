@@ -1,9 +1,9 @@
-#Genealopy
+# Genealopy
 
-##A Genealogy Project in Python
+## A Genealogy Project in Python
 
-##Prerequisites
+## Prerequisites
 - [Graphviz](https://www.graphviz.org/download/)
 
-###Usage
+### Usage
 ```python -m genealopy```
