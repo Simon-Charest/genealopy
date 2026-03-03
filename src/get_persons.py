@@ -24,16 +24,13 @@ def get_persons(pathname: str, database: str, verbose: bool = False) -> list[dic
 
         # Get person
         subject: dict[str, Any] = get_person(soup)
-
-        if not any(person["owner_id"] == subject["owner_id"] and person["id"] == subject["id"] for person in persons):
+        if not any(p["owner_id"] == subject["owner_id"] and p["id"] == subject["id"] for p in persons):
             persons.append(subject)
 
-        # Get persons
-        relationships: list[dict[str, Any]] = get_relationships(soup)
-
-        for relationship in relationships:
-            if not any(person["owner_id"] == relationship["owner_id"] and person["id"] == relationship["id"] for person in persons):
-                persons.extend(get_relationships(soup))
+        # Get relationships
+        for relationship in get_relationships(soup):
+            if not any(p["owner_id"] == relationship["owner_id"] and p["id"] == relationship["id"] for p in persons):
+                persons.append(relationship)
 
     return persons
 
