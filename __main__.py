@@ -1,14 +1,19 @@
 from argparse import ArgumentParser, Namespace
 from collections import deque
-from datetime import datetime
+from datetime import date, datetime
+from glob import glob
+from pandas import DataFrame
 from pathlib import Path
+from sqlite3 import Connection
 from typing import Any
 
 from src.crawl import crawl
 from src.datetime import get_datetime, print_execution_time
 from src.delete import delete
+from src.get_persons import get_persons
 from src.load_configuration import load_configuration
 from src.read import read
+from src.sqlite import disconnect, get_connection, query, write
 
 
 def main() -> None:
@@ -30,9 +35,44 @@ def main() -> None:
     if arguments.delete:
         delete(str(Path(configuration["path"]).joinpath("*.html")), arguments.verbose)
 
-    if arguments.read:
-        #read(str(Path(configuration["path"]).joinpath("*.html")))
-        read(str(Path(configuration["path"]).joinpath("214_227835.html")), arguments.verbose)
+    if arguments.get_persons:
+        persons: list[dict[str, Any]] = get_persons(str(Path(configuration["path"]).joinpath("*.html")), configuration["database"], arguments.verbose)
+        #persons: list[dict[str, Any]] = get_persons(str(Path(configuration["path"]).joinpath("214_227835.html")), configuration["database"], arguments.verbose)
+
+        # Import to database
+        data_frame: DataFrame = DataFrame(persons)
+        connection: Connection = get_connection(configuration["database"])
+        write(data_frame, connection, "persons", "replace", False, dtype={
+            "id": "INTEGER NOT NULL",
+            "owner_id": "INTEGER NOT NULL",
+            "first_name": "TEXT",
+            "last_name": "TEXT",
+            "gender": "TEXT",
+            "birthdate": "TEXT",
+            "birthplace": "TEXT",
+            "mother_id": "INTEGER",
+            "father_id": "INTEGER"
+        })
+        disconnect(connection)
+
+    if arguments.list:
+        paths: list[str] = glob("sql/**/*.sql", recursive=True)
+        path: str
+       
+        for path in paths:  
+            print(Path(path).as_posix())
+
+    if arguments.query:
+        sql: str = read(Path(__file__).parent.joinpath(arguments.query))
+        connection: Connection = get_connection(configuration["database"])
+        data: DataFrame = query(sql, connection, arguments.verbose)
+        disconnect(connection)
+        print(data)
+        print(f"{len(data)} record(s)")
+
+        # Prepare export path
+        #file_path: Path = Path(str(arguments.query).replace("\\", "/").replace("sql/", "data/"))
+        #file_path.parent.mkdir(parents=True, exist_ok=True)
 
     """
     if arguments.backup:
@@ -66,6 +106,7 @@ def main() -> None:
     """
     
     print_execution_time(start)
+    print("** DONE **")
 
 
 def parse_arguments() -> Namespace:
@@ -73,7 +114,9 @@ def parse_arguments() -> Namespace:
     #argument_parser.add_argument("-b", "--backup", action="store_true", help="Backup data")
     argument_parser.add_argument("-c", "--crawl", action="store_true", help="Crawl")
     argument_parser.add_argument("-d", "--delete", action="store_true", help="Delete")
-    argument_parser.add_argument("-r", "--read", action="store_true", help="Read")
+    argument_parser.add_argument("-l", "--list", action="store_true", help="List queries")
+    argument_parser.add_argument("-p", "--get_persons", action="store_true", help="Get persons")
+    argument_parser.add_argument("-q", "--query", help="Query")
     #argument_parser.add_argument("-g", "--view_graph", action="store_true", help="View graph")
     argument_parser.add_argument("-v", "--verbose", action="store_true", help="Verbose")
     arguments: Namespace = argument_parser.parse_args()
