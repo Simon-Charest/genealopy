@@ -5,16 +5,16 @@ from pathlib import Path
 from typing import Any
 
 from src.crawl import crawl
-from src.datetime import get_start_time, print_execution_time
+from src.datetime import get_datetime, print_execution_time
 from src.delete import delete
 from src.load_configuration import load_configuration
 from src.read import read
 
 
 def main() -> None:
+    start: datetime = get_datetime()
     arguments: Namespace = parse_arguments()
     configuration: dict[str, Any] = load_configuration("config.json")
-    start: datetime = get_start_time()
 
     if arguments.crawl:
         crawl(
