@@ -29,6 +29,8 @@ def main() -> None:
             configuration["url"],
             deque(configuration["references"]),
             configuration["path"],
+            configuration["encoding"],
+            configuration["seconds"],
             verbose=arguments.verbose
         )
 

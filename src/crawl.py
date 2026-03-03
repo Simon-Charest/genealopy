@@ -15,7 +15,7 @@ def crawl(
     url: str,
     references: deque[dict[str, int]],
     path: str,
-    encoding: str ="utf-8",
+    encoding: str = "utf-8",
     seconds: float  = 0.5,
     verbose: bool = False
 ) -> None:
@@ -65,10 +65,10 @@ def crawl(
     session.close()
 
 
-def connect(session: Session, url: str, email: str, password: str, from_encoding: str | None = None) -> None:
+def connect(session: Session, url: str, email: str, password: str) -> None:
     response: Response = session.post(url, {"email": email, "password": password})
      
-    BeautifulSoup(response.content, "html.parser", from_encoding=from_encoding)
+    BeautifulSoup(response.content, "html.parser")
 
 
 def is_connected(soup: BeautifulSoup) -> bool:
@@ -77,7 +77,7 @@ def is_connected(soup: BeautifulSoup) -> bool:
     return tag is not None and tag.get_text(strip=True) == "Fiche familiale"
 
 
-def get_file(session: Session, url: str, params: dict[str, int], from_encoding: str | None = None) -> BeautifulSoup:
+def get_file(session: Session, url: str, params: dict[str, int]) -> BeautifulSoup:
     response = session.get(url, params=params)
 
-    return BeautifulSoup(response.content, "html.parser", from_encoding=from_encoding)
+    return BeautifulSoup(response.content, "html.parser")

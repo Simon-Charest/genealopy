@@ -1,6 +1,7 @@
 SELECT p.*
 FROM persons AS p
---WHERE first_name LIKE 'CLEMENT'
---WHERE last_name = 'Charest'
-LIMIT 100
+WHERE 0 = 0
+AND p.last_name IN ('TREMBLAY', 'CHAREST')
+AND p.first_name IN  ('DELPHIS', 'RITA', 'CLEMENT')
+LIMIT 10000
 ;
