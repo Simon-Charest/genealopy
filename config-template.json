@@ -1,0 +1,11 @@
+{
+    "login_url": "http://www.genealogie.org/login/login.asp",
+    "email": "",
+    "password": "",
+    "url": "http://www.genealogie.org/bcentrale/arbre.asp",
+    "references": [
+        {"code_owner": 214, "code_individu": 511415},
+        {"code_owner": 214, "code_individu": 511416}
+    ],
+    "path": "data"
+}
