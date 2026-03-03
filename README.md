@@ -37,3 +37,4 @@ Contributors names and contact info:
 - [Suzanne Coderre](mailto:suzanne1809@gmail.com)
 - [Richard Côté](mailto:richardcoste@sogetel.net) @ [Le Centre de généalogie francophone d'Amérique](http://www.genealogie.org/)
 - [Gilles Deguire](mailto:deguire@mesancetres.ca) @ [Mes ancêtres](http://www.mesancetres.ca/)
+- [Généalogie du Québec et d'Amérique française](https://www.nosorigines.qc.ca/)
