@@ -1,6 +1,6 @@
 from argparse import ArgumentParser, Namespace
 from collections import deque
-from datetime import date, datetime
+from datetime import datetime
 from glob import glob
 from pandas import DataFrame
 from pathlib import Path
