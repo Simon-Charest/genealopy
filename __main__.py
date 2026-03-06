@@ -38,7 +38,7 @@ def main() -> None:
         delete(str(Path(configuration["path"]).joinpath("*.html")), arguments.verbose)
 
     if arguments.get_persons:
-        persons: list[dict[str, Any]] = get_data(str(Path(configuration["path"]).joinpath("*.html")), configuration["database"], arguments.verbose)
+        persons: list[dict[str, Any]] = get_data(str(Path(configuration["path"]).joinpath("*.html")), arguments.verbose)
         #persons: list[dict[str, Any]] = get_persons(str(Path(configuration["path"]).joinpath("214_227835.html")), configuration["database"], arguments.verbose)
 
         # Import to database

@@ -7,7 +7,7 @@ from urllib.parse import ParseResult, parse_qs, urlparse
 from src.datetime import parse_date
 
 
-def get_data(pathname: str, database: str, verbose: bool = False) -> list[dict[str, Any]]:
+def get_data(pathname: str, verbose: bool = False) -> list[dict[str, Any]]:
     paths: list[str] = glob(pathname)
     path: str
     persons: list[dict[str, Any]] = []
