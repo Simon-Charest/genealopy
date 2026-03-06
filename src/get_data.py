@@ -7,7 +7,7 @@ from urllib.parse import ParseResult, parse_qs, urlparse
 from src.datetime import parse_date
 
 
-def get_persons(pathname: str, database: str, verbose: bool = False) -> list[dict[str, Any]]:
+def get_data(pathname: str, database: str, verbose: bool = False) -> list[dict[str, Any]]:
     paths: list[str] = glob(pathname)
     path: str
     persons: list[dict[str, Any]] = []
@@ -28,7 +28,7 @@ def get_persons(pathname: str, database: str, verbose: bool = False) -> list[dic
             persons.append(subject)
 
         # Get relationships
-        for relationship in get_relationships(soup):
+        for relationship in get_persons(soup):
             if not any(p["owner_id"] == relationship["owner_id"] and p["id"] == relationship["id"] for p in persons):
                 persons.append(relationship)
 
@@ -69,23 +69,28 @@ def get_person(soup: BeautifulSoup) -> dict[str, Any]:
     if parent_td:
         for a in parent_td.find_all("a", href=True):
             prev = a.previous_sibling
+
             while prev is not None:
                 if isinstance(prev, Tag):
                     break
+
                 text = str(prev).strip()
                 if text:
                     parsed = urlparse(str(a["href"]))
                     params = parse_qs(parsed.query)
                     code = int(params["code_individu"][0])
+
                     if "Père" in text or "Pere" in text:
                         father_id = code
+
                     elif "Mère" in text or "Mere" in text:
                         mother_id = code
                     break
+
                 prev = prev.previous_sibling
 
-    # id / owner_id from # référence: <b>214,227835</b>
-    ref_tag: Tag | None = tag.find("b", string=lambda s: s and "," in s and s.strip().replace(",", "").isdigit())
+    ref_tag: Tag | None = tag.find("b", string=lambda s: s and "," in s and s.strip().replace(",", "").isdigit())  # type: ignore[call-overload]
+    
     if not ref_tag:
         return {}
     owner_id, individu_id = map(int, ref_tag.get_text(strip=True).split(","))
@@ -106,7 +111,7 @@ def get_person(soup: BeautifulSoup) -> dict[str, Any]:
     return person
 
 
-def get_relationships(soup: BeautifulSoup) -> list[dict[str, Any]]:
+def get_persons(soup: BeautifulSoup) -> list[dict[str, Any]]:
     persons: list[dict[str, Any]] = []
 
     # Track spouse info for assigning to children
@@ -205,7 +210,7 @@ def get_relationships(soup: BeautifulSoup) -> list[dict[str, Any]]:
                     break
 
                 if sibling.name == "table":
-                    birth_label = sibling.find(string=lambda s: s and "Naissance:" in s)
+                    birth_label = sibling.find(string=lambda s: s and "Naissance:" in s)  # type: ignore[call-overload]
 
                     if birth_label:
                         td2 = birth_label.find_next("td")
@@ -231,11 +236,11 @@ def get_relationships(soup: BeautifulSoup) -> list[dict[str, Any]]:
             sibling = sibling.next_sibling
 
         # Detect spouse: has a "# référence" nearby and is not a parent link
-        ref_text = tag.find_next(string=lambda s: s and "référence" in s)
+        ref_text = tag.find_next(string=lambda s: s and "référence" in s)   # type: ignore[call-overload]
 
         if ref_text and not is_parent_link:
             # Check if this is the spouse block (direct child of union row)
-            parent_td = tag.find_parent("td", {"bgcolor": "#ffcf8f"})
+            parent_td = tag.find_parent("td", {"bgcolor": "#ffcf8f"})  # type: ignore[call-overload]
 
             if parent_td and not in_children:
                 is_spouse = True

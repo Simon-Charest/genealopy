@@ -10,7 +10,7 @@ from typing import Any
 from src.crawl import crawl
 from src.datetime import get_datetime, print_execution_time
 from src.delete import delete
-from src.get_persons import get_persons
+from src.get_data import get_data
 from src.load_configuration import load_configuration
 from src.read import read
 from src.sqlite import disconnect, get_connection, query, write
@@ -38,7 +38,7 @@ def main() -> None:
         delete(str(Path(configuration["path"]).joinpath("*.html")), arguments.verbose)
 
     if arguments.get_persons:
-        persons: list[dict[str, Any]] = get_persons(str(Path(configuration["path"]).joinpath("*.html")), configuration["database"], arguments.verbose)
+        persons: list[dict[str, Any]] = get_data(str(Path(configuration["path"]).joinpath("*.html")), configuration["database"], arguments.verbose)
         #persons: list[dict[str, Any]] = get_persons(str(Path(configuration["path"]).joinpath("214_227835.html")), configuration["database"], arguments.verbose)
 
         # Import to database
